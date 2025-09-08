@@ -4,14 +4,14 @@
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
     <strong>Ingeniería de Software</strong><br>
-    <strong>Aplicaciones OPEN SOURCE - </strong><br>
-    <strong>Profesor:  </strong><br>
+    <strong>Desarrollo de Aplicaciones Open Source </strong><br>
+    <strong>Profesor: Hugo Allan Mori Paiva </strong><br>
     <strong>INFORME TB1  </strong><br>
 </p>
 
 <center>
 
-#### Startup: **-----**
+#### Startup: **Chronisys**
 #### Product: **ChroniCaree**
 ### Team  Members:
 
@@ -172,7 +172,31 @@ aun no acabamos
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
+
+Chronisys nace con un propósito claro: transformar el manejo de enfermedades crónicas desde casa, poniendo en manos de pacientes, médicos y administradores de salud una herramienta digital que simplifica el seguimiento, mejora la adherencia al tratamiento y previene complicaciones antes de que ocurran.
+
+Nuestra plataforma, ChroniCaree, permite a los pacientes registrar sus síntomas diarios de forma intuitiva, recibir alertas personalizadas y compartir su evolución en tiempo real con su equipo médico. Para los profesionales de la salud, ofrece paneles de análisis, métricas clínicas y herramientas de intervención temprana. Y para los administradores hospitalarios, brinda visibilidad estratégica sobre el estado general de los pacientes, la carga de trabajo del personal y la efectividad del programa de salud en casa.
+
+Chronisys se dirige a sistemas de salud pública y privada, clínicas especializadas en enfermedades crónicas, médicos de atención primaria y, sobre todo, a pacientes que viven con condiciones como diabetes, hipertensión, EPOC o insuficiencia cardíaca. Creemos que el cuidado continuo no debe depender de visitas presenciales constantes, sino de un sistema inteligente que acompaña, alerta y empodera.
+
+Nuestra propuesta de valor combina tecnología accesible, datos en tiempo real y enfoque humano. Queremos que gestionar una enfermedad crónica sea menos abrumador, más predecible y totalmente personalizado. También ofrecemos a las instituciones de salud una solución escalable para reducir hospitalizaciones, optimizar recursos y mejorar indicadores de calidad de vida.
+
+Misión: Democratizar el autocuidado en enfermedades crónicas, acercando a pacientes y equipos médicos herramientas digitales que permitan un seguimiento proactivo, simple y centrado en la persona.
+
+Visión: Ser la plataforma líder en Latinoamérica para el manejo remoto de enfermedades crónicas, construyendo un ecosistema donde la tecnología y la empatía se unen para prevenir, no solo reaccionar.
+
+En Chronisys trabajamos bajo un modelo centrado en el paciente y basado en evidencia. Apostamos por la inteligencia de datos, la usabilidad extrema y la integración con sistemas de salud existentes. Creemos que el futuro de la medicina crónica está en casa — y estamos construyéndolo.
+
+Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: donde cada síntoma registrado es un paso hacia la prevención, donde cada alerta evita una emergencia, y donde cada paciente se siente acompañado, incluso a distancia.
+
 #### 1.1.2. Perfiles de integrantes del equipo
+| Miembros del equipo | Codigo de estudiante |  |
+|---|---|---|
+| Andreow Jomark Santiago Peña <img src="Assets/img/chapter-1/AndreowSantiago.jpg" alt="Imagen de Andreow Santiago" style="width: 500px; height: auto;" /> |  U202317362 | Soy Andreow Santiago, 19 años, estudiante de Ingeniería de Software en la UPC. Apasionado por la tecnología, el diseño UX/UI y soluciones que impactan. Me gusta aprender rápido, resolver problemas con creatividad y trabajar en equipo. Busco aportar en proyectos innovadores con enfoque humano y propósito real.|   
+|   |   |   |   
+|   |   |   |   
+|   |   |   |    
+|   |   |   |  
 
 # 1.2. Solución Profile
 

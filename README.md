@@ -361,7 +361,67 @@ En esta sección, se explican los softwares utilziados para el desarrollo de nue
 
 ### 5.1.2. Source Code Management.
 
+En esta sección se describe el esquema de control de versiones adoptado para el seguimiento y gestión del código fuente del proyecto digital, utilizando GitHub como plataforma centralizada de colaboración y almacenamiento. El repositorio se organiza bajo un flujo de trabajo basado en GitFlow, conforme al modelo propuesto por Vincent Driessen (“A successful Git branching model”), garantizando un desarrollo estructurado, escalable y colaborativo.
+
+El repositorio principal del proyecto se encuentra en:
+ https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report
+
+Además, se han definido repositorios independientes para cada componente del sistema, según su funcionalidad:
+
+Landing Page: https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing
+
+#### Estructura de Ramas (GitFlow)
+Se implementa el siguiente modelo de ramas:
+
+- **main**: Rama estable y productiva. Contiene solo código desplegable y verificado. Solo se actualiza mediante merge desde develop tras revisión y pruebas completas.
+- **develop**: Rama de integración principal. Todas las funcionalidades se fusionan aquí antes de ser liberadas a main. Es la base desde la cual se crean todas las ramas de característica.
+
+- **feature/**: Ramas temporales para el desarrollo de nuevas funcionalidades. Cada capítulo del proyecto se desarrolla en una rama independiente, siguiendo la convención:
+
+- feature/chapter-{número}-{descripción-en-minusculas-con-guiones}
+
+Ejemplos: 
+
+- feature/chapter-1-introduction
+- feature/chapter-2-requirements-elicitation-and-analysis
+- feature/chapter-3-requirements-specification
+- feature/chapter-4-product-design
+- feature/chapter-5-product-implementation-validation-and-deployment
+
+Estas ramas se crean desde develop, y al finalizar su desarrollo, se someten a pull request para su fusión en develop, previa revisión de código y ejecución de pruebas.
+
+- **release/**: Ramas temporales creadas cuando se prepara una versión estable para lanzamiento (ej. `release/v1.0.0`). Se utilizan para hacer ajustes finales, correcciones de documentación o pruebas de regresión antes de fusionar a `main`. No se usan activamente en este proyecto académico por su naturaleza iterativa, pero se mantienen como parte del modelo GitFlow completo.
+
+- **hotfix/**: Ramas creadas para corregir errores críticos en producción (`main`) sin esperar a que `develop` esté listo. Ejemplo: `hotfix/login-bug-fix`. Estas ramas se crean desde `main`, se corrigen, se prueban y se fusionan de vuelta a `main` y `develop`. En este proyecto no se han utilizado, pero se definen por cumplimiento del estándar.
+
+
+#### Conventional Commits:
+
+Todos los commits dentro de las ramas de características siguen el estándar Conventional Commits, con el siguiente formato:
+
+" < tipo >(< alcance >): < descripción breve> "
+
+Ejemplos válidos:
+
+- feat(chapter-2): add user role definitions in requirements document
+- fix(chapter-5): resolve API timeout in authentication endpoint
+- docs(chapter-4): update architecture diagram in README.md
+- test(chapter-3): add integration test for requirement validation
+
+Este formato permite generar changelogs automáticos, facilitar revisiones y mantener un historial limpio y comprensible.
+
+#### Semantic Versioning
+
+Las versiones del software se gestionan bajo **Semantic Versioning 2.0.0** (`MAJOR.MINOR.PATCH`), siguiendo el estándar definido en [semver.org](https://semver.org/):
+
+- **MAJOR** (x.0.0): Cambios que rompen compatibilidad (no aplicables en este proyecto académico).  
+- **MINOR** (0.x.0): Nuevas funcionalidades agregadas sin romper compatibilidad (ej. `v1.1.0`).  
+- **PATCH** (0.0.x): Correcciones de errores sin nuevas funcionalidades (ej. `v1.0.1`).  
+
+Se establece como práctica futura que cada release final se etiquete en GitHub como un **tag** con formato `vX.Y.Z` (por ejemplo, `v1.0.0`). Aunque este proyecto no genera releases formales, se adopta SemVer para garantizar coherencia y preparación para entornos reales.
+
 ### 5.1.3. Source Code Style Guide & Conventions.
+
 
 ### 5.1.4. Software Deployment Configuration.
 

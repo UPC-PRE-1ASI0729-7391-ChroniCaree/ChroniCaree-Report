@@ -422,6 +422,23 @@ Se establece como práctica futura que cada release final se etiquete en GitHub 
 
 ### 5.1.3. Source Code Style Guide & Conventions.
 
+El equipo de ChroniCaree adopta estrictamente las convenciones de codificación estandarizadas por la industria para garantizar coherencia, legibilidad y mantenibilidad en todos los lenguajes utilizados en el proyecto. Todas las identificaciones —variables, funciones, clases, archivos, rutas y comentarios. Se realizan en **inglés**, siguiendo las guías oficiales de cada tecnología. A continuación, se detallan las convenciones aplicadas por lenguaje, junto con las referencias adoptadas:
+
+| Lenguaje | Referencia Adoptada | Convenciones Aplicadas |
+|----------|---------------------|------------------------|
+| **HTML** | HTML Style Guide and Coding Conventions: https://google.github.io/styleguide/htmlcssguide.html | Uso de minúsculas, indentación de 2 espacios, atributos entre comillas dobles, elementos semánticos (`<header>`, `<main>`, `<section>`, `<article>`, `<nav>`), nombres de clases e IDs en `kebab-case` (ej. `patient-card`, `login-button`). Se prioriza accesibilidad mediante atributos `alt`, `aria-*` y estructura lógica. |
+| **CSS** | Google HTML/CSS Style Guide: https://google.github.io/styleguide/htmlcssguide.html | Nombres de clases en `kebab-case` (ej. `btn-primary`, `card-vertical`), uso de BEM-like naming para modularidad (`block__element--modifier`), orden alfabético de propiedades, comentarios en inglés para estilos complejos, evitación de selectores profundos o anidados. |
+| **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `getPatientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
+| **Java** | Google Java Style Guide: https://google.github.io/styleguide/javaguide.html | Nombres de clases e interfaces en `PascalCase` (ej. `PatientService`), métodos y variables en `lowerCamelCase` (ej. `saveMedicalRecord`), constantes en `UPPER_SNAKE_CASE` (ej. `MAX_PATIENT_AGE`), indentación de 4 espacios, comentarios Javadoc en inglés para clases y métodos públicos, uso de anotaciones como `@Override`, `@NonNull`, `@Valid`. Evita imports wildcard (`.*`) y organiza manualmente las dependencias. |
+| **Spring Boot** | Spring Boot Features - Official Documentation: https://spring.io/projects/spring-boot | Uso de anotaciones estándar de Spring (`@RestController`, `@Service`, `@Repository`, `@Component`), separación clara de capas (Controller → Service → Repository → Entity), configuración mediante `application.yml` o `application.properties` en inglés, validación con Bean Validation (`@NotBlank`, `@Email`, etc.), manejo centralizado de excepciones con `@ControllerAdvice`. |
+| **Angular** | Angular Style Guide: https://angular.io/guide/styleguide | Nombres de componentes en `PascalCase` (ej. `PatientDashboardComponent`), archivos en `kebab-case` (ej. `patient-dashboard.component.ts`), uso de `OnPush` change detection, inyección de dependencias por constructor, separación de lógica y presentación, internacionalización con `@angular/localize` y archivos JSON en `src/assets/i18n/` (ej. `es.json`, `en.json`). |
+
+Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:  
+`<tipo>(<alcance>): <descripción breve>`  
+Ejemplo:  
+- `docs(chapter-2): update user stories diagram in README`
+
+Todas las convenciones son validadas automáticamente mediante herramientas integradas en el pipeline de CI/CD: **Prettier** (frontend), **Spotless** (backend), **ESLint** y **Checkstyle**, asegurando consistencia en cada commit. La adopción del **inglés como idioma oficial** en todo el código, documentación y comunicación técnica garantiza claridad global, reutilización de bibliotecas y preparación para entornos profesionales internacionales.
 
 ### 5.1.4. Software Deployment Configuration.
 

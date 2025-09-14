@@ -442,12 +442,61 @@ Todas las convenciones son validadas automáticamente mediante herramientas inte
 
 ### 5.1.4. Software Deployment Configuration.
 
+
 ## 5.2. Landing Page, Services & Applications Implementation.
 
+Esta sección explica la metodología de Sprints implementada durante el desarrollo del proyecto, evidenciando el proceso iterativo de implementación, pruebas, documentación y despliegue del Landing Page, Web Services y Frontend Web Applications. Una vez definido el Product Backlog, el equipo organizó el trabajo en sprints semanales de una duración fija, donde cada ciclo se centró en entregar un conjunto mínimo viable de funcionalidades priorizadas. Cada Sprint incluyó planificación diaria, ejecución colaborativa mediante Discord para comunicación ágil, revisión de avances y retroalimentación continua. Al final de cada Sprint, se generó evidencia tangible: código commitado, pruebas automatizadas, documentación actualizada y demos funcionales, asegurando transparencia, calidad y progreso constante hacia la entrega final del producto digital.
+
 ## 5.2.1. Sprint 1
+
+Este Sprint se centró en el desarrollo inicial de la Landing Page de ChroniCaree y en la estructuración del informe técnico del proyecto, estableciendo las bases visuales, funcionales y documentales del producto digital. Se priorizó la creación de una primera versión funcional y accesible de la página de inicio, junto con la organización del repositorio, la definición de convenciones de código y la preparación de la documentación inicial del proyecto. Todo ello bajo un enfoque colaborativo y ágil, garantizando coherencia entre el producto y su descripción técnica desde el primer día.
+
 ### 5.2.1.1. Sprint Planning 1.
+
+A continuación, se detallan los aspectos principales del Sprint Planning Meeting realizado para el Sprint 1.
+
+| **Sprint #**| **Sprint 1** |
+|--- | ---|
+| ***Sprint Planning Background***  |  |
+| **Date** | 2025-09-06 |
+| **Time** | 14:00 PM (GMT-5) | 
+| **Location** | Reunión virtual por Discord (Lima, Perú) |
+| **Prepared By**  | Andreow Santiago |
+| **Attendees (to planning meeting)** | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen  | 
+| **Sprint n – 1 Review Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
+| ***Sprint Goal & User Stories*** | |
+| **Sprint 1 Goal** | Our focus is on delivering a professional, responsive, and accessible landing page for ChroniCaree that clearly communicates the project’s purpose and value proposition. We believe it delivers first impressions of professionalism and clarity to stakeholders, educators, and future users. This will be confirmed when the landing page is deployed on Netlify, accessible via public URL, and includes all agreed content sections with semantic HTML, CSS/Bootstrap styling, and documented source code in the repository. |
+| **Sprint 1 Velocity** | 8 | 
+| **Sum of Story Points** | 8 |
+
 ### 5.2.1.2. Aspect Leaders and Collaborators.
+
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 1 del desarrollo de ChroniCaree. Cada aspecto corresponde a un componente crítico del alcance del sprint, dividido en dos pilares fundamentales: **desarrollo de la Landing Page** y **estructuración del informe técnico del proyecto**. 
+
+Para cada aspecto, se ha asignado un **Líder (L)**, quien asumió la responsabilidad principal de su diseño, implementación o coordinación técnica; y uno o más **Colaboradores (C)**, quienes participaron activamente en la ejecución, revisión, pruebas o soporte. Esta matriz LACX (Leadership and Collaboration Matrix) permite visualizar de manera clara y estructurada la distribución de responsabilidades dentro del equipo, promoviendo la trazabilidad del trabajo colaborativo realizado durante el Sprint.
+
+A continuación, se detallan los aspectos definidos y los roles asignados:
+
+| Team Member (Last Name, First Name) | GitHub Username | LP | ID | IN | DO | RI |
+|-----------------------------------|-----------------|----|----|----|----|----|
+| Andreow Santiago                  | andrews5738     | L  | C  | C  | C  | C  |
+| Sebastian Beingolea               | sebaxchen_65154 | C  | L  | C  | C  | C  |
+| Carlos Lopez                      | carloslopez     | C  | C  | L  | C  | C  |
+| Schneider Delgado                 | snay6037        | C  | C  | C  | L  | C  |
+| Alejandro Barturen                | alejandrob      | C  | C  | C  | C  | L  |
+
+**Legenda de Aspectos:**
+- **LP**: Landing Page Implementation — Desarrollo de la página principal con HTML, CSS, Bootstrap y estructura semántica.
+- **ID**: Interface Design & Figma Alignment — Traducción del diseño visual de Figma a código frontend, consistencia de colores, tipografía y espaciado.
+- **IN**: Informe Técnico — Elaboración, estructuración y redacción del informe del proyecto (documentación de arquitectura, convenciones, sprints).
+- **DO**: Deployment & Hosting — Configuración y despliegue de la Landing Page en Netlify, verificación de URL pública y acceso.
+- **RI**: Repository Initialization — Configuración inicial del repositorio en GitHub, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
+
+> *Nota: Todos los miembros del equipo participaron activamente en todos los aspectos, pero se designó un líder por área para facilitar la toma de decisiones y la trazabilidad del trabajo.*
+
 ### 5.2.1.3. Sprint Backlog 1.
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.

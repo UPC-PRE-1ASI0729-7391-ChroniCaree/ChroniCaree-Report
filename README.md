@@ -21,7 +21,7 @@
 
 | Member                               | Code        |
 |:--------------------------------------:|:-------------:|
-|             |   |
+| Alejandro Nicolas Barturen Guzman      | U202214406  |
 |             |   |
 |             |   |
 |Andreow Jomark Santiago Peña          | U202317362  |
@@ -193,7 +193,7 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 | Miembros del equipo | Codigo de estudiante |  |
 |---|---|---|
 | Andreow Jomark Santiago Peña <img src="Assets/img/chapter-1/AndreowSantiago.jpg" alt="Imagen de Andreow Santiago" style="width: 500px; height: auto;" /> |  U202317362 | Soy Andreow Santiago, 19 años, estudiante de Ingeniería de Software en la UPC. Apasionado por la tecnología, el diseño UX/UI y soluciones que impactan. Me gusta aprender rápido, resolver problemas con creatividad y trabajar en equipo. Busco aportar en proyectos innovadores con enfoque humano y propósito real.|   
-|   |   |   |   
+| Andreow Jomark Santiago Peña <img src="Assets/img/chapter-1/AlejandroBarturen.jpg" style="width: 500px; height: auto;" />  | U202214406 | Tengo 21 años y estoy en la Carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Ye tengo experiencia realizando trabajos grupales, me considero alguien bastante eficiente y comunicativo que siempre busca la realización del trabajo de la mejor forma posible   |   
 |   |   |   |   
 |   |   |   |    
 |   |   |   |  

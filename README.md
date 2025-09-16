@@ -309,11 +309,12 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
-
+<img src="Assetsimgchapter-4/Class Diagram.png">
 ### 4.7.2. Class Dictionary.
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
+<img src="Assetsimgchapter-4/db Diagram.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.

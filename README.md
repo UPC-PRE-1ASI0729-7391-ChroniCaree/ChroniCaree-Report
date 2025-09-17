@@ -221,8 +221,312 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 
 ### 2.1.1. Análisis competitivo.
 
+<table>
+  <tr>
+   <td colspan="6" >Competitive Analysis Landscape
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >¿Por qué llevar a
+<p>
+cabo este análisis?
+   </td>
+   <td colspan="5" >Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis
+   </td>
+  </tr>
+  <tr>
+   <td colspan="5" >Identificar fortalezas, debilidades, oportunidades y amenazas de ChroniCare en comparación con competidores globales
+   </td>
+  </tr>
+  <tr>
+   <td colspan="2" >(En la cabecera colocar por
+<p>
+cada competidor nombre y
+<p>
+logo
+   </td>
+   <td>
+
+ 
+
+<img src="Assets/img/chapter-2/chronisys.png" width="" alt="alt_text" title="image_tooltip">
+Chronisys
+   </td>
+   <td>
+       
+<img src="Assets/img/chapter-2/welldoc.png" width="" alt="alt_text" title="image_tooltip">
+Welldoc
+   </td>
+   <td>
+
+<img src="Assets/img/chapter-2/livongo.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+Livongo
+   </td>
+   <td>
+
+<img src="Assets/img/chapter-2/lark.png" width="" alt="alt_text" title="image_tooltip">
+
+<p>
+lark
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >Perfil
+   </td>
+   <td>Overview
+   </td>
+   <td>Software  peruano para instituciones de salud que atienden pacientes con enfermedades crónicas. Es para mejorar el monitoreo y comunicación clínica.
+   </td>
+   <td>Plataforma aprobada por la FDA(Food and Drug Administration) para manejo de diabetes y otras enfermedades crónicas 
+   </td>
+   <td>Plataforma digital de salud diseñada para ayudar a pacientes con enfermedades crónicas a gestionar su condición . Integra dispositivos médicos conectados
+   </td>
+   <td>Startup de salud digital de EE. UU. especializada en asesoramiento digital con IA para prevención y manejo de crónicas.
+   </td>
+  </tr>
+  <tr>
+   <td>Ventaja
+<p>
+competitiva
+<p>
+¿Qué valor ofrece
+<p>
+a los clientes?
+   </td>
+   <td>-Accesibilidad y simplicidad. 
+<p>
+-Enfoque institucional . 
+<p>
+-Adaptabilidad a necesidades locales.
+   </td>
+   <td>-Primera app para diabetes aprobada por la FDA como dispositivo médico. 
+<p>
+-Reconocimiento clínico.
+   </td>
+   <td>-Ecosistema completo: dispositivos médicos conectados + asesoramiento humano + aplicación..
+   </td>
+   <td>-Uso de IA conversacional escalable, permite llegar a millones de usuarios con mínimo personal humano.
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="2" >Perfil de Marketing
+   </td>
+   <td>Mercado objetivo
+   </td>
+   <td>-Clínicas, hospitales y centros de salud que atienden enfermedades crónicas.
+   </td>
+   <td>-Principalmente pacientes con diabetes pero también sirve para otras enfermedades crónicas
+<p>
+-médicos en EE. UU.
+<p>
+-Aseguradora.
+   </td>
+   <td> -Aseguradoras
+<p>
+ 
+<p>
+-Sistemas de salud grandes.
+   </td>
+   <td>-Aseguradoras
+<p>
+–Usuarios interesados en prevención de enfermedades.
+   </td>
+  </tr>
+  <tr>
+   <td>Estrategias de
+<p>
+marketing
+   </td>
+   <td>-Alianzas con instituciones, 
+<p>
+-Difusión en congresos médicos,
+   </td>
+   <td>-Validación científica
+<p>
+-Alianzas con aseguradoras 
+<p>
+-Promoción en congresos médicos.
+   </td>
+   <td>-Integración con grandes empresas
+<p>
+-Seguros de salud.
+   </td>
+   <td>Partnerships con aseguradoras y empresas, marketing digital en EE. UU.
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="3" >Perfil de Producto
+   </td>
+   <td>Productos &
+<p>
+Servicios
+   </td>
+   <td>Chornicare
+   </td>
+   <td>Welldoc
+   </td>
+   <td>-Livongo for Diabetes 
+<p>
+-Livongo for Hypertension 
+<p>
+-Livongo for Weight Management, 
+<p>
+-Livongo for Behavioral Health.
+   </td>
+   <td>-Lark Diabetes Care
+<p>
+-Lark Weight Management
+<p>
+-Lark Hypertension Program
+   </td>
+  </tr>
+  <tr>
+   <td>Precios & Costos
+   </td>
+   <td>Modelo Saas Por suscripción 
+   </td>
+   <td> Modelo B2B(Business to Business) a aseguradoras.
+   </td>
+   <td> B2B
+   </td>
+   <td>Modelo SaaS, B2B.
+   </td>
+  </tr>
+  <tr>
+   <td>Canales de
+<p>
+distribución (Web
+<p>
+y/o Móvil
+   </td>
+   <td> Web + Móvil
+   </td>
+   <td>Móvil.
+   </td>
+   <td>Web Móvil
+   </td>
+   <td>Móvil
+   </td>
+  </tr>
+  <tr>
+   <td rowspan="5" >Análisis SWOT
+   </td>
+   <td colspan="5" >Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva
+   </td>
+  </tr>
+  <tr>
+   <td>Fortalezas
+   </td>
+   <td>-Costos accesibles, simplicidad de uso,
+<p>
+ 
+<p>
+-alineación con las necesidades de cada paciente. \
+
+   </td>
+   <td>-Aprobación FDA
+<p>
+- fuerte reputación.
+   </td>
+   <td>-Integración hardware + software
+<p>
+ 
+<p>
+-Fuerte red de aseguradoras.
+   </td>
+   <td>-IA escalable
+<p>
+-bajo costo, 
+<p>
+-disponibilidad 24/7.
+   </td>
+  </tr>
+  <tr>
+   <td>Debilidades
+   </td>
+   <td>-Startup en etapa inicial
+<p>
+-Sin certificaciones internacionales
+   </td>
+   <td>-Alto costo
+<p>
+-Enfoque limitado en EE. UU.
+   </td>
+   <td>-Elevado costo, 
+<p>
+Dependencia de grandes contratos.
+   </td>
+   <td>-Menor interacción humana
+<p>
+-Posible falta de personalización en casos complejos.
+   </td>
+  </tr>
+  <tr>
+   <td>Oportunidades
+   </td>
+   <td>-Crecimiento del mercado digital de salud
+<p>
+-Aumento de preocupación por la salud
+   </td>
+   <td>-Expansión internacional
+   </td>
+   <td>-Integración con más dispositivos.
+   </td>
+   <td>-Expansión a mercados globales
+<p>
+-Creciente interés en prevención digital.
+   </td>
+  </tr>
+  <tr>
+   <td>Amenazas
+   </td>
+   <td>-Competidores globales entrando en el mercado
+<p>
+-Barreras regulatorias en salud digital.
+   </td>
+   <td>-Regulaciones en mercados externos
+<p>
+-Aparición de apps de bajo costo.
+   </td>
+   <td>-Competencia de apps más accesibles
+<p>
+-Presión en reducción de costos de aseguradoras.
+   </td>
+   <td>-Desconfianza en chatbots
+<p>
+-Eegulaciones en uso de IA en salud.
+   </td>
+  </tr>
+</table>
+
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
+**Estrategia de alianzas institucionales \**
+
+- Establecer convenios con hospitales, clínicas y ministerios de salud para convertir a ChroniCare en la herramienta oficial de monitoreo de enfermedades crónicas. \
+
+
+- Ofrecer pruebas piloto gratuitas en instituciones de salud para mostrar los beneficios y recopilar evidencia científica local, algo que Welldoc y Livongo no tienen en la región. \
+
+
+**Estrategia de diferenciación por accesibilidad \**
+
+- Mantener precios accesibles mediante el modelo SaaS y ofrecer planes escalables según el tamaño de la institución \
+
+
+**Estrategia de innovación tecnológica adaptada \**
+
+- Incorporar un sistema básico de IA para recordatorios y seguimiento de síntomas, pero siempre complementado con interacción humana para diferenciarse de Lark (que se percibe como impersonal). \
+
+
+**Estrategia de construcción de confianza \**
+
+- Publicar constantemente los avances y mejoras  que la app vaya obteniendo para dar una imagen de transparencia y compromiso con la seguridad de los pacientes. \
+
+
+- Participar en congresos médicos nacionales e internacionales presentando casos de éxito en instituciones,, para reforzar credibilidad frente a soluciones globales.
 
 ## 2.2. Entrevistas
 
@@ -240,13 +544,316 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 
 ### 2.3.1. User Persona
 
+Segmento Objetivo: Pacientes adultos mayores
+
+<img src="Assets/img/chapter-2/userpersona1.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Doctores y personal médico
+
+<img src="Assets/img/chapter-2/userpersona2.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Administradores de instituciones de salud
+
+<img src="Assets/img/chapter-2/userpersona3.png" width="" alt="alt_text" title="image_tooltip">
+
 ### 2.3.2. User Task Matrix
+
+Segmento Objetivo: Pacientes adultos mayores
+
+<table>
+  <tr>
+   <td><strong>User Task</strong>
+   </td>
+   <td><strong>Frecuencia</strong>
+   </td>
+   <td><strong>Importancia</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Iniciar sesión
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Registrar signos vitales (PA, glucosa, etc.)
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Responder cuestionario de síntomas
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Ver recordatorios de medicación
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Confirmar toma de medicamentos
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Consultar historial de salud propio
+   </td>
+   <td>Rare
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Ver alertas o recomendaciones
+   </td>
+   <td>Multiple
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Comunicar síntomas preocupantes
+   </td>
+   <td>Rare
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Cerrar sesión
+   </td>
+   <td>Rare
+   </td>
+   <td>Low
+   </td>
+  </tr>
+</table>
+
+Segmento Objetivo: Doctores y personal médico
+
+<table>
+  <tr>
+   <td><strong>User Task</strong>
+   </td>
+   <td><strong>Frecuencia</strong>
+   </td>
+   <td><strong>Importancia</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Iniciar sesión
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Revisar panel de pacientes
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Filtrar pacientes por riesgo
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Consultar historial clínico
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Revisar alertas críticas
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Generar reportes automáticos
+   </td>
+   <td>Rare
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Actualizar plan de tratamiento
+   </td>
+   <td>Rare
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Programar cita de control
+   </td>
+   <td>Rare
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Cerrar sesión
+   </td>
+   <td>Rare
+   </td>
+   <td>Low
+   </td>
+  </tr>
+</table>
+
+Segmento Objetivo: Administradores de instituciones de salud
+
+<table>
+  <tr>
+   <td><strong>User Task</strong>
+   </td>
+   <td><strong>Frecuencia</strong>
+   </td>
+   <td><strong>Importancia</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>Iniciar sesión
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Revisar panel general de pacientes
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Monitorear indicadores operativos
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Consultar reportes consolidados
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Ver alertas de eventos críticos
+   </td>
+   <td>Multiple
+   </td>
+   <td>High
+   </td>
+  </tr>
+  <tr>
+   <td>Gestionar usuarios (médicos/pacientes)
+   </td>
+   <td>Rare
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Exportar informes para familiares
+   </td>
+   <td>Rare
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Configurar parámetros del sistema
+   </td>
+   <td>Rare
+   </td>
+   <td>Medium
+   </td>
+  </tr>
+  <tr>
+   <td>Cerrar sesión
+   </td>
+   <td>Rare
+   </td>
+   <td>Low
+   </td>
+  </tr>
+</table>
 
 ### 2.3.3. User Journey Mapping
 
+Segmento Objetivo: Pacientes adultos mayores
+
+<img src="Assets/img/chapter-2/journeymapping1.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Doctores y personal médico
+
+<img src="Assets/img/chapter-2/journeymapping2.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Administradores de instituciones de salud
+
+<img src="Assets/img/chapter-2/journeymapping3.png" width="" alt="alt_text" title="image_tooltip">
+
 ### 2.3.4. Empathy Mapping
 
+Segmento Objetivo: Pacientes adultos mayores
+
+<img src="Assets/img/chapter-2/empathymapping1.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Doctores y personal médico
+
+<img src="Assets/img/chapter-2/empathymapping2.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Administradores de instituciones de salud
+
+<img src="Assets/img/chapter-2/empathymapping3.png" width="" alt="alt_text" title="image_tooltip">
+
 ### 2.3.5. As-is Scenario Mapping
+
+Segmento Objetivo: Pacientes adultos mayores
+
+<img src="Assets/img/chapter-2/asismapping1.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Doctores y personal médico
+
+<img src="Assets/img/chapter-2/asismapping2.png" width="" alt="alt_text" title="image_tooltip">
+
+Segmento Objetivo: Administradores de instituciones de salud
+
+<img src="Assets/img/chapter-2/asismapping3.png" width="" alt="alt_text" title="image_tooltip">
 
 ## 2.4. Ubiquitous Language
 

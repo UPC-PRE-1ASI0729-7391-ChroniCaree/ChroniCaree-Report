@@ -19,13 +19,13 @@
 
 <div align="center">
 
-| Member                               | Code        |
-|:--------------------------------------:|:-------------:|
-| Alejandro Nicolas Barturen Guzman      | U202214406  |
-|             |   |
-|             |   |
-|Andreow Jomark Santiago Peña          | U202317362  |
-|             |   |
+|               Member                |    Code    |
+|:-----------------------------------:|:----------:|
+|  Alejandro Nicolas Barturen Guzman  | U202214406 |
+| Sebastian Martin Beingolea Montalvo | U202217853 |
+|                                     |            |
+|    Andreow Jomark Santiago Peña     | U202317362 |
+|                                     |            |
 
 </div>
 
@@ -35,10 +35,10 @@
 
 # Registro de Versiones del Informe
 
-|version|Fecha|Autor|Descripcion de Modificacion|
-|---|---|---|---|
-|0.1| 08/09/2025 | Andreow Santiago | Creacion y primera version del informe |
-|0.2|   |   |   |
+|version| Fecha      | Autor                               | Descripcion de Modificacion             |
+|---|------------|-------------------------------------|-----------------------------------------|
+|0.1| 08/09/2025 | Andreow Santiago                    | Creacion y primera version del informe  |
+|0.2| 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadio el capitulo 1 en su totalidad |
 
 
 # Project Report Collaboration Insights
@@ -190,31 +190,238 @@ En Chronisys trabajamos bajo un modelo centrado en el paciente y basado en evide
 Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: donde cada síntoma registrado es un paso hacia la prevención, donde cada alerta evita una emergencia, y donde cada paciente se siente acompañado, incluso a distancia.
 
 #### 1.1.2. Perfiles de integrantes del equipo
-| Miembros del equipo | Codigo de estudiante |  |
-|---|---|---|
-| Andreow Jomark Santiago Peña <img src="Assets/img/chapter-1/AndreowSantiago.jpg" alt="Imagen de Andreow Santiago" style="width: 500px; height: auto;" /> |  U202317362 | Soy Andreow Santiago, 19 años, estudiante de Ingeniería de Software en la UPC. Apasionado por la tecnología, el diseño UX/UI y soluciones que impactan. Me gusta aprender rápido, resolver problemas con creatividad y trabajar en equipo. Busco aportar en proyectos innovadores con enfoque humano y propósito real.|   
-| Alejandro Nicolas Barturen Guzman <img src="Assets/img/chapter-1/AlejandroBarturen.jpg" style="width: 500px; height: auto;" />  | U202214406 | Tengo 21 años y estoy en la Carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Ye tengo experiencia realizando trabajos grupales, me considero alguien bastante eficiente y comunicativo que siempre busca la realización del trabajo de la mejor forma posible   |   
-|   |   |   |   
-|   |   |   |    
-|   |   |   |  
+| Miembros del equipo                                                                                                                                      | Codigo de estudiante |  |
+|----------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------|---|
+| Andreow Jomark Santiago Peña <img src="Assets/img/chapter-1/AndreowSantiago.jpg" alt="Imagen de Andreow Santiago" style="width: 500px; height: auto;" /> | U202317362           | Soy Andreow Santiago, 19 años, estudiante de Ingeniería de Software en la UPC. Apasionado por la tecnología, el diseño UX/UI y soluciones que impactan. Me gusta aprender rápido, resolver problemas con creatividad y trabajar en equipo. Busco aportar en proyectos innovadores con enfoque humano y propósito real.|   
+| Alejandro Nicolas Barturen Guzman <img src="Assets/img/chapter-1/AlejandroBarturen.jpg" style="width: 500px; height: auto;" />                           | U202214406           | Tengo 21 años y estoy en la Carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Ye tengo experiencia realizando trabajos grupales, me considero alguien bastante eficiente y comunicativo que siempre busca la realización del trabajo de la mejor forma posible   |   
+| Sebastian Martin Beingolea Montalvo <img src="Assets/img/chapter-1/SebastianMartin.jpeg" style="width: 500px; height: auto;" />                          | U202217853           | Comunicación efectiva, trabajo en equipo, empatía, pensamiento crítico, conocimientos básicos de Python y C++. Autodidacta en el aprendizaje de lenguajes de programación.  |   
+|                                                                                                                                                          |                      |   |    
+|                                                                                                                                                          |                      |   |  
 
 # 1.2. Solución Profile
-
 ## 1.2.1. Antecedentes y Problemática
+**Técnica de The 5 'W's y 2 'H's**
 
+**What (¿Qué?)**
+
+¿Cuál es el problema?
+
+Las enfermedades crónicas como la diabetes, hipertensión y enfermedades cardiovasculares constituyen una de las principales causas de muerte en Perú y América Latina. Según la Organización Panamericana de la Salud (OPS), más del 60% de las muertes en la región están relacionadas con enfermedades crónicas no transmisibles. Sin embargo, el seguimiento de estos pacientes ocurre casi exclusivamente en consultas presenciales espaciadas, impidiendo una vigilancia continua de su salud. Actualmente, los hospitales carecen de herramientas digitales para monitorear diariamente a los pacientes, generar alertas oportunas y facilitar la adherencia terapéutica, lo que aumenta las complicaciones, hospitalizaciones recurrentes y la saturación de los servicios de salud.
+
+**When (¿Cuándo?)**
+
+¿Cuándo sucede el problema?
+
+El problema ocurre constantemente, cada día que los pacientes viven sin un control directo de su médico. La falta de seguimiento se intensifica entre consultas presenciales, cuando el paciente no tiene forma de reportar su evolución ni el médico puede acceder a datos actualizados. Esta brecha genera mayor riesgo de emergencias inesperadas, especialmente en etapas avanzadas de la enfermedad crónica, donde el monitoreo continuo resulta crítico.
+
+**Where (¿Dónde?)**
+
+¿Dónde surge el problema?
+
+Este problema se presenta principalmente en hospitales y clínicas de entornos urbanos de Perú y Latinoamérica, donde la demanda de atención por enfermedades crónicas supera la capacidad instalada. Según el INEI (2024), cerca del 20% de la población peruana vive con al menos una enfermedad crónica. En el sector público, las largas esperas para citas médicas retrasan diagnósticos y tratamientos oportunos; en el privado, los altos costos de consultas frecuentes hacen inviable un control continuo. Tanto en áreas urbanas como rurales, la ausencia de plataformas digitales de monitoreo limita la calidad del cuidado.
+
+**Who (¿Quién?)**
+
+¿Quiénes son los afectados?
+
+- Pacientes con enfermedades crónicas, que necesitan control diario para evitar complicaciones.
+- Médicos hospitalarios, que carecen de información continua para tomar decisiones clínicas.
+- El sistema de salud en general, que enfrenta mayores costos y sobrecarga por hospitalizaciones evitables.
+
+**Why (¿Por qué?)**
+
+¿Cuál es la causa del problema?
+
+- Falta de sistemas hospitalarios digitales para el monitoreo diario de pacientes crónicos.
+- Dependencia de consultas presenciales como único medio de control.
+- Escasa disponibilidad de soluciones SaaS adaptadas al contexto hospitalario latinoamericano.
+- Baja adherencia terapéutica debido a la ausencia de recordatorios y seguimiento estructurado.
+- Saturación de los servicios de salud, que limita la capacidad de realizar controles frecuentes.
+
+**How (¿Cómo?)**
+
+¿Cómo se utilizará el producto?
+
+**ChroniCare** se implementará como una plataforma web y móvil bajo el modelo SaaS, diseñada para hospitales y clínicas:
+
+- **Pacientes**: registrarán diariamente sus síntomas, signos vitales y toma de medicamentos mediante cuestionarios simples y recordatorios automatizados.
+- **Médicos**: accederán a un panel de control con información consolidada, recibirán alertas ante valores de riesgo y podrán revisar reportes de evolución clínica.
+
+De esta manera, ChroniCare mejora la adherencia terapéutica, fortalece la comunicación médico–paciente y contribuye a prevenir complicaciones, apoyando la eficiencia hospitalaria.
+
+**How much (¿Cuánto?)**
+
+¿Cuánto costará implementar la solución?
+
+La implementación de **ChroniCare** requiere una inversión inicial para el desarrollo del software, infraestructura en la nube y actividades de despliegue en instituciones de salud. A diferencia de soluciones propietarias o extranjeras de alto costo, el modelo SaaS ofrece un acceso más escalable y sostenible para hospitales peruanos y latinoamericanos.
+
+**Presupuesto estimado:**
+
+**Desarrollo de Software**
+
+- Diseño y desarrollo del dashboard web y aplicación móvil: S/ 5,000 – S/ 7,500
+- Backend, API y base de datos segura en la nube: S/ 4,500 – S/ 6,500
+- Dominio, hosting y servidores (anual): S/ 1,800 – S/ 2,500
+
+**Infraestructura y Seguridad**
+
+- Implementación de protocolos de seguridad (cifrado, backup): S/ 2,000 – S/ 3,500
+- Integración con sistemas hospitalarios básicos: S/ 2,000 – S/ 3,000
+
+**Marketing y Lanzamiento**
+
+- Estrategia digital y materiales institucionales: S/ 2,000 – S/ 3,500
+- Alianzas con hospitales y clínicas piloto: S/ 1,500 – S/ 2,500
+
+**Mantenimiento y Soporte (anual)**
+
+- Actualizaciones de software y soporte técnico: S/ 3,500 – S/ 5,000
+
+**Total estimado:** S/ 22,300 – S/ 33,000
 
 ## 1.2.2. Lean UX Process
+El proceso Lean UX que adoptamos en Cronicare está orientado a maximizar la eficiencia en el desarrollo de nuestro producto, enfocándose en principios fundamentales como la validación continua, el pensamiento crítico y la acción rápida. A partir de esta filosofía, hemos estructurado nuestro propio enfoque Lean UX, 
+basado en cuatro componentes esenciales: definición de problemas, formulación de suposiciones, creación de hipótesis y desarrollo de un lienzo estratégico. Aquí se aplica Lean UX Process y abarca la visión del modelo de negocio que será soportado por el producto de software.
 
 ### 1.2.2.1. Lean UX Problem Statement
+El propósito de Cronicare es transformar el cuidado de pacientes con enfermedades crónicas mediante una solución tecnológica integral. Esta permite a pacientes, familiares y profesionales de la salud monitorear y gestionar de forma continua, segura y personalizada condiciones como diabetes e hipertensión. Buscamos garantizar un cuidado preventivo y proactivo, mejorando la adherencia a tratamientos, facilitando decisiones médicas oportunas y brindando tranquilidad a todos los involucrados.
+
+El problema surge cuando pacientes con enfermedades crónicas, sus familias y médicos no logran mantener un control constante del estado de salud. Los pacientes olvidan tomar medicamentos o asistir a citas, los familiares carecen de información actualizada sobre la evolución de la enfermedad, y los médicos tienen acceso limitado a historiales confiables para sus decisiones. Esta falta de comunicación fluida y herramientas modernas de seguimiento causa complicaciones evitables y reduce la calidad de vida.
+
+Hemos observado que esta situación genera baja adherencia a tratamientos, aumenta las complicaciones médicas, eleva la preocupación familiar y sobrecarga al personal sanitario. La ausencia de una plataforma que integre recordatorios inteligentes, monitoreo remoto y comunicación directa limita la capacidad de ofrecer un cuidado crónico eficiente, accesible y escalable.
+
+Ante esta problemática nos planteamos:
+
+**¿Cómo podríamos crear una solución de monitoreo digital que brinde seguridad, eficiencia y continuidad en el cuidado de pacientes crónicos, integrando datos de salud en tiempo real con herramientas intuitivas y accesibles para pacientes, familias y médicos?**
+
+- **Domain:** Salud digital, cuidado de enfermedades crónicas, telemedicina y monitoreo remoto.
+- **Customer Segments:**
+    - Pacientes con enfermedades crónicas (diabetes, hipertensión).
+    - Familiares y cuidadores responsables del seguimiento.
+    - Médicos especialistas y personal de salud en clínicas y centros médicos.
+- **Pain Points:**
+    - Baja adherencia al tratamiento por falta de recordatorios efectivos.
+    - Preocupación familiar ante la falta de información en tiempo real.
+    - Acceso limitado de los médicos a datos históricos confiables para la toma de decisiones.
+    - Riesgo de complicaciones por ausencia de seguimiento continuo.
+- **Gap:** No existe en el mercado una solución que integre monitoreo remoto, recordatorios inteligentes y comunicación directa en una plataforma unificada, accesible y adaptable a distintos contextos de atención.
+- **Vision/Strategy:** Ser la plataforma líder en soluciones digitales para la gestión de enfermedades crónicas en Latinoamérica, ofreciendo herramientas innovadoras que prevengan complicaciones, fortalezcan la adherencia terapéutica y mejoren la calidad de vida de los pacientes y sus familias.
+- **Initial Segment:** Pacientes diabéticos e hipertensos en Lima Metropolitana con acceso a dispositivos móviles que buscan un seguimiento digital confiable y accesible para mejorar su tratamiento.
 
 ### 1.2.2.2. Lean UX Assumptions
+### **Business Assumptions**
 
+Creemos que los usuarios necesitan monitorear de forma continua y precisa la salud de pacientes con enfermedades crónicas (diabetes, hipertensión), ya sea individualmente o con apoyo de familiares y médicos tratantes.
+
+Esta necesidad puede satisfacerse con una solución digital integral que combine recordatorios inteligentes de tratamiento, monitoreo remoto de métricas de salud y una plataforma visual (dashboard web y app móvil) que muestre datos en tiempo real de manera clara y accesible.
+
+Nuestros clientes iniciales serán pacientes crónicos y sus familias que buscan mejorar la adherencia terapéutica y sentirse más seguros en el control de la enfermedad, así como clínicas y consultorios especializados que necesitan una herramienta para dar seguimiento a múltiples pacientes.
+
+El valor más importante que un cliente espera de nuestros servicios es la tranquilidad de contar con información actualizada y confiable sobre el estado de salud del paciente, lo que facilita la prevención de complicaciones y una atención oportuna.
+
+Además, el cliente obtendrá recordatorios personalizados, acceso a un historial de salud para consultas médicas, notificaciones en tiempo real y una gestión más eficiente de la información para la toma de decisiones clínicas.
+
+Captaremos a la mayoría de clientes mediante canales digitales (Google Ads, Facebook/Instagram Ads, LinkedIn para médicos), alianzas con clínicas y centros de salud especializados en enfermedades crónicas, y marketing de contenidos enfocado en prevención y autocuidado.
+
+Generaremos ingresos a través de un modelo **Freemium** para usuarios B2C (pacientes y familias) y un modelo de **suscripción mensual** para clientes B2B (clínicas y consultorios).
+
+Nuestra competencia serán aplicaciones de recordatorios médicos o wearables de salud genéricos que no integran monitoreo, historial y comunicación en una sola plataforma específicamente adaptada a enfermedades crónicas.
+
+Nuestra ventaja competitiva será ofrecer una solución que combine recordatorios inteligentes, historial clínico digital y comunicación directa paciente–médico en una interfaz accesible y personalizable.
+
+El mayor riesgo del servicio es la resistencia de los usuarios (especialmente adultos mayores) a la tecnología o la desconfianza en la precisión de los datos. Lo mitigaremos con capacitaciones sencillas, pruebas piloto gratuitas, acompañamiento digital y certificaciones de seguridad en la gestión de datos.
+
+Otro riesgo importante es la falta de conectividad en zonas con acceso limitado a internet. Lo resolveremos mediante almacenamiento local con sincronización automática cuando el dispositivo recupere conexión.
+### **User Assumptions**
+
+- **¿Quién es el usuario?**
+    - Pacientes crónicos: Personas con diabetes o hipertensión.
+    - Familiares o cuidadores: Hijos, cónyuges o encargados.
+    - Médicos y personal de salud en clínicas o consultorios.
+- **¿Dónde encaja nuestro producto en su vida?**
+    - Pacientes: Como parte de su rutina diaria con recordatorios y registro de datos.
+    - Familiares: Como herramienta de tranquilidad constante, al mostrar el estado del paciente.
+    - Médicos: Como apoyo en el seguimiento de pacientes en consulta externa.
+- **¿Qué problemas resuelve nuestro producto?**
+    - Baja adherencia al tratamiento.
+    - Preocupación familiar.
+    - Ineficiencia médica en el seguimiento de pacientes.
+    - Prevención limitada de complicaciones.
+- **¿Cuándo y cómo se usa nuestro producto?**
+    - Pacientes/familias: App móvil usada diariamente para recordatorios, registro de datos y alertas.
+    - Clínicas: Dashboard web/tablet para monitorear pacientes, generar reportes y coordinar tratamientos.
+- **Características importantes:**
+    - Recordatorios inteligentes y personalizables.
+    - Dashboard visual con métricas claras.
+    - Historial clínico digital.
+    - Notificaciones en tiempo real.
+    - Reportes descargables.
+- **Aspecto y comportamiento esperado:**
+
+  Intuitivo, confiable y accesible, con tipografía clara, botones grandes, colores neutros y alertas críticas en tonos destacados.
+
+
+### **Feature Assumptions**
+
+- Dashboard visual y amigable.
+- Recordatorios y notificaciones automáticas.
+- Historial clínico digital.
+- Reportes descargables y compartibles.
+- Gestión de múltiples pacientes en entornos clínicos.
 ### 1.2.2.3. Lean UX Hypothesis Statements
 
+- **Hypothesis 01:** Los pacientes y familiares adoptarán Cronicare para mejorar adherencia y seguridad.
+
+  *Éxito:* ≥ 80% de usuarios B2C mantienen suscripción premium tras primer mes.
+
+- **Hypothesis 02:** La plataforma mejorará la eficiencia de médicos y clínicas en el seguimiento de pacientes.
+
+  *Éxito:* ≥ 70% de clínicas mantienen servicio piloto y reportan 20% menos tiempo en seguimiento.
+
+- **Hypothesis 03:** Las funciones de Cronicare facilitarán la prevención de complicaciones y decisiones médicas informadas.
+
+  *Éxito:* ≥ 75% de profesionales de salud confirman utilidad en prevención o mejora de tratamiento.
+
 #### 1.2.2.4. Lean UX Canvas.
-
+![LeanUXCanvas.png](Assets/img/chapter-1/LeanUXCanvas.png)
 ## 1.3. Segmentos objetivo
+**Pacientes adultos mayores**
 
+**Descripción:**
+
+Personas de la tercera edad con enfermedades crónicas que requieren seguimiento continuo. Este segmento busca una solución sencilla que brinde seguridad en el monitoreo de su salud, reduzca visitas innecesarias a centros médicos y proporcione apoyo constante en su cuidado.
+
+**Características demográficas y comportamiento:**
+
+- Adultos mayores de 60 años con enfermedades crónicas como hipertensión o diabetes.
+- Prefieren soluciones simples e intuitivas.
+- Valoran la tranquilidad de tener sus signos vitales monitoreados en tiempo real.
+- Buscan reducir su dependencia de hospitalizaciones frecuentes.
+
+**Sustento estadístico:**
+
+- En Perú, más del 50% de adultos mayores presenta al menos una enfermedad crónica (Minsa, 2022).
+- Según la OMS (2021), la población mayor de 60 años en América Latina se duplicará para el 2050, aumentando la necesidad de soluciones de cuidado digital accesibles.
+
+
+
+**Doctores y personal médico**
+
+**Descripción:**
+
+Profesionales de la salud encargados de diagnosticar, monitorear y tratar a los adultos mayores. Este segmento necesita herramientas que permitan acceder a datos en tiempo real, generar reportes históricos y optimizar decisiones médicas de manera ágil y precisa.
+
+**Características demográficas y comportamiento:**
+
+- Médicos generales, geriatras, enfermeras y personal clínico entre 28 y 55 años.
+- Manejan datos sensibles y requieren plataformas con seguridad avanzada.
+- Prefieren dashboards visuales e informes automáticos que faciliten su trabajo.
+- Valoran soluciones que reduzcan la carga de consultas presenciales innecesarias.
+
+**Sustento estadístico:**
+
+- En promedio, un adulto mayor con enfermedades crónicas requiere 7 consultas médicas al año (Sociedad Peruana de Geriatría, 2021).
+- El 42% de los profesionales de la salud en Latinoamérica afirma que las herramientas digitales aumentan su capacidad de atención y seguimiento (IDB, 2020).
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 

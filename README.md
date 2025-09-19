@@ -23,9 +23,9 @@
 |:-----------------------------------:|:----------:|
 |  Alejandro Nicolas Barturen Guzman  | U202214406 |
 | Sebastian Martin Beingolea Montalvo | U202217853 |
-|                                     |            |
+| Schneider Carlos Delgado Carrasco   | U202321843 |
 |    Andreow Jomark Santiago Peña     | U202317362 |
-|                                     |            |
+|   Calors Alberto Lopez Goitia       | U202312700 |
 
 </div>
 
@@ -39,6 +39,7 @@
 |---|------------|-------------------------------------|-----------------------------------------|
 |0.1| 08/09/2025 | Andreow Santiago                    | Creacion y primera version del informe  |
 |0.2| 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadio el capitulo 1 en su totalidad |
+|0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page 
 
 
 # Project Report Collaboration Insights
@@ -195,8 +196,8 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 | Andreow Jomark Santiago Peña <img src="Assets/img/chapter-1/AndreowSantiago.jpg" alt="Imagen de Andreow Santiago" style="width: 500px; height: auto;" /> | U202317362           | Soy Andreow Santiago, 19 años, estudiante de Ingeniería de Software en la UPC. Apasionado por la tecnología, el diseño UX/UI y soluciones que impactan. Me gusta aprender rápido, resolver problemas con creatividad y trabajar en equipo. Busco aportar en proyectos innovadores con enfoque humano y propósito real.|   
 | Alejandro Nicolas Barturen Guzman <img src="Assets/img/chapter-1/AlejandroBarturen.jpg" style="width: 500px; height: auto;" />                           | U202214406           | Tengo 21 años y estoy en la Carrera de Ingeniería de Software de la Universidad Peruana de Ciencias Aplicadas. Ye tengo experiencia realizando trabajos grupales, me considero alguien bastante eficiente y comunicativo que siempre busca la realización del trabajo de la mejor forma posible   |   
 | Sebastian Martin Beingolea Montalvo <img src="Assets/img/chapter-1/SebastianMartin.jpeg" style="width: 500px; height: auto;" />                          | U202217853           | Comunicación efectiva, trabajo en equipo, empatía, pensamiento crítico, conocimientos básicos de Python y C++. Autodidacta en el aprendizaje de lenguajes de programación.  |   
-|                                                                                                                                                          |                      |   |    
-|                                                                                                                                                          |                      |   |  
+| Schneider Carlos Alberto Delgado Carrasco <img src="Assets/img/chapter-1/Schneider Delgado.png" style="width: 500px; height: auto;" />                          | U202321843           | Tengo 20 años y estoy en la carrera de Ingeniería de Software. Actualmente estoy en el 5to ciclo de mi carrera, donde vengo desarrollando conocimientos en programación, bases de datos. Me interesa mucho la tecnología, la innovación y cómo las soluciones digitales pueden mejorar la vida de las personas. Estoy comprometido con mi formación y busco siempre nuevos retos que me permitan crecer tanto a nivel académico como personal.      |    
+| Carlos Alberto Lopez Goitia <img src="Assets/img/chapter-1/Carlos Lopez.png" style="width: 500px; height: auto;" />                         |U202312700                     | Soy estudiante del quinto ciclo de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas. Me apasiona el desarrollo tecnológico y su aplicación en la resolución de problemas reales. Tengo experiencia en programación orientada a objetos, diseño de bases de datos y metodologías ágiles. Me considero una persona analítica, proactiva y comprometida con el trabajo en equipo, siempre enfocado en crear soluciones funcionales, escalables e innovadoras.  |  
 
 # 1.2. Solución Profile
 ## 1.2.1. Antecedentes y Problemática

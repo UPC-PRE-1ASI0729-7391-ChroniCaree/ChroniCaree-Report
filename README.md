@@ -216,8 +216,18 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 ## 1.3. Segmentos objetivo
 
 # Capítulo II: Requirements Elicitation & Analysis
+
 ## 2.1. Competidores
 
+revio al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver qué es lo que ofrecen y cómo podemos diferenciarnos de ellos.
+
+**Chronisys**: Software peruano para instituciones de salud que atienden pacientes con enfermedades crónicas. Está diseñado para mejorar el monitoreo y la comunicación clínica. Su ventaja competitiva radica en su accesibilidad, simplicidad, enfoque institucional y adaptabilidad a necesidades locales. Se dirige principalmente a clínicas y hospitales, con un modelo SaaS y presencia web + móvil.
+
+**Welldoc**: Plataforma estadounidense aprobada por la FDA para el manejo de diabetes y otras enfermedades crónicas. Cuenta con fuerte respaldo clínico y se enfoca en pacientes y médicos en EE. UU., así como en aseguradoras. Su modelo es B2B, con distribución móvil y estrategias basadas en validación científica y alianzas con aseguradoras.
+
+**Livongo**: Plataforma digital que integra dispositivos médicos conectados, asesoramiento humano y app para el manejo de enfermedades crónicas. Ofrece programas específicos para diabetes, hipertensión, peso y salud conductual. Su ventaja es su ecosistema completo y fuertes alianzas con aseguradoras. Modelo B2B, con canales web y móvil.
+
+**Lark**: Startup de salud digital de EE. UU. que utiliza IA conversacional para brindar asesoramiento 24/7 en prevención y manejo de enfermedades crónicas. Su modelo escalable permite llegar a millones con bajo costo operativo. Se enfoca en aseguradoras y usuarios interesados en prevención, con distribución móvil y estrategias de marketing digital.
 
 ### 2.1.1. Análisis competitivo.
 

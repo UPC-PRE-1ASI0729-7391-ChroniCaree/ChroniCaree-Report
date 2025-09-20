@@ -219,15 +219,19 @@ Más que una app, ChroniCaree by Chronisys es un nuevo estándar de cuidado: don
 
 ## 2.1. Competidores
 
-revio al desarrollo de la aplicación, hicimos una búsqueda de las opciones que ya existen en el mercado, para ver qué es lo que ofrecen y cómo podemos diferenciarnos de ellos.
+En esta sección analizaremos a los que consideramos los principales competidores de nuestra solución, que son los siguientes:
 
-**Chronisys**: Software peruano para instituciones de salud que atienden pacientes con enfermedades crónicas. Está diseñado para mejorar el monitoreo y la comunicación clínica. Su ventaja competitiva radica en su accesibilidad, simplicidad, enfoque institucional y adaptabilidad a necesidades locales. Se dirige principalmente a clínicas y hospitales, con un modelo SaaS y presencia web + móvil.
+**Mediktor**
 
-**Welldoc**: Plataforma estadounidense aprobada por la FDA para el manejo de diabetes y otras enfermedades crónicas. Cuenta con fuerte respaldo clínico y se enfoca en pacientes y médicos en EE. UU., así como en aseguradoras. Su modelo es B2B, con distribución móvil y estrategias basadas en validación científica y alianzas con aseguradoras.
+Mediktor es una plataforma de salud digital que utiliza inteligencia artificial para guiar a los pacientes en la identificación de posibles condiciones médicas mediante cuestionarios interactivos y análisis de síntomas. Está enfocada en brindar un primer nivel de orientación médica y optimizar el triaje digital, siendo usada en hospitales, aseguradoras y servicios de telemedicina.
 
-**Livongo**: Plataforma digital que integra dispositivos médicos conectados, asesoramiento humano y app para el manejo de enfermedades crónicas. Ofrece programas específicos para diabetes, hipertensión, peso y salud conductual. Su ventaja es su ecosistema completo y fuertes alianzas con aseguradoras. Modelo B2B, con canales web y móvil.
+**Binahai**
 
-**Lark**: Startup de salud digital de EE. UU. que utiliza IA conversacional para brindar asesoramiento 24/7 en prevención y manejo de enfermedades crónicas. Su modelo escalable permite llegar a millones con bajo costo operativo. Se enfoca en aseguradoras y usuarios interesados en prevención, con distribución móvil y estrategias de marketing digital.
+Binahai es una solución de salud digital que permite medir signos vitales como frecuencia cardíaca, frecuencia respiratoria, saturación de oxígeno y niveles de estrés, a través de la cámara de un smartphone o laptop. Su propuesta se centra en la accesibilidad y la escalabilidad, al eliminar la necesidad de dispositivos médicos externos, y está orientada a empresas de seguros, telemedicina y monitoreo remoto de pacientes.
+
+**Welldoc (BlueStar)**
+
+Welldoc es una empresa especializada en el manejo digital de enfermedades crónicas, principalmente diabetes. Su aplicación BlueStar combina registro de datos, recomendaciones personalizadas y reportes para médicos, con un fuerte enfoque en mejorar la adherencia terapéutica y el control glucémico. La plataforma está validada clínicamente y ha sido adoptada en sistemas de salud y aseguradoras de Estados Unidos.
 
 ### 2.1.1. Análisis competitivo.
 
@@ -513,35 +517,120 @@ Dependencia de grandes contratos.
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
-**Estrategia de alianzas institucionales \**
+**Estrategia de alianzas institucionales**
 
-- Establecer convenios con hospitales, clínicas y ministerios de salud para convertir a ChroniCare en la herramienta oficial de monitoreo de enfermedades crónicas. \
+- Establecer convenios con hospitales, clínicas y ministerios de salud para convertir a ChroniCare en la herramienta oficial de monitoreo de enfermedades crónicas. 
 
-
-- Ofrecer pruebas piloto gratuitas en instituciones de salud para mostrar los beneficios y recopilar evidencia científica local, algo que Welldoc y Livongo no tienen en la región. \
-
-
-**Estrategia de diferenciación por accesibilidad \**
-
-- Mantener precios accesibles mediante el modelo SaaS y ofrecer planes escalables según el tamaño de la institución \
+- Ofrecer pruebas piloto gratuitas en instituciones de salud para mostrar los beneficios y recopilar evidencia científica local, algo que Welldoc y Livongo no tienen en la región. 
 
 
-**Estrategia de innovación tecnológica adaptada \**
+**Estrategia de diferenciación por accesibilidad**
 
-- Incorporar un sistema básico de IA para recordatorios y seguimiento de síntomas, pero siempre complementado con interacción humana para diferenciarse de Lark (que se percibe como impersonal). \
+- Mantener precios accesibles mediante el modelo SaaS y ofrecer planes escalables según el tamaño de la institución 
 
 
-**Estrategia de construcción de confianza \**
+**Estrategia de innovación tecnológica adaptada**
 
-- Publicar constantemente los avances y mejoras  que la app vaya obteniendo para dar una imagen de transparencia y compromiso con la seguridad de los pacientes. \
+- Incorporar un sistema básico de IA para recordatorios y seguimiento de síntomas, pero siempre complementado con interacción humana para diferenciarse de Lark (que se percibe como impersonal). 
+
+
+**Estrategia de construcción de confianza**
+
+- Publicar constantemente los avances y mejoras  que la app vaya obteniendo para dar una imagen de transparencia y compromiso con la seguridad de los pacientes. 
 
 
 - Participar en congresos médicos nacionales e internacionales presentando casos de éxito en instituciones,, para reforzar credibilidad frente a soluciones globales.
 
 ## 2.2. Entrevistas
 
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **pacientes con enfermedades crónicas (Segmento 1)** y **médicos y personal de salud encargado de su seguimiento (Segmento 2)**. El objetivo es comprender sus necesidades reales, frustraciones diarias, hábitos de manejo de la enfermedad y expectativas frente a una plataforma digital de monitoreo continuo, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de **ChroniCare** a lo que el mercado realmente demanda.
 
 ### 2.2.1. Diseño de entrevistas.
+
+
+Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
+
+Antes de realizar las entrevistas profundas, se aplicó un formulario digital (Google Forms) a todos los participantes con el objetivo de recolectar información demográfica y conductual básica. Esto permitió segmentar adecuadamente a los entrevistados, personalizar el enfoque de cada entrevista según su perfil, y optimizar el tiempo durante las sesiones cualitativas.
+
+> **Formulario Segmento 1: Pacientes con enfermedades crónicas**  
+> https://forms.gle/bMhsNAhPUvH1bYGr5  
+>  
+> **Formulario Segmento 2: Médicos y personal médico**  
+> https://forms.gle/N61b8sb6XsN7CRoY7
+
+---
+
+### Segmento 1: Pacientes con enfermedades crónicas
+
+#### **Demográficas (para arquetipo)**
+
+1. ¿Cuál es tu nombre completo?  
+2. ¿Qué edad tienes?  
+3. ¿En qué distrito resides?  
+4. ¿Cuál es tu género?  
+5. ¿Cuál es tu estado civil?  
+6. ¿Con quién vives actualmente (solo, con pareja, hijos, familiares, cuidadores)?  
+7. ¿A qué te dedicas principalmente (jubilado, ama de casa, empleado, independiente, otro)?  
+
+#### **Psicográficas y comportamentales (para arquetipo)**
+
+8. ¿Cómo describirías tu personalidad cuando se trata de usar tecnología para tu salud (precavido, curioso, reacio, dependiente de otros, entusiasta)?  
+9. ¿Qué marcas, apps o servicios digitales de salud confías más? ¿Por qué?  
+10. ¿Qué personas, influencers, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu salud?  
+11. ¿Qué dispositivos usas con más frecuencia (celular, tablet, computadora)? ¿Qué apps o navegadores prefieres?  
+12. ¿Por qué canales digitales sueles informarte o resolver dudas sobre tu salud (WhatsApp, llamadas, Facebook, YouTube, Google, foros médicos)?  
+
+
+#### **Necesidades y comportamiento (preguntas principales para entrevista cualitativa)**
+
+13. ¿Qué enfermedad crónica estás tratando actualmente y desde cuándo?  
+14. ¿Con qué frecuencia visitas a tu médico para controles regulares?  
+15. ¿Cómo registras actualmente la toma de tus medicamentos o síntomas diarios (agenda, notas, apps, memoria)?  
+16. ¿Has enfrentado situaciones de riesgo (descompensaciones, olvidos de medicación) que te hubiera gustado prevenir? Cuéntame qué pasó.  
+17. ¿Qué haces cuando experimentas síntomas fuera de lo normal? ¿Buscas ayuda inmediata o esperas?  
+18. ¿Qué información en tiempo real consideras más valiosa recibir sobre tu tratamiento (recordatorios, alertas de valores anormales, consejos, contacto con médico)?  
+19. ¿Qué tan cómodo te sentirías usando una aplicación para registrar tus síntomas y medicación? ¿Qué te daría confianza para usarla?  
+20. ¿Qué funcionalidades consideras imprescindibles para confiar en una solución como ChroniCare (voz, botones grandes, ayuda de familiares, notificaciones por SMS)?  
+21. ¿Qué barreras podrían impedirte usar una aplicación de este tipo (dificultad tecnológica, miedo a errores, desconfianza en datos, costo, falta de internet)?  
+22. ¿Qué tan dispuesto estarías a pagar por una herramienta que te ayude a llevar un mejor control de tu salud? ¿Qué rango de precio considerarías justo?  
+23. ¿Te gustaría que tu médico o clínica te recomiende esta app? ¿Crees que eso aumentaría tu confianza?
+
+---
+
+### Segmento 2: Médicos y personal médico
+
+#### **Demográficas (para arquetipo)**
+
+1. ¿Cuál es tu nombre completo?  
+2. ¿Qué edad tienes?  
+3. ¿En qué distrito o institución trabajas principalmente?  
+4. ¿Cuál es tu género?  
+5. ¿Cuál es tu estado civil?  
+6. ¿Con quién vives actualmente?  
+7. ¿Cuál es tu ocupación principal y especialidad médica?  
+
+#### **Psicográficas y comportamentales (para arquetipo)**
+
+8. ¿Cómo describirías tu actitud hacia la adopción de tecnología en tu práctica clínica (innovador, escéptico, pragmático, dependiente de la institución)?  
+9. ¿Qué marcas, sistemas o plataformas digitales de salud confías o usas habitualmente? ¿Por qué?  
+10. ¿Qué colegas, sociedades médicas, influencers o canales te influyen en la adopción de nuevas herramientas?  
+11. ¿Qué dispositivos usas con más frecuencia para gestionar información clínica (computadora, tablet, celular)? ¿Qué apps o navegadores prefieres?  
+12. ¿Por qué canales digitales sueles comunicarte con pacientes o colegas (correo, WhatsApp, plataforma hospitalaria, llamadas, mensajes de texto)?  
+
+
+#### **Necesidades y comportamiento (preguntas principales para entrevista cualitativa)**
+
+13. ¿Cuántos pacientes con enfermedades crónicas atiendes semanalmente en promedio?  
+14. ¿Qué sistemas de registro o monitoreo de pacientes utilizas actualmente en tu hospital o clínica?  
+15. ¿Qué dificultades enfrentas en el seguimiento y control de pacientes con enfermedades crónicas (falta de datos, no adherencia, saturación, comunicación)?  
+16. ¿Con qué frecuencia enfrentas emergencias o complicaciones por falta de adherencia terapéutica o descompensaciones? ¿Podrían haberse prevenido?  
+17. ¿Cómo coordinas actualmente con tus pacientes o sus familiares sobre su estado de salud?  
+18. ¿Qué información en tiempo real te resultaría más útil para mejorar la atención y prevención (tendencias de glucosa, presión, adherencia a medicación, alertas automáticas)?  
+19. ¿Qué impacto tendría en tu labor contar con reportes digitales y alertas inmediatas de tus pacientes crónicos? ¿Reduciría consultas innecesarias?  
+20. ¿Qué tan dispuesto estarías a utilizar una plataforma como ChroniCare en tu práctica clínica? ¿Qué necesitarías para confiar en los datos que reportan los pacientes?  
+21. ¿Qué funcionalidades médicas consideras esenciales (dashboard visual, exportar PDF, integración con historia clínica, alertas personalizables, notificaciones por gravedad)?  
+22. ¿Qué obstáculos podrían dificultar la adopción de esta plataforma en tu hospital o clínica (resistencia del personal, falta de infraestructura, costo, privacidad de datos)?  
+23. ¿Consideras que los hospitales deberían cubrir el costo de la solución como parte de su servicio a pacientes crónicos? ¿Por qué?
 
 
 ### 2.2.2. Registro de entrevistas
@@ -554,7 +643,7 @@ Dependencia de grandes contratos.
 
 ### 2.3.1. User Persona
 
-Segmento Objetivo: Pacientes adultos mayores
+Segmento Objetivo: Pacientes con enfermedades crónica
 
 <img src="Assets/img/chapter-2/userpersona1.png" width="" alt="alt_text" title="image_tooltip">
 

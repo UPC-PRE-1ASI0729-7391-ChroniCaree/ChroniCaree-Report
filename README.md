@@ -588,4 +588,70 @@ La página es completamente **responsive**, accesible (WCAG AA), optimizada para
 En este sprint, se completó el desarrollo del landing page, al ser landing page no se requiere de documentación de servicios.
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
+
+En este Sprint, se completó con éxito el **despliegue de la Landing Page de ChroniCare** en producción, utilizando una cadena de herramientas modernas y automatizadas que garantizan entrega continua, trazabilidad del código y escalabilidad. Este proceso no solo incluyó el hospedaje del sitio, sino también la configuración de flujos de trabajo colaborativos, integración de ramas, automatización de builds y despliegues, y monitoreo básico del entorno.
+
+Se implementó una infraestructura CI/CD (Integración y Entrega Continua) utilizando **GitHub + Netlify**, con el flujo de trabajo **GitFlow** como estándar de colaboración del equipo. Cada commit en la rama `main` dispara automáticamente un despliegue en producción, asegurando que los cambios aprobados estén disponibles para los usuarios en cuestión de minutos.
+
+Además, se crearon cuentas institucionales, se configuraron variables de entorno, dominios personalizados y se establecieron políticas de revisión de código para garantizar la calidad y seguridad del despliegue.
+
+---
+
+### Proceso de Despliegue Implementado
+
+#### 1. Configuración del Repositorio y GitFlow
+
+Se estructuró el repositorio con el flujo **GitFlow**:
+- `main`: versión estable en producción.
+- `develop`: integración continua de nuevas funcionalidades.
+- `feature/*`: ramas para desarrollo de funcionalidades específicas (ej: `feature/landing-page-with-styles`, `feature/i18n-implementation`).
+- `release/*`: ramas para preparar versiones listas para producción.
+
+Cada funcionalidad fue desarrollada en su propia rama, revisada mediante Pull Requests, y fusionada a `develop`. Al finalizar el Sprint, se creó una rama `release/v1.0.0` que se fusionó a `main`, disparando el despliegue automático.
+
+---
+
+#### 2. Integración con Netlify
+
+Se vinculó el repositorio de GitHub con **Netlify**, configurando:
+- Rama de despliegue: `main`
+- Comando de build: `npm run build` (para proyectos estáticos generados con Vite/React)
+- Directorio de publicación: `dist/`
+- Dominio personalizado: `https://chronicaree.netlify.app/` (y próximamente `chronicare.pe`)
+
+Cada push a `main` o merge de Pull Request dispara automáticamente:
+1. Clonado del repositorio
+2. Instalación de dependencias
+3. Ejecución del build
+4. Despliegue del sitio estático
+5. Notificación por correo y Slack al equipo
+
+![Netlify Build #1](/Assets/img/chapter-5/netlify4.png)
+
+![Netlify Build #1](/Assets/img/chapter-5/netlify5.png)
+
+![Netlify Build #1](/Assets/img/chapter-5/netlify3.png)
+
+---
+
+### Sitio Desplegado en Producción
+
+> **Enlace al sitio en producción:**  
+> https://chronicaree.netlify.app/
+
+El sitio incluye todas las secciones desarrolladas en el Sprint 1:
+- Hero con propuesta de valor y CTA
+- Sección “¿Qué es ChroniCare?”
+- Testimonios de pacientes y médicos
+- Funcionalidades clave: registro de síntomas, alertas, seguimiento médico
+- Proceso de uso en 3 pasos simples
+- Preguntas frecuentes (FAQ) y privacidad
+- Equipo fundador con fotos y roles
+- Footer con enlaces, contacto y redes sociales
+- Soporte multilingüe (ES/EN) con toggle de idioma
+- Diseño accesible y optimizado para móviles con conexión lenta
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
+
+El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
+

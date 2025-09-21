@@ -473,9 +473,49 @@ Profesionales de la salud encargados de diagnosticar, monitorear y tratar a los 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 
-Un **Style Guideline** es un conjunto de reglas y lineamientos que definen los estándares a seguir en la redacción, diseño y presentación de documentos, contenido digital, software u otros productos creativos. A continuación, se describen de manera detallada las especificaciones de los parámetros aplicados en la estructura del proyecto.
+Un **Style Guideline** es un conjunto de reglas y lineamientos que definen los estándares a seguir en la redacción, diseño y presentación de documentos, contenido digital, software u otros productos creativos. A continuación, se describen de manera detallada las especificaciones de los parámetros aplicados en la estructura del proyecto. 
 
 ### 4.1.1. General Style Guidelines.
+
+4.1.1. General Style Guidelines
+
+**Branding:**
+
+Para el desarrollo de la identidad de ChroniCare, se ha diseñado un estilo que transmite la esencia de la plataforma: confianza, cuidado humano y tecnología innovadora. La marca busca reflejar un acompañamiento cercano entre paciente y médico, reforzando la idea de un cuidado continuo, accesible y preventivo en el manejo de enfermedades crónicas.
+El logotipo de ChroniCare combina dos elementos clave:
+
+-   Un ícono de checklist que simboliza el seguimiento constante y la organización del cuidado.
+
+
+-   Un corazón con cruz médica que representa la salud, el acompañamiento y la atención confiable.
+
+Ambos elementos están conectados por una línea fluida que integra la parte clínica con la parte humana, sintetizando la misión de ChroniCare: prevenir complicaciones y empoderar al paciente con tecnología.
+La paleta cromática utiliza tonos verde-azulados, que evocan calma, salud y frescura, asociados con la confianza y el bienestar. El uso de un fondo neutro permite resaltar la identidad visual, transmitiendo limpieza y profesionalismo.
+La integración de estos elementos comunica de manera clara el propósito de ChroniCare: humanizar la salud digital, empoderar a los pacientes y ofrecer herramientas tecnológicas confiables a médicos y administradores de salud.
+
+![alt text](<Assetsimgchapter-4/log chroniCare.png>)
+
+**Typography:**
+
+Para la tipografía de ChroniCare, se ha seleccionado una combinación que busca transmitir cercanía, accesibilidad y modernidad. La tipografía principal Just Another Hand se utiliza en los encabezados, aportando un estilo humano y distintivo, ideal para resaltar títulos y mensajes clave que conectan con el lado emocional del cuidado en salud.
+Para los textos de párrafo y componentes de la interfaz, se emplea Inter, una tipografía ampliamente reconocida por su alta legibilidad en entornos digitales. Esta elección garantiza una experiencia de usuario clara, ordenada y confiable, favoreciendo la lectura en dispositivos móviles y web.
+Esta combinación tipográfica equilibra lo humano y lo tecnológico, reforzando la identidad de ChroniCare como una plataforma accesible, confiable y cercana.
+
+![alt text](Assetsimgchapter-4/Typography.png)
+
+**Colors:**
+
+La paleta de colores de ChroniCare refleja confianza, calma y profesionalismo, valores esenciales en el cuidado de la salud digital. Los tonos principales —teal, azul oscuro y blanco— transmiten serenidad y claridad, garantizando una interfaz limpia y accesible en todo tipo de dispositivos.
+Como apoyo, se incluyen el rojo de alerta para situaciones críticas y el verde positivo para estados normales. Esta combinación asegura una jerarquía visual clara, facilitando la rápida identificación de información médica y consolidando a ChroniCare como una plataforma confiable e innovadora en el monitoreo de enfermedades crónicas.
+
+![alt text](Assetsimgchapter-4/Colors.png)
+
+**Spacing:**
+
+El espaciado en ChroniCare ha sido cuidadosamente definido para garantizar una interfaz limpia, clara y ordenada, que facilite la navegación y refuerce la jerarquía visual. Se utiliza una separación uniforme entre componentes y secciones, lo que mejora la legibilidad y proporciona un equilibrio estético a la aplicación.
+El sistema de espaciado se basa en una escala modular de 8px, lo que permite mantener consistencia y coherencia en todas las vistas de la plataforma. Este sistema asegura que tanto en pantallas móviles como en web, la interfaz conserve una apariencia armónica y accesible.
+
+![alt text](Assetsimgchapter-4/Spacing.png)
 
 ### 4.1.2. Web Style Guidelines.
 

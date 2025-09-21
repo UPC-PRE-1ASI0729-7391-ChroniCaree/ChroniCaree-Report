@@ -608,6 +608,29 @@ De esta manera se evita la sobrecarga de información, se mejora la eficiencia e
 
 ### 4.2.5. Navigation Systems.
 
+La navegación de ChroniCare combina claridad, consistencia y adaptabilidad para los distintos dispositivos y roles de usuario:
+
+- **Landing Page (Desktop):** menú superior con navegación horizontal que permite acceder rápidamente a Inicio, Nosotros, Equipo, Servicios, Testimonios y Contacto.
+
+
+- **Landing Page (Móvil):** menú tipo hamburguesa con navegación vertical, optimizado para pantallas pequeñas y con accesos a los mismos apartados principales.
+
+
+- **Aplicación Web/Móvil:** navegación diferenciada por rol:
+
+
+    - Paciente: barra inferior con accesos directos a Inicio, Síntomas, Alertas, Dispositivos y Chat.
+
+
+   - Médico: sidebar lateral con accesos a Pacientes, Panel de métricas, Alertas y Evolución.
+
+
+- **CTAs estratégicos:** botones visibles en colores primarios que guían al usuario a tareas clave como Registrar síntomas, Revisar métricas, Descargar reporte o Ver evolución de pacientes.
+
+
+En conjunto, estos sistemas aseguran que los usuarios puedan desplazarse por la plataforma de forma intuitiva, cumpliendo sus objetivos clínicos y operativos sin fricciones.
+
+
 ## 4.3. Landing Page UI Design.
 
 ### 4.3.1. Landing Page Wireframe.

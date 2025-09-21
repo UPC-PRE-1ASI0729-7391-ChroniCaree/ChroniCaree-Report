@@ -530,9 +530,28 @@ Todos los Work Items han sido completados y verificados. La **Landing Page de Ch
 
 Este sprint ha sentado las bases para el crecimiento de ChroniCare, asegurando que el primer punto de contacto con pacientes, médicos e instituciones de salud sea **claro, empático, profesional y centrado en el valor clínico real**: mejorar la adherencia, prevenir complicaciones y fortalecer la comunicación médico-paciente.
 
+![produc backlog sprint 1](/Assets/img/chapter-5/sprintbacklog-1.png)
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
+
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
+
+En este Sprint, el equipo logró implementar y desplegar completamente la **Landing Page de ChroniCare**, cumpliendo con todos los requisitos definidos en el Sprint Backlog. Se desarrollaron todas las secciones clave: Hero, Propuesta de Valor, Testimonios, Funcionalidades Clave, Proceso de Uso, Equipo, Precios, FAQ, Privacidad y Footer — cada una alineada con las User Stories priorizadas (HU01, HU02, HU03, HU04, HU05, HU06, HU07, HU08, HU31, HU32, HU34, HU35, HU36, HU37, HU38).
+
+La página es completamente **responsive**, accesible (WCAG AA), optimizada para SEO y con soporte multilingüe básico (español/inglés). Además, se integró un sistema de navegación intuitiva, microinteracciones suaves, carga optimizada para conexiones lentas, y un diseño visual empático y profesional, alineado con la identidad de marca de ChroniCare: confianza, claridad y cuidado humano.
+
+> **Enlace a la versión desplegada (producción):**  
+> https://chronicaree.netlify.app/  
+
+> **Enlace al video de demostración (navegación y funcionalidades):**  
+>
+
+![Landing Page ChroniCare - Vista 1](/Assets/img/chapter-5/netlify1.png)
+![Landing Page ChroniCare - Vista 2](/Assets/img/chapter-5/netlify2.png)
+![Landing Page ChroniCare - Vista 3](/Assets/img/chapter-5/netlify3.png)
+
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
 
 En este sprint, se completó el desarrollo del landing page, al ser landing page no se requiere de documentación de servicios.

@@ -663,7 +663,30 @@ El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de 
 
 ### Bibliografia
 
+Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
+
+Solucionex. (s. f.). *Buenas prácticas para el desarrollo de grandes proyectos con Vue.js*. https://www.solucionex.com/blog/buenas-practicas-para-el-desarrollo-de-grandes-proyectos-con-vuejs
+
+Tapia, S. (2021, 21 de junio). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
+
 ### Anexos
+
+#### Videos de exposicion (anexo 1)
+
+| contenido |  |
+|--- | ---|
+|video de exposicion TB1 | link del video:  |
+
+
 
 ### Concluciones
 
+
+1. **Adopción de estándares industriales y metodologías profesionales**  
+   El equipo de ChroniCaree implementa un conjunto coherente de prácticas alineadas con la industria: GitFlow para control de versiones, Conventional Commits para historiales limpios, Semantic Versioning para releases, y el modelo C4 para documentación arquitectónica. Estas decisiones no son técnicas aisladas, sino una estrategia intencional para construir un proyecto con madurez, trazabilidad y escalabilidad, preparando el sistema para una posible transición a entornos reales de producción.
+
+2. **Integración estratégica de herramientas modernas y de código abierto**  
+   La selección de tecnologías —como Supabase (PostgreSQL + Auth + Edge Functions), Spring Boot (Java), Angular (frontend), y herramientas de colaboración como Structurizr y Lucidchart— refleja un enfoque moderno, eficiente y coste-efectivo. Al priorizar soluciones open-source y SaaS con alta adopción (GitHub, Postman, Discord), el equipo maximiza la productividad, reduce la complejidad operativa y garantiza que sus decisiones sean sostenibles, documentables y reconocibles por cualquier desarrollador profesional.
+
+3. **Enfoque humano y centrado en la calidad desde el inicio**  
+   Más allá del código, ChroniCaree demuestra una cultura de calidad que incluye: documentación técnica exhaustiva (Markdown, C4, Conventional Commits), accesibilidad en la Landing Page (WCAG, lectores de pantalla), internacionalización, y comunicación ágil con Discord. Estas prácticas muestran que el equipo no solo construye una aplicación, sino una experiencia confiable, inclusiva y profesional — donde la tecnología sirve al usuario, no al revés. Esto eleva el proyecto de un trabajo académico a un ejemplo de excelencia en ingeniería de software.

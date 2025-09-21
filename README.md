@@ -541,6 +541,24 @@ Las decisiones tomadas en la organización de la información buscan transmitir 
 
 ### 4.2.1. Organization Systems.
 
+En ChroniCare se aplican distintos sistemas de organización según el tipo de contenido y la plataforma:
+
+- **Organización jerárquica (Visual Hierarchy)**: En la landing se prioriza la propuesta de valor y el buscador, seguidos por secciones de beneficios, cómo funciona, testimonios, equipo y contacto. En la app, los dashboards muestran primero alertas críticas, luego métricas clave y finalmente accesos a acciones secundarias (tutoriales, soporte, ajustes).
+
+
+- **Organización secuencial (Step-by-step):** Flujos como registro de síntomas/cuidados, conexión de dispositivos (glucómetro, tensiómetro, smartwatch) y recordatorios de medicación se guían paso a paso con validaciones, estados de progreso y confirmación para evitar errores y asegurar la completitud clínica.
+
+
+- **Organización por tópicos:** El contenido se agrupa por categorías claras:
+ Condiciones, Métricas, Dispositivos , Comunicaciones , Educación (tutoriales y guías) y Administración (planes, permisos, auditoría).
+
+
+- **Organización según audiencia:** Vistas y navegación diferenciadas por rol:
+ 
+ **Paciente:** registrar/visualizar métricas, alertas, medicación, educación y chat.
+ 
+ **Médico:** panel de métricas por paciente, bandeja de alertas, evolución temporal, órdenes y notas.
+
 ### 4.2.2. Labeling Systems.
 
 ### 4.2.3. SEO Tags and Meta Tags

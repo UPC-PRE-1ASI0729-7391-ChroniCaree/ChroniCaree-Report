@@ -675,18 +675,10 @@ Los diagramas de wireflow para aplicaciones web son representaciones visuales qu
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
-<img src="Assetsimgchapter-4/DiagramaContexto.jpeg">
 
 ### 4.6.2. Software Architecture Container Diagrams.
-<img src="Assetsimgchapter-4/DiagramaContainer.jpeg">
 
 ### 4.6.3. Software Architecture Components Diagrams.
-
-<img src="Assetsimgchapter-4/DiagramaComponentesBDAnalytics.jpeg">
-
-<img src="Assetsimgchapter-4/DiagramaComponentesBDCare.jpeg.jpeg">
-
-<img src="Assetsimgchapter-4/DiagramaComponentesBDHandling.jpeg.jpeg">
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.

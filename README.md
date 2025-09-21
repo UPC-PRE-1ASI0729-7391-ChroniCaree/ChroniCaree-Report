@@ -652,7 +652,7 @@ En este apartado se presenta una documentación detallada de cada entrevista rea
 **Navegador habitual:** Safari  
 **Enfermedad crónica:** Esclerosis Múltiple (diagnóstico hace 2 años)  
 
-![Entrevista 1](assets/img/chapter-2/entrevista%201.png)
+![Entrevista 1](/Assets/img/chapter-2/entrevista%201.png)
 
 **Instante en el que inicia:** 0:00  
 **Duración de la entrevista:** 3:24 min
@@ -687,7 +687,7 @@ Alisa es una joven creativa, digital native y autogestiva. Maneja su enfermedad 
 **Navegador habitual:** Chrome  
 **Enfermedad crónica:** Asma persistente  
 
-![Entrevista 2](assets/img/chapter-2/entrevista%202.png)
+![Entrevista 2](/Assets/img/chapter-2/entrevista%202.png)
 
 
 **Instante en el que inicia:** 3:24  
@@ -723,7 +723,7 @@ Claudia es práctica, resiliente y con fuerte sentido de autoprotección. Maneja
 **Navegador habitual:** Chrome  
 **Enfermedad crónica:** Diabetes tipo 1  
 
-![Entrevista 3](assets/img/chapter-2/entrevista%203.png)
+![Entrevista 3](/Assets/img/chapter-2/entrevista%203.png)
 
 
 **Instante en el que inicia:** 6:34  
@@ -760,7 +760,7 @@ Mauricio es un paciente proactivo, con mentalidad clínica por su carrera. Usa t
 **Dispositivos utilizados:** iPhone, Laptop  
 **Navegador habitual:** Chrome  
 
-![Entrevista 4](assets/img/chapter-2/entrevista%204.png)
+![Entrevista 4](/Assets/img/chapter-2/entrevista%204.png)
 
 
 **Instante en el que inicia:** 9:21  
@@ -795,7 +795,7 @@ Matías representa a la nueva generación de médicos: digital, pragmático y en
 **Dispositivos utilizados:** Computadora hospitalaria, celular  
 **Navegador habitual:** Chrome (con restricciones institucionales)
 
-![Entrevista 5](assets/img/chapter-2/Entrevista%205.png)
+![Entrevista 5](/Assets/img/chapter-2/Entrevista%205.png)
 
 
 **Instante en el que inicia:** 12:49  
@@ -830,7 +830,7 @@ Ana es una profesional experimentada en entorno público, donde la burocracia y 
 **Dispositivos utilizados:** Computadora hospitalaria, iPhone  
 **Navegador habitual:** Chrome  
 
-![Entrevista 6](assets/img/chapter-2/entrevista%206.png)
+![Entrevista 6](/Assets/img/chapter-2/entrevista%206.png)
 
 **Instante en el que inicia:** 23:16  
 **Duración de la entrevista:** 4:37 min
@@ -927,15 +927,15 @@ Fuente de información:
 - **Estadistica-1d**: 42.9% confían en su médico o en influencers de TikTok/Instagram.
 - **Estadistica-1e**: 100% valoran las reseñas de otros usuarios.
 
-![estadistica 1a](assets/img/chapter-2/estadistica-1a.png)
+![estadistica 1a](/Assets/img/chapter-2/estadistica-1a.png)
 
-![estadistica 1b](assets/img/chapter-2/estadistica-1b.png)
+![estadistica 1b](/Assets/img/chapter-2/estadistica-1b.png)
 
-![estadistica 1c](assets/img/chapter-2/estadistica-1c.png)
+![estadistica 1c](/Assets/img/chapter-2/estadistica-1c.png)
 
-![estadistica 1d](assets/img/chapter-2/estadistica-1d.png)
+![estadistica 1d](/Assets/img/chapter-2/estadistica-1d.png)
 
-![estadistica 1e](assets/img/chapter-2/estadistica-1e.png)
+![estadistica 1e](/Assets/img/chapter-2/estadistica-1e.png)
 
 
 ---
@@ -996,15 +996,15 @@ Fuente de información:
 - **Estadistica-2d**: 100% valora alertas automatizadas y reportes digitales.
 - **Estadistica-2e**: 40% usa apps de monitoreo remoto.
 
-![estadistica 2a](assets/img//chapter-2/estdistica-2a.png)
+![estadistica 2a](/Assets/img//chapter-2/estdistica-2a.png)
 
-![estadistica 2b](assets/img//chapter-2/estdistica-2b.png)
+![estadistica 2b](/Assets/img//chapter-2/estdistica-2b.png)
 
-![estadistica 2c](assets/img//chapter-2/estdistica-2c.png)
+![estadistica 2c](/Assets/img//chapter-2/estdistica-2c.png)
 
-![estadistica 2d](assets/img//chapter-2/estdistica-2d.png)
+![estadistica 2d](/Assets/img//chapter-2/estdistica-2d.png)
 
-![estadistica 2e](assets/img//chapter-2/estdistica-2e.png)
+![estadistica 2e](/Assets/img//chapter-2/estdistica-2e.png)
 
 ---
 
@@ -1043,8 +1043,7 @@ Este proceso de needfinding permitió comprender en profundidad las motivaciones
 
 Enlace para ver los User Personas en UXPressia:  
 
-
-
+https://drive.google.com/drive/folders/1KG2DSGdiTeFjTgvdY05G6hNHiAsZw_15?usp=sharing
 
 ### 2.3.1. User Persona
 
@@ -1067,7 +1066,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 **Distrito:** Miraflores, Lima  
 **Perfil:** Joven emprendedora, digital native y autogestiva. Vive con esclerosis múltiple y maneja su condición con herramientas digitales, redes sociales y comunidades en línea. Valora la autonomía, la estética y la comunicación humana. Usa tecnología no como obligación, sino como extensión de su vida.
 
-![User persona 1](assets/img/chapter-2/Alisa%20Goicochea.png)
+![User persona 1](/Assets/img/chapter-2/Alisa%20Goicochea.png)
 
 #### Motivaciones:
 - Tener un control constante sobre su estado de salud sin depender de consultas presenciales.
@@ -1099,7 +1098,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 **Distrito:** Lince, Lima  
 **Perfil:** Profesional joven, pragmático y orientado a resultados. Atiende a más de 50 pacientes crónicos por semana en un hospital público. Cree firmemente en la prevención proactiva y en el uso de tecnología como herramienta de eficiencia, no como distracción. Usa Google Sheets para gestionar pacientes porque el sistema institucional es lento.
 
-![User persona 2](assets/img/chapter-2/Matías%20Peña.png)
+![User persona 2](/Assets/img/chapter-2/Matías%20Peña.png)
 
 #### Motivaciones:
 - Reducir el número de emergencias por falta de adherencia terapéutica.
@@ -1198,7 +1197,7 @@ Cada mapa está vinculado directamente con la ficha de **User Persona** correspo
 
 ### User Journey Map: Alisa Goicochea – Paciente Autónoma Digital
 
-![User Journey Map - Alisa Goicochea](Assets/img/chapter-2/journeymapping1.png)
+![User Journey Map - Alisa Goicochea](/Assets/img/chapter-2/journeymapping1.png)
 
 Este mapa representa el **As-Is journey** de Alisa, una paciente joven con esclerosis múltiple que gestiona su salud diariamente mediante apps, redes sociales y comunicación con su médico. Su objetivo principal es mantener un control continuo de su estado sin depender de consultas presenciales.
 
@@ -1222,7 +1221,7 @@ Este mapa representa el **As-Is journey** de Alisa, una paciente joven con escle
 
 ### User Journey Map: Mathias Peña – Médico Pragmático y Empático
 
-![User Journey Map - Mathias Peña](Assets/img/chapter-2/journeymapping2.png)
+![User Journey Map - Mathias Peña](/Assets/img/chapter-2/journeymapping2.png)
 
 Este mapa representa el **As-Is journey** de Mathias, un médico internista que atiende a más de 50 pacientes crónicos por semana en un hospital público. Su objetivo principal es **detectar riesgos tempranos y prevenir complicaciones** mediante el seguimiento de datos clínicos.
 
@@ -1286,7 +1285,7 @@ A continuación, se presentan los Empathy Maps para los dos segmentos objetivo.
 
 #### Segmento Objetivo: Pacientes con enfermedades cronicas (representado por Alisa Goicochea)
 
-![Empathy Map - Pacientes](assets/img/chapter-2/empathy1.png)
+![Empathy Map - Pacientes](/Assets/img/chapter-2/empathy1.png)
 
 > **User Persona vinculada:** Alisa Goicochea — Paciente Autónoma Digital  
 > Este mapa refleja la experiencia emocional, cognitiva y conductual de un paciente con enfermedad crónica en su entorno actual. Revela la necesidad de autonomía, acompañamiento emocional y herramientas intuitivas que se adapten a su estilo de vida, no al revés.
@@ -1295,7 +1294,7 @@ A continuación, se presentan los Empathy Maps para los dos segmentos objetivo.
 
 #### Segmento Objetivo: Doctores y personal médico (representado por Matías Peña)
 
-![Empathy Map - Doctores](assets/img/chapter-2/empathy2.png)
+![Empathy Map - Doctores](/Assets/img/chapter-2/empathy2.png)
 
 > **User Persona vinculada:** Matías Peña — Médico Pragmático y Empático  
 > Este mapa captura la realidad del profesional de la salud en entornos hospitalarios: sobrecargado, con acceso limitado a datos en tiempo real, y con una fuerte motivación por prevenir complicaciones antes de que ocurran. Destaca la necesidad de eficiencia, integración y confianza en las herramientas digitales.

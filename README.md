@@ -519,6 +519,19 @@ El sistema de espaciado se basa en una escala modular de 8px, lo que permite man
 
 ### 4.1.2. Web Style Guidelines.
 
+ChroniCare cuenta con un diseño web y móvil adaptable y responsivo, que garantiza una experiencia clara, accesible y confiable para pacientes, médicos y administradores de salud en cualquier dispositivo, desde computadoras de escritorio hasta teléfonos móviles.
+El patrón de diseño principal se centra en la claridad y jerarquía visual, asegurando que la información crítica como alertas de salud, recordatorios de medicación y métricas vitales esté siempre visible en los primeros segundos de navegación. Este enfoque permite priorizar la toma de decisiones médicas rápidas y una experiencia intuitiva para todos los perfiles de usuario.
+En la estructura visual:
+El logo de ChroniCare se ubica en la esquina superior izquierda como ancla de marca.
+La barra de navegación con secciones principales (Dashboard, Pacientes, Alertas, Reportes, Configuración) se encuentra en la parte superior, permitiendo un acceso rápido e intuitivo.
+El llamado a la acción (CTA) principal —Registrar paciente o Ver alertas críticas— se resalta con el color corporativo teal (#26B5A6) y, en casos de riesgo, con el color rojo de alerta (#E74C3C), atrayendo de inmediato la atención del usuario.
+El hero section incluye un panel interactivo con métricas en tiempo real y recordatorios activos, optimizando la experiencia de monitoreo clínico.
+Secciones como “Pacientes activos” y “Alertas críticas” utilizan un sistema de tarjetas modulares que mantienen consistencia visual y escalabilidad.
+Se incluyen chips y badges de colores para resaltar estados de los pacientes: verde (estable), amarillo (advertencia) y rojo (crítico), mejorando la jerarquía visual.
+
+El footer minimalista refuerza la identidad de marca y proporciona enlaces clave (Términos, Privacidad, Soporte) sin sobrecargar la interfaz.
+La interfaz en su conjunto transmite confianza, simplicidad y seguridad, reforzando los valores de la marca y favoreciendo la interacción constante entre pacientes, médicos y administradores de instituciones de salud.
+
 
 ## 4.2. Information Architecture.
 

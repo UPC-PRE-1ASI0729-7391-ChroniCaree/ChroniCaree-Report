@@ -467,8 +467,8 @@ A continuación, se detallan los aspectos principales del Sprint Planning Meetin
 | **Sprint n – 1 Retrospective Summary** | No aplica. Este es el primer sprint del proyecto; no existe un Sprint anterior. |
 | ***Sprint Goal & User Stories*** | |
 | **Sprint 1 Goal** | Our focus is on delivering a professional, responsive, and accessible landing page for ChroniCaree that clearly communicates the project’s purpose and value proposition. We believe it delivers first impressions of professionalism and clarity to stakeholders, educators, and future users. This will be confirmed when the landing page is deployed on Netlify, accessible via public URL, and includes all agreed content sections with semantic HTML, CSS/Bootstrap styling, and documented source code in the repository. |
-| **Sprint 1 Velocity** | 8 | 
-| **Sum of Story Points** | 8 |
+| **Sprint 1 Velocity** | 32 | 
+| **Sum of Story Points** | 32 |
 
 ### 5.2.1.2. Aspect Leaders and Collaborators.
 
@@ -497,8 +497,45 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 
 ### 5.2.1.3. Sprint Backlog 1.
 
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|---------|---------------|--------|-------------|--------------|
+| 1       | HU01          | Entender qué es ChroniCare desde la página principal | Como visitante, quiero comprender inmediatamente que ChroniCare me ayuda a monitorear mi enfermedad crónica diariamente, sin depender solo de consultas presenciales. | 3            |
+| 2       | HU02          | Ver beneficios clave para pacientes y médicos | Como visitante, quiero identificar cómo ChroniCare mejora la adherencia, previene emergencias y facilita el seguimiento clínico. | 2            |
+| 3       | HU03          | Leer testimonios de pacientes y médicos reales | Como visitante, quiero leer experiencias auténticas para generar confianza en la plataforma. | 2            |
+| 4       | HU04          | Entender el proceso de uso en 3 pasos simples | Como visitante, quiero ver cómo funciona ChroniCare: registrar, recibir alertas, comunicarme con mi médico. | 3            |
+| 5       | HU05          | Resolver dudas frecuentes sin contactar soporte | Como visitante, quiero encontrar respuestas claras sobre privacidad, dispositivos compatibles y costos. | 3            |
+| 6       | HU06          | Conocer planes de precios para pacientes e instituciones | Como visitante, quiero comparar la versión gratuita y premium, y entender los planes B2B para clínicas. | 3            |
+| 7       | HU07          | Conocer quiénes están detrás de ChroniCare | Como visitante, quiero saber que el equipo tiene experiencia en salud digital y está comprometido con el cuidado del paciente. | 2            |
+| 8       | HU08          | Comprender cómo se protegen mis datos de salud | Como visitante, quiero saber que mis datos están cifrados y que solo yo decido con quién los comparto. | 1            |
+| 9       | HU31          | Ver sellos de confianza o certificaciones en la landing | Como visitante, quiero ver sellos de seguridad o alianzas con instituciones de salud para confiar en la plataforma. | 2            |
+| 10      | HU32          | Ver casos de éxito o estadísticas de impacto clínico | Como visitante, quiero ver datos reales como “40% más de adherencia” para entender el impacto real de ChroniCare. | 2            |
+| 11      | HU34          | Ver botón de “Ver Demo” o “Probar sin registro” | Como visitante, quiero probar la plataforma sin registrarme, para entender cómo funciona antes de comprometerme. | 3            |
+| 12      | HU35          | Recibir notificación de cookies y consentimiento claro | Como visitante, quiero ser informado sobre el uso de cookies y dar mi consentimiento explícito. | 1            |
+| 13      | HU36          | Ver enlaces a redes sociales y canales de soporte | Como visitante, quiero ver íconos de redes y enlaces de soporte para contactar o seguir actualizaciones. | 1            |
+| 14      | HU37          | Ver versión accesible para personas con discapacidad visual | Como visitante con discapacidad visual, quiero que la landing sea compatible con lectores de pantalla. | 3            |
+| 15      | HU38          | Ver carga rápida y optimizada en móviles con conexión lenta | Como visitante con conexión limitada, quiero que la landing cargue rápido y funcione sin problemas. | 3            |
+| 16      | HU09          | Navegar entre secciones sin perderme | Como visitante, quiero moverme fácilmente entre “Para Pacientes”, “Para Médicos” y “Precios”. | 2            |
+| 17      | HU10          | Contactar a soporte desde la web | Como visitante, quiero resolver mis dudas antes de registrarme mediante un formulario o chat. | 2            |
+
+### Estado Final del Sprint 1
+
+Todos los Work Items han sido completados y verificados. La **Landing Page de ChroniCare** está lista para:
+
+- **Publicación en producción** (despliegue en Netlify o dominio oficial).
+- **Pruebas de usabilidad con pacientes y médicos reales** para validar claridad, confianza y conversión.
+- **Retroalimentación estructurada** para priorizar funcionalidades en el siguiente sprint (Sprint 2).
+
+> **Enlace al tablero de Kanban (Trello):**  
+> https://trello.com/b/O57EUYog/chroni-caree-open
+
+Este sprint ha sentado las bases para el crecimiento de ChroniCare, asegurando que el primer punto de contacto con pacientes, médicos e instituciones de salud sea **claro, empático, profesional y centrado en el valor clínico real**: mejorar la adherencia, prevenir complicaciones y fortalecer la comunicación médico-paciente.
+
+
 ### 5.2.1.4. Development Evidence for Sprint Review.
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
+
+En este sprint, se completó el desarrollo del landing page, al ser landing page no se requiere de documentación de servicios.
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review.
 ### 5.2.1.8. Team Collaboration Insights during Sprint.

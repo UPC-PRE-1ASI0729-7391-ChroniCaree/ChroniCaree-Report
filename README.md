@@ -686,6 +686,11 @@ Los diagramas de wireflow para aplicaciones web son representaciones visuales qu
 
 ## 4.5. Web Applications Prototyping.
 
+Prototipo de la aplicación web ChroniCare en figma:
+
+https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t=Ib9FkdgFfRiJHozE-0
+
+
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
 <img src="Assetsimgchapter-4/DiagramaContexto.jpeg">

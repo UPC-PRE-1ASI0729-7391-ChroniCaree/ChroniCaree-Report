@@ -473,6 +473,8 @@ Profesionales de la salud encargados de diagnosticar, monitorear y tratar a los 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 
+Un **Style Guideline** es un conjunto de reglas y lineamientos que definen los estándares a seguir en la redacción, diseño y presentación de documentos, contenido digital, software u otros productos creativos. A continuación, se describen de manera detallada las especificaciones de los parámetros aplicados en la estructura del proyecto.
+
 ### 4.1.1. General Style Guidelines.
 
 ### 4.1.2. Web Style Guidelines.

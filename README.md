@@ -1319,7 +1319,7 @@ Este ejercicio permite construir un **landscape visual de alto nivel** del negoc
 
 ![Big Picture Event Storming](Assets/img/chapter-2/big_event_storming.png)
 
-[Ver Big Picture Event Storming]([https://www.genome.gov/](https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011))
+link: https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011
 
 ## 2.5. Ubiquitous Language
 

@@ -594,6 +594,18 @@ Estos elementos aseguran coherencia en motores de búsqueda y fortalecen la estr
 
 ### 4.2.4. Searching Systems.
 
+La aplicación web de ChroniCare ofrece sistemas de búsqueda diseñados para que pacientes y médicos encuentren la información de manera rápida y sin esfuerzo:
+
+-   Búsqueda en historial clínico: permite localizar registros de síntomas, cuidados o métricas específicas (glucosa, presión arterial, peso, etc.) por fecha o categoría.
+
+-   Filtros avanzados: por condición, rango de fechas, estado de alerta (normal, fuera de rango, crítico) y tipo de dispositivo conectado.
+
+-   Panel interactivo: médicos pueden aplicar filtros visuales en gráficos y seleccionar pacientes según evolución, riesgo o adherencia al tratamiento.
+
+-   Búsqueda en comunicaciones: posibilidad de filtrar mensajes y comentarios en el chat o en la teleconsulta por tema (medicación, síntomas, citas) o por remitente (paciente, médico).
+
+De esta manera se evita la sobrecarga de información, se mejora la eficiencia en la exploración de datos clínicos y se garantiza que cada rol acceda con rapidez a la información que necesita para la toma de decisiones.
+
 ### 4.2.5. Navigation Systems.
 
 ## 4.3. Landing Page UI Design.

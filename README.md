@@ -637,6 +637,14 @@ La interfaz de la landing page de ChroniCare es clave para el proyecto, pues con
 
 ### 4.3.1. Landing Page Wireframe.
 
+**Landing Page para Desktop Web Browser**
+
+![alt text](<Assetsimgchapter-4/Landing Page desktop.png>)  
+
+**Landing Page para Mobile Web Browse**
+
+![alt text](<Assetsimgchapter-4/Landing Page mobile.png>)
+
 ### 4.3.2. Landing Page Mock-up.
 
 

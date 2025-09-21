@@ -561,6 +561,18 @@ En ChroniCare se aplican distintos sistemas de organización según el tipo de c
 
 ### 4.2.2. Labeling Systems.
 
+El etiquetado en ChroniCare busca claridad, simplicidad y consistencia, usando palabras cortas, directas y comprensibles en todas las interfaces. Se emplea un mismo criterio entre landing page y aplicación para que los usuarios reconozcan fácilmente las secciones.
+-   Landing Page: Inicio, Servicios, Equipo, Testimonios, Contacto.
+
+-   Aplicación Web / Móvil: Síntomas, Alertas, Dispositivos, Medicación, Historial, Chat, Panel Médico, Administración.
+
+Además, los CTAs (Call To Action) se diseñan con verbos imperativos que invitan a la acción y transmiten confianza:
+-   Para pacientes: “Registrar síntomas”, “Conectar dispositivo”, “Programar recordatorio”.
+
+-   Para médicos: “Revisar métricas”, “Acceder evolución”, “Validar alerta”.
+
+De esta manera, los labels y CTAs facilitan la interacción rápida, reducen la ambigüedad y mantienen la coherencia con los objetivos clínicos y operativos de la plataforma.
+
 ### 4.2.3. SEO Tags and Meta Tags
 
 ### 4.2.4. Searching Systems.

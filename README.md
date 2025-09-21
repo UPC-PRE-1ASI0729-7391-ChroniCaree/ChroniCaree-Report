@@ -327,6 +327,44 @@ El mapa parte de un **Business Goal SMART** y desciende en niveles jerárquicos:
 ## 3.3. Product Backlog.
 
 
+El Product Backlog está ordenado según el **valor para el negocio**, priorizando la atracción, conversión y retención de usuarios. Las historias del Landing Page se ubican primero, seguidas de las funcionalidades clave para pacientes y médicos, y finalmente las técnicas y de soporte. La estimación se realiza en Story Points (Fibonacci: 1, 2, 3, 5, 8), considerando complejidad, esfuerzo y riesgo.
+
+
+| # Orden | User Story Id | Título | Descripción | Story Points |
+|---------|---------------|--------|-------------|--------------|
+| 1       | HU01          | Entender qué es ChroniCare desde la página principal | Como visitante, quiero comprender inmediatamente que ChroniCare me ayuda a monitorear mi enfermedad crónica diariamente, sin depender solo de consultas presenciales. | 3            |
+| 2       | HU02          | Ver beneficios clave para pacientes y médicos | Como visitante, quiero identificar cómo ChroniCare mejora la adherencia, previene emergencias y facilita el seguimiento clínico. | 2            |
+| 3       | HU03          | Leer testimonios de pacientes y médicos reales | Como visitante, quiero leer experiencias auténticas para generar confianza en la plataforma. | 2            |
+| 4       | HU04          | Entender el proceso de uso en 3 pasos simples | Como visitante, quiero ver cómo funciona ChroniCare: registrar, recibir alertas, comunicarme con mi médico. | 3            |
+| 5       | HU05          | Resolver dudas frecuentes sin contactar soporte | Como visitante, quiero encontrar respuestas claras sobre privacidad, dispositivos compatibles y costos. | 3            |
+| 6       | HU06          | Conocer planes de precios para pacientes e instituciones | Como visitante, quiero comparar la versión gratuita y premium, y entender los planes B2B para clínicas. | 3            |
+| 7       | HU07          | Conocer quiénes están detrás de ChroniCare | Como visitante, quiero saber que el equipo tiene experiencia en salud digital y está comprometido con el cuidado del paciente. | 2            |
+| 8       | HU08          | Comprender cómo se protegen mis datos de salud | Como visitante, quiero saber que mis datos están cifrados y que solo yo decido con quién los comparto. | 1            |
+| 9       | HU09          | Navegar entre secciones sin perderme | Como visitante, quiero moverme fácilmente entre “Para Pacientes”, “Para Médicos” y “Precios”. | 2            |
+| 10      | HU10          | Contactar a soporte desde la web | Como visitante, quiero resolver mis dudas antes de registrarme mediante un formulario o chat. | 2            |
+| 11      | HU11          | Registrarme como paciente | Como paciente, quiero crear mi cuenta para empezar a registrar mis síntomas y medicación. | 3            |
+| 12      | HU12          | Registrarme como médico | Como médico, quiero crear mi cuenta para empezar a monitorear a mis pacientes. | 3            |
+| 13      | HU13          | Verificar mi identidad con DNI y selfie | Como sistema, debo validar la identidad del paciente o médico mediante DNI y selfie para garantizar seguridad. | 5            |
+| 14      | HU14          | Mostrar indicador de "Usuario Verificado" | Como sistema, debo mostrar un distintivo de verificación en perfiles de pacientes y médicos validados. | 3            |
+| 15      | HU15          | Registrar mis síntomas y signos vitales diarios | Como paciente, quiero registrar mi estado diario para llevar un historial preciso y compartirlo con mi médico. | 3            |
+| 16      | HU16          | Recibir alertas personalizadas cuando mis valores están fuera de rango | Como paciente, quiero ser notificado si mi glucosa o presión arterial están anormales, para actuar a tiempo. | 5            |
+| 17      | HU17          | Programar y recibir recordatorios de medicación | Como paciente, quiero configurar horarios de toma y recibir notificaciones para no olvidar mis medicamentos. | 3            |
+| 18      | HU18          | Enviar mensajes o alertas a mi médico cuando algo no va bien | Como paciente, quiero comunicarme con mi médico desde la app para resolver dudas o reportar síntomas graves. | 3            |
+| 19      | HU19          | Conectar mis dispositivos médicos (glucómetro, tensiómetro) | Como paciente, quiero sincronizar mis dispositivos para que mis datos se registren automáticamente. | 5            |
+| 20      | HU20          | Actualizar mi perfil médico (peso, altura, diagnósticos) | Como paciente, quiero mantener mi perfil actualizado para que las alertas y recomendaciones sean precisas. | 3            |
+| 21      | HU21          | Acceder al historial clínico de mis pacientes en tiempo real | Como médico, quiero ver los últimos registros de síntomas, medicación y signos vitales de cada paciente. | 5            |
+| 22      | HU22          | Recibir alertas críticas priorizadas de mis pacientes | Como médico, quiero ser notificado solo cuando un paciente tiene valores peligrosos, para enfocar mi atención donde más se necesita. | 5            |
+| 23      | HU23          | Visualizar gráficos de evolución clínica (glucosa, presión, adherencia) | Como médico, quiero ver tendencias y comparar periodos para identificar progresos o retrocesos en el tratamiento. | 5            |
+| 24      | HU24          | Filtrar pacientes por condición clínica y nivel de riesgo | Como médico, quiero priorizar el seguimiento de pacientes con diabetes y alto riesgo, por ejemplo. | 3            |
+| 25      | HU25          | Enviar recomendaciones o ajustes de tratamiento desde la app | Como médico, quiero indicar cambios en la dosis o hábitos directamente en la plataforma, para que el paciente los reciba inmediatamente. | 3            |
+| 26      | HU26          | Exportar reportes clínicos en PDF para consultas | Como médico, quiero generar y descargar reportes con gráficos y evolución para discutirlos en consulta. | 3            |
+| 27      | HU27          | Calificar mi experiencia con la plataforma | Como paciente o médico, quiero dejar feedback para ayudar a mejorar ChroniCare. | 2            |
+| 28      | TS01          | API de Autenticación (Login/Register) | Como Developer, necesito una API segura para registro e inicio de sesión de pacientes y médicos. | 8            |
+| 29      | TS02          | API de Gestión de Registros Clínicos | Como Developer, necesito endpoints para crear, leer, actualizar y eliminar registros de síntomas, medicación y signos vitales. | 8            |
+| 30      | TS03          | API de Alertas y Notificaciones | Como Developer, necesito gestionar la lógica de alertas (normales y críticas) y notificaciones push/email. | 8            |
+| 31      | TS04          | API de Integración con Dispositivos Médicos | Como Developer, necesito conectar con APIs de glucómetros, tensiómetros y wearables compatibles. | 8            |
+| 32      | TS05          | API de Comunicación Paciente-Médico | Como Developer, necesito gestionar el envío y recepción de mensajes clínicos entre pacientes y médicos. | 5            |
+| 33      | TS06          | API de Reportes y Exportación | Como Developer, necesito endpoints para generar y exportar reportes clínicos en PDF. | 5            |
 
 
 

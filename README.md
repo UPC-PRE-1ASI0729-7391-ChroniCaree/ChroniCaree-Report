@@ -636,7 +636,229 @@ Antes de realizar las entrevistas profundas, se aplicó un formulario digital (G
 ### 2.2.2. Registro de entrevistas
 
 
+En este apartado se presenta una documentación detallada de cada entrevista realizada con los distintos segmentos objetivo identificados. Se ha recopilado información relevante que incluye el perfil del entrevistado, las respuestas proporcionadas durante la conversación, así como los hallazgos más destacados obtenidos a partir de sus opiniones y experiencias.
+
+> **Video de todas las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdSJhlxr6jxLmiYWVuHKKuQBc47NmPq1z6p2JyT-71hEhA?e=WGaeMs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+---
+
+## Segmento 1: Pacientes con enfermedades crónicas
+
+### Entrevistado 1: Alisa Goicochea
+**Edad:** 21 años  
+**Ocupación:** Diseñadora gráfica freelance  
+**Distrito:** Miraflores  
+**Dispositivos utilizados:** iPhone, MacBook  
+**Navegador habitual:** Safari  
+**Enfermedad crónica:** Esclerosis Múltiple (diagnóstico hace 2 años)  
+
+![Entrevista 1](assets/img/chapter-2/entrevista%201.png)
+
+**Instante en el que inicia:** 0:00  
+**Duración de la entrevista:** 3:24 min
+
+#### Resumen:
+Alisa es una joven creativa, digital native y autogestiva. Maneja su enfermedad con herramientas digitales y comunidades en línea. Aunque su vida profesional es intensa, ha aprendido a integrar el autocuidado mediante apps y redes sociales. Su mayor frustración: que la gente minimice su condición porque “no se ve”.
+
+#### Personalidad y Comportamiento:
+- Creativa, introspectiva, con sentido del humor ácido.
+- Usa metáforas cotidianas para describir su salud (“modo flow”, “día pesado”).
+- Valora la autonomía: “Quiero entender mi cuerpo sin que un formulario me juzgue”.
+
+#### Tecnología y Canales de Interacción:
+- Usa **HealthKit** y **Notion** como diario de síntomas con emojis y lenguaje personal.
+- **TikTok** como fuente de empatía y aprendizaje (ve casos similares).
+- **Safari** por integración nativa con su ecosistema Apple.
+- Odia los formularios clínicos rígidos: “Quiero hablarle a la app, no llenar casillas”.
+
+#### Hallazgos clave para arquetipo:
+- Necesita una app con **IA conversacional** que entienda lenguaje natural (“hoy me siento pesada”).
+- Prioriza **diseño estético, dark mode y privacidad** sobre funcionalidades médicas complejas.
+- Dispuesta a pagar **hasta S/30/mes** si la app se siente “cool, no clínica”.
+- Quiere **compartir datos con su médico solo si ella lo decide**.
+
+---
+
+### Entrevistado 2: Claudia Sifuentes
+**Edad:** 24 años  
+**Ocupación:** Camarera + Estudiante de Nutrición (UPC)  
+**Distrito:** Villa El Salvador  
+**Dispositivos utilizados:** iPhone  
+**Navegador habitual:** Chrome  
+**Enfermedad crónica:** Asma persistente  
+
+![Entrevista 2](assets/img/chapter-2/entrevista%202.png)
+
+
+**Instante en el que inicia:** 3:24  
+**Duración de la entrevista:** 2:47 min
+
+#### Resumen:
+Claudia es práctica, resiliente y con fuerte sentido de autoprotección. Maneja su asma con herramientas simples pero efectivas, y depende de su red de apoyo (grupo de WhatsApp, farmacéutica). Su mayor miedo: quedarse sin inhalador en un entorno hostil.
+
+#### Personalidad y Comportamiento:
+- Directa, concreta, sin dramatismos.
+- Usa frases de acción: “mando un ‘estoy mal’”, “llamo a mi hermano”.
+- Valora lo funcional sobre lo formal: “Si no funciona sin datos, no sirve”.
+
+#### Tecnología y Canales de Interacción:
+- Usa **Respira (MINSA)**, **WhatsApp con farmacéutica** y **TikTok** para tips.
+- Registra síntomas en **Notas del iPhone** con contexto real (“Hoy en el mercado → tos fuerte”).
+- **Chrome** solo para búsquedas puntuales (recetas, yoga).
+- Desconfía de apps que piden “demasiados permisos”.
+
+#### Hallazgos clave para arquetipo:
+- Necesita **alertas contextuales** (“hay polen en tu zona”, “lleva inhalador”).
+- Requiere **modo offline** y bajo consumo de datos.
+- Valora la posibilidad de **compartir estado con familiares de forma selectiva**.
+- Límite de pago: **S/10/mes**, pero “si evita ir al hospital, vale la pena”.
+
+---
+
+### Entrevistado 3: Mauricio Salas
+**Edad:** 23 años  
+**Ocupación:** Estudiante de Enfermería (UPCH)  
+**Distrito:** Lince  
+**Dispositivos utilizados:** iPhone  
+**Navegador habitual:** Chrome  
+**Enfermedad crónica:** Diabetes tipo 1  
+
+![Entrevista 3](assets/img/chapter-2/entrevista%203.png)
+
+
+**Instante en el que inicia:** 6:34  
+**Duración de la entrevista:** 2:46 min
+
+#### Resumen:
+Mauricio es un paciente proactivo, con mentalidad clínica por su carrera. Usa tecnología de punta (sensor continuo, MySugr) pero exige que las apps sean divertidas, no solo funcionales. Su mayor riesgo: hipoglucemias en entornos sociales.
+
+#### Personalidad y Comportamiento:
+- Irreverente, con humor autocrítico (“Fue épico”).
+- Técnico pero emocional: quiere stickers y memes, no solo gráficos de glucosa.
+- Usa la tecnología como red de seguridad social (“mi novia recibe alertas”).
+
+#### Tecnología y Canales de Interacción:
+- **MySugr** como app principal, con integración de alertas a su pareja.
+- **Telegram** para comunidad de apoyo (“Diabéticos Jóvenes Perú”).
+- **Chrome** solo para búsquedas serias; el 90% de su gestión es por apps.
+- Rechaza apps que “no tienen dark mode” o “te tratan como paciente débil”.
+
+#### Hallazgos clave para arquetipo:
+- Exige **integración con dispositivos médicos** (sensores, bombas).
+- Quiere **alertas predictivas** (“vas a tener hipoglucemia en clase de bioquímica”).
+- Valora el **diseño gamificado** (stickers, logros, memes).
+- Dispuesto a pagar **hasta S/20/mes** si la app es “buena y no aburrida”.
+
+---
+
+## Segmento 2: Médicos y personal médico
+
+### Entrevistado 4: Mathias Peña
+**Edad:** 25 años  
+**Ocupación:** Médico internista (recién egresado)  
+**Distrito:** Lince  
+**Dispositivos utilizados:** iPhone, Laptop  
+**Navegador habitual:** Chrome  
+
+![Entrevista 4](assets/img/chapter-2/entrevista%204.png)
+
+
+**Instante en el que inicia:** 9:21  
+**Duración de la entrevista:** 3:28 min
+
+#### Resumen:
+Matías representa a la nueva generación de médicos: digital, pragmático y enfocado en eficiencia. Usa herramientas no oficiales (Google Sheets) porque los sistemas hospitalarios son lentos. Cree firmemente en la prevención proactiva.
+
+#### Personalidad y Comportamiento:
+- Analítico, orientado a resultados, con visión de sistema.
+- Usa analogías de costos: “Un paciente en urgencias cuesta S/800, una app S/10”.
+- Cree en la tecnología como inversión, no gasto.
+
+#### Tecnología y Canales de Interacción:
+- Usa **Google Sheets** para seguimiento de pacientes (porque el sistema hospitalario es lento).
+- **WhatsApp** para emergencias, **correo institucional** para formalidades.
+- **Chrome** por versatilidad y velocidad.
+- Valora **alertas automatizadas** (“paciente X no habló en 2 horas”).
+
+#### Hallazgos clave para arquetipo:
+- Necesita **alertas inteligentes y priorizadas**.
+- Quiere **integración mínima con sistemas hospitalarios**.
+- Considera que **los hospitales deben pagar la app** (ROI claro: evita hospitalizaciones).
+- Dispuesto a adoptar si reduce carga administrativa y mejora toma de decisiones.
+
+---
+
+### Entrevistado 5: Ana López
+**Edad:** No especificada (médico con 5 años de experiencia)  
+**Ocupación:** Médico de Medicina Interna (hospital público)  
+**Distrito:** No especificado  
+**Dispositivos utilizados:** Computadora hospitalaria, celular  
+**Navegador habitual:** Chrome (con restricciones institucionales)
+
+![Entrevista 5](assets/img/chapter-2/Entrevista%205.png)
+
+
+**Instante en el que inicia:** 12:49  
+**Duración de la entrevista:** 9:10 min
+
+#### Resumen:
+Ana es una profesional experimentada en entorno público, donde la burocracia y la fragmentación de sistemas son la norma. Maneja información dispersa (papel, Excel, sistema electrónico) y valora soluciones que unifiquen y prioricen.
+
+#### Personalidad y Comportamiento:
+- Metódica, con lenguaje técnico preciso (“umbrales de alerta”, “tendencias semanales”).
+- Frustrada por la “información dispersa” y el “tiempo limitado en consulta”.
+- Orientada a protocolos y evidencia.
+
+#### Tecnología y Canales de Interacción:
+- Usa **historia clínica electrónica institucional**, **Excel** y **documentos en papel**.
+- **Chrome** (aunque con restricciones del hospital).
+- Comunicación con pacientes: **teleconsulta y llamadas** (evita mensajería personal).
+- Valora umbrales clínicos claros: glucosa >250 mg/dL, presión >160/100 mmHg.
+
+#### Hallazgos clave para arquetipo:
+- Necesita **umbrales de alerta personalizables y basados en guías clínicas**.
+- Requiere **integración con sistemas hospitalarios existentes** (aunque sean básicos).
+- Valora **reportes visuales y exportables** (PDF, gráficos de tendencia).
+- Mayor barrera: **brecha digital de pacientes y tiempo clínico limitado**.
+
+---
+
+### Entrevistado 6: Daniela Arana
+**Edad:** No especificada (enfermera con 3 años de experiencia)  
+**Ocupación:** Licenciada en Enfermería (Medicina Interna)  
+**Distrito:** No especificado  
+**Dispositivos utilizados:** Computadora hospitalaria, iPhone  
+**Navegador habitual:** Chrome  
+
+![Entrevista 6](assets/img/chapter-2/entrevista%206.png)
+
+**Instante en el que inicia:** 23:16  
+**Duración de la entrevista:** 4:37 min
+
+#### Resumen:
+Daniela es una enfermera empática, orientada al acompañamiento y la educación. Ve la tecnología como una herramienta para “evitar apagar incendios” y dedicar más tiempo a la prevención y el vínculo humano.
+
+#### Personalidad y Comportamiento:
+- Cálida, con enfoque en el paciente como persona.
+- Usa frases de cuidado: “evitar sufrimiento”, “acompañar en lugar de apagar incendios”.
+- Pragmática: adoptaría la app si es “fácil de usar y me ayuda en el trabajo”.
+
+#### Tecnología y Canales de Interacción:
+- Usa **sistema hospitalario básico**, **WhatsApp con colegas y familiares de pacientes**.
+- **Chrome** en todos sus dispositivos.
+- Valora **registro simple de signos vitales** y **alertas automáticas**.
+
+#### Hallazgos clave para arquetipo:
+- Necesita una app **móvil-first, intuitiva y rápida de usar en entornos clínicos**.
+- Funcionalidades esenciales: **registro de signos vitales, alertas, recordatorios de medicación**.
+- Valora **reportes fáciles de leer para pacientes y familiares**.
+- Disposición a adoptar si reduce carga y mejora resultados.
+
+---
+
 ### 2.2.3. Análisis de Entrevistas
+
+
 
 
 ## 2.3. Needfinding

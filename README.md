@@ -575,23 +575,6 @@ De esta manera, los labels y CTAs facilitan la interacción rápida, reducen la 
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-Se han definido meta elementos para mejorar el posicionamiento SEO tanto en la landing page como en la aplicación web:
-
-- **Title (Landing Page):** ChroniCare | Transformando el cuidado de enfermedades crónicas.
-
-
-- **Meta Description:** ChroniCare es una plataforma digital que conecta pacientes y médicos para mejorar la adherencia al tratamiento, simplificar el seguimiento y prevenir complicaciones en enfermedades crónicas.
-
-
-- **Meta Keywords:** salud crónica, monitoreo de pacientes, enfermedades crónicas, diabetes, hipertensión, EPOC, telemedicina, recordatorios de medicación, dispositivos médicos, salud digital.
-
-
-- **Author:** Equipo Chronisys – Startup ChroniCare
-
-
-Estos elementos aseguran coherencia en motores de búsqueda y fortalecen la estrategia de atracción de usuarios al resaltar el valor diferencial de la plataforma en salud digital.
-
-
 ### 4.2.4. Searching Systems.
 
 ### 4.2.5. Navigation Systems.

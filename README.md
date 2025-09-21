@@ -608,7 +608,6 @@ La interfaz de la landing page de ChroniCare es clave para el proyecto, pues con
 
 ### 4.3.1. Landing Page Wireframe.
 
-
 **Landing Page para Desktop Web Browser**
 
 ![alt text](<Assetsimgchapter-4/Landing Page desktop.png>)  
@@ -619,11 +618,7 @@ La interfaz de la landing page de ChroniCare es clave para el proyecto, pues con
 
 ### 4.3.2. Landing Page Mock-up.
 
-Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
 
-![alt text](Assetsimgchapter-4/LandingPage.1.png)
-
-![alt text](Assetsimgchapter-4/LandingPage.1.2.png)
 
 ## 4.4. Web Applications UX/UI Design.
 

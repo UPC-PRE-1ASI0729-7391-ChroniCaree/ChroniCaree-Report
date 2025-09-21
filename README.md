@@ -660,6 +660,19 @@ El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplic
 
 ### 4.4.1. Web Applications Wireframes.
 
+**Web applications wireframes desktop:**
+
+![alt text](<Assetsimgchapter-4/wireframes desktop 1.png>)
+
+![alt text](<Assetsimgchapter-4/wireframes desktop 2.png>)
+
+![alt text](<Assetsimgchapter-4/wireframes desktop 3.png>)
+
+**Web applications wireframes mobile:**
+
+![alt text](<Assetsimgchapter-4/wireframes mobile 1.png>)
+
+![alt text](<Assetsimgchapter-4/wireframes mobile 2.png>)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 

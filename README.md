@@ -473,6 +473,8 @@ Profesionales de la salud encargados de diagnosticar, monitorear y tratar a los 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.
 
+Un **Style Guideline** es un conjunto de reglas y lineamientos que definen los estándares a seguir en la redacción, diseño y presentación de documentos, contenido digital, software u otros productos creativos. A continuación, se describen de manera detallada las especificaciones de los parámetros aplicados en la estructura del proyecto.
+
 ### 4.1.1. General Style Guidelines.
 
 ### 4.1.2. Web Style Guidelines.
@@ -510,18 +512,27 @@ Profesionales de la salud encargados de diagnosticar, monitorear y tratar a los 
 
 ## 4.6. Domain-Driven Software Architecture.
 ### 4.6.1. Software Architecture Context Diagram.
+<img src="Assetsimgchapter-4/DiagramaContexto.jpeg">
 
 ### 4.6.2. Software Architecture Container Diagrams.
+<img src="Assetsimgchapter-4/DiagramaContainer.jpeg">
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
+<img src="Assetsimgchapter-4/DiagramaComponentesBDAnalytics.jpeg">
+
+<img src="Assetsimgchapter-4/DiagramaComponentesBDCare.jpeg.jpeg">
+
+<img src="Assetsimgchapter-4/DiagramaComponentesBDHandling.jpeg.jpeg">
+
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
-
+<img src="Assetsimgchapter-4/Class Diagram.png">
 ### 4.7.2. Class Dictionary.
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
+<img src="Assetsimgchapter-4/db Diagram.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.

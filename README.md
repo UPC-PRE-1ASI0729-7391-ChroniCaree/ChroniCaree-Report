@@ -1312,7 +1312,11 @@ Los Empathy Maps confirman que:
 Ambos mapas convergen en un punto clave: **la comunicación asincrónica y los datos fragmentados generan ansiedad, desconfianza y riesgos evitables**. ChroniCare tiene la oportunidad de cerrar esa brecha, ofreciendo una experiencia coherente, humana y proactiva para ambos lados del cuidado.
 
 
-### 2.4. Big Picture Event Storming
+## 2.4. Big Picture Event Storming
+
+En esta sección, el equipo introducirá y resumirá el proceso colaborativo de **Big Picture Event Storming**, una técnica visual y dinámica utilizada para explorar y comprender el dominio del negocio en su conjunto. Durante una sesión grupal, los participantes identifican y mapean los **eventos significativos** que ocurren en el flujo de valor de ChroniCare —desde que un paciente inicia su seguimiento hasta que un médico toma decisiones basadas en datos—, así como las relaciones entre actores, procesos, reglas y posibles puntos de dolor u oportunidad.
+
+Este ejercicio permite construir un **landscape visual de alto nivel** del negocio, alineando a todos los stakeholders (médicos, pacientes, diseñadores, desarrolladores) en un lenguaje común y exponiendo áreas críticas para la innovación, la automatización o la mejora de procesos. Sirve como base para tomar decisiones estratégicas complejas, como definir el alcance del MVP, priorizar funcionalidades o estructurar equipos de desarrollo.
 
 
 
@@ -1341,8 +1345,6 @@ Todos los términos están en inglés (idioma estándar en desarrollo de product
 | **Care Coordination** (Coordinación del cuidado) | Proceso de comunicación y colaboración entre distintos actores (médico, enfermera, nutricionista, cuidador) para garantizar que el paciente reciba un cuidado integral y sin duplicidades. ChroniCare facilita esta coordinación con reportes compartidos. |
 | **Preventive Care** (Cuidado preventivo) | Acciones orientadas a evitar complicaciones o emergencias antes de que ocurran, mediante monitoreo temprano, educación y adherencia. Es el objetivo principal de ChroniCare. |
 | **Health Literacy** (Alfabetización en salud) | Capacidad del paciente para entender información sobre su salud, tratamiento y cómo usar herramientas digitales. ChroniCare diseña interfaces simples y usa lenguaje claro para mejorarla. |
-
-
 
 
 # Capítulo III: Requirements Specification

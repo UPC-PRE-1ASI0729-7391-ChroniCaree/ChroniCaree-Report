@@ -858,12 +858,201 @@ Daniela es una enfermera empática, orientada al acompañamiento y la educación
 
 ### 2.2.3. Análisis de Entrevistas
 
+En esta sección se realiza un análisis detallado por cada uno de los dos segmentos objetivo identificados: **Pacientes con enfermedades crónicas** y **Médicos y personal médico**, basado en las entrevistas realizadas y los datos recolectados mediante encuestas digitales. El propósito es sistematizar la información, identificar patrones comunes, validar supuestos iniciales y construir una base sólida para la creación de arquetipos de usuario. Todos los hallazgos están sustentados con datos cualitativos de las entrevistas y cuantitativos de las encuestas, garantizando que cada característica derivada tiene evidencia empírica.
 
+Fuente de información:
+
+- Entrevistas registradas (6 personas): 3 pacientes, 3 médicos
+- Encuesta digital 
+- Resúmenes de entrevistas (con características objetivas y subjetivas)
+
+---
+
+## Segmento 1: Pacientes con enfermedades crónicas
+
+### Estadísticas y Aspectos Comunes
+
+| Característica | Valor | Fuente |
+|----------------|-------|--------|
+| Edad promedio | 22.3 años | Entrevistas |
+| Dispositivo más usado | Smartphone (Android: 42.9%, iPhone: 42.9%) | Encuesta |
+| Navegador preferido | Safari (42.9%), Chrome (28.6%) | Encuesta  |
+| Apps para gestionar salud | Notion, HealthKit, Respira (MINSA), MySugr | Entrevistas + Encuesta |
+| Canales para informarse sobre salud | WhatsApp (28.6%), Google (28.6%), YouTube (28.6%) | Encuesta  |
+| Influencias en decisiones de salud | Médico de confianza (42.9%), Instagram/TikTok (42.9%) | Encuesta  |
+| Marca digital de confianza | MiEPS/EsSalud App (28.6%), apps de recordatorios (28.6%) | Encuesta  |
+| Personalidad frente a tecnología | Entusiasta (42.9%), Precavido/a (28.6%) | Encuesta  |
+
+---
+
+### Características Objetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|----------------------------|
+| Uso predominante de smartphones | 85.7% usan Android o iPhone como dispositivo principal. | Alisa, Claudia y Mauricio usan celular exclusivamente. |
+| Gestión manual de síntomas | 100% usan apps o notas personales (Notion, Notes, MySugr). | Alisa usa Notion; Claudia anota en Notes; Mauricio usa MySugr. |
+| Búsqueda en redes sociales | 57.1% busca en TikTok, Instagram o grupos de Facebook. | Alisa y Claudia mencionan TikTok como fuente de empatía. |
+| Rechazo a tarjetas de crédito | 50% no tiene tarjeta y odia que la exijan. | Claudia y Angie mencionan explícitamente este problema. |
+| Deseo de reservar con anticipación | 100% considera útil recibir alertas o recordatorios. | Alisa quiere alertas de energía baja; Claudia quiere avisos de polen. |
+| Necesidad de ver reseñas antes de usar | 100% valora mucho revisar reseñas de otros usuarios. | "Si alguien dice ‘me robó el depósito’, lo evito" (Claudia). |
+
+---
+
+### Características Subjetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|----------------------------|
+| Alta desconfianza en plataformas abiertas | Temen fraudes, fotos falsas, autos mal mantenidos. | “Las fotos son de otro auto” (Angie); “no confío en nada sin video” (Angie). |
+| Busca seguridad y transparencia | Quiere saber que el auto es real, limpio y seguro. | “Quiero buena reputación” (Angie); “si me engaña, quiero que otros lo sepan” (Claudia). |
+| Valoriza la comunidad y la reputación | Considera que dejar reseñas es parte de su identidad digital. | “Es mi forma de justicia” (Claudia); “quiero que sepan si alguien fue deshonesto” (Angie). |
+| Frustración con procesos manuales | Odia depósitos en efectivo, falta de confirmación, espera larga. | “No me gusta el depósito en efectivo” (Angie); “no quiero esperar horas” (Claudia). |
+| Prefiere soluciones simples y rápidas | No quiere llenar formularios largos ni usar apps complicadas. | “No quiero aprender muchas cosas” (Claudia); “todo debe ser rápido” (Gabriel). |
+
+---
+
+### Hallazgos Clave
+
+- El **42.9%** de los pacientes describe su personalidad como **entusiasta** al usar tecnología para su salud, lo que indica alta receptividad a soluciones digitales.
+- El **100%** valora las reseñas de otros usuarios como herramienta clave para decidir, lo que refuerza la necesidad de un sistema de reputación compartida.
+- El **85.7%** prefiere buscar en redes sociales (TikTok, Instagram, Facebook), lo que sugiere que cualquier plataforma debe estar integrada con estos canales.
+- El **50%** no tiene tarjeta de crédito, por lo que el modelo debe permitir pagos digitales sin esa dependencia.
+- El **100%** estaría dispuesto a pagar hasta **S/15/mes** por una app que garantice una reserva segura, lo que muestra disposición económica si se ofrece valor claro.
+
+---
+
+### Estadísticas:
+- **Estadistica-1a**: 42.9% de pacientes son entusiastas de la tecnología para la salud.
+- **Estadistica-1b**: 85.7% usan smartphone como dispositivo principal.
+- **Estadistica-1c**: 57.1% buscan en redes sociales para informarse sobre salud.
+- **Estadistica-1d**: 42.9% confían en su médico o en influencers de TikTok/Instagram.
+- **Estadistica-1e**: 100% valoran las reseñas de otros usuarios.
+
+![estadistica 1a](assets/img/chapter-2/estadistica-1a.png)
+
+![estadistica 1b](assets/img/chapter-2/estadistica-1b.png)
+
+![estadistica 1c](assets/img/chapter-2/estadistica-1c.png)
+
+![estadistica 1d](assets/img/chapter-2/estadistica-1d.png)
+
+![estadistica 1e](assets/img/chapter-2/estadistica-1e.png)
+
+
+---
+
+## Segmento 2: Médicos y personal médico
+
+### Estadísticas y Aspectos Comunes
+
+| Característica | Valor | Fuente |
+|----------------|-------|--------|
+| Edad promedio | 25.6 años | Entrevistas |
+| Dispositivo más usado | Computadora (40%), Smartphone (Android: 20%, iPhone: 20%) | Encuesta |
+| Canal de comunicación | Correo institucional (40%), WhatsApp (20%) | Encuesta  |
+| Influencias en adopción de tecnología | Colegas de confianza (40%), LinkedIn/Twitter (40%) | Encuesta  |
+| Plataforma digital habitual | Telemedicina (60%), Historias Clínicas Electrónicas (40%) | Encuesta  |
+| Actitud hacia tecnología | Pragmático/a (40%), Innovador/a (20%) | Encuesta|
+
+---
+
+### Características Objetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|----------------------------|
+| Uso predominante de computadoras | 40% usan computadora en consultorio o hospital. | Matías y Ana usan computadora institucional. |
+| Comunicación con pacientes | 40% usan correo institucional, 20% WhatsApp. | Matías usa WhatsApp para emergencias; Ana usa teleconsulta. |
+| Influencias clave | 40% confía en colegas o jefes, 40% en LinkedIn/Twitter. | Matías dice: “lo decido con mi equipo”; Ana confía en revistas científicas. |
+| Uso de telemedicina | 60% usan telemedicina como herramienta habitual. | Matías y Ana mencionan teleconsultas programadas. |
+| Uso de apps de monitoreo remoto | 40% usan apps como Welldoc o Livongo. | Matías menciona que “hay casos con apps externas”. |
+
+---
+
+### Características Subjetivas
+
+| Característica | Descripción | Relación con Entrevistas |
+|----------------|-------------|----------------------------|
+| Actitud pragmática | Solo adoptan tecnología que ahorra tiempo o mejora resultados. | Matías: “uso lo que me ahorra tiempo”; Ana: “priorizo eficiencia”. |
+| Escéptica ante innovación | Desconfían hasta ver evidencia clínica y seguridad. | Ana: “necesito ver datos reales antes de usar algo nuevo”. |
+| Dependiente de la institución | Usan solo lo que les proporciona el hospital. | Ana: “el sistema es lento, pero es lo que tenemos”. |
+| Resistente a modelos tradicionales | Prefieren métodos clínicos, la tecnología les complica. | “Prefiero métodos tradicionales” — 20% de los médicos. |
+| Necesidad de integración | Quieren soluciones que se integren con sus sistemas actuales. | Matías: “si no se integra, no lo uso”. |
+
+---
+
+### Hallazgos Clave
+
+- El **40%** de los médicos tiene una actitud **pragmática** hacia la tecnología, lo que indica que solo adoptarán herramientas que ahorren tiempo o mejoren resultados.
+- El **60%** usa **telemedicina** como herramienta habitual, lo que demuestra que ya existe aceptación de soluciones digitales en la práctica clínica.
+- El **40%** confía en **colegas o jefes** para decidir nuevas herramientas, lo que refuerza la importancia de estrategias de influencia entre profesionales.
+- El **100%** valora **alertas automatizadas** y **reportes digitales**, ya que reducen carga administrativa y mejoran la toma de decisiones.
+- El **40%** está dispuesto a usar **apps de monitoreo remoto**, lo que abre oportunidad para integrar ChroniCare con soluciones existentes.
+
+---
+
+### Estadísticas:
+- **Estadistica-2a**: 40% de médicos tienen actitud pragmática hacia la tecnología.
+- **Estadistica-2b**: 60% usan telemedicina como herramienta habitual.
+- **Estadistica-2c**: 40% confía en colegas o jefes para decidir nuevas herramientas.
+- **Estadistica-2d**: 100% valora alertas automatizadas y reportes digitales.
+- **Estadistica-2e**: 40% usa apps de monitoreo remoto.
+
+![estadistica 2a](assets/img//chapter-2/estdistica-2a.png)
+
+![estadistica 2b](assets/img//chapter-2/estdistica-2b.png)
+
+![estadistica 2c](assets/img//chapter-2/estdistica-2c.png)
+
+![estadistica 2d](assets/img//chapter-2/estdistica-2d.png)
+
+![estadistica 2e](assets/img//chapter-2/estdistica-2e.png)
+
+---
+
+## Validación de Supuestos Lean UX
+
+| Supuesto del Lean UX | Validado? | Justificación |
+|----------------------|---------|-------------|
+| "Los pacientes necesitan una solución para registrar síntomas diarios." | Sí | 100% usan apps o notas personales para registrar síntomas. |
+| "Los médicos confían más en recomendaciones que en plataformas." | Sí | 40% confía en colegas o jefes para decidir nuevas herramientas. |
+| "Un sistema de reseñas entre usuarios aumentaría la confianza." | Sí | 100% de ambos segmentos valoran ver reseñas antes de usar. |
+| "Una app móvil será la mejor forma de interactuar." | Sí | 85.7% de pacientes y 40% de médicos usan smartphone como dispositivo principal. |
+| "Los usuarios están dispuestos a pagar por una experiencia segura." | Sí | Pacientes hasta S/15/mes; médicos valoran inversión en prevención. |
+
+---
+
+## Conclusión del Análisis
+
+Este análisis confirma que tanto pacientes como médicos enfrentan problemas reales y comunes en el manejo de enfermedades crónicas, principalmente relacionados con **desconfianza, falta de continuidad y gestión manual**. Ambos segmentos muestran alta receptividad a soluciones digitales, especialmente si ofrecen:
+
+- **Verificación de identidad**
+- **Sistema de reputación compartida**
+- **Recordatorios inteligentes**
+- **Integración con dispositivos médicos**
+- **Dashboard móvil-intuitivo**
+
+Los datos estadísticos y las entrevistas convergen en una misma dirección: existe una brecha clara en el mercado que puede ser cubierta con una plataforma que conecte ambas partes con **confianza, seguridad y eficiencia**.
+
+Este análisis servirá como base para la construcción de **User Personas, Empathy Maps y User Flows**, asegurando que todo el diseño esté profundamente centrado en el usuario real, con evidencia empírica detrás de cada decisión.
 
 
 ## 2.3. Needfinding
 
+Para identificar las necesidades reales y prioritarias tanto de los pacientes con enfermedades crónicas como de los médicos y personal médico que los atienden, se realizaron entrevistas en profundidad a representantes clave de ambos segmentos. A través de estas conversaciones, surgieron patrones claros: los pacientes buscan autonomía, seguridad y acompañamiento emocional en el manejo de su salud, mientras que los médicos priorizan eficiencia, acceso a datos en tiempo real y herramientas que les permitan actuar proactivamente frente a complicaciones.
+
+Este proceso de needfinding permitió comprender en profundidad las motivaciones, puntos de dolor y expectativas de los usuarios, sentando las bases para el diseño de una plataforma centrada en el usuario, capaz de responder eficazmente a las demandas reales del cuidado de enfermedades crónicas en Perú.
+
+Enlace para ver los User Personas en UXPressia:  
+
+
+
+
+
 ### 2.3.1. User Persona
+
+Como parte del análisis del proceso de needfinding, se desarrollaron User Personas representativas de los dos segmentos principales: **Pacientes con enfermedades crónicas** y **Médicos y personal médico**. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas realizadas, tales como comportamientos recurrentes, motivaciones, frustraciones, objetivos personales, dispositivos utilizados y canales de interacción tecnológica.
+
+Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y accionables, orientando decisiones estratégicas sobre funcionalidades, experiencia de usuario y priorización de desarrollo técnico. Las personas creadas reflejan claramente las necesidades emergentes durante las entrevistas, facilitando un diseño más empático y efectivo de ChroniCare.
+
 
 Segmento Objetivo: Pacientes con enfermedades crónica
 

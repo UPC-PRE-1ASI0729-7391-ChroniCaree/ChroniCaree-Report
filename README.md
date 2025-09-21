@@ -1046,7 +1046,6 @@ Enlace para ver los User Personas en UXPressia:
 
 
 
-
 ### 2.3.1. User Persona
 
 Como parte del análisis del proceso de needfinding, se desarrollaron User Personas representativas de los dos segmentos principales: **Pacientes con enfermedades crónicas** y **Médicos y personal médico**. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas realizadas, tales como comportamientos recurrentes, motivaciones, frustraciones, objetivos personales, dispositivos utilizados y canales de interacción tecnológica.
@@ -1054,288 +1053,217 @@ Como parte del análisis del proceso de needfinding, se desarrollaron User Perso
 Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y accionables, orientando decisiones estratégicas sobre funcionalidades, experiencia de usuario y priorización de desarrollo técnico. Las personas creadas reflejan claramente las necesidades emergentes durante las entrevistas, facilitando un diseño más empático y efectivo de ChroniCare.
 
 
-Segmento Objetivo: Pacientes con enfermedades crónica
+Como parte del análisis del proceso de needfinding, se desarrollaron User Personas representativas de los dos segmentos principales: **Pacientes con enfermedades crónicas** y **Médicos y personal médico**. Estas personas sintetizan características clave obtenidas del análisis cualitativo de las entrevistas realizadas, tales como comportamientos recurrentes, motivaciones, frustraciones, objetivos personales, dispositivos utilizados y canales de interacción tecnológica.
 
-<img src="Assets/img/chapter-2/userpersona1.png" width="" alt="alt_text" title="image_tooltip">
+Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y accionables, orientando decisiones estratégicas sobre funcionalidades, experiencia de usuario y priorización de desarrollo técnico. Las personas creadas reflejan claramente las necesidades emergentes durante las entrevistas, facilitando un diseño más empático y efectivo de ChroniCare.
 
-Segmento Objetivo: Doctores y personal médico
+---
 
-<img src="Assets/img/chapter-2/userpersona2.png" width="" alt="alt_text" title="image_tooltip">
+### Persona 1: Paciente Autónoma Digital
 
-Segmento Objetivo: Administradores de instituciones de salud
+**Nombre:** Alisa Goicochea  
+**Edad:** 21 años  
+**Ocupación:** Diseñadora gráfica freelance  
+**Distrito:** Miraflores, Lima  
+**Perfil:** Joven emprendedora, digital native y autogestiva. Vive con esclerosis múltiple y maneja su condición con herramientas digitales, redes sociales y comunidades en línea. Valora la autonomía, la estética y la comunicación humana. Usa tecnología no como obligación, sino como extensión de su vida.
 
-<img src="Assets/img/chapter-2/userpersona3.png" width="" alt="alt_text" title="image_tooltip">
+![User persona 1](assets/img/chapter-2/Alisa%20Goicochea.png)
+
+#### Motivaciones:
+- Tener un control constante sobre su estado de salud sin depender de consultas presenciales.
+- Evitar situaciones de riesgo mediante alertas inteligentes y recordatorios personalizados.
+- Compartir su experiencia con otros pacientes y construir una comunidad de apoyo.
+- Usar una app que entienda su lenguaje natural (“hoy me siento pesada”) y no sea un formulario clínico aburrido.
+
+#### Frustraciones:
+- Que la gente minimice su enfermedad porque “no se ve”.
+- Olvidarse de tomar medicamentos cuando está concentrada en su trabajo.
+- Sentirse sola o desprotegida entre consultas.
+- Apps que piden demasiados permisos o no respetan su privacidad.
+
+#### Objetivos:
+- Registrar sus síntomas diariamente con facilidad y sin estrés.
+- Recibir alertas contextuales (“tu energía está baja”, “hay polen en tu zona”).
+- Compartir datos con su médico solo si ella decide hacerlo.
+- Encontrar una app que sea “cool”, privada y no se parezca a una app de seguros.
+- Sentirse entendida, no juzgada.
+
+
+---
+
+### Persona 2: Médico Pragmático y Empático
+
+**Nombre:** Matías Peña  
+**Edad:** 25 años  
+**Ocupación:** Médico internista recién egresado  
+**Distrito:** Lince, Lima  
+**Perfil:** Profesional joven, pragmático y orientado a resultados. Atiende a más de 50 pacientes crónicos por semana en un hospital público. Cree firmemente en la prevención proactiva y en el uso de tecnología como herramienta de eficiencia, no como distracción. Usa Google Sheets para gestionar pacientes porque el sistema institucional es lento.
+
+![User persona 2](assets/img/chapter-2/Matías%20Peña.png)
+
+#### Motivaciones:
+- Reducir el número de emergencias por falta de adherencia terapéutica.
+- Tener acceso a datos en tiempo real para actuar antes de que ocurra una crisis.
+- Priorizar casos de alto riesgo y evitar hospitalizaciones innecesarias.
+- Ahorrar tiempo en la gestión administrativa y dedicarlo al cuidado humano.
+
+#### Frustraciones:
+- Que los pacientes no reporten nada hasta que están en crisis.
+- Información dispersa entre papel, Excel y sistemas electrónicos lentos.
+- Falta de tiempo en consulta para educación y seguimiento estructurado.
+- Que las apps no se integren con los sistemas hospitalarios existentes.
+
+#### Objetivos:
+- Recibir alertas automáticas cuando un paciente no reporta en 2 horas o tiene valores peligrosos.
+- Ver tendencias de glucosa, presión o adherencia en un dashboard visual.
+- Exportar reportes rápidamente para compartir con colegas o familiares.
+- Adoptar una solución que reduzca su carga y mejore la calidad del cuidado.
+- Convencer a su hospital de implementar la herramienta, ya que cree que es una inversión que evita costos mayores.
 
 ### 2.3.2. User Task Matrix
 
-Segmento Objetivo: Pacientes adultos mayores
+En esta sección se presenta el **User Task Matrix**, una herramienta que identifica y prioriza las tareas que los **User Personas** representantes de cada segmento objetivo realizan para cumplir sus objetivos de salud, independientemente de la existencia de una solución tecnológica. Es fundamental no confundir *tareas* (acciones que el usuario realiza en su contexto real) con *funcionalidades de software* (soluciones que podrían facilitar esas tareas).
 
-<table>
-  <tr>
-   <td><strong>User Task</strong>
-   </td>
-   <td><strong>Frecuencia</strong>
-   </td>
-   <td><strong>Importancia</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Iniciar sesión
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Registrar signos vitales (PA, glucosa, etc.)
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Responder cuestionario de síntomas
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Ver recordatorios de medicación
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Confirmar toma de medicamentos
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Consultar historial de salud propio
-   </td>
-   <td>Rare
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Ver alertas o recomendaciones
-   </td>
-   <td>Multiple
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Comunicar síntomas preocupantes
-   </td>
-   <td>Rare
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Cerrar sesión
-   </td>
-   <td>Rare
-   </td>
-   <td>Low
-   </td>
-  </tr>
-</table>
+Se consideran dos segmentos principales:  
+- **Alisa Goicochea** (Paciente adulta joven con enfermedad crónica la cual representa a pacientes adultos mayores en contexto de autocuidado digital).  
+- **Mathias Peña** (Médico internista el cual representa a doctores y personal médico en entornos hospitalarios).
 
-Segmento Objetivo: Doctores y personal médico
+Cada tarea se evalúa en dos dimensiones:  
+- **Frecuencia**: ¿Con qué regularidad se realiza? (Multiple = varias veces al día/semana; Rare = ocasionalmente; One-time = una sola vez).  
+- **Importancia**: ¿Qué impacto tiene en el logro de sus objetivos? (High = crítica; Medium = relevante; Low = secundaria).
 
-<table>
-  <tr>
-   <td><strong>User Task</strong>
-   </td>
-   <td><strong>Frecuencia</strong>
-   </td>
-   <td><strong>Importancia</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Iniciar sesión
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Revisar panel de pacientes
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Filtrar pacientes por riesgo
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Consultar historial clínico
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Revisar alertas críticas
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Generar reportes automáticos
-   </td>
-   <td>Rare
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Actualizar plan de tratamiento
-   </td>
-   <td>Rare
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Programar cita de control
-   </td>
-   <td>Rare
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Cerrar sesión
-   </td>
-   <td>Rare
-   </td>
-   <td>Low
-   </td>
-  </tr>
-</table>
 
-Segmento Objetivo: Administradores de instituciones de salud
 
-<table>
-  <tr>
-   <td><strong>User Task</strong>
-   </td>
-   <td><strong>Frecuencia</strong>
-   </td>
-   <td><strong>Importancia</strong>
-   </td>
-  </tr>
-  <tr>
-   <td>Iniciar sesión
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Revisar panel general de pacientes
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Monitorear indicadores operativos
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Consultar reportes consolidados
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Ver alertas de eventos críticos
-   </td>
-   <td>Multiple
-   </td>
-   <td>High
-   </td>
-  </tr>
-  <tr>
-   <td>Gestionar usuarios (médicos/pacientes)
-   </td>
-   <td>Rare
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Exportar informes para familiares
-   </td>
-   <td>Rare
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Configurar parámetros del sistema
-   </td>
-   <td>Rare
-   </td>
-   <td>Medium
-   </td>
-  </tr>
-  <tr>
-   <td>Cerrar sesión
-   </td>
-   <td>Rare
-   </td>
-   <td>Low
-   </td>
-  </tr>
-</table>
+### Matriz de Tareas por User Persona
+
+| User Task | Alisa Goicochea (Paciente) | Mathias Peña (Médico) |
+|---|---|---|
+| | **Frecuencia** | **Importancia** | **Frecuencia** | **Importancia** |
+| Iniciar sesión                                 | High           | High            | Multiple       | High            |
+| Registrar signos vitales (PA, glucosa, etc.)   | High           | —               | —              | —               |
+| Responder cuestionario de síntomas             | High           | —               | —              | —               |
+| Ver recordatorios de medicación                | High           | —               | —              | —               |
+| Confirmar toma de medicamentos                 | Multiple       | High            | —              | —               |
+| Consultar historial de salud propio            | Rare           | High            | —              | —               |
+| Ver alertas o recomendaciones                  | Medium         |  High           | Multiple       | High            |
+| Comunicar síntomas preocupantes                |  High          | —               | —              | —               |
+| Revisar panel de pacientes                     | —              | High            | Multiple       | High            |
+| Filtrar pacientes por riesgo                   | —              | High            | Multiple       | High            |
+| Consultar historial clínico                    | Low            | High            | Multiple       | High            |
+| Revisar alertas críticas                       | —              | High            | Multiple       | High            |
+| Generar reportes automáticos                   | —              | Medium          | Rare           | Medium          |
+| Actualizar plan de tratamiento                 | —              | Medium          | Rare           | High            |
+| Programar cita de control                      | —              | High            | Rare           | Medium          |
+| Cerrar sesión                                  | Rare           | Low             | Rare           | Low             |
+
+> **Nota:** Las tareas que no aplican a un segmento se marcan con “—” para claridad visual y evitar confusión.
+
+---
+
+### Análisis de la Matriz
+
+#### Tareas de mayor frecuencia e importancia
+
+- **Para Alisa (Paciente):**  
+  Las tareas más críticas son **registrar signos vitales, responder cuestionarios, ver recordatorios y confirmar toma de medicamentos** ya que todas de frecuencia múltiple y alta importancia. Esto refleja su necesidad diaria de **autogestión activa** de su condición. La **comunicación de síntomas preocupantes**, aunque rara, es de alta importancia, indicando que cuando ocurre, es una tarea de emergencia.
+
+- **Para Mahias (Médico):**  
+  Las tareas clave son **revisar panel de pacientes, filtrar por riesgo, consultar historial clínico y revisar alertas críticas** ya que todas de alta frecuencia e importancia. Esto evidencia su enfoque en **priorización y prevención proactiva**. La **actualización del plan de tratamiento**, aunque rara, es de alta importancia, mostrando que cuando actúa, lo hace con alto impacto clínico.
+
+#### Coincidencias entre segmentos
+
+- Ambos segmentos comparten la tarea de **ver alertas o recomendaciones**, aunque con distinto nivel de importancia (Medium para Alisa, High para Mathias). Esto sugiere que las alertas son un **punto de conexión clave** entre paciente y médico, y deben diseñarse para ser relevantes y accionables para ambos.
+- **Iniciar sesión** es una tarea de alta importancia y frecuencia para ambos, lo que implica que el proceso de autenticación debe ser **rápido, seguro y accesible** (con opciones como biometría o inicio con código SMS para pacientes).
+
+#### Diferencias clave
+
+- Las tareas de **Alisa** son predominantemente **de autorregistro, seguimiento personal y adherencia**. Su flujo es individual, repetitivo y orientado a la prevención.
+- Las tareas de **Mathias** son **de supervisión, análisis y toma de decisiones clínicas**. Su flujo es multi-paciente, orientado a la priorización y la intervención oportuna.
+
+#### Implicaciones para el diseño de ChroniCare
+
+- La plataforma debe ofrecer **dos experiencias claramente diferenciadas**: una app móvil simple y motivadora para pacientes, y un dashboard web potente y visual para médicos.
+- Las **alertas deben ser bidireccionales**: para el paciente, educativas y preventivas; para el médico, clínicas y prioritarias.
+- La **sincronización en tiempo real** entre lo que registra el paciente y lo que ve el médico es crítica para cerrar el ciclo de cuidado.
+- La **autenticación debe ser inclusiva**: reconocimiento facial, huella, o códigos SMS para pacientes; 2FA o SSO institucional para médicos.
+
+Esta matriz servirá como base para definir el **User Journey Map**, el **Empathy Map** y las **historias de usuario (user stories)** en fases posteriores del diseño.
 
 ### 2.3.3. User Journey Mapping
 
-Segmento Objetivo: Pacientes adultos mayores
+n esta sección se elaboran los **User Journey Maps (UJM)**, uno por cada **User Persona** identificada en el proceso de needfinding. El objetivo es ilustrar el **end-to-end journey** que sigue cada segmento objetivo en su experiencia actual con el cuidado de enfermedades crónicas, **sin la existencia de una solución tecnológica como ChroniCare**. Se presenta la versión **As-Is**, es decir, cómo ocurren las interacciones hoy en día, sus puntos de dolor, canales utilizados y emociones asociadas.
 
-<img src="Assets/img/chapter-2/journeymapping1.png" width="" alt="alt_text" title="image_tooltip">
+Cada mapa está vinculado directamente con la ficha de **User Persona** correspondiente (Alisa Goicochea y Mathias Peña), asegurando coherencia entre el perfil del usuario y su comportamiento real. Los diagramas fueron elaborados en **UXPressia**, herramienta recomendada para este tipo de artefactos, y se incluyen aquí como capturas de pantalla para su visualización.
 
-Segmento Objetivo: Doctores y personal médico
 
-<img src="Assets/img/chapter-2/journeymapping2.png" width="" alt="alt_text" title="image_tooltip">
+### User Journey Map: Alisa Goicochea – Paciente Autónoma Digital
 
-Segmento Objetivo: Administradores de instituciones de salud
+![User Journey Map - Alisa Goicochea](Assets/img/chapter-2/journeymapping1.png)
 
-<img src="Assets/img/chapter-2/journeymapping3.png" width="" alt="alt_text" title="image_tooltip">
+Este mapa representa el **As-Is journey** de Alisa, una paciente joven con esclerosis múltiple que gestiona su salud diariamente mediante apps, redes sociales y comunicación con su médico. Su objetivo principal es mantener un control continuo de su estado sin depender de consultas presenciales.
+
+#### Fases del Journey:
+
+| Fase | Objetivo | Proceso | Problemas | Experiencia Emocional | Ideas / Oportunidades |
+|------|--------|--------|-----------|------------------------|------------------------|
+| **Aware** | Conocer la app y su utilidad | Busca información sobre apps de salud en TikTok e Instagram | No comprende completamente su utilidad | Confusión → Neutra | Incluir video explicativo sencillo |
+| **Join** | Iniciar sesión con ayuda familiar | Completa sus datos paso a paso | Dificultad en pedir ayuda a familiares | Estrés → Neutra | Botón de ayuda con guía visual simplificada |
+| **Use** | Registrar signos vitales | Registra datos en Notion o HealthKit | Olvida usar ciertos campos | Frustración → Neutra | Asignar mediciones por conveniencia |
+| **Use** | Recibir recordatorios | Recibe alertas y recomendaciones | Dificultad en comprensión | Esperanza → Positiva | Alertas personalizadas |
+| **Leave** | Cerrar sesión | Termina sesión | No tiene interés en problemas técnicos | Neutralidad → Neutra | Emitir recordatorios para volver |
+
+#### Análisis del Journey:
+- Alisa comienza con **alta curiosidad**, pero rápidamente se enfrenta a **dificultades técnicas** al no entender cómo usar las herramientas.
+- Su mayor frustración ocurre en la fase de **registro de datos**, donde olvida completar campos clave.
+- La experiencia mejora cuando recibe **alertas inteligentes**, lo que genera una sensación de esperanza.
+- El punto de mayor oportunidad es **simplificar el registro** con recordatorios automáticos y guías visuales.
+
+---
+
+### User Journey Map: Mathias Peña – Médico Pragmático y Empático
+
+![User Journey Map - Mathias Peña](Assets/img/chapter-2/journeymapping2.png)
+
+Este mapa representa el **As-Is journey** de Mathias, un médico internista que atiende a más de 50 pacientes crónicos por semana en un hospital público. Su objetivo principal es **detectar riesgos tempranos y prevenir complicaciones** mediante el seguimiento de datos clínicos.
+
+#### Fases del Journey:
+
+| Fase | Objetivo | Proceso | Problemas | Experiencia Emocional | Ideas / Oportunidades |
+|------|--------|--------|-----------|------------------------|------------------------|
+| **Aware** | Conocer la herramienta para monitoreo remoto | Busca información en revistas médicas y colegas | Desconfianza sobre sistemas externos | Curiosidad → Neutra | Demostración en entorno real para médicos |
+| **Join** | Iniciar sesión en la plataforma | Configura perfil y carga datos | Dificultad técnica con login | Estrés → Neutra | Asistente virtual para configuración inicial |
+| **Use** | Monitorear pacientes | Revisa datos en Excel o sistema institucional | Datos dispersos y lentos | Fatiga → Negativa | Filtrar pacientes por riesgo |
+| **Use** | Generar reportes y comunicarse | Genera informes manuales y comunica con pacientes | Sobrecarga de alertas | Agotamiento → Negativa | Alertas priorizadas |
+| **Leave** | Cerrar sesión | Termina turno | No tiene problemas técnicos | Neutralidad → Neutra | Cierre de sesión automático y resumen del día |
+
+#### Análisis del Journey:
+- Matías inicia con **interés profesional**, pero pronto se enfrenta a **problemas de integración** y **lentitud** en los sistemas.
+- Su mayor estrés ocurre en la fase de **monitoreo**, donde debe navegar entre múltiples plataformas.
+- La **sobrecarga de alertas** le genera agotamiento, lo que indica necesidad de **priorización inteligente**.
+- El punto de mayor oportunidad es **automatizar reportes** y **centralizar datos** en un dashboard único.
+
+---
+
+### Conclusión del User Journey Mapping
+
+Ambos mapas revelan que, aunque los usuarios tienen objetivos claros (autogestión para Alisa, prevención para Mathias), su experiencia actual está marcada por **frustraciones técnicas, falta de integración y sobrecarga informativa**.
+
+Las principales coincidencias son:
+- Ambos dependen de **comunicación manual** (mensajes, llamadas).
+- Ambos enfrentan **falta de acceso a datos en tiempo real**.
+- Ambos valoran **alertas inteligentes** como herramienta de prevención.
+
+Las diferencias clave son:
+- Alisa busca **simplicidad y empatía**, mientras que Mathias busca **eficiencia y precisión**.
+- Alisa actúa en modo individual, mientras que Mathias maneja múltiples pacientes simultáneamente.
+
+Estos hallazgos validan que **ChroniCare puede transformar ambos journeys** al ofrecer:
+- Una interfaz intuitiva para pacientes.
+- Un dashboard centralizado para médicos.
+- Alertas inteligentes y priorizadas.
+- Integración con dispositivos médicos y sistemas hospitalarios.
+
+Este análisis servirá como base para diseñar el **To-Be Journey Map**, donde se proponen soluciones que optimicen cada etapa del proceso.
 
 ### 2.3.4. Empathy Mapping
 
@@ -1361,9 +1289,6 @@ Segmento Objetivo: Doctores y personal médico
 
 <img src="Assets/img/chapter-2/asismapping2.png" width="" alt="alt_text" title="image_tooltip">
 
-Segmento Objetivo: Administradores de instituciones de salud
-
-<img src="Assets/img/chapter-2/asismapping3.png" width="" alt="alt_text" title="image_tooltip">
 
 ## 2.4. Ubiquitous Language
 

@@ -386,23 +386,23 @@ Otro riesgo importante es la falta de conectividad en zonas con acceso limitado 
 #### 1.2.2.4. Lean UX Canvas.
 ![LeanUXCanvas.png](Assets/img/chapter-1/LeanUXCanvas.png)
 ## 1.3. Segmentos objetivo
-**Pacientes adultos mayores**
+**Pacientes con enfermedades cronicas**
 
 **Descripción:**
 
-Personas de la tercera edad con enfermedades crónicas que requieren seguimiento continuo. Este segmento busca una solución sencilla que brinde seguridad en el monitoreo de su salud, reduzca visitas innecesarias a centros médicos y proporcione apoyo constante en su cuidado.
+Pacientes con enfermedades crónicas que requieren seguimiento continuo. Este segmento busca una solución sencilla que brinde seguridad en el monitoreo de su salud, reduzca visitas innecesarias a centros médicos y proporcione apoyo constante en su cuidado.
 
 **Características demográficas y comportamiento:**
 
-- Adultos mayores de 60 años con enfermedades crónicas como hipertensión o diabetes.
-- Prefieren soluciones simples e intuitivas.
+- Personas de diferentes edades diagnosticadas con enfermedades crónicas como hipertensión, diabetes o asma.
+- Prefieren soluciones simples e intuitivas que no requieran conocimientos técnicos avanzados.
 - Valoran la tranquilidad de tener sus signos vitales monitoreados en tiempo real.
-- Buscan reducir su dependencia de hospitalizaciones frecuentes.
+- Buscan reducir su dependencia de hospitalizaciones frecuentes y mejorar su calidad de vida diaria.
 
 **Sustento estadístico:**
 
-- En Perú, más del 50% de adultos mayores presenta al menos una enfermedad crónica (Minsa, 2022).
-- Según la OMS (2021), la población mayor de 60 años en América Latina se duplicará para el 2050, aumentando la necesidad de soluciones de cuidado digital accesibles.
+- En Perú, más del 20% de la población adulta presenta al menos una enfermedad crónica (Minsa, 2022)
+- Según la OMS (2021), la prevalencia de enfermedades crónicas en América Latina seguirá en aumento, incrementando la necesidad de soluciones digitales accesibles para el cuidado y monitoreo continuo de la salud.
 
 
 

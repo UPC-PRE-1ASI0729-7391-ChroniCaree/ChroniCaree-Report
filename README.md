@@ -541,6 +541,7 @@ Durante este Sprint, el equipo ha avanzado significativamente en la construcció
 
 A continuación, se presenta la tabla con los commits relacionados con la implementación:
 
+
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `main` | `209a2e0` | `chore(main): create initial folder structure` | Creación de la estructura de carpetas inicial para el proyecto. Se organizó el código fuente en `/src`, `/assets`, `/css`, `/js` y `/locales`. | 21/09/2025 |
@@ -561,6 +562,7 @@ A continuación, se presenta la tabla con los commits relacionados con la implem
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `47c55fa` | `fix(styles): correct FAQ styling issues` | Corrección de errores de estilo en la sección de FAQ. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `9f05d93` | `feat(landing): add images to landing page` | Subida de imágenes (hero, logotipo, iconos) a la carpeta `/assets`. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/header-implementation-and-footer-fixes` | `1696c85` | `feat(animations): implement header and footer animations` | Animaciones para el header y footer (fade-in, scroll effects). | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-md-implementation` | `5fcc87f` | `docs(landing): implement README for landing page` | Implementación del archivo `README.md` para documentar la estructura, uso y mantenimiento de la landing page. | 21/09/2025 |
 
 > **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. El repositorio utilizado es `UPC-PRE-1ASI0729-7391-ChroniCaree`, perteneciente al equipo de desarrollo de ChroniCare.
 
@@ -654,4 +656,14 @@ El sitio incluye todas las secciones desarrolladas en el Sprint 1:
 ### 5.2.1.8. Team Collaboration Insights during Sprint.
 
 El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
+
+![commits 1](/Assets/img/chapter-5/commits1.png)
+![commits 2](/Assets/img/chapter-5/commits2.png)
+![network 1](/Assets/img/chapter-5/Network.png)
+
+### Bibliografia
+
+### Anexos
+
+### Concluciones
 

@@ -1317,7 +1317,9 @@ En esta sección, el equipo introducirá y resumirá el proceso colaborativo de 
 
 Este ejercicio permite construir un **landscape visual de alto nivel** del negocio, alineando a todos los stakeholders (médicos, pacientes, diseñadores, desarrolladores) en un lenguaje común y exponiendo áreas críticas para la innovación, la automatización o la mejora de procesos. Sirve como base para tomar decisiones estratégicas complejas, como definir el alcance del MVP, priorizar funcionalidades o estructurar equipos de desarrollo.
 
+![Big Picture Event Storming](Assets/img/chapter-2/big_event_storming.png)
 
+[Ver Big Picture Event Storming]([https://www.genome.gov/](https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011))
 
 ## 2.5. Ubiquitous Language
 

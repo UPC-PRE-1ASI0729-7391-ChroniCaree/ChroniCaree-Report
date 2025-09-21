@@ -648,7 +648,11 @@ La interfaz de la landing page de ChroniCare es clave para el proyecto, pues con
 ### 4.3.2. Landing Page Mock-up.
 
 
+
 ## 4.4. Web Applications UX/UI Design.
+
+El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplicaciones web consiste en construir una experiencia digital que resulte clara, práctica y agradable para las personas que la utilizan. La UX se enfoca en identificar las necesidades y expectativas de los usuarios, diseñando flujos de navegación y estructuras de información que hagan más sencilla la interacción. En cambio, la UI aborda la parte visual de la aplicación, como el estilo de los botones, menús y la organización del contenido en pantalla. Cuando ambos enfoques se integran de forma adecuada, se logra un equilibrio entre estética y usabilidad, generando así una experiencia atractiva, funcional y memorable para los usuarios.
+
 ### 4.4.1. Web Applications Wireframes.
 
 ### 4.4.2. Web Applications Wireflow Diagrams.

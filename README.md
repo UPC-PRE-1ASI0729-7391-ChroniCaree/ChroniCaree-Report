@@ -366,7 +366,7 @@ El Product Backlog está ordenado según el **valor para el negocio**, priorizan
 | 32      | TS05          | API de Comunicación Paciente-Médico | Como Developer, necesito gestionar el envío y recepción de mensajes clínicos entre pacientes y médicos. | 5            |
 | 33      | TS06          | API de Reportes y Exportación | Como Developer, necesito endpoints para generar y exportar reportes clínicos en PDF. | 5            |
 
-
+Link del trello del product backlog: https://trello.com/b/O57EUYog/chroni-caree-open
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines.

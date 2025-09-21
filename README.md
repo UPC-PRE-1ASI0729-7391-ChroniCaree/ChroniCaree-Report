@@ -535,6 +535,10 @@ La interfaz en su conjunto transmite confianza, simplicidad y seguridad, reforza
 
 ## 4.2. Information Architecture.
 
+La arquitectura de la información en ChroniCare ha sido diseñada para asegurar que tanto pacientes como profesionales de la salud puedan acceder fácilmente al contenido y a las funciones más importantes, reduciendo la carga cognitiva y ofreciendo una experiencia fluida e intuitiva.
+
+Las decisiones tomadas en la organización de la información buscan transmitir claridad, confianza y accesibilidad, alineándose con la misión de la plataforma de facilitar el cuidado continuo de enfermedades crónicas. Esta estructura refleja el compromiso de ChroniCare con una experiencia de usuario eficiente, ordenada y coherente, adaptada a las necesidades de sus distintos perfiles de uso.
+
 ### 4.2.1. Organization Systems.
 
 ### 4.2.2. Labeling Systems.

@@ -535,6 +535,37 @@ Este sprint ha sentado las bases para el crecimiento de ChroniCare, asegurando q
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
 
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint, el equipo ha avanzado significativamente en la construcción de la **Landing Page** de ChroniCare, integrando funcionalidades clave como internacionalización (i18n), animaciones interactivas, estructura visual coherente y secciones de contenido crítico como Historia, Preguntas Frecuentes (FAQ) y Footer. Además, se han realizado mejoras estructurales en el repositorio, incluyendo organización de archivos, creación de ramas para desarrollo continuo y despliegue en producción. Los commits reflejan un enfoque ágil, con entregas incrementales, claridad en las tareas realizadas y colaboración efectiva entre desarrolladores.
+
+A continuación, se presenta la tabla con los commits relacionados con la implementación:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `main` | `209a2e0` | `chore(main): create initial folder structure` | Creación de la estructura de carpetas inicial para el proyecto. Se organizó el código fuente en `/src`, `/assets`, `/css`, `/js` y `/locales`. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `1e4c611` | `feat(landing): implement index page` | Implementación de la página principal (`index.html`) con estructura HTML básica y enlaces a estilos. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `729996d` | `feat(landing): implement styles for landing page` | Aplicación de estilos CSS para la página principal, asegurando responsividad y diseño visual coherente. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `433d3ad` | `feat(landing): implement frequently asked questions and history section` | Implementación de las secciones "Historia" y "Preguntas Frecuentes" con contenido estructurado y estilizado. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `1453ede` | `feat(landing): implement styles for history, FAQs, and icons` | Estilos CSS aplicados a las secciones de historia, FAQ y elementos gráficos (icons). | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/i18n-implementation` | `57b1b87` | `feat(i18n): implement i18n setup in JavaScript` | Configuración del sistema de traducción (i18n) en JavaScript para soporte multilingüe. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/i18n-implementation` | `baffb55` | `feat(i18n): implement Spanish language data in index` | Implementación de datos de idioma español en el archivo `index.html` para traducción dinámica. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `ae95095` | `feat(landing): implement en.json for English content` | Creación del archivo `en.json` con traducciones completas al inglés. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `2e5355e` | `feat(landing): implement es.json for Spanish content` | Creación del archivo `es.json` con traducciones completas al español. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `17b58d1` | `feat(landing): complete implementation of en.json and es.json` | Integración final de ambos archivos JSON en la lógica de traducción. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/i18n-implementation` | `35376f4` | `feat(i18n): implement language toggle in JavaScript` | Implementación del botón de cambio de idioma (ES/EN) en JavaScript. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/header-implementation-and-footer-fixes` | `fde532` | `feat(navigation): implement dynamic footer and header` | Implementación de header y footer dinámicos con navegación responsive. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/header-implementation-and-footer-fixes` | `581c574` | `feat(landing): implement new footer in index.html` | Actualización del footer con nuevos elementos y enlaces. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `09ffde0` | `feat(animations): implement FAQ section animations` | Animaciones suaves para la sección de Preguntas Frecuentes. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `2343baf` | `feat(animations): implement animations for all pages except FAQ` | Animaciones para todas las secciones de la landing page, excepto FAQ. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `47c55fa` | `fix(styles): correct FAQ styling issues` | Corrección de errores de estilo en la sección de FAQ. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `9f05d93` | `feat(landing): add images to landing page` | Subida de imágenes (hero, logotipo, iconos) a la carpeta `/assets`. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/header-implementation-and-footer-fixes` | `1696c85` | `feat(animations): implement header and footer animations` | Animaciones para el header y footer (fade-in, scroll effects). | 21/09/2025 |
+
+> **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. El repositorio utilizado es `UPC-PRE-1ASI0729-7391-ChroniCaree`, perteneciente al equipo de desarrollo de ChroniCare.
+
+Este sprint ha sentado las bases para una Landing Page profesional, internacionalizada, visualmente atractiva y funcional, lista para pruebas de usabilidad y retroalimentación. La implementación de i18n, animaciones y estructura clara garantiza una experiencia de usuario inclusiva y moderna.
+
 ### 5.2.1.5. Execution Evidence for Sprint Review.
 
 En este Sprint, el equipo logró implementar y desplegar completamente la **Landing Page de ChroniCare**, cumpliendo con todos los requisitos definidos en el Sprint Backlog. Se desarrollaron todas las secciones clave: Hero, Propuesta de Valor, Testimonios, Funcionalidades Clave, Proceso de Uso, Equipo, Precios, FAQ, Privacidad y Footer — cada una alineada con las User Stories priorizadas (HU01, HU02, HU03, HU04, HU05, HU06, HU07, HU08, HU31, HU32, HU34, HU35, HU36, HU37, HU38).

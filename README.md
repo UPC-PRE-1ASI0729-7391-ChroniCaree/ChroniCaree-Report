@@ -39,7 +39,8 @@
 |---|------------|-------------------------------------|-----------------------------------------|
 |0.1| 08/09/2025 | Andreow Santiago                    | Creacion y primera version del informe  |
 |0.2| 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadio el capitulo 1 en su totalidad |
-|0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page 
+|0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page |
+|0.4|19/09/2025|Alejandro Nicolas Barturen Guzman | Se añadio el capitulo 2 en su totalidad|
 
 
 # Project Report Collaboration Insights
@@ -166,6 +167,9 @@ aun no acabamos
 
 | Criterio Específico | Acciones Realizadas |
 |---|---|
+|Comunica oralmente con efectividad a diferentes rangos de audiencia|**Alejandro Barturen** TB1: Gracias a la TB1 he podido desarrollar mi comunicacion oral , ya sea al momento de tener que llegar a un  acuerdo con mi equipo o al tener que exploner y explicar mi trabajo frente a personas ajenas al proyecto|
+|Comunica por escrito con efectividad a diferentes rangos de audiencia|**Alejandro Barturen** TB1: Al hacer el desarrollo de este proyecto no podia estar comunicandome verbalmente con mi equipo todo el tiempo, asi que tuve que ezpezar a comunicar mis ideas de manera escrita de manera concisa y clara , no solo son mesnajes para mi equipo sino tambien para cominicarme con distintas personas que no podria comunicarme en perona |
+
      
 
 

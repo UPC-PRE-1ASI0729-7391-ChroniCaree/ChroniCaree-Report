@@ -304,11 +304,24 @@ El cuadro a continuación presenta todas las historias del proyecto, agrupadas p
 | US27 | Acceso a testimonios de usuarios            | Como visitante, quiero leer experiencias de otros usuarios para generar confianza en la plataforma. | **Escenario 1: Lectura de testimonios relevantes**<br>Dado que el visitante accede a la sección de testimonios<br>Cuando lee las experiencias compartidas<br>Entonces identifica patrones de mejora en la calidad de vida y adherencia al tratamiento<br><br>**Escenario 2: Exploración de casos de éxito institucional**<br>Dado que el visitante busca testimonios de instituciones<br>Cuando filtra por tipo de usuario<br>Entonces encuentra casos de clínicas que han mejorado su eficiencia en el manejo de pacientes crónicos | EP11                      |
 | US28 | Información de precios y planes             | Como visitante, quiero conocer los planes disponibles y sus costos para evaluar la inversión requerida. | **Escenario 1: Comparación de planes para pacientes**<br>Dado que el visitante revisa la sección de precios para pacientes<br>Cuando compara las características de cada plan<br>Entonces identifica las diferencias entre versión gratuita y premium<br><br>**Escenario 2: Evaluación de planes institucionales**<br>Dado que el visitante representa a una institución de salud<br>Cuando revisa los planes B2B<br>Entonces comprende las opciones de suscripción mensual y los beneficios para la gestión de múltiples pacientes | EP11                      |
 | US29  | Acceso a soporte y contacto                 | Como visitante, quiero resolver mis dudas fácilmente antes de registrarme. | **Escenario 1: Envío de consulta mediante formulario**<br>Dado que el visitante necesita información adicional<br>Cuando completa y envía el formulario de contacto<br>Entonces recibe confirmación de recepción y respuesta en menos de 24 horas<br><br>**Escenario 2: Acceso a preguntas frecuentes**<br>Dado que el visitante tiene dudas comunes<br>Cuando consulta la sección de preguntas frecuentes<br>Entonces encuentra respuestas claras sin necesidad de contactar soporte directamente | EP11                      |
-| US30 | Conocer quiénes están detrás de ChroniCare  | Como visitante, quiero saber quiénes desarrollan la plataforma para generar confianza en su propuesta de valor. | **Escenario 1: Comprensión de la misión y visión**<br>Dado que el visitante accede a la sección "Sobre Nosotros"<br>Cuando lee la información institucional<br>Entonces comprende el compromiso de ChroniCare con la mejora del cuidado de enfermedades crónicas<br><br>**Escenario 2: Conocimiento del equipo fundador**<br>Dado que el visitante está interesado en la credibilidad del proyecto<br>Cuando revisa la información del equipo<br>Entonces identifica la experiencia y dedicación del equipo en salud digital | EP11                      
+| US30 | Conocer quiénes están detrás de ChroniCare  | Como visitante, quiero saber quiénes desarrollan la plataforma para generar confianza en su propuesta de valor. | **Escenario 1: Comprensión de la misión y visión**<br>Dado que el visitante accede a la sección "Sobre Nosotros"<br>Cuando lee la información institucional<br>Entonces comprende el compromiso de ChroniCare con la mejora del cuidado de enfermedades crónicas<br><br>**Escenario 2: Conocimiento del equipo fundador**<br>Dado que el visitante está interesado en la credibilidad del proyecto<br>Cuando revisa la información del equipo<br>Entonces identifica la experiencia y dedicación del equipo en salud digital | EP11     |                 
 
 
 ## 3.2. Impact Mapping
 
+
+Este Impact Map visualiza estratégicamente cómo las funcionalidades de la plataforma **ChroniCare** contribuyen a alcanzar objetivos de negocio concretos, alineando las acciones de nuestros dos segmentos clave: **Alisa Goicochea** (paciente autónoma digital) y **Matías Peña** (médico pragmático y empático).
+
+El mapa parte de un **Business Goal SMART** y desciende en niveles jerárquicos:
+
+- **Actores (Personas):** Alisa y Matías, cuyos comportamientos impulsan el éxito del negocio.
+- **Impacts:** Los cambios deseados en su comportamiento (ej: Alisa registra sus síntomas diariamente; Matías prioriza casos críticos con alertas automáticas).
+- **Deliverables:** Las soluciones que la plataforma ofrece para provocar esos cambios (ej: registro simplificado con lenguaje natural, dashboard clínico en tiempo real).
+- **User Stories:** Las historias de usuario concretas que implementan cada deliverable, asegurando trazabilidad desde la estrategia hasta la funcionalidad.
+
+> **Nota:** Este mapa fue creado en UXPressia. Cada columna representa una etapa del proceso estratégico. S
+
+![](/Assets/img/chapter-3/Impact%20map%20chronicarre.png)
 
 
 ## 3.3. Product Backlog.

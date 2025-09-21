@@ -1318,6 +1318,32 @@ Ambos mapas convergen en un punto clave: **la comunicación asincrónica y los d
 
 ## 2.5. Ubiquitous Language
 
+En esta sección se presenta un glosario de términos clave del dominio de negocio de **ChroniCare**, definidos con claridad y sin ambigüedad, para garantizar una comunicación unificada entre todos los miembros del equipo y stakeholders (médicos, pacientes, instituciones de salud, diseñadores, gerentes de producto, etc.). Este lenguaje común conocido como *Ubiquitous Language* en Domain-Driven Design permite alinear expectativas, reducir malentendidos y centrar el desarrollo del producto en el valor real para el usuario, no en implementaciones técnicas.
+
+Todos los términos están en inglés (idioma estándar en desarrollo de producto y tecnología), con su equivalente en español entre paréntesis cuando aplica, y sus definiciones en español, enfocadas exclusivamente en el contexto del cuidado de enfermedades crónicas.
+
+### Glosario de Términos del Dominio
+
+| Término (Inglés) | Definición (Español) |
+|------------------|----------------------|
+| **Chronic Patient** (Paciente crónico) | Persona diagnosticada con una enfermedad de larga duración (como diabetes, hipertensión o EPOC) que requiere seguimiento continuo, medicación regular y cambios en el estilo de vida para evitar complicaciones. |
+| **Caregiver** (Cuidador) | Familiar, amigo o profesional no médico encargado de apoyar al paciente en su tratamiento, recordatorios, transporte o compañía en consultas. En ChroniCare, puede tener acceso limitado al historial con permiso del paciente. |
+| **Healthcare Provider** (Proveedor de salud) | Institución (hospital, clínica, centro médico) o profesional (médico, enfermera, nutricionista) responsable del diagnóstico, tratamiento y seguimiento del paciente. Es el cliente B2B de ChroniCare. |
+| **Symptom Tracker** (Rastreador de síntomas) | Herramienta que permite al paciente registrar diariamente cómo se siente (dolor, fatiga, mareos, etc.) mediante cuestionarios simples o selección de íconos. No es un diagnóstico, sino un insumo para el médico. |
+| **Vital Signs** (Signos vitales) | Mediciones básicas de salud como presión arterial, glucosa capilar, frecuencia cardíaca, temperatura o saturación de oxígeno. En ChroniCare, pueden ser ingresadas manualmente o sincronizadas con dispositivos médicos. |
+| **Medication Adherence** (Adherencia terapéutica) | Grado en que el paciente sigue correctamente las indicaciones del médico respecto a dosis, horarios y duración del tratamiento. ChroniCare busca mejorarla con recordatorios personalizados y reportes de cumplimiento. |
+| **Clinical Dashboard** (Panel clínico) | Vista visual que el médico o enfermera utiliza para monitorear a sus pacientes: muestra alertas, tendencias, cumplimiento de medicación y evolución de signos vitales. Permite priorizar casos de riesgo. |
+| **Risk Alert** (Alerta de riesgo) | Notificación automática generada por la plataforma cuando un paciente presenta valores fuera de rango (ej: glucosa >250 mg/dL) o no registra datos en un período crítico. Requiere revisión clínica prioritaria. |
+| **Treatment Plan** (Plan de tratamiento) | Conjunto de indicaciones médicas personalizadas para un paciente: medicamentos, dosis, dieta, ejercicios, fechas de control. En ChroniCare, puede ser actualizado por el médico y visualizado por el paciente. |
+| **Follow-up** (Seguimiento) | Proceso continuo de monitoreo del paciente entre consultas presenciales. Incluye registro de síntomas, revisión de signos vitales y comunicación asincrónica con el médico. Es el núcleo de ChroniCare. |
+| **Teleconsultation** (Teleconsulta) | Consulta médica realizada de forma remota (video, audio o chat) para resolver dudas, ajustar tratamientos o revisar reportes. No reemplaza la consulta presencial, pero la complementa entre visitas. |
+| **Patient Engagement** (Compromiso del paciente) | Nivel de participación activa del paciente en el manejo de su enfermedad: registrar datos, seguir indicaciones, comunicar síntomas. ChroniCare lo fomenta con recordatorios, feedback y lenguaje motivador. |
+| **Care Coordination** (Coordinación del cuidado) | Proceso de comunicación y colaboración entre distintos actores (médico, enfermera, nutricionista, cuidador) para garantizar que el paciente reciba un cuidado integral y sin duplicidades. ChroniCare facilita esta coordinación con reportes compartidos. |
+| **Preventive Care** (Cuidado preventivo) | Acciones orientadas a evitar complicaciones o emergencias antes de que ocurran, mediante monitoreo temprano, educación y adherencia. Es el objetivo principal de ChroniCare. |
+| **Health Literacy** (Alfabetización en salud) | Capacidad del paciente para entender información sobre su salud, tratamiento y cómo usar herramientas digitales. ChroniCare diseña interfaces simples y usa lenguaje claro para mejorarla. |
+
+
+
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping

@@ -604,8 +604,6 @@ En conjunto, estos sistemas aseguran que los usuarios puedan desplazarse por la 
 
 ## 4.3. Landing Page UI Design.
 
-La interfaz de la landing page de ChroniCare es clave para el proyecto, pues constituye la primera impresión del producto. Su diseño limpio y moderno transmite confianza en salud digital, combinando tipografía clara, colores en tonos turquesa y blanco, y botones estratégicos que destacan las acciones principales. Esta estructura estética y funcional atrae de inmediato a los visitantes y los impulsa a seguir explorando la plataforma.
-
 ### 4.3.1. Landing Page Wireframe.
 
 ### 4.3.2. Landing Page Mock-up.

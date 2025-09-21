@@ -1125,7 +1125,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 En esta sección se presenta el **User Task Matrix**, una herramienta que identifica y prioriza las tareas que los **User Personas** representantes de cada segmento objetivo realizan para cumplir sus objetivos de salud, independientemente de la existencia de una solución tecnológica. Es fundamental no confundir *tareas* (acciones que el usuario realiza en su contexto real) con *funcionalidades de software* (soluciones que podrían facilitar esas tareas).
 
 Se consideran dos segmentos principales:  
-- **Alisa Goicochea** (Paciente adulta joven con enfermedad crónica la cual representa a pacientes adultos mayores en contexto de autocuidado digital).  
+- **Alisa Goicochea** (Paciente adulta joven con enfermedad crónica la cual representa a pacientes con enfermedades cronicas en contexto de autocuidado digital).  
 - **Mathias Peña** (Médico internista el cual representa a doctores y personal médico en entornos hospitalarios).
 
 Cada tarea se evalúa en dos dimensiones:  
@@ -1242,7 +1242,6 @@ Este mapa representa el **As-Is journey** de Mathias, un médico internista que 
 - La **sobrecarga de alertas** le genera agotamiento, lo que indica necesidad de **priorización inteligente**.
 - El punto de mayor oportunidad es **automatizar reportes** y **centralizar datos** en un dashboard único.
 
----
 
 ### Conclusión del User Journey Mapping
 
@@ -1265,32 +1264,60 @@ Estos hallazgos validan que **ChroniCare puede transformar ambos journeys** al o
 
 Este análisis servirá como base para diseñar el **To-Be Journey Map**, donde se proponen soluciones que optimicen cada etapa del proceso.
 
+
 ### 2.3.4. Empathy Mapping
 
-Segmento Objetivo: Pacientes adultos mayores
+En esta sección, el equipo presenta los **Empathy Maps** elaborados para cada **User Persona**, como parte del proceso de análisis cualitativo derivado de las entrevistas en profundidad. Estos mapas permiten empatizar profundamente con los usuarios, comprendiendo no solo lo que hacen, sino también lo que piensan, sienten, ven, oyen y dicen en su contexto actual es decir, **antes de la existencia de ChroniCare**.
 
-<img src="Assets/img/chapter-2/empathymapping1.png" width="" alt="alt_text" title="image_tooltip">
+Cada Empathy Map fue construido en **UXPressia**, herramienta especializada para este tipo de artefactos, y está vinculado directamente con la ficha de su User Persona correspondiente. El objetivo es identificar **dolores (pains)** y **ganancias (gains)** clave que guiarán el diseño centrado en el usuario, asegurando que la solución responda a necesidades reales, no supuestas.
 
-Segmento Objetivo: Doctores y personal médico
+Los mapas se organizan en ocho secciones fundamentales:  
+1. Con quién empatizamos  
+2. Qué necesita hacer  
+3. Qué ve  
+4. Qué dice  
+5. Qué hace  
+6. Qué oye  
+7. Qué piensa y siente  
+8. Dolores y ganancias
 
-<img src="Assets/img/chapter-2/empathymapping2.png" width="" alt="alt_text" title="image_tooltip">
-
-Segmento Objetivo: Administradores de instituciones de salud
-
-<img src="Assets/img/chapter-2/empathymapping3.png" width="" alt="alt_text" title="image_tooltip">
-
-### 2.3.5. As-is Scenario Mapping
-
-Segmento Objetivo: Pacientes adultos mayores
-
-<img src="Assets/img/chapter-2/asismapping1.png" width="" alt="alt_text" title="image_tooltip">
-
-Segmento Objetivo: Doctores y personal médico
-
-<img src="Assets/img/chapter-2/asismapping2.png" width="" alt="alt_text" title="image_tooltip">
+A continuación, se presentan los Empathy Maps para los dos segmentos objetivo.
 
 
-## 2.4. Ubiquitous Language
+#### Segmento Objetivo: Pacientes con enfermedades cronicas (representado por Alisa Goicochea)
+
+![Empathy Map - Pacientes](assets/img/chapter-2/empathy1.png)
+
+> **User Persona vinculada:** Alisa Goicochea — Paciente Autónoma Digital  
+> Este mapa refleja la experiencia emocional, cognitiva y conductual de un paciente con enfermedad crónica en su entorno actual. Revela la necesidad de autonomía, acompañamiento emocional y herramientas intuitivas que se adapten a su estilo de vida, no al revés.
+
+---
+
+#### Segmento Objetivo: Doctores y personal médico (representado por Matías Peña)
+
+![Empathy Map - Doctores](assets/img/chapter-2/empathy2.png)
+
+> **User Persona vinculada:** Matías Peña — Médico Pragmático y Empático  
+> Este mapa captura la realidad del profesional de la salud en entornos hospitalarios: sobrecargado, con acceso limitado a datos en tiempo real, y con una fuerte motivación por prevenir complicaciones antes de que ocurran. Destaca la necesidad de eficiencia, integración y confianza en las herramientas digitales.
+
+---
+
+### Conclusión del Empathy Mapping
+
+Los Empathy Maps confirman que:
+
+- **Para los pacientes**, la tecnología debe ser un **aliado empático**, no una carga técnica. La simplicidad, el lenguaje humano y la privacidad son no negociables.
+- **Para los médicos**, la tecnología debe ser un **amplificador de eficiencia**, no un distractor. La integración, la priorización de alertas y la evidencia clínica son fundamentales.
+
+Ambos mapas convergen en un punto clave: **la comunicación asincrónica y los datos fragmentados generan ansiedad, desconfianza y riesgos evitables**. ChroniCare tiene la oportunidad de cerrar esa brecha, ofreciendo una experiencia coherente, humana y proactiva para ambos lados del cuidado.
+
+
+### 2.4. Big Picture Event Storming
+
+
+
+## 2.5. Ubiquitous Language
+
 
 # Capítulo III: Requirements Specification
 ## 3.1. To-Be Scenario Mapping

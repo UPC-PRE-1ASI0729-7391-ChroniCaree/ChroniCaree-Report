@@ -41,7 +41,9 @@
 |0.2| 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadio el capitulo 1 en su totalidad |
 |0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page |
 |0.4|19/09/2025|Alejandro Nicolas Barturen Guzman | Se añadio el capitulo 2 en su totalidad|
-
+|0.5|19/09/2025|Carlos Lopez | Se añadio el capitulo 3 en su totalidad|
+|0.6|19/09/2025|Schneider Delgado | Se añadio el capitulo 4 en su totalidad|
+|0.7|19/09/2025|Andreow Santiago | Se añadio el capitulo 5 en su totalidad|
 
 # Project Report Collaboration Insights
 
@@ -53,10 +55,51 @@ Link del reporte del equipo:
 
 https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report
 
+Link del Landing page del equipo: 
+
+https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing
+
 #### TB1
 
-aun no acabamos
 
+La entrega del TB1 finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
+
+Link al repositorio de la organización: https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree
+
+Durante el desarrollo del informe, se siguieron los siguientes lineamientos:
+
+Los contenidos asignados a cada miembro fueron redactados y estructurados utilizando el formato Markdown , asegurando una presentación clara y estandarizada.
+Cada cambio realizado fue respaldado mediante commits en el repositorio, garantizando trazabilidad y control de versiones del avance del proyecto.
+Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Las imágenes utilizadas fueron obtenidas a través de la carpeta assets o publicadas desde Imgur , para su correcta integración en el informe.
+Se realizaron reuniones periódicas para coordinar el avance de los elementos del informe y reportar los progresos del Sprint 1, centrado en la definición inicial del alcance del proyecto y el diseño preliminar del sistema.
+Coherencia con el Registro de Versiones del Informe
+Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y constante refinamiento del contenido por parte del equipo.
+
+Este historial de actualizaciones coincide con el trabajo desarrollado durante el TB1, mostrando cómo el equipo fue avanzando en la elaboración del informe de forma continua y colaborativa.
+
+Actividad en GitHub - TB1 (Septiembre 2025)
+Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
+
+
+Commits para TB1
+Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
+
+![Actividad TB-1 Report](/Assets/img/chapter-1/commits%20(1).png)
+
+![Actividad TB-1 Landing](/Assets/img/chapter-5/commits1.png)
+
+Commit
+
+![Commits TB-1 Report](/Assets/img/chapter-1/commits%20(2).png)
+
+![Actividad TB-1 Landing](/Assets/img/chapter-5/commits2.png)
+
+
+Network graph para TB1
+
+![Network TB-1](/Assets/img/chapter-1/network.png)
+
+![Network TB-1 Landing](/Assets/img/chapter-5/Network.png)
 
 # Contenido
 

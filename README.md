@@ -39,7 +39,8 @@
 |---|------------|-------------------------------------|-----------------------------------------|
 |0.1| 08/09/2025 | Andreow Santiago                    | Creacion y primera version del informe  |
 |0.2| 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadio el capitulo 1 en su totalidad |
-|0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page 
+|0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page |
+|0.4|19/09/2025|Alejandro Nicolas Barturen Guzman | Se añadio el capitulo 2 en su totalidad|
 
 
 # Project Report Collaboration Insights
@@ -164,8 +165,14 @@ aun no acabamos
 
 # Student Outcome
 
-| Criterio Específico | Acciones Realizadas |
-|---|---|
+En esta sección se presenta la relación entre el trabajo realizado por el equipo y las dimensiones del Student Outcome establecido. Cada integrante ha colaborado en la redacción conjunta de los sustentos y evidencias que demuestran cómo las actividades desarrolladas en las diferentes entregas (TB1, TB2, etc.) han contribuido al logro de este objetivo. A través de las acciones individuales y colectivas, se busca evidenciar de manera clara y organizada el impacto del proyecto en el desarrollo de las competencias señaladas.
+
+| Criterio Específico | Acciones Realizadas| Conclusiones |
+|-------|-------|------|
+| Comunica oralmente con efectividad a diferentes rangos de audiencia   | **Alejandro Barturen** <br>TB1<br> Gracias a la TB1 he podido desarrollar mi comunicación oral, ya sea al momento de tener que llegar a un acuerdo con mi equipo o al tener que exponer y explicar mi trabajo frente a personas ajenas al proyecto.<br><br> **Sebastian Beingolea** <br>TB1<br> Gracias a la TB1 pude mejorar mi comunicación oral, ya que tuve que explicar ideas en reuniones de equipo y presentar avances del proyecto a personas externas.<br><br> **Schneider Delgado**<br> TB1<br>La TB1 me permitió desarrollar habilidades para expresar y defender mis puntos de vista en reuniones con el equipo y en presentaciones generales del proyecto.<br><br> **Andreow Santiago**<br> TB1<br> Gracias a la TB1 practiqué cómo comunicarse verbalmente con efectividad tanto en discusiones internas con el equipo como en presentaciones externas.<br><br> **Calors Lopez** <br> TB1<br> Participar en la TB1 me ayudó a expresarme mejor durante las reuniones y a comunicar avances del proyecto de manera entendible para todos. | Como grupo, concluimos que las actividades realizadas en la TB1 nos ayudaron a desarrollar habilidades de comunicación oral en diferentes contextos, tanto internos como externos. Logramos expresarnos con mayor claridad, seguridad y efectividad, adaptando nuestro lenguaje según la audiencia y fortaleciendo el trabajo colaborativo.                                                                                   |
+| Comunica por escrito con efectividad a diferentes rangos de audiencia | **Alejandro Barturen** <br> TB1<br>Al hacer el desarrollo de este proyecto no podía estar comunicándome verbalmente con mi equipo todo el tiempo, así que tuve que empezar a comunicar mis ideas de manera escrita de forma concisa y clara, no solo con mensajes para mi equipo sino también para comunicarme con distintas personas que no podía hacerlo en persona.<br><br> **Sebastian Beingolea**<br> TB1<br>Durante el proyecto tuve que comunicarme constantemente por escrito, lo que me ayudó a expresar mis ideas de manera clara y precisa para mi equipo y otras áreas interesadas.<br><br> **Schneider Delgado** TB1<br>Aprendí a redactar mensajes y reportes con información clara y organizada para distintos públicos involucrados en el proyecto.<br><br> **Andreow Santiago**<br> TB1<br>Tuve que elaborar comunicaciones escritas dirigidas a diferentes personas, lo que mejoró mi habilidad para transmitir ideas de manera breve y clara.<br><br> **Calors Lopez** <br> TB1<br>Durante el proyecto aprendí a sintetizar información y a transmitirla por escrito a diferentes audiencias de manera efectiva.                            | Concluimos que la comunicación escrita fue fundamental para coordinar las actividades del proyecto. Aprendimos a estructurar nuestras ideas de manera clara, precisa y adaptada a distintos destinatarios, lo que permitió mantener una comunicación eficiente incluso cuando no era posible hacerlo de forma presencial.                                                                                                              |
+
+
      
 
 
@@ -386,23 +393,23 @@ Otro riesgo importante es la falta de conectividad en zonas con acceso limitado 
 #### 1.2.2.4. Lean UX Canvas.
 ![LeanUXCanvas.png](Assets/img/chapter-1/LeanUXCanvas.png)
 ## 1.3. Segmentos objetivo
-**Pacientes adultos mayores**
+**Pacientes con enfermedades cronicas**
 
 **Descripción:**
 
-Personas de la tercera edad con enfermedades crónicas que requieren seguimiento continuo. Este segmento busca una solución sencilla que brinde seguridad en el monitoreo de su salud, reduzca visitas innecesarias a centros médicos y proporcione apoyo constante en su cuidado.
+Pacientes con enfermedades crónicas que requieren seguimiento continuo. Este segmento busca una solución sencilla que brinde seguridad en el monitoreo de su salud, reduzca visitas innecesarias a centros médicos y proporcione apoyo constante en su cuidado.
 
 **Características demográficas y comportamiento:**
 
-- Adultos mayores de 60 años con enfermedades crónicas como hipertensión o diabetes.
-- Prefieren soluciones simples e intuitivas.
+- Personas de diferentes edades diagnosticadas con enfermedades crónicas como hipertensión, diabetes o asma.
+- Prefieren soluciones simples e intuitivas que no requieran conocimientos técnicos avanzados.
 - Valoran la tranquilidad de tener sus signos vitales monitoreados en tiempo real.
-- Buscan reducir su dependencia de hospitalizaciones frecuentes.
+- Buscan reducir su dependencia de hospitalizaciones frecuentes y mejorar su calidad de vida diaria.
 
 **Sustento estadístico:**
 
-- En Perú, más del 50% de adultos mayores presenta al menos una enfermedad crónica (Minsa, 2022).
-- Según la OMS (2021), la población mayor de 60 años en América Latina se duplicará para el 2050, aumentando la necesidad de soluciones de cuidado digital accesibles.
+- En Perú, más del 20% de la población adulta presenta al menos una enfermedad crónica (Minsa, 2022)
+- Según la OMS (2021), la prevalencia de enfermedades crónicas en América Latina seguirá en aumento, incrementando la necesidad de soluciones digitales accesibles para el cuidado y monitoreo continuo de la salud.
 
 
 

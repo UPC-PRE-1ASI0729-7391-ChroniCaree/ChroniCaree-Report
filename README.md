@@ -41,7 +41,9 @@
 |0.2| 17/09/2025 | Sebastian Martin Beingolea Montalvo | Se añadio el capitulo 1 en su totalidad |
 |0.3| 18/09/2025 | Andreow Jomark Santiago Peña, Schneider Carlos Delgado Carrasco, Calors Alberto Lopez Goitia | Se desarrollo el Landing Page |
 |0.4|19/09/2025|Alejandro Nicolas Barturen Guzman | Se añadio el capitulo 2 en su totalidad|
-
+|0.5|19/09/2025|Carlos Lopez | Se añadio el capitulo 3 en su totalidad|
+|0.6|19/09/2025|Schneider Delgado | Se añadio el capitulo 4 en su totalidad|
+|0.7|19/09/2025|Andreow Santiago | Se añadio el capitulo 5 en su totalidad|
 
 # Project Report Collaboration Insights
 
@@ -53,10 +55,51 @@ Link del reporte del equipo:
 
 https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report
 
+Link del Landing page del equipo: 
+
+https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing
+
 #### TB1
 
-aun no acabamos
 
+La entrega del TB1 finalizó con éxito y está documentada en el repositorio de Github perteneciente a la organización del equipo:
+
+Link al repositorio de la organización: https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree
+
+Durante el desarrollo del informe, se siguieron los siguientes lineamientos:
+
+Los contenidos asignados a cada miembro fueron redactados y estructurados utilizando el formato Markdown , asegurando una presentación clara y estandarizada.
+Cada cambio realizado fue respaldado mediante commits en el repositorio, garantizando trazabilidad y control de versiones del avance del proyecto.
+Se crearon los artefactos necesarios utilizando las herramientas recomendadas. Las imágenes utilizadas fueron obtenidas a través de la carpeta assets o publicadas desde Imgur , para su correcta integración en el informe.
+Se realizaron reuniones periódicas para coordinar el avance de los elementos del informe y reportar los progresos del Sprint 1, centrado en la definición inicial del alcance del proyecto y el diseño preliminar del sistema.
+Coherencia con el Registro de Versiones del Informe
+Los cambios realizados durante esta etapa están alineados con la evolución del documento, reflejando el trabajo colaborativo y constante refinamiento del contenido por parte del equipo.
+
+Este historial de actualizaciones coincide con el trabajo desarrollado durante el TB1, mostrando cómo el equipo fue avanzando en la elaboración del informe de forma continua y colaborativa.
+
+Actividad en GitHub - TB1 (Septiembre 2025)
+Se muestra el gráfico de actividad en GitHub durante la preparación del TB1:
+
+
+Commits para TB1
+Estos commits reflejan el progreso constante y la colaboración entre los miembros del equipo.
+
+![Actividad TB-1 Report](assets/img/chapter-1/commits%20(1).png)
+
+![Actividad TB-1 Landing](assets/img/chapter-5/commits1.png)
+
+Commit
+
+![Commits TB-1 Report](assets/img/chapter-1/commits%20(2).png)
+
+![Actividad TB-1 Landing](assets/img/chapter-5/commits2.png)
+
+
+Network graph para TB1
+
+![Network TB-1](assets/img/chapter-1/network.png)
+
+![Network TB-1 Landing](assets/img/chapter-5/Network.png)
 
 # Contenido
 
@@ -173,10 +216,7 @@ En esta sección se presenta la relación entre el trabajo realizado por el equi
 | Comunica por escrito con efectividad a diferentes rangos de audiencia | **Alejandro Barturen** <br> TB1<br>Al hacer el desarrollo de este proyecto no podía estar comunicándome verbalmente con mi equipo todo el tiempo, así que tuve que empezar a comunicar mis ideas de manera escrita de forma concisa y clara, no solo con mensajes para mi equipo sino también para comunicarme con distintas personas que no podía hacerlo en persona.<br><br> **Sebastian Beingolea**<br> TB1<br>Durante el proyecto tuve que comunicarme constantemente por escrito, lo que me ayudó a expresar mis ideas de manera clara y precisa para mi equipo y otras áreas interesadas.<br><br> **Schneider Delgado** TB1<br>Aprendí a redactar mensajes y reportes con información clara y organizada para distintos públicos involucrados en el proyecto.<br><br> **Andreow Santiago**<br> TB1<br>Tuve que elaborar comunicaciones escritas dirigidas a diferentes personas, lo que mejoró mi habilidad para transmitir ideas de manera breve y clara.<br><br> **Calors Lopez** <br> TB1<br>Durante el proyecto aprendí a sintetizar información y a transmitirla por escrito a diferentes audiencias de manera efectiva.                            | Concluimos que la comunicación escrita fue fundamental para coordinar las actividades del proyecto. Aprendimos a estructurar nuestras ideas de manera clara, precisa y adaptada a distintos destinatarios, lo que permitió mantener una comunicación eficiente incluso cuando no era posible hacerlo de forma presencial.                                                                                                              |
 
 
-     
-
-
-
+   
 # Capítulo I: Introducción
 ## 1.1. Startup Profile
 ### 1.1.1. Descripción de la Startup
@@ -449,286 +489,29 @@ Binahai es una solución de salud digital que permite medir signos vitales como 
 Welldoc es una empresa especializada en el manejo digital de enfermedades crónicas, principalmente diabetes. Su aplicación BlueStar combina registro de datos, recomendaciones personalizadas y reportes para médicos, con un fuerte enfoque en mejorar la adherencia terapéutica y el control glucémico. La plataforma está validada clínicamente y ha sido adoptada en sistemas de salud y aseguradoras de Estados Unidos.
 
 ### 2.1.1. Análisis competitivo.
+| **Competitive Analysis Landscape** |
+|-----------------------------------|
+| **¿Por qué llevar a cabo este análisis?**<br>Identificar fortalezas, debilidades, oportunidades y amenazas de ChroniCaree en comparación con competidores globales. |
 
-<table>
-  <tr>
-   <td colspan="6" >Competitive Analysis Landscape
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >¿Por qué llevar a
-<p>
-cabo este análisis?
-   </td>
-   <td colspan="5" >Escriba en el recuadro la pregunta que busca responder o el objetivo de este análisis
-   </td>
-  </tr>
-  <tr>
-   <td colspan="5" >Identificar fortalezas, debilidades, oportunidades y amenazas de ChroniCare en comparación con competidores globales
-   </td>
-  </tr>
-  <tr>
-   <td colspan="2" >(En la cabecera colocar por
-<p>
-cada competidor nombre y
-<p>
-logo
-   </td>
-   <td>
+| | **ChroniCaree** | **Welldoc** | **Livongo** | **Lark** |
+|---|---|---|---|---|
+| **Perfil** | | | | |
+| *Overview* | Software peruano para instituciones de salud que atienden pacientes con enfermedades crónicas. Enfocado en mejorar el monitoreo y la comunicación clínica. | Plataforma aprobada por la FDA (Food and Drug Administration) para el manejo de diabetes y otras enfermedades crónicas. | Plataforma digital de salud diseñada para ayudar a pacientes con enfermedades crónicas a gestionar su condición. Integra dispositivos médicos conectados. | Startup de salud digital de EE.UU. especializada en asesoramiento digital con IA para prevención y manejo de enfermedades crónicas. |
+| *Ventaja competitiva*<br>¿Qué valor ofrece a los clientes? | - Accesibilidad y simplicidad<br>- Enfoque institucional<br>- Adaptabilidad a necesidades locales | - Primera app para diabetes aprobada por la FDA como dispositivo médico<br>- Reconocimiento clínico y validación científica | - Ecosistema completo: dispositivos médicos conectados + asesoramiento humano + aplicación<br>- Integración con aseguradoras y sistemas de salud grandes | - Uso de IA conversacional escalable<br>- Bajo costo de operación<br>- Disponibilidad 24/7 con mínimo personal humano |
+| **Perfil de Marketing** | | | | |
+| *Mercado objetivo* | Clínicas, hospitales y centros de salud en Perú y Latinoamérica que atienden enfermedades crónicas. | Pacientes con diabetes (principalmente), médicos en EE.UU., aseguradoras. | Aseguradoras y sistemas de salud grandes en EE.UU. | Aseguradoras y usuarios interesados en prevención digital de enfermedades crónicas. |
+| *Estrategias de marketing* | - Alianzas con instituciones de salud<br>- Difusión en congresos médicos nacionales | - Validación científica y publicaciones<br>- Alianzas con aseguradoras<br>- Promoción en congresos médicos internacionales | - Integración con grandes empresas y aseguradoras<br>- Campañas B2B enfocadas en costos y ROI | - Partnerships con aseguradoras y empresas<br>- Marketing digital en EE.UU. |
+| **Perfil de Producto** | | | | |
+| *Productos & Servicios* | ChroniCaree (plataforma SaaS para monitoreo y comunicación clínica) | Welldoc (BlueStar) | - Livongo for Diabetes<br>- Livongo for Hypertension<br>- Livongo for Weight Management<br>- Livongo for Behavioral Health | - Lark Diabetes Care<br>- Lark Weight Management<br>- Lark Hypertension Program |
+| *Precios & Costos* | Modelo SaaS por suscripción (B2B) | Modelo B2B dirigido a aseguradoras | Modelo B2B (contratos con aseguradoras y sistemas de salud) | Modelo SaaS, B2B |
+| *Canales de distribución* | Web + Móvil | Móvil | Web + Móvil | Móvil |
 
- 
-
-<img src="Assets/img/chapter-2/chronisys.png" width="" alt="alt_text" title="image_tooltip">
-Chronisys
-   </td>
-   <td>
-       
-<img src="Assets/img/chapter-2/welldoc.png" width="" alt="alt_text" title="image_tooltip">
-Welldoc
-   </td>
-   <td>
-
-<img src="Assets/img/chapter-2/livongo.png" width="" alt="alt_text" title="image_tooltip">
-
-<p>
-Livongo
-   </td>
-   <td>
-
-<img src="Assets/img/chapter-2/lark.png" width="" alt="alt_text" title="image_tooltip">
-
-<p>
-lark
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Perfil
-   </td>
-   <td>Overview
-   </td>
-   <td>Software  peruano para instituciones de salud que atienden pacientes con enfermedades crónicas. Es para mejorar el monitoreo y comunicación clínica.
-   </td>
-   <td>Plataforma aprobada por la FDA(Food and Drug Administration) para manejo de diabetes y otras enfermedades crónicas 
-   </td>
-   <td>Plataforma digital de salud diseñada para ayudar a pacientes con enfermedades crónicas a gestionar su condición . Integra dispositivos médicos conectados
-   </td>
-   <td>Startup de salud digital de EE. UU. especializada en asesoramiento digital con IA para prevención y manejo de crónicas.
-   </td>
-  </tr>
-  <tr>
-   <td>Ventaja
-<p>
-competitiva
-<p>
-¿Qué valor ofrece
-<p>
-a los clientes?
-   </td>
-   <td>-Accesibilidad y simplicidad. 
-<p>
--Enfoque institucional . 
-<p>
--Adaptabilidad a necesidades locales.
-   </td>
-   <td>-Primera app para diabetes aprobada por la FDA como dispositivo médico. 
-<p>
--Reconocimiento clínico.
-   </td>
-   <td>-Ecosistema completo: dispositivos médicos conectados + asesoramiento humano + aplicación..
-   </td>
-   <td>-Uso de IA conversacional escalable, permite llegar a millones de usuarios con mínimo personal humano.
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="2" >Perfil de Marketing
-   </td>
-   <td>Mercado objetivo
-   </td>
-   <td>-Clínicas, hospitales y centros de salud que atienden enfermedades crónicas.
-   </td>
-   <td>-Principalmente pacientes con diabetes pero también sirve para otras enfermedades crónicas
-<p>
--médicos en EE. UU.
-<p>
--Aseguradora.
-   </td>
-   <td> -Aseguradoras
-<p>
- 
-<p>
--Sistemas de salud grandes.
-   </td>
-   <td>-Aseguradoras
-<p>
-–Usuarios interesados en prevención de enfermedades.
-   </td>
-  </tr>
-  <tr>
-   <td>Estrategias de
-<p>
-marketing
-   </td>
-   <td>-Alianzas con instituciones, 
-<p>
--Difusión en congresos médicos,
-   </td>
-   <td>-Validación científica
-<p>
--Alianzas con aseguradoras 
-<p>
--Promoción en congresos médicos.
-   </td>
-   <td>-Integración con grandes empresas
-<p>
--Seguros de salud.
-   </td>
-   <td>Partnerships con aseguradoras y empresas, marketing digital en EE. UU.
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="3" >Perfil de Producto
-   </td>
-   <td>Productos &
-<p>
-Servicios
-   </td>
-   <td>Chornicare
-   </td>
-   <td>Welldoc
-   </td>
-   <td>-Livongo for Diabetes 
-<p>
--Livongo for Hypertension 
-<p>
--Livongo for Weight Management, 
-<p>
--Livongo for Behavioral Health.
-   </td>
-   <td>-Lark Diabetes Care
-<p>
--Lark Weight Management
-<p>
--Lark Hypertension Program
-   </td>
-  </tr>
-  <tr>
-   <td>Precios & Costos
-   </td>
-   <td>Modelo Saas Por suscripción 
-   </td>
-   <td> Modelo B2B(Business to Business) a aseguradoras.
-   </td>
-   <td> B2B
-   </td>
-   <td>Modelo SaaS, B2B.
-   </td>
-  </tr>
-  <tr>
-   <td>Canales de
-<p>
-distribución (Web
-<p>
-y/o Móvil
-   </td>
-   <td> Web + Móvil
-   </td>
-   <td>Móvil.
-   </td>
-   <td>Web Móvil
-   </td>
-   <td>Móvil
-   </td>
-  </tr>
-  <tr>
-   <td rowspan="5" >Análisis SWOT
-   </td>
-   <td colspan="5" >Realice esto para su startup y sus competidores. Sus fortalezas deberían apoyar sus oportunidades y contribuir a lo que ustedes definen como su posible ventaja competitiva
-   </td>
-  </tr>
-  <tr>
-   <td>Fortalezas
-   </td>
-   <td>-Costos accesibles, simplicidad de uso,
-<p>
- 
-<p>
--alineación con las necesidades de cada paciente. \
-
-   </td>
-   <td>-Aprobación FDA
-<p>
-- fuerte reputación.
-   </td>
-   <td>-Integración hardware + software
-<p>
- 
-<p>
--Fuerte red de aseguradoras.
-   </td>
-   <td>-IA escalable
-<p>
--bajo costo, 
-<p>
--disponibilidad 24/7.
-   </td>
-  </tr>
-  <tr>
-   <td>Debilidades
-   </td>
-   <td>-Startup en etapa inicial
-<p>
--Sin certificaciones internacionales
-   </td>
-   <td>-Alto costo
-<p>
--Enfoque limitado en EE. UU.
-   </td>
-   <td>-Elevado costo, 
-<p>
-Dependencia de grandes contratos.
-   </td>
-   <td>-Menor interacción humana
-<p>
--Posible falta de personalización en casos complejos.
-   </td>
-  </tr>
-  <tr>
-   <td>Oportunidades
-   </td>
-   <td>-Crecimiento del mercado digital de salud
-<p>
--Aumento de preocupación por la salud
-   </td>
-   <td>-Expansión internacional
-   </td>
-   <td>-Integración con más dispositivos.
-   </td>
-   <td>-Expansión a mercados globales
-<p>
--Creciente interés en prevención digital.
-   </td>
-  </tr>
-  <tr>
-   <td>Amenazas
-   </td>
-   <td>-Competidores globales entrando en el mercado
-<p>
--Barreras regulatorias en salud digital.
-   </td>
-   <td>-Regulaciones en mercados externos
-<p>
--Aparición de apps de bajo costo.
-   </td>
-   <td>-Competencia de apps más accesibles
-<p>
--Presión en reducción de costos de aseguradoras.
-   </td>
-   <td>-Desconfianza en chatbots
-<p>
--Eegulaciones en uso de IA en salud.
-   </td>
-  </tr>
-</table>
+| **Análisis SWOT** | | | | |
+|---|---|---|---|---|
+| **Fortalezas** | - Costos accesibles<br>- Simplicidad de uso<br>- Alineación con necesidades locales | - Aprobación FDA<br>- Fuerte reputación clínica | - Integración hardware + software<br>- Fuerte red de aseguradoras | - IA escalable<br>- Bajo costo de implementación<br>- Disponibilidad 24/7 |
+| **Debilidades** | - Startup en etapa inicial<br>- Sin certificaciones internacionales (FDA, ISO) | - Alto costo para mercados emergentes<br>- Enfoque limitado a EE.UU. | - Elevado costo de implementación<br>- Dependencia de grandes contratos | - Menor interacción humana<br>- Falta de personalización en casos complejos |
+| **Oportunidades** | - Crecimiento del mercado digital de salud en LATAM<br>- Aumento de preocupación por la salud crónica<br>- Alianzas con ministerios de salud | - Expansión internacional a mercados emergentes | - Integración con más dispositivos IoT<br>- Expansión a nuevas condiciones crónicas | - Expansión a mercados globales<br>- Creciente interés en prevención digital y IA |
+| **Amenazas** | - Competidores globales entrando en LATAM<br>- Barreras regulatorias en salud digital | - Regulaciones en mercados externos<br>- Aparición de apps de bajo costo | - Competencia de apps más accesibles<br>- Presión en reducción de costos por aseguradoras | - Desconfianza en chatbots y IA sin supervisión humana<br>- Regulaciones estrictas en el uso de IA en salud |
 
 ### 2.1.2. Estrategias y tácticas frente a competidores.
 
@@ -867,7 +650,7 @@ En este apartado se presenta una documentación detallada de cada entrevista rea
 **Navegador habitual:** Safari  
 **Enfermedad crónica:** Esclerosis Múltiple (diagnóstico hace 2 años)  
 
-![Entrevista 1](/Assets/img/chapter-2/entrevista%201.png)
+![Entrevista 1](assets/img/chapter-2/entrevista%201.png)
 
 **Instante en el que inicia:** 0:00  
 **Duración de la entrevista:** 3:24 min
@@ -902,7 +685,7 @@ Alisa es una joven creativa, digital native y autogestiva. Maneja su enfermedad 
 **Navegador habitual:** Chrome  
 **Enfermedad crónica:** Asma persistente  
 
-![Entrevista 2](/Assets/img/chapter-2/entrevista%202.png)
+![Entrevista 2](assets/img/chapter-2/entrevista%202.png)
 
 
 **Instante en el que inicia:** 3:24  
@@ -938,7 +721,7 @@ Claudia es práctica, resiliente y con fuerte sentido de autoprotección. Maneja
 **Navegador habitual:** Chrome  
 **Enfermedad crónica:** Diabetes tipo 1  
 
-![Entrevista 3](/Assets/img/chapter-2/entrevista%203.png)
+![Entrevista 3](assets/img/chapter-2/entrevista%203.png)
 
 
 **Instante en el que inicia:** 6:34  
@@ -975,7 +758,7 @@ Mauricio es un paciente proactivo, con mentalidad clínica por su carrera. Usa t
 **Dispositivos utilizados:** iPhone, Laptop  
 **Navegador habitual:** Chrome  
 
-![Entrevista 4](/Assets/img/chapter-2/entrevista%204.png)
+![Entrevista 4](assets/img/chapter-2/entrevista%204.png)
 
 
 **Instante en el que inicia:** 9:21  
@@ -1010,7 +793,7 @@ Matías representa a la nueva generación de médicos: digital, pragmático y en
 **Dispositivos utilizados:** Computadora hospitalaria, celular  
 **Navegador habitual:** Chrome (con restricciones institucionales)
 
-![Entrevista 5](/Assets/img/chapter-2/Entrevista%205.png)
+![Entrevista 5](assets/img/chapter-2/Entrevista%205.png)
 
 
 **Instante en el que inicia:** 12:49  
@@ -1045,7 +828,7 @@ Ana es una profesional experimentada en entorno público, donde la burocracia y 
 **Dispositivos utilizados:** Computadora hospitalaria, iPhone  
 **Navegador habitual:** Chrome  
 
-![Entrevista 6](/Assets/img/chapter-2/entrevista%206.png)
+![Entrevista 6](assets/img/chapter-2/entrevista%206.png)
 
 **Instante en el que inicia:** 23:16  
 **Duración de la entrevista:** 4:37 min
@@ -1142,15 +925,15 @@ Fuente de información:
 - **Estadistica-1d**: 42.9% confían en su médico o en influencers de TikTok/Instagram.
 - **Estadistica-1e**: 100% valoran las reseñas de otros usuarios.
 
-![estadistica 1a](/Assets/img/chapter-2/estadistica-1a.png)
+![estadistica 1a](assets/img/chapter-2/estadistica-1a.png)
 
-![estadistica 1b](/Assets/img/chapter-2/estadistica-1b.png)
+![estadistica 1b](assets/img/chapter-2/estadistica-1b.png)
 
-![estadistica 1c](/Assets/img/chapter-2/estadistica-1c.png)
+![estadistica 1c](assets/img/chapter-2/estadistica-1c.png)
 
-![estadistica 1d](/Assets/img/chapter-2/estadistica-1d.png)
+![estadistica 1d](assets/img/chapter-2/estadistica-1d.png)
 
-![estadistica 1e](/Assets/img/chapter-2/estadistica-1e.png)
+![estadistica 1e](assets/img/chapter-2/estadistica-1e.png)
 
 
 ---
@@ -1211,15 +994,15 @@ Fuente de información:
 - **Estadistica-2d**: 100% valora alertas automatizadas y reportes digitales.
 - **Estadistica-2e**: 40% usa apps de monitoreo remoto.
 
-![estadistica 2a](/Assets/img//chapter-2/estdistica-2a.png)
+![estadistica 2a](assets/img//chapter-2/estdistica-2a.png)
 
-![estadistica 2b](/Assets/img//chapter-2/estdistica-2b.png)
+![estadistica 2b](assets/img//chapter-2/estdistica-2b.png)
 
-![estadistica 2c](/Assets/img//chapter-2/estdistica-2c.png)
+![estadistica 2c](assets/img//chapter-2/estdistica-2c.png)
 
-![estadistica 2d](/Assets/img//chapter-2/estdistica-2d.png)
+![estadistica 2d](assets/img//chapter-2/estdistica-2d.png)
 
-![estadistica 2e](/Assets/img//chapter-2/estdistica-2e.png)
+![estadistica 2e](assets/img//chapter-2/estdistica-2e.png)
 
 ---
 
@@ -1281,7 +1064,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 **Distrito:** Miraflores, Lima  
 **Perfil:** Joven emprendedora, digital native y autogestiva. Vive con esclerosis múltiple y maneja su condición con herramientas digitales, redes sociales y comunidades en línea. Valora la autonomía, la estética y la comunicación humana. Usa tecnología no como obligación, sino como extensión de su vida.
 
-![User persona 1](/Assets/img/chapter-2/Alisa%20Goicochea.png)
+![User persona 1](assets/img/chapter-2/Alisa%20Goicochea.png)
 
 #### Motivaciones:
 - Tener un control constante sobre su estado de salud sin depender de consultas presenciales.
@@ -1313,7 +1096,7 @@ Estas herramientas ayudan a traducir datos reales en perfiles comprensibles y ac
 **Distrito:** Lince, Lima  
 **Perfil:** Profesional joven, pragmático y orientado a resultados. Atiende a más de 50 pacientes crónicos por semana en un hospital público. Cree firmemente en la prevención proactiva y en el uso de tecnología como herramienta de eficiencia, no como distracción. Usa Google Sheets para gestionar pacientes porque el sistema institucional es lento.
 
-![User persona 2](/Assets/img/chapter-2/Matías%20Peña.png)
+![User persona 2](assets/img/chapter-2/Matías%20Peña.png)
 
 #### Motivaciones:
 - Reducir el número de emergencias por falta de adherencia terapéutica.
@@ -1412,7 +1195,7 @@ Cada mapa está vinculado directamente con la ficha de **User Persona** correspo
 
 ### User Journey Map: Alisa Goicochea – Paciente Autónoma Digital
 
-![User Journey Map - Alisa Goicochea](/Assets/img/chapter-2/journeymapping1.png)
+![User Journey Map - Alisa Goicochea](assets/img/chapter-2/journeymapping1.png)
 
 Este mapa representa el **As-Is journey** de Alisa, una paciente joven con esclerosis múltiple que gestiona su salud diariamente mediante apps, redes sociales y comunicación con su médico. Su objetivo principal es mantener un control continuo de su estado sin depender de consultas presenciales.
 
@@ -1436,7 +1219,7 @@ Este mapa representa el **As-Is journey** de Alisa, una paciente joven con escle
 
 ### User Journey Map: Mathias Peña – Médico Pragmático y Empático
 
-![User Journey Map - Mathias Peña](/Assets/img/chapter-2/journeymapping2.png)
+![User Journey Map - Mathias Peña](assets/img/chapter-2/journeymapping2.png)
 
 Este mapa representa el **As-Is journey** de Mathias, un médico internista que atiende a más de 50 pacientes crónicos por semana en un hospital público. Su objetivo principal es **detectar riesgos tempranos y prevenir complicaciones** mediante el seguimiento de datos clínicos.
 
@@ -1500,7 +1283,7 @@ A continuación, se presentan los Empathy Maps para los dos segmentos objetivo.
 
 #### Segmento Objetivo: Pacientes con enfermedades cronicas (representado por Alisa Goicochea)
 
-![Empathy Map - Pacientes](/Assets/img/chapter-2/empathy1.png)
+![Empathy Map - Pacientes](assets/img/chapter-2/empathy1.png)
 
 > **User Persona vinculada:** Alisa Goicochea — Paciente Autónoma Digital  
 > Este mapa refleja la experiencia emocional, cognitiva y conductual de un paciente con enfermedad crónica en su entorno actual. Revela la necesidad de autonomía, acompañamiento emocional y herramientas intuitivas que se adapten a su estilo de vida, no al revés.
@@ -1509,7 +1292,7 @@ A continuación, se presentan los Empathy Maps para los dos segmentos objetivo.
 
 #### Segmento Objetivo: Doctores y personal médico (representado por Matías Peña)
 
-![Empathy Map - Doctores](/Assets/img/chapter-2/empathy2.png)
+![Empathy Map - Doctores](assets/img/chapter-2/empathy2.png)
 
 > **User Persona vinculada:** Matías Peña — Médico Pragmático y Empático  
 > Este mapa captura la realidad del profesional de la salud en entornos hospitalarios: sobrecargado, con acceso limitado a datos en tiempo real, y con una fuerte motivación por prevenir complicaciones antes de que ocurran. Destaca la necesidad de eficiencia, integración y confianza en las herramientas digitales.
@@ -1652,7 +1435,7 @@ El mapa parte de un **Business Goal SMART** y desciende en niveles jerárquicos:
 
 > **Nota:** Este mapa fue creado en UXPressia. Cada columna representa una etapa del proceso estratégico. S
 
-![](/Assets/img/chapter-3/Impact%20map%20chronicarre.png)
+![](assets/img/chapter-3/Impact%20map%20chronicarre.png)
 
 
 ## 3.3. Product Backlog.
@@ -1718,7 +1501,7 @@ La identidad visual de ChroniCare se construye sobre la base de:
 
 Queremos transmitir una imagen de **confianza, seguridad y tranquilidad** al usuario a través de este diseño, utilizando un logotipo en tonos verde-azulados que refuerzan los conceptos de salud, calma y profesionalismo.
 
-![Logo CC](/Assets/img/chapter-4/logo-png.png)
+![Logo CC](assets/img/chapter-4/logo-png.png)
 
 #### Typography
 
@@ -1727,7 +1510,7 @@ La tipografía debe transmitir **claridad, calidez y profesionalismo**. Por esa 
 - **Poppins** → Para títulos y mensajes clave (conexión emocional).
 - **Inter** → Para párrafos, interfaces y texto funcional (claridad y confianza).
 
-![tipografia](/Assets/img/chapter-4/tipografia.png
+![tipografia](assets/img/chapter-4/tipografia.png
 )
 ##### Tipografía de Diseño (Font Scale)
 
@@ -1760,7 +1543,7 @@ Elegimos los siguientes colores buscando plasmar una paleta que influya **seguri
 - **Text CC**: `#416072` → Azul grisáceo para etiquetas y estados.
 - **Text CC (alerta)**: `#F66D77` → Rosa rojizo para notificaciones de riesgo.
 
-![Colores](/Assets/img/chapter-4/colores.png)
+![Colores](assets/img/chapter-4/colores.png)
 
 #### Spacing
 
@@ -1782,7 +1565,7 @@ En este proyecto el espaciado cumple un papel clave para mantener la **legibilid
 
 Decidimos mantener una comunicación **clara, cálida y profesional**, porque este enfoque nos permite conectar de manera efectiva con el público, especialmente en un contexto tan sensible como la salud. Usamos lenguaje humano, evitamos tecnicismos innecesarios y priorizamos la empatía en cada mensaje.
 
-![spaccing](/Assets/img/chapter-4/Spacing.png)
+![spaccing](assets/img/chapter-4/Spacing.png)
 
 
 ### 4.1.2. Web Style Guidelines
@@ -1810,7 +1593,7 @@ Nuestro propósito es garantizar una **experiencia de usuario coherente, intuiti
 
 La estructura visual ha sido diseñada estratégicamente para facilitar el **monitoreo continuo, la prevención de complicaciones y la comunicación clínica eficiente**.
 
-![diagrama cc](/Assets/img/chapter-4/diagrama-cc.png)
+![diagrama cc](assets/img/chapter-4/diagrama-cc.png)
 
 #### Flujo de usuario y funcionalidades clave:
 
@@ -1978,37 +1761,37 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 ---
 
 #### Header y Hero
-![Header y Hero](/Assets/img/chapter-4/landing-1.png)  
+![Header y Hero](assets/img/chapter-4/landing-1.png)  
 *Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Empieza a monitorear tu salud” o “Únete como médico”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos y comunicar el valor central: prevención, adherencia y cuidado continuo.*
 
 ---
 
 #### ¿Qué es ChroniCare?
-![Qué es ChroniCare](/Assets/img/chapter-4/landing-2.png)  
+![Qué es ChroniCare](assets/img/chapter-4/landing-2.png)  
 *Sección explicativa que comunica el propósito de ChroniCare: conectar pacientes y médicos para mejorar la adherencia, prevenir complicaciones y humanizar la salud digital. Incluye iconografía simple y bullets de beneficios clínicos.*
 
 ---
 
 #### Testimonios de Usuarios
-![Testimonios](/Assets/img/chapter-4/landing-7.png)   
+![Testimonios](assets/img/chapter-4/landing-7.png)   
 *Muestra citas reales de pacientes y médicos. Construye confianza y empatía. Cada tarjeta incluye foto, nombre, rol y testimonio auténtico (ej: “ChroniCare me ayudó a reducir mis hospitalizaciones en un 40%”).*
 
 ---
 
 #### Funcionalidades Clave
-![Funcionalidades](/Assets/img/chapter-4/landing-6.png)  
+![Funcionalidades](assets/img/chapter-4/landing-6.png)  
 *Presenta los módulos principales: Registro de síntomas, Alertas personalizadas, Conexión con dispositivos, Comunicación con médico. Usa tarjetas modulares con ícono, título y descripción corta.*
 
 ---
 
 #### Impacto Clínico
-![Impacto Clínico](/Assets/img/chapter-4/landing-2.png)   
+![Impacto Clínico](assets/img/chapter-4/landing-2.png)   
 *Visualiza métricas de impacto: “40% más de adherencia”, “30% menos de hospitalizaciones”, “95% de satisfacción de médicos”. Refuerza credibilidad y valor clínico real.*
 
 ---
 
 #### Footer
-![Footer](/Assets/img/chapter-4/landing-8.png)   
+![Footer](assets/img/chapter-4/landing-8.png)   
 *Contiene enlaces legales (Términos, Privacidad), contacto (soporte@chronicare.pe), redes sociales, newsletter y logos de alianzas con instituciones de salud. Es la base de confianza y cierre de la página.*
 
 ---
@@ -2024,44 +1807,44 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ---
 
 #### Header y Hero
-![Header y Hero](/Assets/img/chapter-4/landingmockups-1.png)
+![Header y Hero](assets/img/chapter-4/landingmockups-1.png)
 *Hero con fondo suave en tonos teal y blanco, imagen de paciente sonriente usando la app en su celular. Tipografía Poppins en negrita para el título principal, botón CTA en teal (#26B5A6) con hover effect y sombra sutil. Transmite seguridad, accesibilidad y acompañamiento.*
 
 ---
 
 #### ¿Qué es ChroniCare?
-![Qué es ChroniCare](/Assets/img/chapter-4/landingmockups-2.png)
+![Qué es ChroniCare](assets/img/chapter-4/landingmockups-2.png)
 *Diseño limpio con ilustraciones médicas estilizadas, gradientes suaves y tarjetas con bordes redondeados. Usa íconos intuitivos (corazón, checklist, gráfico) y colores de marca. Comunica empatía, prevención y tecnología al servicio de la salud.*
 
 ---
 
 #### Testimonios de Usuarios
-![Testimonios](/Assets/img/chapter-4/landingmockups-9.png)
-![Testimonios](/Assets/img/chapter-4/landingmockups-10.png) 
+![Testimonios](assets/img/chapter-4/landingmockups-9.png)
+![Testimonios](assets/img/chapter-4/landingmockups-10.png) 
 *Fotos reales de pacientes y médicos con fondo desenfocado, citas auténticas en tipografía Inter, estrellas de calificación y hover con “Leer más”. Genera confianza social y validación clínica real.*
 
 ---
 
 #### Funcionalidades Clave
-![Funcionalidades](/Assets/img/chapter-4/landingmockups-6.png) 
+![Funcionalidades](assets/img/chapter-4/landingmockups-6.png) 
 *Iconos personalizados (registro, alertas, chat, dispositivos), colores por tipo de funcionalidad (teal para acciones, rojo para alertas, verde para estados normales). Animaciones de entrada suaves al scroll. Cada tarjeta incluye microcopy claro y CTA secundario.*
 
 ---
 
 #### Cómo Funciona
-![Cómo Funciona](/Assets/img/chapter-4/landingmockups-7.png)   
+![Cómo Funciona](assets/img/chapter-4/landingmockups-7.png)   
 *Sección con layout de 3 pasos: “Registra”, “Recibe alertas”, “Habla con tu médico”. Ilustración médica a la izquierda, texto explicativo a la derecha. Botones con estados hover y focus definidos. Usa lenguaje cercano y motivador: “Toma el control de tu salud, un día a la vez”.*
 
 ---
 
 #### Impacto Clínico
-![Impacto Clínico](/Assets/img/chapter-4/landingmockups-6.png)  
+![Impacto Clínico](assets/img/chapter-4/landingmockups-6.png)  
 *Números grandes en negrita (40% más de adherencia, 30% menos de hospitalizaciones), íconos animados al scroll (corazón, gráfico, check), fondo con textura sutil en blanco y teal. Diseñado para generar credibilidad y mostrar valor clínico medible.*
 
 ---
 
 #### Footer
-![Footer](/Assets/img/chapter-4/landingmockups-11.png)  
+![Footer](assets/img/chapter-4/landingmockups-11.png)  
 *Fondo en azul oscuro (#1A2A33), texto en blanco, separadores sutiles. Incluye logo pequeño, enlaces organizados en columnas (Para Pacientes, Para Médicos, Soporte), formulario de newsletter con validación visual, y redes sociales con íconos hover. Refuerza profesionalismo y confianza institucional.*
 
 ## 4.4. Web Applications UX/UI Design.
@@ -2071,55 +1854,55 @@ Los wireframes son esquemas visuales en blanco y negro que definen la estructura
 
 **Web applications wireframes desktop:**
 
-![alt text](/Assets/img/chapter-4/wireframes%20desktop%201.png)
+![alt text](assets/img/chapter-4/wireframes%20desktop%201.png)
 
-![alt text](/Assets/img/chapter-4/wireframes%20desktop%202.png)
+![alt text](assets/img/chapter-4/wireframes%20desktop%202.png)
 
-![alt text](/Assets/img/chapter-4/wireframes%20desktop%203.png)
+![alt text](assets/img/chapter-4/wireframes%20desktop%203.png)
 
 **Web applications wireframes mobile:**
 
-![alt text](/Assets/img/chapter-4/wireframes%20mobile%201.png)
+![alt text](assets/img/chapter-4/wireframes%20mobile%201.png)
 
-![alt text](/Assets/img/chapter-4/wireframes%20mobile%202.png)
+![alt text](assets/img/chapter-4/wireframes%20mobile%202.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 Los diagramas de wireflow para aplicaciones web son representaciones visuales que muestran tanto la navegación como la estructura de una aplicación. Estos combinan características de los wireframes y de los diagramas de flujo, ofreciendo una visión clara de cómo los usuarios se desplazan por la plataforma y de qué manera interactúan con sus diferentes funciones. Su utilidad radica en detectar posibles dificultades de usabilidad y en asegurar que la experiencia del usuario sea consistente y eficiente.
 
-![alt text](/Assets/img/chapter-4/Wireflow.png)
+![alt text](assets/img/chapter-4/Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups.
 
 Los mock-ups son representaciones visuales de alta fidelidad de la interfaz, con colores, tipografías, imágenes y microinteracciones definidas. Reflejan la identidad de marca de ChroniCare y la experiencia estética final que el usuario verá: una interfaz limpia, moderna y empática, diseñada para transmitir **seguridad, profesionalismo y acompañamiento humano**. Los mock-ups validan no solo la estética, sino también la usabilidad, accesibilidad y consistencia visual en todos los dispositivos y contextos de uso.
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(1).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(1).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(2).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(2).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(3).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(3).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(4).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(4).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(5).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(5).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(6).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(6).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(7).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(7).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(8).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(8).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(9).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(9).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(10).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(10).png)
 
-![mock ups app](/Assets/img/chapter-4/mockups%20app%20(11).png)
+![mock ups app](assets/img/chapter-4/mockups%20app%20(11).png)
 
-![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(1).png)
+![mock ups app](assets/img/chapter-4/mock%20ups%20mobile%20(1).png)
 
-![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(2).png)
+![mock ups app](assets/img/chapter-4/mock%20ups%20mobile%20(2).png)
 
-![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(3).png)
+![mock ups app](assets/img/chapter-4/mock%20ups%20mobile%20(3).png)
 
 
 
@@ -2128,10 +1911,10 @@ Los mock-ups son representaciones visuales de alta fidelidad de la interfaz, con
 Los diagramas de flujo de usuario (User Flow) mapean el recorrido completo que un paciente o médico realiza para completar una tarea específica dentro de la aplicación —por ejemplo, “Registrar síntomas y recibir una alerta” o “Revisar la evolución de un paciente y generar un reporte”. Estos diagramas son fundamentales para optimizar la usabilidad, reducir la fricción y asegurar que cada acción contribuya al objetivo clínico. En ChroniCare, los User Flows garantizan que la plataforma guíe al usuario de forma intuitiva, sin distracciones, priorizando siempre la **prevención, la adherencia y la comunicación médico-paciente**.
 
 
-![User flow](/Assets/img/chapter-4/userflow%20(1).png)
-![User flow](/Assets/img/chapter-4/userflow%20(2).png)
-![User flow](/Assets/img/chapter-4/userflow%20(3).png)
-![User flow](/Assets/img/chapter-4/userflow%20(4).png)
+![User flow](assets/img/chapter-4/userflow%20(1).png)
+![User flow](assets/img/chapter-4/userflow%20(2).png)
+![User flow](assets/img/chapter-4/userflow%20(3).png)
+![User flow](assets/img/chapter-4/userflow%20(4).png)
 
 
 Link de los user flow: https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
@@ -2144,7 +1927,7 @@ El prototipo interactivo de ChroniCare en Figma es una herramienta clave para va
 
 Prototipo de la aplicación web ChroniCare en figma:
 
-![cc](/Assets/img/chapter-4/landingmockups-1.png)
+![cc](assets/img/chapter-4/landingmockups-1.png)
 
 > **Enlace al prototipo interactivo en Figma:**  
 > https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t=Ib9FkdgFfRiJHozE-0
@@ -2157,35 +1940,35 @@ La arquitectura de software de ChroniCare sigue los principios de **Domain-Drive
 
 El diagrama de contexto define los límites del sistema ChroniCare y su relación con actores externos: pacientes, médicos, dispositivos médicos (glucómetros, tensiómetros) y sistemas hospitalarios. Muestra los flujos de información clave —registro de síntomas, alertas, comunicación, reportes— y asegura que la arquitectura esté alineada con el ecosistema de salud en el que opera. Es el punto de partida para entender el alcance del sistema y sus dependencias.
 
-<img src="/Assets/img/chapter-4//DiagramaContexto.jpeg">
+<img src="assets/img/chapter-4//DiagramaContexto.jpeg">
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
 Los diagramas de contenedores desglosan el sistema en componentes de alto nivel: aplicación web, aplicación móvil, API backend, base de datos y servicios de terceros (notificaciones, autenticación, integración con dispositivos). Cada contenedor tiene una responsabilidad clara y define cómo se comunican entre sí, facilitando la escalabilidad, el despliegue independiente y la asignación de tareas a equipos de desarrollo.
 
-<img src="/Assets/img/chapter-4//DiagramaContainer.jpeg">
+<img src="assets/img/chapter-4//DiagramaContainer.jpeg">
 
 ### 4.6.3. Software Architecture Components Diagrams.
 
 Los diagramas de componentes detallan la estructura interna de cada contenedor, mostrando módulos clave como: gestión de pacientes, registro de síntomas, motor de alertas, comunicación clínica y reportes analíticos. Estos diagramas guían el desarrollo orientado a objetos, asegurando que cada componente encapsule lógica de negocio clínico y cumpla con principios de cohesión y bajo acoplamiento. Son la base para la implementación técnica y la evolución futura del sistema.
 
-<img src="/Assets/img/chapter-4//DiagramaComponentesBDAnalytics.jpeg">
+<img src="assets/img/chapter-4//DiagramaComponentesBDAnalytics.jpeg">
 
-<img src="/Assets/img/chapter-4//DiagramaComponentesBDCare.jpeg.jpeg">
+<img src="assets/img/chapter-4//DiagramaComponentesBDCare.jpeg.jpeg">
 
-<img src="/Assets/img/chapter-4//DiagramaComponentesBDHandling.jpeg.jpeg">
+<img src="assets/img/chapter-4//DiagramaComponentesBDHandling.jpeg.jpeg">
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 El diagrama de clases muestra las relaciones entre las entidades principales del sistema, sus atributos, métodos y asociaciones. Incluye patrones de diseño como **Aggregate** (para garantizar la integridad de los datos clínicos) y **Repository** (para la persistencia de datos). Este diagrama es la base para el desarrollo del backend y la lógica de negocio, y sirve como documento vivo que evoluciona junto con el producto.
 
-<img src="/Assets/img/chapter-4/Class Diagram.png">
+<img src="assets/img/chapter-4/Class Diagram.png">
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
 El diagrama de base de datos muestra las tablas, campos, tipos de datos, claves primarias, claves foráneas y relaciones (uno a muchos, muchos a muchos). Es una herramienta esencial para el desarrollo del backend, la gestión eficiente de datos clínicos y la generación de reportes analíticos. El diagrama asegura que la estructura de la base de datos esté alineada con los requerimientos funcionales y no funcionales del sistema, y sirve como referencia para el equipo de desarrollo y operaciones.
 
-<img src="/Assets/img/chapter-4/db Diagram.png">
+<img src="assets/img/chapter-4/db Diagram.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment
 
@@ -2303,7 +2086,7 @@ El equipo de ChroniCaree adopta estrictamente las convenciones de codificación 
 | **JavaScript / TypeScript** | Google TypeScript Style Guide: https://google.github.io/styleguide/jsguide.html | Uso de `const` y `let` en lugar de `var`, funciones flecha (`() => {}`), desestructuración, módulos ES6 (`import/export`), nombres en `lowerCamelCase` (ej. `getPatientById`, `validateEmail`), tipado explícito, y programación funcional inmutable. Estructura por capas: `components/`, `services/`, `models/`, `utils/`. |
 | **Java** | Google Java Style Guide: https://google.github.io/styleguide/javaguide.html | Nombres de clases e interfaces en `PascalCase` (ej. `PatientService`), métodos y variables en `lowerCamelCase` (ej. `saveMedicalRecord`), constantes en `UPPER_SNAKE_CASE` (ej. `MAX_PATIENT_AGE`), indentación de 4 espacios, comentarios Javadoc en inglés para clases y métodos públicos, uso de anotaciones como `@Override`, `@NonNull`, `@Valid`. Evita imports wildcard (`.*`) y organiza manualmente las dependencias. |
 | **Spring Boot** | Spring Boot Features - Official Documentation: https://spring.io/projects/spring-boot | Uso de anotaciones estándar de Spring (`@RestController`, `@Service`, `@Repository`, `@Component`), separación clara de capas (Controller → Service → Repository → Entity), configuración mediante `application.yml` o `application.properties` en inglés, validación con Bean Validation (`@NotBlank`, `@Email`, etc.), manejo centralizado de excepciones con `@ControllerAdvice`. |
-| **Angular** | Angular Style Guide: https://angular.io/guide/styleguide | Nombres de componentes en `PascalCase` (ej. `PatientDashboardComponent`), archivos en `kebab-case` (ej. `patient-dashboard.component.ts`), uso de `OnPush` change detection, inyección de dependencias por constructor, separación de lógica y presentación, internacionalización con `@angular/localize` y archivos JSON en `src/assets/i18n/` (ej. `es.json`, `en.json`). |
+| **Angular** | Angular Style Guide: https://angular.io/guide/styleguide | Nombres de componentes en `PascalCase` (ej. `PatientDashboardComponent`), archivos en `kebab-case` (ej. `patient-dashboard.component.ts`), uso de `OnPush` change detection, inyección de dependencias por constructor, separación de lógica y presentación, internacionalización con `@angular/localize` y archivos JSON en `srcassets/i18n/` (ej. `es.json`, `en.json`). |
 
 Además, se aplica **Conventional Commits** para los mensajes de Git, en inglés, con formato:  
 `<tipo>(<alcance>): <descripción breve>`  
@@ -2402,7 +2185,7 @@ Todos los Work Items han sido completados y verificados. La **Landing Page de Ch
 
 Este sprint ha sentado las bases para el crecimiento de ChroniCare, asegurando que el primer punto de contacto con pacientes, médicos e instituciones de salud sea **claro, empático, profesional y centrado en el valor clínico real**: mejorar la adherencia, prevenir complicaciones y fortalecer la comunicación médico-paciente.
 
-![produc backlog sprint 1](/Assets/img/chapter-5/sprintbacklog-1.png)
+![produc backlog sprint 1](assets/img/chapter-5/sprintbacklog-1.png)
 
 ### 5.2.1.4. Development Evidence for Sprint Review.
 
@@ -2416,7 +2199,7 @@ A continuación, se presenta la tabla con los commits relacionados con la implem
 
 | Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
 |------------|--------|-----------|----------------|---------------------|---------------------|
-| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `main` | `209a2e0` | `chore(main): create initial folder structure` | Creación de la estructura de carpetas inicial para el proyecto. Se organizó el código fuente en `/src`, `/assets`, `/css`, `/js` y `/locales`. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `main` | `209a2e0` | `chore(main): create initial folder structure` | Creación de la estructura de carpetas inicial para el proyecto. Se organizó el código fuente en `/src`, `assets`, `/css`, `/js` y `/locales`. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `1e4c611` | `feat(landing): implement index page` | Implementación de la página principal (`index.html`) con estructura HTML básica y enlaces a estilos. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `729996d` | `feat(landing): implement styles for landing page` | Aplicación de estilos CSS para la página principal, asegurando responsividad y diseño visual coherente. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-with-styles` | `433d3ad` | `feat(landing): implement frequently asked questions and history section` | Implementación de las secciones "Historia" y "Preguntas Frecuentes" con contenido estructurado y estilizado. | 21/09/2025 |
@@ -2432,7 +2215,7 @@ A continuación, se presenta la tabla con los commits relacionados con la implem
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `09ffde0` | `feat(animations): implement FAQ section animations` | Animaciones suaves para la sección de Preguntas Frecuentes. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `2343baf` | `feat(animations): implement animations for all pages except FAQ` | Animaciones para todas las secciones de la landing page, excepto FAQ. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/faq-animation-and-error-fix` | `47c55fa` | `fix(styles): correct FAQ styling issues` | Corrección de errores de estilo en la sección de FAQ. | 21/09/2025 |
-| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `9f05d93` | `feat(landing): add images to landing page` | Subida de imágenes (hero, logotipo, iconos) a la carpeta `/assets`. | 21/09/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/translations-implementation-en-es` | `9f05d93` | `feat(landing): add images to landing page` | Subida de imágenes (hero, logotipo, iconos) a la carpeta `assets`. | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/header-implementation-and-footer-fixes` | `1696c85` | `feat(animations): implement header and footer animations` | Animaciones para el header y footer (fade-in, scroll effects). | 21/09/2025 |
 | `UPC-PRE-1ASI0729-7391-ChroniCaree` | `feature/landing-page-md-implementation` | `5fcc87f` | `docs(landing): implement README for landing page` | Implementación del archivo `README.md` para documentar la estructura, uso y mantenimiento de la landing page. | 21/09/2025 |
 
@@ -2452,9 +2235,9 @@ La página es completamente **responsive**, accesible (WCAG AA), optimizada para
 > **Enlace al video de demostración (navegación y funcionalidades):**  
 > https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/Eb76ElgA3VlDvOYz9wvp5H8BX2m3j78q6BaZU7y_Vp3Ydw?e=3bybz5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
-![Landing Page ChroniCare - Vista 1](/Assets/img/chapter-5/netlify1.png)
-![Landing Page ChroniCare - Vista 2](/Assets/img/chapter-5/netlify2.png)
-![Landing Page ChroniCare - Vista 3](/Assets/img/chapter-5/netlify3.png)
+![Landing Page ChroniCare - Vista 1](assets/img/chapter-5/netlify1.png)
+![Landing Page ChroniCare - Vista 2](assets/img/chapter-5/netlify2.png)
+![Landing Page ChroniCare - Vista 3](assets/img/chapter-5/netlify3.png)
 
 
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review.
@@ -2500,11 +2283,11 @@ Cada push a `main` o merge de Pull Request dispara automáticamente:
 4. Despliegue del sitio estático
 5. Notificación por correo y Slack al equipo
 
-![Netlify Build #1](/Assets/img/chapter-5/netlify4.png)
+![Netlify Build #1](assets/img/chapter-5/netlify4.png)
 
-![Netlify Build #1](/Assets/img/chapter-5/netlify5.png)
+![Netlify Build #1](assets/img/chapter-5/netlify5.png)
 
-![Netlify Build #1](/Assets/img/chapter-5/netlify3.png)
+![Netlify Build #1](assets/img/chapter-5/netlify3.png)
 
 ---
 
@@ -2529,9 +2312,9 @@ El sitio incluye todas las secciones desarrolladas en el Sprint 1:
 
 El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de ramas permitió que cada miembro del equipo trabajara en una parte del proyecto sin interferir en el trabajo de los demás. Al terminar cada 'feature' se comprueba que no tenga conflictos con la rama principal y se procede a hacer un 'pull request' para que se integre con la rama principal. A continuación, se muestra una imagen de la colaboración del equipo en GitHub.
 
-![commits 1](/Assets/img/chapter-5/commits1.png)
-![commits 2](/Assets/img/chapter-5/commits2.png)
-![network 1](/Assets/img/chapter-5/Network.png)
+![commits 1](assets/img/chapter-5/commits1.png)
+![commits 2](assets/img/chapter-5/commits2.png)
+![network 1](assets/img/chapter-5/Network.png)
 
 ### Bibliografia
 
@@ -2547,7 +2330,7 @@ Tapia, S. (2021, 21 de junio). *Arquitectura DDD (Domain Driven Design)*. https:
 
 | contenido |  |
 |--- | ---|
-|video de exposicion TB1 | link del video:  |
+|video de exposicion TB1 | link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/Efzwy1jCnH1HuvKzKkKmCDIBufw9Jdwf9vYLGC2kx_oOVQ?e=Y1b2eB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
 
 
 

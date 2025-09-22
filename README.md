@@ -578,7 +578,7 @@ La página es completamente **responsive**, accesible (WCAG AA), optimizada para
 > https://chronicaree.netlify.app/  
 
 > **Enlace al video de demostración (navegación y funcionalidades):**  
->
+> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/Eb76ElgA3VlDvOYz9wvp5H8BX2m3j78q6BaZU7y_Vp3Ydw?e=3bybz5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 ![Landing Page ChroniCare - Vista 1](/Assets/img/chapter-5/netlify1.png)
 ![Landing Page ChroniCare - Vista 2](/Assets/img/chapter-5/netlify2.png)

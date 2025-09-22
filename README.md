@@ -841,6 +841,8 @@ El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplic
 
 ### 4.4.1. Web Applications Wireframes.
 
+Los wireframes son esquemas visuales en blanco y negro que definen la estructura básica de cada pantalla de la aplicación, sin incluir colores, tipografías ni imágenes finales. 
+
 **Web applications wireframes desktop:**
 
 ![alt text](/Assets/img/chapter-4/wireframes%20desktop%201.png)
@@ -859,17 +861,50 @@ El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplic
 
 Los diagramas de wireflow para aplicaciones web son representaciones visuales que muestran tanto la navegación como la estructura de una aplicación. Estos combinan características de los wireframes y de los diagramas de flujo, ofreciendo una visión clara de cómo los usuarios se desplazan por la plataforma y de qué manera interactúan con sus diferentes funciones. Su utilidad radica en detectar posibles dificultades de usabilidad y en asegurar que la experiencia del usuario sea consistente y eficiente.
 
-![cc](/Assets/img/chapter-4/landingmockups-1.png)
-
 ![alt text](/Assets/img/chapter-4/Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups.
 
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(1).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(2).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(3).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(4).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(5).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(6).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(7).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(8).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(9).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(10).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(11).png)
+
+![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(1).png)
+
+![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(2).png)
+
+![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(3).png)
+
+
+
 ### 4.4.4. Web Applications User Flow Diagrams.
+
+
+
 
 ## 4.5. Web Applications Prototyping.
 
 Prototipo de la aplicación web ChroniCare en figma:
+
+![cc](/Assets/img/chapter-4/landingmockups-1.png)
 
 https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t=Ib9FkdgFfRiJHozE-0
 

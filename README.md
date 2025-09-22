@@ -1700,170 +1700,492 @@ El Product Backlog está ordenado según el **valor para el negocio**, priorizan
 Link del trello del product backlog: https://trello.com/b/O57EUYog/chroni-caree-open
 
 # Capítulo IV: Product Design
-## 4.1. Style Guidelines.
 
-Un **Style Guideline** es un conjunto de reglas y lineamientos que definen los estándares a seguir en la redacción, diseño y presentación de documentos, contenido digital, software u otros productos creativos. A continuación, se describen de manera detallada las especificaciones de los parámetros aplicados en la estructura del proyecto. 
+## 4.1. Style Guidelines
 
-### 4.1.1. General Style Guidelines.
+En esta sección se define un repositorio centralizado y debidamente organizado para el uso de todo el equipo, el cual incluye recursos como assets, tipografías y demás elementos necesarios. Su finalidad es asegurar una presentación coherente, estandarizada y alineada en todo el proyecto.
 
-4.1.1. General Style Guidelines
+### 4.1.1. General Style Guidelines
 
-**Branding:**
+Buscamos transmitir **confianza, accesibilidad y modernidad**. Para reflejar la idea de **cuidado continuo, prevención de complicaciones y acompañamiento humano en salud digital**, integramos un logo que combina un **checklist** (seguimiento constante) y un **corazón con cruz médica** (salud y empatía), unidos por una línea fluida que simboliza la conexión entre paciente y médico.
 
-Para el desarrollo de la identidad de ChroniCare, se ha diseñado un estilo que transmite la esencia de la plataforma: confianza, cuidado humano y tecnología innovadora. La marca busca reflejar un acompañamiento cercano entre paciente y médico, reforzando la idea de un cuidado continuo, accesible y preventivo en el manejo de enfermedades crónicas.
-El logotipo de ChroniCare combina dos elementos clave:
+La identidad visual de ChroniCare se construye sobre la base de:
 
--   Un ícono de checklist que simboliza el seguimiento constante y la organización del cuidado.
+- **Misión:** Brindar a pacientes con enfermedades crónicas una herramienta digital accesible, segura y fácil de usar que les permita monitorear su salud diariamente, fomentar la adherencia a sus tratamientos y fortalecer la comunicación con sus médicos, contribuyendo así a mejorar su calidad de vida.
+- **Visión:** Convertirnos en la plataforma líder en Perú para el seguimiento digital de enfermedades crónicas, siendo reconocidos por integrar innovación tecnológica, evidencia médica y una experiencia centrada en el paciente que impacte positivamente en los sistemas de salud y en la vida de millones de personas.
+
+#### Logo
+
+Queremos transmitir una imagen de **confianza, seguridad y tranquilidad** al usuario a través de este diseño, utilizando un logotipo en tonos verde-azulados que refuerzan los conceptos de salud, calma y profesionalismo.
+
+![Logo CC](/Assets/img/chapter-4/logo-png.png)
+
+#### Typography
+
+La tipografía debe transmitir **claridad, calidez y profesionalismo**. Por esa razón decidimos usar **Poppins** e **Inter**, ya que combinan un estilo humano y cercano con una alta legibilidad en entornos digitales.
+
+- **Poppins** → Para títulos y mensajes clave (conexión emocional).
+- **Inter** → Para párrafos, interfaces y texto funcional (claridad y confianza).
+
+![tipografia](/Assets/img/chapter-4/tipografia.png
+)
+##### Tipografía de Diseño (Font Scale)
+
+| Tipo de Texto | Fuente | Tamaño | Peso |
+|---------------|--------|--------|------|
+| **Display 1** | Inter | 54px | Bold |
+| **Display 2** | Inter | 48px | Bold |
+| **Heading 1** | Poppins | 32px | Bold |
+| **Heading 2** | Inter | 28px | Bold |
+| **Heading 3** | Inter | 24px | SemiBold |
+| **Heading 4** | Inter | 20px | SemiBold |
+| **Paragraph 1** | Inter | 18px | Bold |
+| **Paragraph 2** | Inter | 16px | Bold |
+| **Text** | Inter | 16px | Regular |
+| **Text Small** | Inter | 12px | Light |
+
+#### Colors
+
+Elegimos los siguientes colores buscando plasmar una paleta que influya **seguridad, calma y profesionalismo**:
+
+- **Base**: `#F5F5F5` → Fondo neutro, limpio y profesional.
+- **Muted**: `#CCD0DA` → Gris suave para elementos secundarios.
+- **CC Bold Green**: `#36837B` → Verde profundo para estados positivos y acciones principales.
+- **CC Green**: `#26B5A6` → Verde vibrante para alertas de éxito y botones CTA.
+- **CC Red**: `#E63946` → Rojo para alertas críticas y errores.
+- **CC Dark Blue**: `#1A2A33` → Azul oscuro para textos importantes y encabezados.
+- **Text Primary**: `#0D0D0D` → Negro para texto principal.
+- **Text Secondary**: `#333333` → Gris oscuro para subtítulos.
+- **Text Secondary-2**: `#FAFAFF` → Blanco para textos sobre fondos oscuros.
+- **Text CC**: `#416072` → Azul grisáceo para etiquetas y estados.
+- **Text CC (alerta)**: `#F66D77` → Rosa rojizo para notificaciones de riesgo.
+
+![Colores](/Assets/img/chapter-4/colores.png)
+
+#### Spacing
+
+En este proyecto el espaciado cumple un papel clave para mantener la **legibilidad, accesibilidad y equilibrio visual**. Por ello:
+
+- **Párrafos:** Se añade un espacio de 16px entre líneas y 24px entre párrafos.
+- **Elementos interactivos:** 8px–12px de separación entre botones, enlaces u otros componentes.
+- **Márgenes y padding:** 16px–24px alrededor del contenido para evitar saturación visual.
+- **Base modular:** Sistema de espaciado en múltiplos de 8px para consistencia en todas las vistas.
+
+#### Communication Tone
+
+| Dimensión              | Nivel Adoptado    |
+|------------------------|-------------------|
+| Divertido/Serio        | Medio-Serio       |
+| Formal/Casual          | Semi-Formal       |
+| Respetuoso/Irreverente | Muy Respetuoso    |
+| Entusiasta/Sereno      | Sereno y Empático |
+
+Decidimos mantener una comunicación **clara, cálida y profesional**, porque este enfoque nos permite conectar de manera efectiva con el público, especialmente en un contexto tan sensible como la salud. Usamos lenguaje humano, evitamos tecnicismos innecesarios y priorizamos la empatía en cada mensaje.
+
+![spaccing](/Assets/img/chapter-4/Spacing.png)
 
 
--   Un corazón con cruz médica que representa la salud, el acompañamiento y la atención confiable.
+### 4.1.2. Web Style Guidelines
 
-Ambos elementos están conectados por una línea fluida que integra la parte clínica con la parte humana, sintetizando la misión de ChroniCare: prevenir complicaciones y empoderar al paciente con tecnología.
-La paleta cromática utiliza tonos verde-azulados, que evocan calma, salud y frescura, asociados con la confianza y el bienestar. El uso de un fondo neutro permite resaltar la identidad visual, transmitiendo limpieza y profesionalismo.
-La integración de estos elementos comunica de manera clara el propósito de ChroniCare: humanizar la salud digital, empoderar a los pacientes y ofrecer herramientas tecnológicas confiables a médicos y administradores de salud.
+Para garantizar que la plataforma se adapte a diferentes tamaños de pantalla y mantenga una presentación clara y atractiva, se empleará **CSS con el apoyo de media queries**. De esta manera, será posible definir estilos específicos según la resolución del dispositivo. Elementos clave como la barra de navegación y el pie de página se ajustarán automáticamente, ofreciendo una experiencia consistente en cualquier dispositivo.
 
-![alt text](<Assetsimgchapter-4/log chroniCare.png>)
+| Dispositivo     | Ancho mínimo | Ejemplo de uso            |
+|-----------------|--------------|----------------------------|
+| Mobile          | ≥ 320px      | Teléfonos                  |
+| Tablet          | ≥ 768px      | iPad / tablets genéricas   |
+| Laptop          | ≥ 1024px     | Monitores y laptops        |
+| Wide Screen     | ≥ 1440px     | Pantallas grandes o TV     |
 
-**Typography:**
+La interfaz prioriza:
+- **Jerarquía visual clara**: Alertas y métricas vitales siempre visibles.
+- **Acciones prioritarias**: Botones de “Registrar síntomas”, “Ver alertas críticas” y “Comunicar con médico” con alto contraste.
+- **Navegación intuitiva**: Menú superior con acceso rápido a Dashboard, Pacientes, Alertas, Reportes y Configuración.
+- **Feedback visual**: Chips de estado (verde = estable, amarillo = advertencia, rojo = crítico) y animaciones sutiles para confirmaciones.
 
-Para la tipografía de ChroniCare, se ha seleccionado una combinación que busca transmitir cercanía, accesibilidad y modernidad. La tipografía principal Just Another Hand se utiliza en los encabezados, aportando un estilo humano y distintivo, ideal para resaltar títulos y mensajes clave que conectan con el lado emocional del cuidado en salud.
-Para los textos de párrafo y componentes de la interfaz, se emplea Inter, una tipografía ampliamente reconocida por su alta legibilidad en entornos digitales. Esta elección garantiza una experiencia de usuario clara, ordenada y confiable, favoreciendo la lectura en dispositivos móviles y web.
-Esta combinación tipográfica equilibra lo humano y lo tecnológico, reforzando la identidad de ChroniCare como una plataforma accesible, confiable y cercana.
+## 4.2. Information Architecture
 
-![alt text](Assetsimgchapter-4/Typography.png)
+### 4.2.1. Organization Systems
 
-**Colors:**
+Nuestro propósito es garantizar una **experiencia de usuario coherente, intuitiva y sin fricciones** en la plataforma web y móvil, adaptada a las necesidades de nuestros dos segmentos principales: **pacientes** y **médicos**.
 
-La paleta de colores de ChroniCare refleja confianza, calma y profesionalismo, valores esenciales en el cuidado de la salud digital. Los tonos principales —teal, azul oscuro y blanco— transmiten serenidad y claridad, garantizando una interfaz limpia y accesible en todo tipo de dispositivos.
-Como apoyo, se incluyen el rojo de alerta para situaciones críticas y el verde positivo para estados normales. Esta combinación asegura una jerarquía visual clara, facilitando la rápida identificación de información médica y consolidando a ChroniCare como una plataforma confiable e innovadora en el monitoreo de enfermedades crónicas.
+La estructura visual ha sido diseñada estratégicamente para facilitar el **monitoreo continuo, la prevención de complicaciones y la comunicación clínica eficiente**.
 
-![alt text](Assetsimgchapter-4/Colors.png)
+![diagrama cc](/Assets/img/chapter-4/diagrama-cc.png)
 
-**Spacing:**
+#### Flujo de usuario y funcionalidades clave:
 
-El espaciado en ChroniCare ha sido cuidadosamente definido para garantizar una interfaz limpia, clara y ordenada, que facilite la navegación y refuerce la jerarquía visual. Se utiliza una separación uniforme entre componentes y secciones, lo que mejora la legibilidad y proporciona un equilibrio estético a la aplicación.
-El sistema de espaciado se basa en una escala modular de 8px, lo que permite mantener consistencia y coherencia en todas las vistas de la plataforma. Este sistema asegura que tanto en pantallas móviles como en web, la interfaz conserve una apariencia armónica y accesible.
+1. **Landing Page**: Punto de entrada para nuevos usuarios. Presenta la propuesta de valor, beneficios clave y llamados a acción.
+2. **Inicio de Sesión / Registro**:
+   - **Crear cuenta manual**: Formulario con datos personales y diagnósticos.
+   - **Registro con Google**: Opción rápida y segura.
+   - **Validación de identidad**: DNI + selfie para garantizar seguridad.
+3. **Dashboard (Paciente)**:
+   - Registro diario de síntomas y signos vitales.
+   - Recordatorios de medicación.
+   - Alertas personalizadas.
+   - Conexión con dispositivos médicos.
+4. **Dashboard (Médico)**:
+   - Vista de pacientes asignados.
+   - Filtros por condición y nivel de riesgo.
+   - Gráficos de evolución clínica.
+   - Generación de reportes en PDF.
+5. **Perfil y Preferencias**:
+   - Actualización de datos biométricos.
+   - Configuración de idioma y accesibilidad.
+   - Gestión de notificaciones.
+6. **Soporte y Tutoriales**:
+   - Guías interactivas.
+   - FAQ.
+   - Contacto con soporte técnico.
 
-![alt text](Assetsimgchapter-4/Spacing.png)
+Este flujo permite que los pacientes **se sientan acompañados y empoderados**, y que los médicos **tomen decisiones informadas y oportunas**.
 
-### 4.1.2. Web Style Guidelines.
+### 4.2.2. Labeling Systems
 
-ChroniCare cuenta con un diseño web y móvil adaptable y responsivo, que garantiza una experiencia clara, accesible y confiable para pacientes, médicos y administradores de salud en cualquier dispositivo, desde computadoras de escritorio hasta teléfonos móviles.
-El patrón de diseño principal se centra en la claridad y jerarquía visual, asegurando que la información crítica como alertas de salud, recordatorios de medicación y métricas vitales esté siempre visible en los primeros segundos de navegación. Este enfoque permite priorizar la toma de decisiones médicas rápidas y una experiencia intuitiva para todos los perfiles de usuario.
-En la estructura visual:
-El logo de ChroniCare se ubica en la esquina superior izquierda como ancla de marca.
-La barra de navegación con secciones principales (Dashboard, Pacientes, Alertas, Reportes, Configuración) se encuentra en la parte superior, permitiendo un acceso rápido e intuitivo.
-El llamado a la acción (CTA) principal —Registrar paciente o Ver alertas críticas— se resalta con el color corporativo teal (#26B5A6) y, en casos de riesgo, con el color rojo de alerta (#E74C3C), atrayendo de inmediato la atención del usuario.
-El hero section incluye un panel interactivo con métricas en tiempo real y recordatorios activos, optimizando la experiencia de monitoreo clínico.
-Secciones como “Pacientes activos” y “Alertas críticas” utilizan un sistema de tarjetas modulares que mantienen consistencia visual y escalabilidad.
-Se incluyen chips y badges de colores para resaltar estados de los pacientes: verde (estable), amarillo (advertencia) y rojo (crítico), mejorando la jerarquía visual.
+Los sistemas de etiquetado siguen una estructura clara, consistente y centrada en el lenguaje del usuario. Se evitan tecnicismos y se priorizan verbos de acción y sustantivos comprensibles.
 
-El footer minimalista refuerza la identidad de marca y proporciona enlaces clave (Términos, Privacidad, Soporte) sin sobrecargar la interfaz.
-La interfaz en su conjunto transmite confianza, simplicidad y seguridad, reforzando los valores de la marca y favoreciendo la interacción constante entre pacientes, médicos y administradores de instituciones de salud.
+#### Navegación principal (App):
 
+| **Sección**      | **Contenido** |
+|------------------|---------------|
+| **Inicio**       | Panel principal con métricas clave y alertas activas. |
+| **Síntomas**     | Registro diario de fatiga, dolor, glucosa, presión, etc. |
+| **Medicación**   | Recordatorios, confirmación de tomas, historial de adherencia. |
+| **Dispositivos** | Conexión con glucómetros, tensiómetros, smartwatches. |
+| **Alertas**      | Notificaciones de valores anómalos o tendencias de riesgo. |
+| **Chat Médico**  | Mensajería segura con historial clínico adjunto. |
+| **Reportes**     | Evolución semanal/mensual, exportación en PDF. |
+| **Perfil**       | Datos personales, preferencias, accesibilidad, seguridad. |
 
-## 4.2. Information Architecture.
+#### Call to Action (CTA):
 
-La arquitectura de la información en ChroniCare ha sido diseñada para asegurar que tanto pacientes como profesionales de la salud puedan acceder fácilmente al contenido y a las funciones más importantes, reduciendo la carga cognitiva y ofreciendo una experiencia fluida e intuitiva.
+- **Para pacientes:** “Registrar síntomas”, “Tomar medicación”, “Conectar dispositivo”, “Hablar con mi médico”.
+- **Para médicos:** “Revisar alertas”, “Ver evolución”, “Actualizar plan”, “Generar reporte”.
 
-Las decisiones tomadas en la organización de la información buscan transmitir claridad, confianza y accesibilidad, alineándose con la misión de la plataforma de facilitar el cuidado continuo de enfermedades crónicas. Esta estructura refleja el compromiso de ChroniCare con una experiencia de usuario eficiente, ordenada y coherente, adaptada a las necesidades de sus distintos perfiles de uso.
-
-### 4.2.1. Organization Systems.
-
-En ChroniCare se aplican distintos sistemas de organización según el tipo de contenido y la plataforma:
-
-- **Organización jerárquica (Visual Hierarchy)**: En la landing se prioriza la propuesta de valor y el buscador, seguidos por secciones de beneficios, cómo funciona, testimonios, equipo y contacto. En la app, los dashboards muestran primero alertas críticas, luego métricas clave y finalmente accesos a acciones secundarias (tutoriales, soporte, ajustes).
-
-
-- **Organización secuencial (Step-by-step):** Flujos como registro de síntomas/cuidados, conexión de dispositivos (glucómetro, tensiómetro, smartwatch) y recordatorios de medicación se guían paso a paso con validaciones, estados de progreso y confirmación para evitar errores y asegurar la completitud clínica.
-
-
-- **Organización por tópicos:** El contenido se agrupa por categorías claras:
- Condiciones, Métricas, Dispositivos , Comunicaciones , Educación (tutoriales y guías) y Administración (planes, permisos, auditoría).
-
-
-- **Organización según audiencia:** Vistas y navegación diferenciadas por rol:
- 
- **Paciente:** registrar/visualizar métricas, alertas, medicación, educación y chat.
- 
- **Médico:** panel de métricas por paciente, bandeja de alertas, evolución temporal, órdenes y notas.
-
-### 4.2.2. Labeling Systems.
-
-El etiquetado en ChroniCare busca claridad, simplicidad y consistencia, usando palabras cortas, directas y comprensibles en todas las interfaces. Se emplea un mismo criterio entre landing page y aplicación para que los usuarios reconozcan fácilmente las secciones.
--   Landing Page: Inicio, Servicios, Equipo, Testimonios, Contacto.
-
--   Aplicación Web / Móvil: Síntomas, Alertas, Dispositivos, Medicación, Historial, Chat, Panel Médico, Administración.
-
-Además, los CTAs (Call To Action) se diseñan con verbos imperativos que invitan a la acción y transmiten confianza:
--   Para pacientes: “Registrar síntomas”, “Conectar dispositivo”, “Programar recordatorio”.
-
--   Para médicos: “Revisar métricas”, “Acceder evolución”, “Validar alerta”.
-
-De esta manera, los labels y CTAs facilitan la interacción rápida, reducen la ambigüedad y mantienen la coherencia con los objetivos clínicos y operativos de la plataforma.
+---
 
 ### 4.2.3. SEO Tags and Meta Tags
 
-### 4.2.4. Searching Systems.
+La **Landing Page** está diseñada para atraer nuevos usuarios, informar sobre la propuesta de valor y generar confianza en la marca. Las etiquetas meta se centran en captar tráfico orgánico de personas interesadas en **gestión de enfermedades crónicas, monitoreo remoto y salud digital**.
 
-### 4.2.5. Navigation Systems.
+```html
+<!-- Título de la página -->
+<title>ChroniCare – Monitoreo Digital de Enfermedades Crónicas</title>
 
-La navegación de ChroniCare combina claridad, consistencia y adaptabilidad para los distintos dispositivos y roles de usuario:
+<!-- Meta descripción -->
+<meta name="description" content="ChroniCare es una plataforma digital que conecta pacientes y médicos para mejorar la adherencia al tratamiento, simplificar el seguimiento y prevenir complicaciones en enfermedades crónicas como diabetes e hipertensión.">
 
-- **Landing Page (Desktop):** menú superior con navegación horizontal que permite acceder rápidamente a Inicio, Nosotros, Equipo, Servicios, Testimonios y Contacto.
+<!-- Palabras clave -->
+<meta name="keywords" content="salud crónica, monitoreo de pacientes, enfermedades crónicas, diabetes, hipertensión, EPOC, telemedicina, recordatorios de medicación, dispositivos médicos, salud digital, app de salud, cuidado en casa">
 
+<!-- Autor -->
+<meta name="author" content="Equipo Chronisys – Startup ChroniCare">
 
-- **Landing Page (Móvil):** menú tipo hamburguesa con navegación vertical, optimizado para pantallas pequeñas y con accesos a los mismos apartados principales.
+```
 
+### 4.2.4. Searching Systems
 
-- **Aplicación Web/Móvil:** navegación diferenciada por rol:
+La plataforma ChroniCare incorpora sistemas de búsqueda y filtrado inteligentes diseñados para que **pacientes** y **médicos** encuentren la información clínica relevante de forma rápida, precisa y sin esfuerzo cognitivo. Evitamos la sobrecarga de datos y priorizamos la **eficiencia clínica** y la **toma de decisiones proactiva**.
 
+#### Búsqueda global en historial clínico
+- Disponible en el dashboard de ambos roles.
+- Permite buscar por:
+  - **Fecha específica o rango de fechas** (ej: “últimos 7 días”).
+  - **Tipo de registro** (síntomas, signos vitales, medicación, notas).
+  - **Valor numérico** (ej: “glucosa > 250” o “presión < 90/60”).
+  - **Palabras clave** en notas o comentarios (ej: “dolor de cabeza”, “mareo”).
 
-    - Paciente: barra inferior con accesos directos a Inicio, Síntomas, Alertas, Dispositivos y Chat.
+#### Filtros avanzados por contexto clínico
+- **Para pacientes:**
+  - Filtrar registros por síntoma (fatiga, náuseas, dolor).
+  - Ver solo medicamentos tomados o pendientes.
+  - Filtrar alertas por nivel de riesgo (bajo, medio, alto).
+- **Para médicos:**
+  - Filtrar pacientes por condición (diabetes, hipertensión, EPOC).
+  - Filtrar por nivel de adherencia (<70%, 70–90%, >90%).
+  - Filtrar por tipo de alerta (glucosa, presión, falta de registro).
+  - Filtrar por dispositivo conectado (glucómetro, tensiómetro, smartwatch).
 
+#### Panel interactivo con selección visual
+- Médicos pueden hacer clic en gráficos de evolución para:
+  - Seleccionar un rango de tiempo y ver solo los datos de ese periodo.
+  - Comparar métricas entre dos pacientes con condiciones similares.
+  - Identificar correlaciones (ej: baja adherencia → aumento de glucosa).
 
-   - Médico: sidebar lateral con accesos a Pacientes, Panel de métricas, Alertas y Evolución.
+#### Búsqueda en comunicaciones clínicas
+- Filtrar mensajes en el chat por:
+  - **Tema** (medicación, cita, síntoma, emergencia).
+  - **Remitente** (paciente, médico, cuidador).
+  - **Estado** (leído, no leído, con archivo adjunto).
+  - **Fecha** (hoy, esta semana, este mes).
 
+> **Beneficio clave:** Reduce el tiempo de búsqueda de información crítica de minutos a segundos, evita errores por omisión y permite intervenciones oportunas.
 
-- **CTAs estratégicos:** botones visibles en colores primarios que guían al usuario a tareas clave como Registrar síntomas, Revisar métricas, Descargar reporte o Ver evolución de pacientes.
+---
 
+### 4.2.5. Navigation Systems
 
-En conjunto, estos sistemas aseguran que los usuarios puedan desplazarse por la plataforma de forma intuitiva, cumpliendo sus objetivos clínicos y operativos sin fricciones.
+La navegación de ChroniCare está diseñada para ser **intuitiva, consistente y adaptable**, priorizando las tareas más frecuentes y críticas según el rol del usuario. La estructura sigue principios de accesibilidad y usabilidad móvil.
 
+#### Estructura de navegación en la Landing Page
 
-## 4.3. Landing Page UI Design.
+| **Sección**       | **Contenido** |
+|-------------------|---------------|
+| **Inicio**        | Hero con propuesta de valor, CTA “Regístrate como paciente” / “Regístrate como médico”. |
+| **¿Qué es ChroniCare?** | Explica el propósito: monitoreo continuo, prevención de complicaciones, comunicación médico-paciente. |
+| **Funcionalidades** | Tarjetas con íconos: Registro de síntomas, Alertas inteligentes, Conexión con dispositivos, Comunicación segura. |
+| **Testimonios**   | Citas de pacientes y médicos reales con fotos y roles. |
+| **Equipo**        | Fotos, nombres y roles del equipo fundador. |
+| **Precios**       | Tabla comparativa: Plan gratuito (básico) vs Plan premium (avanzado) vs Plan institucional (B2B). |
+| **Contacto**      | Formulario de contacto, enlaces a soporte, redes sociales y política de privacidad. |
 
-### 4.3.1. Landing Page Wireframe.
+#### Navegación en la Aplicación Web/Móvil (por rol)
+
+##### Para Pacientes (barra inferior)
+- **Inicio**: Panel con métricas del día, alertas activas y recordatorios pendientes.
+- **Síntomas**: Registro diario con íconos y lenguaje natural (“Hoy me siento pesada”).
+- **Medicación**: Lista de medicamentos con horarios y botón de confirmación.
+- **Dispositivos**: Conexión y sincronización con glucómetros, tensiómetros, etc.
+- **Chat Médico**: Mensajería segura con historial clínico adjunto.
+
+##### Para Médicos (sidebar lateral en web / barra inferior en móvil)
+- **Dashboard**: Vista general de pacientes activos, alertas críticas y KPIs.
+- **Pacientes**: Lista con filtros por condición, riesgo y adherencia.
+- **Evolución**: Gráficos comparativos por paciente o grupo.
+- **Alertas**: Bandeja priorizada por nivel de urgencia.
+- **Reportes**: Generación y exportación de PDFs clínicos.
+
+#### CTAs estratégicos
+- **Color teal (#26B5A6)**: Acciones principales (Registrar síntomas, Enviar mensaje, Generar reporte).
+- **Color rojo (#E74C3C)**: Alertas críticas y acciones de emergencia (Llamar al médico, Enviar SOS).
+- **Ubicación fija**: Botones flotantes para acciones clave (ej: “Registrar ahora”, “Ver alertas”).
+
+> **Beneficio clave:** Los usuarios completan sus tareas clínicas en menos pasos, con menos errores y mayor confianza, gracias a una navegación centrada en su rol y necesidades reales.
+
+---
+
+## 4.3. Landing Page UI Design
+
+La interfaz de la landing page de ChroniCare es clave para el proyecto, pues constituye la **primera impresión del producto**. Su diseño limpio, moderno y empático transmite **confianza, calma y profesionalismo** —valores esenciales en salud digital—, combinando tipografía clara (Poppins e Inter), colores en tonos teal y blanco, y botones estratégicos que destacan las acciones principales. Esta estructura estética y funcional atrae de inmediato a los visitantes y los impulsa a seguir explorando la plataforma.
+
+### 4.3.1. Landing Page Wireframe
+
+> ** Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
+
+Los wireframes representan la estructura básica y funcional de la landing page de **ChroniCare**, sin elementos visuales finales. Su objetivo es definir la jerarquía de contenido, los flujos de navegación y la disposición de componentes clave antes de pasar al diseño visual.
+
+---
+
+#### Header y Hero
+![Header y Hero](/Assets/img/chapter-4/landing-1.png)  
+*Define la primera impresión del usuario: logo, menú de navegación, llamado a acción principal (“Empieza a monitorear tu salud” o “Únete como médico”) y espacio para imagen/video hero. Diseñado para captar atención en menos de 3 segundos y comunicar el valor central: prevención, adherencia y cuidado continuo.*
+
+---
+
+#### ¿Qué es ChroniCare?
+![Qué es ChroniCare](/Assets/img/chapter-4/landing-2.png)  
+*Sección explicativa que comunica el propósito de ChroniCare: conectar pacientes y médicos para mejorar la adherencia, prevenir complicaciones y humanizar la salud digital. Incluye iconografía simple y bullets de beneficios clínicos.*
+
+---
+
+#### Testimonios de Usuarios
+![Testimonios](/Assets/img/chapter-4/landing-7.png)   
+*Muestra citas reales de pacientes y médicos. Construye confianza y empatía. Cada tarjeta incluye foto, nombre, rol y testimonio auténtico (ej: “ChroniCare me ayudó a reducir mis hospitalizaciones en un 40%”).*
+
+---
+
+#### Funcionalidades Clave
+![Funcionalidades](/Assets/img/chapter-4/landing-6.png)  
+*Presenta los módulos principales: Registro de síntomas, Alertas personalizadas, Conexión con dispositivos, Comunicación con médico. Usa tarjetas modulares con ícono, título y descripción corta.*
+
+---
+
+#### Impacto Clínico
+![Impacto Clínico](/Assets/img/chapter-4/landing-2.png)   
+*Visualiza métricas de impacto: “40% más de adherencia”, “30% menos de hospitalizaciones”, “95% de satisfacción de médicos”. Refuerza credibilidad y valor clínico real.*
+
+---
+
+#### Footer
+![Footer](/Assets/img/chapter-4/landing-8.png)   
+*Contiene enlaces legales (Términos, Privacidad), contacto (soporte@chronicare.pe), redes sociales, newsletter y logos de alianzas con instituciones de salud. Es la base de confianza y cierre de la página.*
+
+---
 
 ### 4.3.2. Landing Page Mock-up.
 
 
+> **🔗 Enlace al diseño final en Figma:**  
+> https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
+
+Los mock-ups son la versión visual final de la landing page, con colores, tipografías, imágenes reales y microinteracciones definidas. Representan la identidad de marca y la experiencia estética que el usuario final verá: **calma, confianza, claridad y cuidado humano**.
+
+---
+
+#### Header y Hero
+![Header y Hero](/Assets/img/chapter-4/landingmockups-1.png)
+*Hero con fondo suave en tonos teal y blanco, imagen de paciente sonriente usando la app en su celular. Tipografía Poppins en negrita para el título principal, botón CTA en teal (#26B5A6) con hover effect y sombra sutil. Transmite seguridad, accesibilidad y acompañamiento.*
+
+---
+
+#### ¿Qué es ChroniCare?
+![Qué es ChroniCare](/Assets/img/chapter-4/landingmockups-2.png)
+*Diseño limpio con ilustraciones médicas estilizadas, gradientes suaves y tarjetas con bordes redondeados. Usa íconos intuitivos (corazón, checklist, gráfico) y colores de marca. Comunica empatía, prevención y tecnología al servicio de la salud.*
+
+---
+
+#### Testimonios de Usuarios
+![Testimonios](/Assets/img/chapter-4/landingmockups-9.png)
+![Testimonios](/Assets/img/chapter-4/landingmockups-10.png) 
+*Fotos reales de pacientes y médicos con fondo desenfocado, citas auténticas en tipografía Inter, estrellas de calificación y hover con “Leer más”. Genera confianza social y validación clínica real.*
+
+---
+
+#### Funcionalidades Clave
+![Funcionalidades](/Assets/img/chapter-4/landingmockups-6.png) 
+*Iconos personalizados (registro, alertas, chat, dispositivos), colores por tipo de funcionalidad (teal para acciones, rojo para alertas, verde para estados normales). Animaciones de entrada suaves al scroll. Cada tarjeta incluye microcopy claro y CTA secundario.*
+
+---
+
+#### Cómo Funciona
+![Cómo Funciona](/Assets/img/chapter-4/landingmockups-7.png)   
+*Sección con layout de 3 pasos: “Registra”, “Recibe alertas”, “Habla con tu médico”. Ilustración médica a la izquierda, texto explicativo a la derecha. Botones con estados hover y focus definidos. Usa lenguaje cercano y motivador: “Toma el control de tu salud, un día a la vez”.*
+
+---
+
+#### Impacto Clínico
+![Impacto Clínico](/Assets/img/chapter-4/landingmockups-6.png)  
+*Números grandes en negrita (40% más de adherencia, 30% menos de hospitalizaciones), íconos animados al scroll (corazón, gráfico, check), fondo con textura sutil en blanco y teal. Diseñado para generar credibilidad y mostrar valor clínico medible.*
+
+---
+
+#### Footer
+![Footer](/Assets/img/chapter-4/landingmockups-11.png)  
+*Fondo en azul oscuro (#1A2A33), texto en blanco, separadores sutiles. Incluye logo pequeño, enlaces organizados en columnas (Para Pacientes, Para Médicos, Soporte), formulario de newsletter con validación visual, y redes sociales con íconos hover. Refuerza profesionalismo y confianza institucional.*
+
 ## 4.4. Web Applications UX/UI Design.
 ### 4.4.1. Web Applications Wireframes.
 
+Los wireframes son esquemas visuales en blanco y negro que definen la estructura básica de cada pantalla de la aplicación, sin incluir colores, tipografías ni imágenes finales. 
+
+**Web applications wireframes desktop:**
+
+![alt text](/Assets/img/chapter-4/wireframes%20desktop%201.png)
+
+![alt text](/Assets/img/chapter-4/wireframes%20desktop%202.png)
+
+![alt text](/Assets/img/chapter-4/wireframes%20desktop%203.png)
+
+**Web applications wireframes mobile:**
+
+![alt text](/Assets/img/chapter-4/wireframes%20mobile%201.png)
+
+![alt text](/Assets/img/chapter-4/wireframes%20mobile%202.png)
+
 ### 4.4.2. Web Applications Wireflow Diagrams.
+
+Los diagramas de wireflow para aplicaciones web son representaciones visuales que muestran tanto la navegación como la estructura de una aplicación. Estos combinan características de los wireframes y de los diagramas de flujo, ofreciendo una visión clara de cómo los usuarios se desplazan por la plataforma y de qué manera interactúan con sus diferentes funciones. Su utilidad radica en detectar posibles dificultades de usabilidad y en asegurar que la experiencia del usuario sea consistente y eficiente.
+
+![alt text](/Assets/img/chapter-4/Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups.
 
+Los mock-ups son representaciones visuales de alta fidelidad de la interfaz, con colores, tipografías, imágenes y microinteracciones definidas. Reflejan la identidad de marca de ChroniCare y la experiencia estética final que el usuario verá: una interfaz limpia, moderna y empática, diseñada para transmitir **seguridad, profesionalismo y acompañamiento humano**. Los mock-ups validan no solo la estética, sino también la usabilidad, accesibilidad y consistencia visual en todos los dispositivos y contextos de uso.
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(1).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(2).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(3).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(4).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(5).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(6).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(7).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(8).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(9).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(10).png)
+
+![mock ups app](/Assets/img/chapter-4/mockups%20app%20(11).png)
+
+![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(1).png)
+
+![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(2).png)
+
+![mock ups app](/Assets/img/chapter-4/mock%20ups%20mobile%20(3).png)
+
+
+
 ### 4.4.4. Web Applications User Flow Diagrams.
+
+Los diagramas de flujo de usuario (User Flow) mapean el recorrido completo que un paciente o médico realiza para completar una tarea específica dentro de la aplicación —por ejemplo, “Registrar síntomas y recibir una alerta” o “Revisar la evolución de un paciente y generar un reporte”. Estos diagramas son fundamentales para optimizar la usabilidad, reducir la fricción y asegurar que cada acción contribuya al objetivo clínico. En ChroniCare, los User Flows garantizan que la plataforma guíe al usuario de forma intuitiva, sin distracciones, priorizando siempre la **prevención, la adherencia y la comunicación médico-paciente**.
+
+
+![User flow](/Assets/img/chapter-4/userflow%20(1).png)
+![User flow](/Assets/img/chapter-4/userflow%20(2).png)
+![User flow](/Assets/img/chapter-4/userflow%20(3).png)
+![User flow](/Assets/img/chapter-4/userflow%20(4).png)
+
+
+Link de los user flow: https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
+
 
 ## 4.5. Web Applications Prototyping.
 
+El prototipo interactivo de ChroniCare en Figma es una herramienta clave para validar la experiencia de usuario antes del desarrollo. Permite simular flujos reales, probar interacciones, microanimaciones y transiciones, y obtener feedback de pacientes y médicos en entornos controlados. Es un puente entre el diseño y la implementación, que asegura que el equipo de desarrollo tenga una guía clara, coherente y validada. El prototipo no solo reduce el riesgo de errores costosos, sino que también acelera la iteración y mejora la alineación entre todos los stakeholders.
+
+
+Prototipo de la aplicación web ChroniCare en figma:
+
+![cc](/Assets/img/chapter-4/landingmockups-1.png)
+
+> **Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t=Ib9FkdgFfRiJHozE-0
+
+
 ## 4.6. Domain-Driven Software Architecture.
+La arquitectura de software de ChroniCare sigue los principios de **Domain-Driven Design (DDD)**, centrando el desarrollo en el dominio clínico: monitoreo continuo, adherencia terapéutica y prevención de complicaciones. Esta aproximación garantiza que el software refleje fielmente las necesidades reales de pacientes y médicos, con una estructura modular, mantenible y escalable. La arquitectura se organiza en capas y contenedores que separan claramente la lógica de negocio de la infraestructura, facilitando la evolución del sistema, la integración con dispositivos médicos y la adaptación a nuevos requerimientos clínicos.
+
 ### 4.6.1. Software Architecture Context Diagram.
+
+El diagrama de contexto define los límites del sistema ChroniCare y su relación con actores externos: pacientes, médicos, dispositivos médicos (glucómetros, tensiómetros) y sistemas hospitalarios. Muestra los flujos de información clave —registro de síntomas, alertas, comunicación, reportes— y asegura que la arquitectura esté alineada con el ecosistema de salud en el que opera. Es el punto de partida para entender el alcance del sistema y sus dependencias.
+
+<img src="/Assets/img/chapter-4//DiagramaContexto.jpeg">
 
 ### 4.6.2. Software Architecture Container Diagrams.
 
+Los diagramas de contenedores desglosan el sistema en componentes de alto nivel: aplicación web, aplicación móvil, API backend, base de datos y servicios de terceros (notificaciones, autenticación, integración con dispositivos). Cada contenedor tiene una responsabilidad clara y define cómo se comunican entre sí, facilitando la escalabilidad, el despliegue independiente y la asignación de tareas a equipos de desarrollo.
+
+<img src="/Assets/img/chapter-4//DiagramaContainer.jpeg">
+
 ### 4.6.3. Software Architecture Components Diagrams.
+
+Los diagramas de componentes detallan la estructura interna de cada contenedor, mostrando módulos clave como: gestión de pacientes, registro de síntomas, motor de alertas, comunicación clínica y reportes analíticos. Estos diagramas guían el desarrollo orientado a objetos, asegurando que cada componente encapsule lógica de negocio clínico y cumpla con principios de cohesión y bajo acoplamiento. Son la base para la implementación técnica y la evolución futura del sistema.
+
+<img src="/Assets/img/chapter-4//DiagramaComponentesBDAnalytics.jpeg">
+
+<img src="/Assets/img/chapter-4//DiagramaComponentesBDCare.jpeg.jpeg">
+
+<img src="/Assets/img/chapter-4//DiagramaComponentesBDHandling.jpeg.jpeg">
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
-<img src="Assetsimgchapter-4/Class Diagram.png">
-### 4.7.2. Class Dictionary.
+El diagrama de clases muestra las relaciones entre las entidades principales del sistema, sus atributos, métodos y asociaciones. Incluye patrones de diseño como **Aggregate** (para garantizar la integridad de los datos clínicos) y **Repository** (para la persistencia de datos). Este diagrama es la base para el desarrollo del backend y la lógica de negocio, y sirve como documento vivo que evoluciona junto con el producto.
+
+<img src="/Assets/img/chapter-4/Class Diagram.png">
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
-<img src="Assetsimgchapter-4/db Diagram.png">
+El diagrama de base de datos muestra las tablas, campos, tipos de datos, claves primarias, claves foráneas y relaciones (uno a muchos, muchos a muchos). Es una herramienta esencial para el desarrollo del backend, la gestión eficiente de datos clínicos y la generación de reportes analíticos. El diagrama asegura que la estructura de la base de datos esté alineada con los requerimientos funcionales y no funcionales del sistema, y sirve como referencia para el equipo de desarrollo y operaciones.
+
+<img src="/Assets/img/chapter-4/db Diagram.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management.

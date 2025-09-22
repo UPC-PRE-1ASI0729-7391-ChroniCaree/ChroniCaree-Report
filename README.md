@@ -826,7 +826,7 @@ Los mock-ups son la versión visual final de la landing page, con colores, tipog
 ---
 
 #### Impacto Clínico
-![Impacto Clínico](/Assets/chapter-4/impacto-clinico.png)  
+![Impacto Clínico](/Assets/img/chapter-4/landingmockups-6.png)  
 *Números grandes en negrita (40% más de adherencia, 30% menos de hospitalizaciones), íconos animados al scroll (corazón, gráfico, check), fondo con textura sutil en blanco y teal. Diseñado para generar credibilidad y mostrar valor clínico medible.*
 
 ---
@@ -865,6 +865,8 @@ Los diagramas de wireflow para aplicaciones web son representaciones visuales qu
 
 ### 4.4.3. Web Applications Mock-ups.
 
+Los mock-ups son representaciones visuales de alta fidelidad de la interfaz, con colores, tipografías, imágenes y microinteracciones definidas. Reflejan la identidad de marca de ChroniCare y la experiencia estética final que el usuario verá: una interfaz limpia, moderna y empática, diseñada para transmitir **seguridad, profesionalismo y acompañamiento humano**. Los mock-ups validan no solo la estética, sino también la usabilidad, accesibilidad y consistencia visual en todos los dispositivos y contextos de uso.
+
 ![mock ups app](/Assets/img/chapter-4/mockups%20app%20(1).png)
 
 ![mock ups app](/Assets/img/chapter-4/mockups%20app%20(2).png)
@@ -897,26 +899,49 @@ Los diagramas de wireflow para aplicaciones web son representaciones visuales qu
 
 ### 4.4.4. Web Applications User Flow Diagrams.
 
+Los diagramas de flujo de usuario (User Flow) mapean el recorrido completo que un paciente o médico realiza para completar una tarea específica dentro de la aplicación —por ejemplo, “Registrar síntomas y recibir una alerta” o “Revisar la evolución de un paciente y generar un reporte”. Estos diagramas son fundamentales para optimizar la usabilidad, reducir la fricción y asegurar que cada acción contribuya al objetivo clínico. En ChroniCare, los User Flows garantizan que la plataforma guíe al usuario de forma intuitiva, sin distracciones, priorizando siempre la **prevención, la adherencia y la comunicación médico-paciente**.
 
+
+![User flow](/Assets/img/chapter-4/userflow%20(1).png)
+![User flow](/Assets/img/chapter-4/userflow%20(2).png)
+![User flow](/Assets/img/chapter-4/userflow%20(3).png)
+![User flow](/Assets/img/chapter-4/userflow%20(4).png)
+
+
+Link de los user flow: https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
 
 
 ## 4.5. Web Applications Prototyping.
+
+El prototipo interactivo de ChroniCare en Figma es una herramienta clave para validar la experiencia de usuario antes del desarrollo. Permite simular flujos reales, probar interacciones, microanimaciones y transiciones, y obtener feedback de pacientes y médicos en entornos controlados. Es un puente entre el diseño y la implementación, que asegura que el equipo de desarrollo tenga una guía clara, coherente y validada. El prototipo no solo reduce el riesgo de errores costosos, sino que también acelera la iteración y mejora la alineación entre todos los stakeholders.
+
 
 Prototipo de la aplicación web ChroniCare en figma:
 
 ![cc](/Assets/img/chapter-4/landingmockups-1.png)
 
-https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t=Ib9FkdgFfRiJHozE-0
+> **Enlace al prototipo interactivo en Figma:**  
+> https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t=Ib9FkdgFfRiJHozE-0
 
 
 ## 4.6. Domain-Driven Software Architecture.
+La arquitectura de software de ChroniCare sigue los principios de **Domain-Driven Design (DDD)**, centrando el desarrollo en el dominio clínico: monitoreo continuo, adherencia terapéutica y prevención de complicaciones. Esta aproximación garantiza que el software refleje fielmente las necesidades reales de pacientes y médicos, con una estructura modular, mantenible y escalable. La arquitectura se organiza en capas y contenedores que separan claramente la lógica de negocio de la infraestructura, facilitando la evolución del sistema, la integración con dispositivos médicos y la adaptación a nuevos requerimientos clínicos.
+
 ### 4.6.1. Software Architecture Context Diagram.
+
+El diagrama de contexto define los límites del sistema ChroniCare y su relación con actores externos: pacientes, médicos, dispositivos médicos (glucómetros, tensiómetros) y sistemas hospitalarios. Muestra los flujos de información clave —registro de síntomas, alertas, comunicación, reportes— y asegura que la arquitectura esté alineada con el ecosistema de salud en el que opera. Es el punto de partida para entender el alcance del sistema y sus dependencias.
+
 <img src="/Assets/img/chapter-4//DiagramaContexto.jpeg">
 
 ### 4.6.2. Software Architecture Container Diagrams.
+
+Los diagramas de contenedores desglosan el sistema en componentes de alto nivel: aplicación web, aplicación móvil, API backend, base de datos y servicios de terceros (notificaciones, autenticación, integración con dispositivos). Cada contenedor tiene una responsabilidad clara y define cómo se comunican entre sí, facilitando la escalabilidad, el despliegue independiente y la asignación de tareas a equipos de desarrollo.
+
 <img src="/Assets/img/chapter-4//DiagramaContainer.jpeg">
 
 ### 4.6.3. Software Architecture Components Diagrams.
+
+Los diagramas de componentes detallan la estructura interna de cada contenedor, mostrando módulos clave como: gestión de pacientes, registro de síntomas, motor de alertas, comunicación clínica y reportes analíticos. Estos diagramas guían el desarrollo orientado a objetos, asegurando que cada componente encapsule lógica de negocio clínico y cumpla con principios de cohesión y bajo acoplamiento. Son la base para la implementación técnica y la evolución futura del sistema.
 
 <img src="/Assets/img/chapter-4//DiagramaComponentesBDAnalytics.jpeg">
 
@@ -926,10 +951,14 @@ https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t
 
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
+El diagrama de clases muestra las relaciones entre las entidades principales del sistema, sus atributos, métodos y asociaciones. Incluye patrones de diseño como **Aggregate** (para garantizar la integridad de los datos clínicos) y **Repository** (para la persistencia de datos). Este diagrama es la base para el desarrollo del backend y la lógica de negocio, y sirve como documento vivo que evoluciona junto con el producto.
+
 <img src="/Assets/img/chapter-4/Class Diagram.png">
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.
+El diagrama de base de datos muestra las tablas, campos, tipos de datos, claves primarias, claves foráneas y relaciones (uno a muchos, muchos a muchos). Es una herramienta esencial para el desarrollo del backend, la gestión eficiente de datos clínicos y la generación de reportes analíticos. El diagrama asegura que la estructura de la base de datos esté alineada con los requerimientos funcionales y no funcionales del sistema, y sirve como referencia para el equipo de desarrollo y operaciones.
+
 <img src="/Assets/img/chapter-4/db Diagram.png">
 
 # Capítulo V: Product Implementation, Validation & Deployment

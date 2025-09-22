@@ -786,11 +786,54 @@ Los wireframes representan la estructura básica y funcional de la landing page 
 
 ### 4.3.2. Landing Page Mock-up.
 
-Esta sección presenta y explica los Mock-ups del Landing Page, tanto en su versión para Desktop Web Browser como Mobile Web Browser. En la propuesta y la explicación debe evidenciarse la aplicación de los principios, elementos de diseño, diseño inclusivo y arquitectura de información, así como el Design System establecido para los productos digitales.
 
-![alt text](Assetsimgchapter-4/LandingPage.1.png)
+> **🔗 Enlace al diseño final en Figma:**  
+> https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
 
-![alt text](Assetsimgchapter-4/LandingPage.1.2.png)
+Los mock-ups son la versión visual final de la landing page, con colores, tipografías, imágenes reales y microinteracciones definidas. Representan la identidad de marca y la experiencia estética que el usuario final verá: **calma, confianza, claridad y cuidado humano**.
+
+---
+
+#### Header y Hero
+![Header y Hero](/Assets/img/chapter-4/landingmockups-1.png)
+*Hero con fondo suave en tonos teal y blanco, imagen de paciente sonriente usando la app en su celular. Tipografía Poppins en negrita para el título principal, botón CTA en teal (#26B5A6) con hover effect y sombra sutil. Transmite seguridad, accesibilidad y acompañamiento.*
+
+---
+
+#### ¿Qué es ChroniCare?
+![Qué es ChroniCare](/Assets/img/chapter-4/landingmockups-2.png)
+*Diseño limpio con ilustraciones médicas estilizadas, gradientes suaves y tarjetas con bordes redondeados. Usa íconos intuitivos (corazón, checklist, gráfico) y colores de marca. Comunica empatía, prevención y tecnología al servicio de la salud.*
+
+---
+
+#### Testimonios de Usuarios
+![Testimonios](/Assets/img/chapter-4/landingmockups-9.png)
+![Testimonios](/Assets/img/chapter-4/landingmockups-10.png) 
+*Fotos reales de pacientes y médicos con fondo desenfocado, citas auténticas en tipografía Inter, estrellas de calificación y hover con “Leer más”. Genera confianza social y validación clínica real.*
+
+---
+
+#### Funcionalidades Clave
+![Funcionalidades](/Assets/img/chapter-4/landingmockups-6.png) 
+*Iconos personalizados (registro, alertas, chat, dispositivos), colores por tipo de funcionalidad (teal para acciones, rojo para alertas, verde para estados normales). Animaciones de entrada suaves al scroll. Cada tarjeta incluye microcopy claro y CTA secundario.*
+
+---
+
+#### Cómo Funciona
+![Cómo Funciona](/Assets/img/chapter-4/landingmockups-7.png)   
+*Sección con layout de 3 pasos: “Registra”, “Recibe alertas”, “Habla con tu médico”. Ilustración médica a la izquierda, texto explicativo a la derecha. Botones con estados hover y focus definidos. Usa lenguaje cercano y motivador: “Toma el control de tu salud, un día a la vez”.*
+
+---
+
+#### Impacto Clínico
+![Impacto Clínico](/Assets/chapter-4/impacto-clinico.png)  
+*Números grandes en negrita (40% más de adherencia, 30% menos de hospitalizaciones), íconos animados al scroll (corazón, gráfico, check), fondo con textura sutil en blanco y teal. Diseñado para generar credibilidad y mostrar valor clínico medible.*
+
+---
+
+#### Footer
+![Footer](/Assets/img/chapter-4/landingmockups-11.png)  
+*Fondo en azul oscuro (#1A2A33), texto en blanco, separadores sutiles. Incluye logo pequeño, enlaces organizados en columnas (Para Pacientes, Para Médicos, Soporte), formulario de newsletter con validación visual, y redes sociales con íconos hover. Refuerza profesionalismo y confianza institucional.*
 
 ## 4.4. Web Applications UX/UI Design.
 
@@ -800,23 +843,25 @@ El diseño de experiencia de usuario (UX) y de interfaz de usuario (UI) en aplic
 
 **Web applications wireframes desktop:**
 
-![alt text](<Assetsimgchapter-4/wireframes desktop 1.png>)
+![alt text](/Assets/img/chapter-4/wireframes%20desktop%201.png)
 
-![alt text](<Assetsimgchapter-4/wireframes desktop 2.png>)
+![alt text](/Assets/img/chapter-4/wireframes%20desktop%202.png)
 
-![alt text](<Assetsimgchapter-4/wireframes desktop 3.png>)
+![alt text](/Assets/img/chapter-4/wireframes%20desktop%203.png)
 
 **Web applications wireframes mobile:**
 
-![alt text](<Assetsimgchapter-4/wireframes mobile 1.png>)
+![alt text](/Assets/img/chapter-4/wireframes%20mobile%201.png)
 
-![alt text](<Assetsimgchapter-4/wireframes mobile 2.png>)
+![alt text](/Assets/img/chapter-4/wireframes%20mobile%202.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
 Los diagramas de wireflow para aplicaciones web son representaciones visuales que muestran tanto la navegación como la estructura de una aplicación. Estos combinan características de los wireframes y de los diagramas de flujo, ofreciendo una visión clara de cómo los usuarios se desplazan por la plataforma y de qué manera interactúan con sus diferentes funciones. Su utilidad radica en detectar posibles dificultades de usabilidad y en asegurar que la experiencia del usuario sea consistente y eficiente.
 
-![alt text](Assetsimgchapter-4/Wireflow.png)
+![cc](/Assets/img/chapter-4/landingmockups-1.png)
+
+![alt text](/Assets/img/chapter-4/Wireflow.png)
 
 ### 4.4.3. Web Applications Mock-ups.
 
@@ -847,7 +892,6 @@ https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&p=f&t
 ## 4.7. Software Object-Oriented Design.
 ### 4.7.1. Class Diagrams.
 <img src="/Assets/img/chapter-4/Class Diagram.png">
-### 4.7.2. Class Dictionary.
 
 ## 4.8. Database Design.
 ### 4.8.1. Database Diagram.

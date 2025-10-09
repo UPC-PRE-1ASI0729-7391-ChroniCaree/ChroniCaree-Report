@@ -2359,6 +2359,39 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 - **DO**: Deployment & Hosting — Configuración y despliegue de la Landing Page en Netlify, verificación de URL pública y acceso.
 - **RI**: Repository Initialization — Configuración inicial del repositorio en GitHub, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
 
+### 5.2.2.3. Sprint Backlog 2.
+
+| # Orden | User Story Id | Título    | Descripción    | Story Points |
+|---------|---------------|---------------|-----------------|--------------|
+| 1       | HU11	    | Registrarme como paciente	  | Como paciente, quiero crear mi cuenta para empezar a registrar mis síntomas y medicación.	 | 3      |
+| 2       | HU12          | Registrarme como médico	       | Como médico, quiero crear mi cuenta para empezar a monitorear a mis pacientes.	     | 3      |
+| 3       | HU15	 | Registrar mis síntomas y signos vitales diarios	    | Como paciente, quiero registrar mi estado diario para llevar un historial preciso y compartirlo con mi médico.      | 3    |
+| 4       | HU16     | Recibir alertas personalizadas cuando mis valores están fuera de rango	 | Como paciente, quiero ser notificado si mi glucosa o presión arterial están anormales, para actuar atiempo.         | 5    |
+| 5       |  HU17         | Programar y recibir recordatorios de medicación    | Como paciente, quiero configurar horarios de toma y recibir notificaciones para no olvidar mis medicamentos.                             | 3            |
+| 6       | HU18          | Enviar mensajes o alertas a mi médico cuando algo no va bien	 | Como paciente, quiero comunicarme con mi médico desde la app para resolver dudas o reportar síntomas graves.	                             | 3            |
+| 7       | HU20	          | Actualizar mi perfil médico (peso, altura, diagnósticos)	 | Como paciente, quiero mantener mi perfil actualizado para que las alertas y recomendaciones sean precisas.	                               | 3            |
+| 8       | HU21	          | Acceder al historial clínico de mis pacientes en tiempo real | Como médico, quiero ver los últimos registros de síntomas, medicación y signos vitales de cada paciente.                                 | 5            |
+| 9       | HU22          | Recibir alertas críticas priorizadas de mis pacientes   | Como médico, quiero ser notificado solo cuando un paciente tiene valores peligrosos, para enfocar mi atención donde más se necesita.     | 5            |
+| 10      | HU24	          | Filtrar pacientes por condición clínica y nivel de riesgo    | Como médico, quiero priorizar el seguimiento de pacientes con diabetes y alto riesgo, por ejemplo.                                       | 3            |
+| 11      | HU25          | Enviar recomendaciones o ajustes de tratamiento desde la app  | Como médico, quiero indicar cambios en la dosis o hábitos directamente en la plataforma, para que el paciente los reciba inmediatamente.	 | 3            |
+| 12      | HU27          | Calificar mi experiencia con la plataforma    | Como paciente o médico, quiero dejar feedback para ayudar a mejorar ChroniCare.	                                                          | 2            |
+
+
+### Estado Final del Sprint 2
+
+Todos los Work Items planificados para este sprint han sido completados y verificados. La aplicación web de ChroniCaree cuenta ahora con un frontend completamente funcional, integrando las secciones de gestión de usuarios, pacientes,historial médico y gestión de recetas.
+
+El sistema está listo para:
+- **Publicación en producción** (despliegue en Render)
+- 
+- **Pruebas de usabilidad** con profesionales de la salud y usuarios finales, a fin de evaluar la claridad, accesibilidad e interacción de la interfaz.
+
+- **Recolección de retroalimentación** estructurada que permita definir las prioridades y mejoras para el siguiente sprint (Sprint 3).
+
+> **Enlace al tablero de Kanban (Trello):**  
+> https://trello.com/b/O57EUYog/chroni-caree-open
+
+Este Sprint 2 ha marcado un avance significativo en el desarrollo de ChroniCaree, consolidando la base visual y funcional de la plataforma. El trabajo realizado en el frontend garantiza una interfaz clara, accesible y centrada en la experiencia del usuario, fortaleciendo la conexión entre pacientes, médicos e instituciones de salud. 
 
 ### Bibliografia
 

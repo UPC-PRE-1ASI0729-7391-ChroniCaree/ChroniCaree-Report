@@ -2420,6 +2420,14 @@ La aplicación presenta una interfaz moderna, responsiva y accesible , desarroll
 
 > **Enlace al video de demostración (navegación y funcionalidades):**  
 
+### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+
+### 5.2.2.7. Software Deployment Evidence for Sprint Review.
+
+### 5.2.2.8. Team Collaboration Insights during Sprint.
+
+El equipo desarrolló el frontend completo de la aplicación web utilizando una rama por cada feature, lo que permitió que cada integrante trabajara de forma independiente en distintos módulos —como gestión de usuarios, pacientes, historial médico, etc— sin interferir con el trabajo de los demás. Al finalizar cada feature, se realizaron pruebas para verificar la ausencia de conflictos con la rama principal (main), y posteriormente se generó un pull request para su revisión e integración. A continuación, se muestra una imagen que evidencia la colaboración y flujo de trabajo del equipo en GitHub durante el Sprint 2.
+
 ### Bibliografia
 
 Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/

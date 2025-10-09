@@ -2393,6 +2393,21 @@ El sistema está listo para:
 
 Este Sprint 2 ha marcado un avance significativo en el desarrollo de ChroniCaree, consolidando la base visual y funcional de la plataforma. El trabajo realizado en el frontend garantiza una interfaz clara, accesible y centrada en la experiencia del usuario, fortaleciendo la conexión entre pacientes, médicos e instituciones de salud. 
 
+### 5.2.2.4. Development Evidence for Sprint Review.
+
+En esta sección se explica y presenta los avances en la implementación con relación a los productos de la solución según el alcance del Sprint 2: Web Application y Web Services. La sección inicia con una introducción que resume los principales progresos alcanzados durante este periodo de desarrollo.
+
+Durante este Sprint, el equipo avanzó significativamente en la construcción del frontend completo de la aplicación web de ChroniCaree, implementando las secciones de gestión de usuarios, pacientes,historial médico y gestión de recetas. Se aplicaron principios de diseño responsivo, asegurando una visualización óptima en distintos dispositivos, y se incorporaron buenas prácticas de accesibilidad (a11y) para mejorar la experiencia de usuarios con distintas necesidades.
+
+Además, se integraron componentes reutilizables mediante Angular and Typescripy, optimizando la mantenibilidad del código, y se organizaron las ramas del repositorio para controlar versiones e integrar cambios de manera colaborativa. Los commits reflejan un avance constante y documentado, con énfasis en la calidad visual, modularidad del código y consistencia en la interfaz de usuario, garantizando una base sólida para futuras integraciones con los servicios backend.
+
+
+| Repository                         | Branch | Commit Id  |  Commit Message  | Commit Message Body | Commited on (Date) |
+|------------------------------------|--------|------------|------------------|---------------------|--------------------|
+|  UPC-PRE-1ASI0729-7391-ChroniCaree |        |            |                  |                     |                    |
+
+Este Sprint 2 ha consolidado el desarrollo de una aplicación web completa, funcional y responsiva, centrada en la gestión eficiente de usuarios, pacientes e historiales médicos. La implementación de componentes dinámicos, diseño accesible y estructura modular asegura una experiencia de usuario fluida, moderna e inclusiva y lista para pruebas de usabilidad 
+
 ### Bibliografia
 
 Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/

@@ -2408,6 +2408,18 @@ Además, se integraron componentes reutilizables mediante Angular and Typescripy
 
 Este Sprint 2 ha consolidado el desarrollo de una aplicación web completa, funcional y responsiva, centrada en la gestión eficiente de usuarios, pacientes e historiales médicos. La implementación de componentes dinámicos, diseño accesible y estructura modular asegura una experiencia de usuario fluida, moderna e inclusiva y lista para pruebas de usabilidad 
 
+### 5.2.2.5. Execution Evidence for Sprint Review.
+
+En este Sprint 2, el equipo logró implementar y completar el desarrollo del frontend de la aplicación web de ChroniCaree, cumpliendo con los objetivos establecidos en el Sprint Backlog. Se implementaron las principales vistas funcionales del sistema: Inicio de sesión, Registro, Panel de Usuario, Gestión de Pacientes,   Historial Médico y  Gestión de Recetas, todas alineadas con las User Stories priorizadas (HU11, HU12, HU15, HU16, HU17, HU18, HU20, HU21, HU22, HU24, HU25, HU27).
+
+La aplicación presenta una interfaz moderna, responsiva y accesible , desarrollada con Angular y Typescript, e incorpora componentes reutilizables, validaciones dinámicas y una navegación fluida entre secciones. Además, se aplicaron principios de diseño centrado en el usuario, garantizando una experiencia clara y coherente para profesionales de la salud y pacientes. El resultado refleja una plataforma visualmente consistente, empática y funcional, alineada con la identidad de ChroniCaree: confianza, eficiencia y cuidado humano.
+
+
+> **Enlace a la versión desplegada (producción):**  
+
+
+> **Enlace al video de demostración (navegación y funcionalidades):**  
+
 ### Bibliografia
 
 Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/

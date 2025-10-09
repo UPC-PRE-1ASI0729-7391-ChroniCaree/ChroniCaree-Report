@@ -2317,7 +2317,25 @@ El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de 
 ![network 1](assets/img/chapter-5/Network.png)
 
 ## 5.2.2. Sprint 2
-   
+
+En este sprint nuestro equipo se centró en el desarrollo el Frontend de la aplicación web de ChroniCaree  y en el desarrollo continuo del informe.Priorizamos que esta versión fuera funcional y contara con los aspectos más importantes del servicio, al mismo tiempo se llevó a cabo la organización del repositorio y la preparación de la documentación del proyecto. Todo esto se desarrolló bajo un entorno totalmente colaborativo y ágil , así garantizar que todas las partes realizadas se puedan unir coherentemente  
+
+### 5.2.2.1. Sprint Planning 2.
+
+| Sprint #                            | Sprint 2    |
+|---|-------------|
+|***Sprint Planning Background***      |             |
+| **Date**                                | 2025-10-05   |
+| **Time**                                | 15:00 PM   |
+| **Location**                            | Reunion virtual por Discord   |
+| **Prepared By**                         | Andreow Santiago       |
+| **Attendees (to planning meeting)**     | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen   |
+| **Sprint  n – 1 Review Summary**        | Durante el Sprint 1, se cumplió exitosamente con todos los objetivos planteados. Se desarrolló y desplegó una landing page profesional, responsiva y accesible, la cual comunica de forma clara el propósito y la propuesta de valor del proyecto. Se implementó utilizando HTML y CSS/Bootstrap, asegurando buenas prácticas de estructura y diseño. Además, el código fuente fue documentado y almacenado en el repositorio del equipo. Los miembros coincidieron en que el resultado refleja profesionalismo y coherencia visual    |
+| **Sprint n – 1 Retrospective Summary**  | El equipo valoró positivamente la colaboración y el compromiso mostrados durante el Sprint 1, resaltando la organización y claridad en la asignación de tareas, lo que facilitó el desarrollo exitoso de la landing page de ChroniCaree. Se destacó la buena coordinación entre los miembros y la calidad del código entregado. No obstante, se identificaron oportunidades de mejora en la gestión del tiempo y en la comunicación entre los responsables del diseño y la implementación, ya que algunos ajustes visuales se realizaron en etapas finales. Para los próximos sprints, el equipo acordó establecer revisiones intermedias más frecuentes y mejorar la documentación de avances, con el fin de optimizar la productividad y evitar retrabajos.  |
+| ***Sprint Goal & User Stories***  | |
+| **Sprint n Goal**  | Nuestro enfoque en el Sprint 2 está en desarrollar todo el frontend de la aplicación web de ChroniCaree, abarcando las secciones de gestión de usuarios, seguimiento de pacientes, historial médico y gestión de recetas. Además, se implementará un diseño responsivo, garantizando una experiencia fluida y adaptable a distintos dispositivos. Consideramos que esto permitirá a los profesionales de la salud y a los pacientes disponer de una primera versión funcional e interactiva de la plataforma, que facilite la visualizacióny actualización de información médica de manera clara e intuitiva. Este objetivo se validará cuando sea posible navegar por todas las vistas desarrolladas, interactuar con sus componentes principales y acceder correctamente desde distintos dispositivos y navegadores. |
+| **Sprint n Velocity**                  | 32   |
+| **Sum of Story Points**                 | 32   |
 
 ### Bibliografia
 

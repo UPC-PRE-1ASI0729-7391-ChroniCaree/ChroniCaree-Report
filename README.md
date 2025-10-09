@@ -2316,7 +2316,8 @@ El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de 
 ![commits 2](assets/img/chapter-5/commits2.png)
 ![network 1](assets/img/chapter-5/Network.png)
 
-### 5.2.2.1. Sprint 2.
+## 5.2.2. Sprint 2
+   
 
 ### Bibliografia
 

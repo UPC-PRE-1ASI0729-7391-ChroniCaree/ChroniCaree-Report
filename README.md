@@ -2337,6 +2337,29 @@ En este sprint nuestro equipo se centró en el desarrollo el Frontend de la apli
 | **Sprint n Velocity**                  | 32   |
 | **Sum of Story Points**                 | 32   |
 
+### 5.2.2.2. Aspect Leaders and Collaborators.
+
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 2 del desarrollo de ChroniCaree. Cada aspecto corresponde a un componente esencial del alcance del sprint, enfocado en el desarrollo completo del frontend de la aplicación web, incluyendo las secciones de gestión de usuarios, pacientes, historial médico y gestión de recetas, además de la implementación de accesibilidad y diseño responsivo.
+
+Para cada aspecto, se ha asignado un Líder (L), encargado del diseño, implementación o coordinación técnica, y uno o más Colaboradores (C), quienes participaron activamente en las tareas de desarrollo, revisión, pruebas e integración. Esta matriz LACX (Leadership and Collaboration Matrix) permite visualizar de manera clara y organizada la distribución de responsabilidades dentro del equipo, asegurando la trazabilidad y coherencia del trabajo colaborativo realizado durante este sprint.
+
+A continuación, se detallan los aspectos definidos y los roles asignados:
+
+| Team Member (Last Name, First Name) | GitHub Username	 | FI | IN | DO | RI | x |
+|-------------------------------------|-----------------|----|----|----|----|---|
+| Andreow Santiago	                    | andrews5738	     | L  | C  | C  | C  | C |
+| Sebastian Beingolea	                 | sebaxchen_65154 | C  | C  | C  | L  | C |
+| Carlos Lopez	                        | carloslopez     | C  | C  | C  | C  | L |
+| Schneider Delgado	                   | snay6037        | C  | C  | L  | C  | C |
+| Alejandro Barturen	                  | alejandrob      | C  | L  | C  | C  | C |
+
+**Legenda de Aspectos:**
+- **FT**: Frontend Implementation — Desarrollo de la vista de la aplicacion web  con angular y typescript.
+- **IN**: Informe Técnico — Elaboración, estructuración y redacción del informe del proyecto (documentación de arquitectura, convenciones, sprints).
+- **DO**: Deployment & Hosting — Configuración y despliegue de la Landing Page en Netlify, verificación de URL pública y acceso.
+- **RI**: Repository Initialization — Configuración inicial del repositorio en GitHub, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
+
+
 ### Bibliografia
 
 Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/

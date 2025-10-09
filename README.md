@@ -2383,7 +2383,7 @@ Todos los Work Items planificados para este sprint han sido completados y verifi
 
 El sistema está listo para:
 - **Publicación en producción** (despliegue en Render)
-- 
+  
 - **Pruebas de usabilidad** con profesionales de la salud y usuarios finales, a fin de evaluar la claridad, accesibilidad e interacción de la interfaz.
 
 - **Recolección de retroalimentación** estructurada que permita definir las prioridades y mejoras para el siguiente sprint (Sprint 3).

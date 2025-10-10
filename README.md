@@ -44,6 +44,7 @@
 |0.5|19/09/2025|Carlos Lopez | Se añadio el capitulo 3 en su totalidad|
 |0.6|19/09/2025|Schneider Delgado | Se añadio el capitulo 4 en su totalidad|
 |0.7|19/09/2025|Andreow Santiago | Se añadio el capitulo 5 en su totalidad|
+|0.8|09/10/2025|Alejandro Nicolas Barturen Guzman | Se añadio el Sprint 2|
 
 # Project Report Collaboration Insights
 

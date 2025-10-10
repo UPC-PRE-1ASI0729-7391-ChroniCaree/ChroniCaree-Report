@@ -1854,17 +1854,17 @@ Los wireframes son esquemas visuales en blanco y negro que definen la estructura
 
 **Web applications wireframes desktop:**
 
-![alt text](assets/img/chapter-4/wireframes%20desktop%201.png)
+![alt text](assets/img/chapter-4/wireframes desktop1.png)
 
-![alt text](assets/img/chapter-4/wireframes%20desktop%202.png)
+![alt text](assets/img/chapter-4/wireframes desktop2.png)
 
-![alt text](assets/img/chapter-4/wireframes%20desktop%203.png)
+![alt text](assets/img/chapter-4/wireframes desktop3.png)
 
 **Web applications wireframes mobile:**
 
-![alt text](assets/img/chapter-4/wireframes%20mobile%201.png)
+![alt text](assets/img/chapter-4/wireframes mobile1.png)
 
-![alt text](assets/img/chapter-4/wireframes%20mobile%202.png)
+![alt text](assets/img/chapter-4/wireframes mobile1.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 

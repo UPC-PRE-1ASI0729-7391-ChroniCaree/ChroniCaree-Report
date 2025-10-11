@@ -635,7 +635,7 @@ Antes de realizar las entrevistas profundas, se aplicó un formulario digital (G
 
 En este apartado se presenta una documentación detallada de cada entrevista realizada con los distintos segmentos objetivo identificados. Se ha recopilado información relevante que incluye el perfil del entrevistado, las respuestas proporcionadas durante la conversación, así como los hallazgos más destacados obtenidos a partir de sus opiniones y experiencias.
 
-> **Video de todas las entrevistas:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/EdSJhlxr6jxLmiYWVuHKKuQBc47NmPq1z6p2JyT-71hEhA?e=WGaeMs&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+> **Video de todas las entrevistas:** http://bit.ly/4360hI2
 
 ---
 
@@ -2232,7 +2232,7 @@ La página es completamente **responsive**, accesible (WCAG AA), optimizada para
 > https://chronicaree.netlify.app/  
 
 > **Enlace al video de demostración (navegación y funcionalidades):**  
-> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/Eb76ElgA3VlDvOYz9wvp5H8BX2m3j78q6BaZU7y_Vp3Ydw?e=3bybz5&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+> http://bit.ly/3WuIeYm
 
 ![Landing Page ChroniCare - Vista 1](assets/img/chapter-5/netlify1.png)
 ![Landing Page ChroniCare - Vista 2](assets/img/chapter-5/netlify2.png)
@@ -2317,7 +2317,7 @@ El equipo desarrollo la landing page usando ramas para cada 'feature' el uso de 
 
 ## 5.2.2. Sprint 2
 
-En este sprint nuestro equipo se centró en el desarrollo el Frontend de la aplicación web de ChroniCaree  y en el desarrollo continuo del informe.Priorizamos que esta versión fuera funcional y contara con los aspectos más importantes del servicio, al mismo tiempo se llevó a cabo la organización del repositorio y la preparación de la documentación del proyecto. Todo esto se desarrolló bajo un entorno totalmente colaborativo y ágil , así garantizar que todas las partes realizadas se puedan unir coherentemente  
+En este sprint nuestro equipo se centró en el desarrollo el Frontend de la aplicación web de ChroniCaree  y en el desarrollo continuo del informe. Priorizamos que esta versión fuera funcional y contara con los aspectos más importantes del servicio, al mismo tiempo se llevó a cabo la organización del repositorio y la preparación de la documentación del proyecto. Todo esto se desarrolló bajo un entorno totalmente colaborativo y ágil , así garantizar que todas las partes realizadas se puedan unir coherentemente  
 
 ### 5.2.2.1. Sprint Planning 2.
 
@@ -2333,8 +2333,8 @@ En este sprint nuestro equipo se centró en el desarrollo el Frontend de la apli
 | **Sprint n – 1 Retrospective Summary**  | El equipo valoró positivamente la colaboración y el compromiso mostrados durante el Sprint 1, resaltando la organización y claridad en la asignación de tareas, lo que facilitó el desarrollo exitoso de la landing page de ChroniCaree. Se destacó la buena coordinación entre los miembros y la calidad del código entregado. No obstante, se identificaron oportunidades de mejora en la gestión del tiempo y en la comunicación entre los responsables del diseño y la implementación, ya que algunos ajustes visuales se realizaron en etapas finales. Para los próximos sprints, el equipo acordó establecer revisiones intermedias más frecuentes y mejorar la documentación de avances, con el fin de optimizar la productividad y evitar retrabajos.  |
 | ***Sprint Goal & User Stories***  | |
 | **Sprint n Goal**  | Nuestro enfoque en el Sprint 2 está en desarrollar todo el frontend de la aplicación web de ChroniCaree, abarcando las secciones de gestión de usuarios, seguimiento de pacientes, historial médico y gestión de recetas. Además, se implementará un diseño responsivo, garantizando una experiencia fluida y adaptable a distintos dispositivos. Consideramos que esto permitirá a los profesionales de la salud y a los pacientes disponer de una primera versión funcional e interactiva de la plataforma, que facilite la visualizacióny actualización de información médica de manera clara e intuitiva. Este objetivo se validará cuando sea posible navegar por todas las vistas desarrolladas, interactuar con sus componentes principales y acceder correctamente desde distintos dispositivos y navegadores. |
-| **Sprint n Velocity**                  | 32   |
-| **Sum of Story Points**                 | 32   |
+| **Sprint n Velocity**                  | 56   |
+| **Sum of Story Points**                 | 56   |
 
 ### 5.2.2.2. Aspect Leaders and Collaborators.
 
@@ -2360,20 +2360,29 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 
 ### 5.2.2.3. Sprint Backlog 2.
 
-| # Orden | User Story Id | Título    | Descripción    | Story Points |
-|---------|---------------|---------------|-----------------|--------------|
-| 1       | HU11	    | Registrarme como paciente	  | Como paciente, quiero crear mi cuenta para empezar a registrar mis síntomas y medicación.	 | 3      |
-| 2       | HU12          | Registrarme como médico	       | Como médico, quiero crear mi cuenta para empezar a monitorear a mis pacientes.	     | 3      |
-| 3       | HU15	 | Registrar mis síntomas y signos vitales diarios	    | Como paciente, quiero registrar mi estado diario para llevar un historial preciso y compartirlo con mi médico.      | 3    |
-| 4       | HU16     | Recibir alertas personalizadas cuando mis valores están fuera de rango	 | Como paciente, quiero ser notificado si mi glucosa o presión arterial están anormales, para actuar atiempo.         | 5    |
-| 5       |  HU17         | Programar y recibir recordatorios de medicación    | Como paciente, quiero configurar horarios de toma y recibir notificaciones para no olvidar mis medicamentos.                             | 3            |
-| 6       | HU18          | Enviar mensajes o alertas a mi médico cuando algo no va bien	 | Como paciente, quiero comunicarme con mi médico desde la app para resolver dudas o reportar síntomas graves.	                             | 3            |
-| 7       | HU20	          | Actualizar mi perfil médico (peso, altura, diagnósticos)	 | Como paciente, quiero mantener mi perfil actualizado para que las alertas y recomendaciones sean precisas.	                               | 3            |
-| 8       | HU21	          | Acceder al historial clínico de mis pacientes en tiempo real | Como médico, quiero ver los últimos registros de síntomas, medicación y signos vitales de cada paciente.                                 | 5            |
-| 9       | HU22          | Recibir alertas críticas priorizadas de mis pacientes   | Como médico, quiero ser notificado solo cuando un paciente tiene valores peligrosos, para enfocar mi atención donde más se necesita.     | 5            |
-| 10      | HU24	          | Filtrar pacientes por condición clínica y nivel de riesgo    | Como médico, quiero priorizar el seguimiento de pacientes con diabetes y alto riesgo, por ejemplo.                                       | 3            |
-| 11      | HU25          | Enviar recomendaciones o ajustes de tratamiento desde la app  | Como médico, quiero indicar cambios en la dosis o hábitos directamente en la plataforma, para que el paciente los reciba inmediatamente.	 | 3            |
-| 12      | HU27          | Calificar mi experiencia con la plataforma    | Como paciente o médico, quiero dejar feedback para ayudar a mejorar ChroniCare.	                                                          | 2            |
+| # Orden | User Story Id | Título                                               | Descripción                                                                                                                                     | Story Points |
+|---------|---------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | HU01          | Entender qué es ChroniCare desde la página principal | Como visitante, quiero comprender inmediatamente que ChroniCare me ayuda a monitorear mi enfermedad crónica diariamente, sin depender solo de consultas presenciales. | 3            |
+| 2       | HU02          | Ver beneficios clave para pacientes y médicos        | Como visitante, quiero identificar cómo ChroniCare mejora la adherencia, previene emergencias y facilita el seguimiento clínico.                | 2            |
+| 3       | HU03          | Leer testimonios de pacientes y médicos reales       | Como visitante, quiero leer experiencias auténticas para generar confianza en la plataforma.                                                     | 2            |
+| 4       | HU04          | Entender el proceso de uso en 3 pasos simples        | Como visitante, quiero ver cómo funciona ChroniCare: registrar, recibir alertas, comunicarme con mi médico.                                      | 3            |
+| 5       | HU05          | Resolver dudas frecuentes sin contactar soporte      | Como visitante, quiero encontrar respuestas claras sobre privacidad, dispositivos compatibles y costos.                                          | 3            |
+| 6       | HU06          | Conocer planes de precios para pacientes e instituciones | Como visitante, quiero comparar la versión gratuita y premium, y entender los planes B2B para clínicas.                                      | 3            |
+| 7       | HU07          | Conocer quiénes están detrás de ChroniCare           | Como visitante, quiero saber que el equipo tiene experiencia en salud digital y está comprometido con el cuidado del paciente.                   | 2            |
+| 8       | HU08          | Comprender cómo se protegen mis datos de salud       | Como visitante, quiero saber que mis datos están cifrados y que solo yo decido con quién los comparto.                                           | 1            |
+| 9       | HU09          | Navegar entre secciones sin perderme                 | Como visitante, quiero moverme fácilmente entre “Para Pacientes”, “Para Médicos” y “Precios”.                                                    | 2            |
+| 10      | HU10          | Contactar a soporte desde la web                     | Como visitante, quiero resolver mis dudas antes de registrarme mediante un formulario o chat.                                                    | 2            |
+| 11      | HU11          | Registrarme como paciente                            | Como paciente, quiero crear mi cuenta para empezar a registrar mis síntomas y medicación.                                                        | 3            |
+| 12      | HU12          | Registrarme como médico                              | Como médico, quiero crear mi cuenta para empezar a monitorear a mis pacientes.                                                                   | 3            |
+| 13      | HU13          | Verificar mi identidad con DNI y selfie              | Como sistema, debo validar la identidad del paciente o médico mediante DNI y selfie para garantizar seguridad.                                   | 5            |
+| 14      | HU14          | Mostrar indicador de "Usuario Verificado"            | Como sistema, debo mostrar un distintivo de verificación en perfiles de pacientes y médicos validados.                                           | 3            |
+| 15      | HU15          | Registrar mis síntomas y signos vitales diarios      | Como paciente, quiero registrar mi estado diario para llevar un historial preciso y compartirlo con mi médico.                                   | 3            |
+| 16      | HU16          | Recibir alertas personalizadas cuando mis valores están fuera de rango | Como paciente, quiero ser notificado si mi glucosa o presión arterial están anormales, para actuar a tiempo.                             | 5            |
+| 17      | HU17          | Programar y recibir recordatorios de medicación      | Como paciente, quiero configurar horarios de toma y recibir notificaciones para no olvidar mis medicamentos.                                     | 3            |
+| 18      | HU18          | Enviar mensajes o alertas a mi médico cuando algo no va bien | Como paciente, quiero comunicarme con mi médico desde la app para resolver dudas o reportar síntomas graves.                                 | 3            |
+| 19      | HU19          | Conectar mis dispositivos médicos (glucómetro, tensiómetro) | Como paciente, quiero sincronizar mis dispositivos para que mis datos se registren automáticamente.                                          | 5            |
+| 20      | HU20          | Actualizar mi perfil médico (peso, altura, diagnósticos) | Como paciente, quiero mantener mi perfil actualizado para que las alertas y recomendaciones sean precisas.                                    | 3            |
+| 21      | HU21          | Acceder al historial clínico de mis pacientes en tiempo real | Como médico, quiero ver los últimos registros de síntomas, medicación y signos vitales de cada paciente.                                     | 5            |
 
 
 ### Estado Final del Sprint 2
@@ -2390,22 +2399,66 @@ El sistema está listo para:
 > **Enlace al tablero de Kanban (Trello):**  
 > https://trello.com/b/O57EUYog/chroni-caree-open
 
-Este Sprint 2 ha marcado un avance significativo en el desarrollo de ChroniCaree, consolidando la base visual y funcional de la plataforma. El trabajo realizado en el frontend garantiza una interfaz clara, accesible y centrada en la experiencia del usuario, fortaleciendo la conexión entre pacientes, médicos e instituciones de salud. 
+Este Sprint 2 ha marcado un avance significativo en el desarrollo de ChroniCaree, consolidando la base visual y funcional de la plataforma. El trabajo realizado en el frontend garantiza una interfaz clara, accesible y centrada en la experiencia del usuario, fortaleciendo la conexión entre pacientes, médicos e instituciones de salud.
+
+![iamgen del produtc backlog 2](assets/img/chapter-5/pb-sprint2.png)
+
 
 ### 5.2.2.4. Development Evidence for Sprint Review.
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Landing Page**, **Web Applications** y **Web Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
 
-En esta sección se explica y presenta los avances en la implementación con relación a los productos de la solución según el alcance del Sprint 2: Web Application y Web Services. La sección inicia con una introducción que resume los principales progresos alcanzados durante este periodo de desarrollo.
+Durante este Sprint, el equipo ha avanzado significativamente en la construcción de la **Web Application** de ChroniCare, centrando esfuerzos en la implementación de módulos clave para pacientes y médicos: autenticación, dashboards personalizados, gestión de medicamentos, alertas inteligentes, mensajería clínica y exportación de reportes PDF. Se han integrado mejoras en la infraestructura, como rutas API base, manejo de tenant y almacenamiento local, además de corregir errores críticos en UI y lógica de negocio. Los commits reflejan un trabajo colaborativo, con múltiples pull requests verificados, refactorizaciones y entregas incrementales que aseguran la estabilidad y escalabilidad del sistema.
 
-Durante este Sprint, el equipo avanzó significativamente en la construcción del frontend completo de la aplicación web de ChroniCaree, implementando las secciones de gestión de usuarios, pacientes,historial médico y gestión de recetas. Se aplicaron principios de diseño responsivo, asegurando una visualización óptima en distintos dispositivos, y se incorporaron buenas prácticas de accesibilidad (a11y) para mejorar la experiencia de usuarios con distintas necesidades.
+A continuación, se presenta la tabla con los commits relacionados con la implementación:
 
-Además, se integraron componentes reutilizables mediante Angular and Typescripy, optimizando la mantenibilidad del código, y se organizaron las ramas del repositorio para controlar versiones e integrar cambios de manera colaborativa. Los commits reflejan un avance constante y documentado, con énfasis en la calidad visual, modularidad del código y consistencia en la interfaz de usuario, garantizando una base sólida para futuras integraciones con los servicios backend.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `f5cc587` | `Merge pull request #1 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/hospital-client-registration` | Integración de la funcionalidad de registro de pacientes y médicos con validación de tenant. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `c111f33` | `fix(layout): correct layout structures` | Corrección de estructuras de layout en componentes de dashboard y formularios. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `94f2794` | `fix(styles): correct toolbar styles for patient and doctor` | Ajuste de estilos en la barra de herramientas para ambos roles. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `9abae29` | `feat(ui): implement coming soon and not found components` | Implementación de componentes genéricos "Coming Soon" y "Not Found". | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `2ec7638` | `feat(ui): implement toolbar for doctor and patient` | Creación de la barra de herramientas funcional para ambos perfiles. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `0efc3fe` | `feat(auth): implement local storage for patient and doctor` | Implementación de almacenamiento local para persistencia de sesión. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `86ba26f` | `feat(auth): implement login and register for patient and doctor` | Funcionalidad completa de inicio de sesión y registro para ambos roles. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `2acf49b` | `feat(routes): implement routing with IAM integration` | Configuración de rutas protegidas con integración de Identity and Access Management. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `6ebc4fc` | `fix(tenant): correct tenant setup by creating store and implementing doctor` | Corrección en la configuración de tenant y creación de store para médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `3ef30cd` | `feat(app): implement application for patient and doctor` | Estructura inicial de la aplicación web para ambos roles. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `0ec745f` | `feat(dashboard): implement patient and doctor dashboard` | Implementación de dashboards personalizados con widgets relevantes. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `003b2f5` | `feat(medication): implement alerts section in my health` | Integración de la sección de alertas en el perfil de salud del paciente. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `88c6756` | `feat(alerts): implement alerts for out-of-range values` | Lógica de alertas para valores fuera de rango (glucosa, presión arterial). | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `9230e91` | `feat(doctor-analytics): Period comparison service (metrics and insufficient data handling)` | Servicio de comparación de periodos para análisis clínico del médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `16fef8d` | `feat(shared/stats): utilities for variations, trends and sample size validation` | Utilidades compartidas para cálculo de tendencias y validación estadística. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `1bb9889` | `feat(medication): implement medication management` | Gestión de medicamentos: registro, dosis, horarios y adherencia. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `109bd1b` | `feat(folders): implement new folders setup` | Organización de carpetas para módulos de medicina y análisis. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `a87dfac` | `chore(deps): Adds jsPDF and html2canvas for exporting to PDF (fixed versions)` | Adición de dependencias para generación de PDF con versiones fijas. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `5beeebc` | `feat(doctor-analytics): PDF export for the Doctor role` | Exportación de reportes PDF desde el dashboard del médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `8d35b24` | `Merge pull request #2 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/patient-registration-system` | Integración del sistema de registro de pacientes con validación de datos. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `e43ded1` | `fix(communication): correct message implementation` | Corrección en la implementación del sistema de mensajes entre paciente y médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `81ea1db` | `feat(notification): implement medication reminder notification` | Notificaciones push para recordatorios de medicación. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `223859a` | `feat(clinical): implement patient guideline` | Guías clínicas personalizadas para el paciente. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `a8815ad` | `feat(clinical): implement medical record and doctor diagnosis` | Registro médico y diagnóstico del médico en la plataforma. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `2ebac54` | `fix(storage): correct local storage for doctor and patient` | Corrección de bugs en el almacenamiento local para ambos roles. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `9f914db` | `feat(doctor): implement patient medical appointments and history list` | Lista de citas y historial médico para el médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `86a625a` | `test(doctor): implement spec for doctor presentation` | Especificaciones de prueba para la interfaz del médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `0a2a232` | `feat(doctor): implement request more patients button` | Botón para solicitar más pacientes en el panel del médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `a3b113f` | `feat(doctor): implement patient list for doctor` | Lista interactiva de pacientes asignados al médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `003eed6` | `feat(messaging): update menu messages and implement development` | Actualización del menú de mensajes y desarrollo de la funcionalidad. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `6fa474a` | `feat(messaging): integrate message section into dashboard` | Integración del módulo de mensajería en el dashboard principal. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `275c026` | `Merge pull request #4 from UPC-PRE-1ASI0729-7391-ChroniCaree/fix/clinical-service-spec-corrections` | Correcciones en especificaciones de servicio clínico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `72087ae` | `feat(pdf): implement expect and respond for PDF generation` | Lógica para esperar y responder a la generación de PDF. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `2bddce7` | `feat(doctor-analytics): Export to PDF from the physician dashboard` | Exportación de gráficos y comparativas desde el dashboard del médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `cd2c141` | `Merge pull request #3 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/medication-tracking-functionality` | Integración de funcionalidad de seguimiento de medicación. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `bd1151b` | `feat(api): implement base API for all bounded contexts` | Implementación de la API base para todos los contextos delimitados. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `b43f1a8` | `Merge pull request #7 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/doctor-reports-pdf-charts-compare` | Integración de reportes PDF con gráficos comparativos para médicos. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `5a0e621` | `Merge branch 'develop' into feature/doctor-reports-pdf-charts-compare` | Sincronización de la rama develop con la funcionalidad de reportes. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `76ee176` | `Merge pull request #6 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/patient-doctor-messaging-and-recommendations` | Integración de mensajería y recomendaciones entre paciente y médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `7f8f544` | `Merge branch 'develop' into feature/patient-doctor-messaging-and-recommendations` | Sincronización de la rama develop con la funcionalidad de mensajería. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `97537e6` | `feat(messaging): implement messaging functionality for doctor role` | Funcionalidad completa de mensajería para el rol de médico. | 10/10/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree` | `develop` | `59e429d` | `Merge pull request #5 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/doctor-patient-assignment` | Integración del sistema de asignación de pacientes a médicos. | 10/10/2025 |
 
+> **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. El repositorio utilizado es `UPC-PRE-1ASI0729-7391-ChroniCaree`, perteneciente al equipo de desarrollo de ChroniCare.
 
-| Repository                         | Branch | Commit Id  |  Commit Message  | Commit Message Body | Commited on (Date) |
-|------------------------------------|--------|------------|------------------|---------------------|--------------------|
-|  UPC-PRE-1ASI0729-7391-ChroniCaree |        |            |                  |                     |                    |
-
-Este Sprint 2 ha consolidado el desarrollo de una aplicación web completa, funcional y responsiva, centrada en la gestión eficiente de usuarios, pacientes e historiales médicos. La implementación de componentes dinámicos, diseño accesible y estructura modular asegura una experiencia de usuario fluida, moderna e inclusiva y lista para pruebas de usabilidad 
+Este sprint ha sentado las bases para una Web Application robusta, modular y centrada en el usuario, con funcionalidades clave implementadas y probadas. La integración de alertas, mensajería, reportes y autenticación segura garantiza una experiencia clínica fluida y eficiente tanto para pacientes como para médicos.
 
 ### 5.2.2.5. Execution Evidence for Sprint Review.
 
@@ -2413,9 +2466,19 @@ En este Sprint 2, el equipo logró implementar y completar el desarrollo del fro
 
 La aplicación presenta una interfaz moderna, responsiva y accesible , desarrollada con Angular y Typescript, e incorpora componentes reutilizables, validaciones dinámicas y una navegación fluida entre secciones. Además, se aplicaron principios de diseño centrado en el usuario, garantizando una experiencia clara y coherente para profesionales de la salud y pacientes. El resultado refleja una plataforma visualmente consistente, empática y funcional, alineada con la identidad de ChroniCaree: confianza, eficiencia y cuidado humano.
 
+![sprint-2](assets/img/chapter-5/pruebas-sprtin-2%20(1).png)
 
-> **Enlace a la versión desplegada (producción):**  
+![sprint-2](assets/img/chapter-5/pruebas-sprtin-2%20(2).png)
 
+![sprint-2](assets/img/chapter-5/pruebas-sprtin-2%20(3).png)
+
+![sprint-2](assets/img/chapter-5/pruebas-sprtin-2%20(4).png)
+
+![sprint-2](assets/img/chapter-5/pruebas-sprtin-2%20(5).png)
+
+
+
+> **Enlace a la versión desplegada api (producción):**  
 
 > **Enlace al video de demostración (navegación y funcionalidades):**  
 
@@ -2423,9 +2486,13 @@ La aplicación presenta una interfaz moderna, responsiva y accesible , desarroll
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
+
+
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 El equipo desarrolló el frontend completo de la aplicación web utilizando una rama por cada feature, lo que permitió que cada integrante trabajara de forma independiente en distintos módulos —como gestión de usuarios, pacientes, historial médico, etc— sin interferir con el trabajo de los demás. Al finalizar cada feature, se realizaron pruebas para verificar la ausencia de conflictos con la rama principal (main), y posteriormente se generó un pull request para su revisión e integración. A continuación, se muestra una imagen que evidencia la colaboración y flujo de trabajo del equipo en GitHub durante el Sprint 2.
+
+
 
 ### Bibliografia
 
@@ -2441,7 +2508,7 @@ Tapia, S. (2021, 21 de junio). *Arquitectura DDD (Domain Driven Design)*. https:
 
 | contenido |  |
 |--- | ---|
-|video de exposicion TB1 | link del video: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/Efzwy1jCnH1HuvKzKkKmCDIBufw9Jdwf9vYLGC2kx_oOVQ?e=Y1b2eB&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D  |
+|video de exposicion TB1 | link del video: http://bit.ly/3Wz2nfQ  |
 
 
 

@@ -2344,7 +2344,7 @@ Para cada aspecto, se ha asignado un Líder (L), encargado del diseño, implemen
 
 A continuación, se detallan los aspectos definidos y los roles asignados:
 
-| Team Member (Last Name, First Name) | GitHub Username	 | FI | IN | DO | RI | x |
+| Team Member (Last Name, First Name) | GitHub Username	 | FI | IN | DO | RI | QA |
 |-------------------------------------|-----------------|----|----|----|----|---|
 | Andreow Santiago	                    | andrews5738	     | L  | C  | C  | C  | C |
 | Sebastian Beingolea	                 | sebaxchen_65154 | C  | C  | C  | L  | C |
@@ -2357,6 +2357,8 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 - **IN**: Informe Técnico — Elaboración, estructuración y redacción del informe del proyecto (documentación de arquitectura, convenciones, sprints).
 - **DO**: Deployment & Hosting — Configuración y despliegue de la Landing Page en Netlify, verificación de URL pública y acceso.
 - **RI**: Repository Initialization — Configuración inicial del repositorio en GitHub, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
+- **QA**: Quality Assurance —  Participación en revisión, pruebas y validación del funcionamiento del frontend antes del despliegue.
+
 
 ### 5.2.2.3. Sprint Backlog 2.
 
@@ -2491,7 +2493,7 @@ La aplicación presenta una interfaz moderna, responsiva y accesible , desarroll
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
 
 El equipo desarrolló el frontend completo de la aplicación web utilizando una rama por cada feature, lo que permitió que cada integrante trabajara de forma independiente en distintos módulos —como gestión de usuarios, pacientes, historial médico, etc— sin interferir con el trabajo de los demás. Al finalizar cada feature, se realizaron pruebas para verificar la ausencia de conflictos con la rama principal (main), y posteriormente se generó un pull request para su revisión e integración. A continuación, se muestra una imagen que evidencia la colaboración y flujo de trabajo del equipo en GitHub durante el Sprint 2.
-
+![team collaborate](Assets/img/chapter-5/teamCollaboration-sprint2.png)
 
 
 ### Bibliografia

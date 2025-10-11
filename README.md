@@ -1853,17 +1853,17 @@ Los wireframes son esquemas visuales en blanco y negro que definen la estructura
 
 **Web applications wireframes desktop:**
 
-![alt text](assets/img/chapter-4/wireframes%20desktop%201.png)
+![alt text](assets/img/chapter-4/wireframes desktop1.png)
 
-![alt text](assets/img/chapter-4/wireframes%20desktop%202.png)
+![alt text](assets/img/chapter-4/wireframes desktop2.png)
 
-![alt text](assets/img/chapter-4/wireframes%20desktop%203.png)
+![alt text](assets/img/chapter-4/wireframes desktop3.png)
 
 **Web applications wireframes mobile:**
 
-![alt text](assets/img/chapter-4/wireframes%20mobile%201.png)
+![alt text](assets/img/chapter-4/wireframes mobile1.png)
 
-![alt text](assets/img/chapter-4/wireframes%20mobile%202.png)
+![alt text](assets/img/chapter-4/wireframes mobile1.png)
 
 ### 4.4.2. Web Applications Wireflow Diagrams.
 
@@ -2503,6 +2503,600 @@ Solucionex. (s. f.). *Buenas prácticas para el desarrollo de grandes proyectos 
 Tapia, S. (2021, 21 de junio). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 ### Anexos
+
+### Figura 1
+
+Commits
+![commits 1](assets/img/chapter-5/commits1.png)
+Hecho por el equipo Chronisys
+
+### Figura 2
+
+Commits
+![commits 2](assets/img/chapter-5/commits2.png)
+Hecho por el equipo Chronisys
+
+### Figura 3
+Network
+![network 1](assets/img/chapter-5/Network.png)
+Hecho por el equipo Chronisys
+
+### Figura 4
+
+Lean UX Canvas
+![Lean UX Canvas](assets/img/chapter-1/LeanUXCanvas.png)
+Hecho por el equipo Chronisys
+
+### Figura 5
+
+User Persona
+![Alisa Goicochea](assets/img/chapter-2/Alisa Goicochea.png)
+Hecho por el equipo Chronisys
+
+### Figura 6
+
+User Persona
+![Matias Peña](assets/img/chapter-2/MatíasPeña.png)
+Hecho por el equipo Chronisys
+
+### Figura 7
+
+Big Picture EventStorming
+![Big Picture EventStorming](assets/img/chapter-2/big_event_storming.png)
+Hecho por el equipo Chronisys
+
+### Figura 8
+
+Logo
+![chronisys](assets/img/chapter-2/chronisys.png)
+Hecho por el equipo Chronisys
+
+### Figura 9
+
+Empathy
+![Empathy](assets/img/chapter-2/empathy1.png)
+Hecho por el equipo Chronisys
+
+### Figura 10
+
+Empathy
+![Empathy](assets/img/chapter-2/empathy2.png)
+Hecho por el equipo Chronisys
+
+### Figura 11
+
+Entrevista
+![Entrevista](assets/img/chapter-2/entrevista 1.png)
+Hecho por el equipo Chronisys
+
+### Figura 12
+
+Entrevista
+![Entrevista](assets/img/chapter-2/entrevista 2.png)
+Hecho por el equipo Chronisys
+
+### Figura 13
+
+Entrevista
+![Entrevista](assets/img/chapter-2/entrevista 3.png)
+Hecho por el equipo Chronisys
+
+### Figura 14
+
+Entrevista
+![Entrevista](assets/img/chapter-2/entrevista 4.png)
+Hecho por el equipo Chronisys
+
+### Figura 15
+
+Entrevista
+![Entrevista](assets/img/chapter-2/entrevista 5.png)
+Hecho por el equipo Chronisys
+
+### Figura 16
+
+Entrevista
+![Entrevista](assets/img/chapter-2/entrevista 6.png)
+Hecho por el equipo Chronisys
+
+### Figura 17
+
+Estadistica Segmento 1
+![Estadistica 1 ](assets/img/chapter-2/estadistica-1a.png)
+Hecho por el equipo Chronisys
+
+### Figura 18
+
+Estadistica Segmento 1
+![Estadistica 1 ](assets/img/chapter-2/estadistica-1b.png)
+Hecho por el equipo Chronisys
+
+### Figura 19
+
+Estadistica Segmento 1
+![Estadistica 1 ](assets/img/chapter-2/estadistica-1c.png)
+Hecho por el equipo Chronisys
+
+### Figura 20
+
+Estadistica Segmento 1
+![Estadistica 1 ](assets/img/chapter-2/estadistica-1d.png)
+Hecho por el equipo Chronisys
+
+### Figura 21
+
+Estadistica Segmento 1
+![Estadistica 1 ](assets/img/chapter-2/estadistica-1e.png)
+Hecho por el equipo Chronisys
+
+### Figura 22
+
+Estadistica Segmento 2
+![Estadistica 2 ](assets/img/chapter-2/estdistica-2a.png)
+Hecho por el equipo Chronisys
+
+### Figura 23
+
+Estadistica Segmento 2
+![Estadistica 1 ](assets/img/chapter-2/estdistica-2b.png)
+Hecho por el equipo Chronisys
+
+### Figura 24
+
+Estadistica Segmento 2
+![Estadistica 1 ](assets/img/chapter-2/estdistica-2c.png)
+Hecho por el equipo Chronisys
+
+### Figura 25
+
+Estadistica Segmento 2
+![Estadistica 1 ](assets/img/chapter-2/estdistica-2d.png)
+Hecho por el equipo Chronisys
+
+### Figura 26
+
+Estadistica Segmento 2
+![Estadistica 1 ](assets/img/chapter-2/estdistica-2e.png)
+Hecho por el equipo Chronisys
+
+### Figura 27
+
+Journey Mapping
+![Journey Mapping](assets/img/chapter-2/journeymapping1.png)
+Hecho por el equipo Chronisys
+
+### Figura 28
+
+Journey Mapping
+![Journey Mapping](assets/img/chapter-2/journeymapping2.png)
+Hecho por el equipo Chronisys
+
+### Figura 29
+
+Impact Map
+![Impact Map](assets/img/chapter-3/Impactmapchronicarre.png)
+Hecho por el equipo Chronisys
+
+### Figura 30
+
+Class Diagram
+![Class Diagram](assets/img/chapter-4/Class Diagram.png)
+Hecho por el equipo Chronisys
+
+### Figura 31
+
+Colores
+![Colores](assets/img/chapter-4/colores.png)
+Hecho por el equipo Chronisys
+
+### Figura 32
+
+DB Diagram
+![DB Diagrama](assets/img/chapter-4/db Diagram.png)
+Hecho por el equipo Chronisys
+
+### Figura 33
+
+Diagram cc
+![diagram-cc](assets/img/chapter-4/diagrama-cc.png)
+Hecho por el equipo Chronisys
+
+### Figura 34
+
+DiagramaComponentesBDAnalytics
+![DiagramaComponentesBDAnalytics](assets/img/chapter-4/DiagramaComponentesBDAnalytics.jpeg)
+Hecho por el equipo Chronisys
+
+### Figura 35
+
+DiagramaComponentesBDCare
+![DiagramaComponentesBDCare](assets/img/chapter-4/DiagramaComponentesBDCare.jpeg.jpeg)
+Hecho por el equipo Chronisys
+
+### Figura 36
+
+DiagramaComponentesBDHandling
+![DiagramaComponentesBDHandling ](assets/img/chapter-4/DiagramaComponentesBDHandling.jpeg.jpeg)
+Hecho por el equipo Chronisys
+
+### Figura 37
+
+Diagrama Container
+![Diagrama Container ](assets/img/chapter-4/DiagramaContainer.jpeg)
+Hecho por el equipo Chronisys
+
+### Figura 38
+
+Diagrama Contexto
+![Diagrama Contexto](assets/img/chapter-4/DiagramaContexto.jpeg)
+Hecho por el equipo Chronisys
+
+### Figura 39
+
+Landing
+![Landingd](assets/img/chapter-4/Landing Page desktop.png)
+Hecho por el equipo Chronisys
+
+### Figura 40
+
+Landing
+![Landingm](assets/img/chapter-4/Landing Page mobile.png)
+Hecho por el equipo Chronisys
+
+### Figura 41
+
+Landing
+![Landing 1](assets/img/chapter-4/Landing-1.png)
+Hecho por el equipo Chronisys
+
+### Figura 42
+
+Landing
+![Landing 2](assets/img/chapter-4/Landing-2.png)
+Hecho por el equipo Chronisys
+
+### Figura 43
+
+Landing
+![Landing 2](assets/img/chapter-4/Landing-3.png)
+Hecho por el equipo Chronisys
+
+### Figura 44
+
+Landing
+![Landing 4](assets/img/chapter-4/Landing-4.png)
+Hecho por el equipo Chronisys
+
+### Figura 45
+
+Landing
+![Landing 5](assets/img/chapter-4/Landing-5.png)
+Hecho por el equipo Chronisys
+
+### Figura 46
+
+Landing
+![Landing 6](assets/img/chapter-4/Landing-6.png)
+Hecho por el equipo Chronisys
+
+### Figura 47
+
+Landing
+![Landing 7](assets/img/chapter-4/Landing-7.png)
+Hecho por el equipo Chronisys
+
+### Figura 48
+
+Landing
+![landingmockups-2](assets/img/chapter-4/landingmockups-1.png)
+Hecho por el equipo Chronisys
+
+### Figura 49
+
+Landing
+![landingmockups-3](assets/img/chapter-4/landingmockups-2.png)
+Hecho por el equipo Chronisys
+
+### Figura 50
+
+Landing
+![landingmockups-4](assets/img/chapter-4/landingmockups-3.png)
+Hecho por el equipo Chronisys
+
+### Figura 51
+
+Landing
+![landingmockups-5](assets/img/chapter-4/landingmockups-4.png)
+Hecho por el equipo Chronisys
+
+### Figura 52
+
+Landing
+![landingmockups-6](assets/img/chapter-4/landingmockups-5.png)
+Hecho por el equipo Chronisys
+
+### Figura 53
+
+Landing
+![landingmockups-7](assets/img/chapter-4/landingmockups-6.png)
+Hecho por el equipo Chronisys
+
+### Figura 54
+
+Landing
+![landingmockups-6](assets/img/chapter-4/landingmockups-7.png)
+Hecho por el equipo Chronisys
+
+### Figura 55
+
+Landing
+![landingmockups-8](assets/img/chapter-4/landingmockups-8.png)
+Hecho por el equipo Chronisys
+
+### Figura 56
+
+Landing
+![landingmockups-9](assets/img/chapter-4/landingmockups-9.png)
+Hecho por el equipo Chronisys
+
+### Figura 57
+
+Landing
+![landingmockups-10](assets/img/chapter-4/landingmockups-10.png)
+Hecho por el equipo Chronisys
+
+### Figura 58
+
+Landing
+![landingmockups-11](assets/img/chapter-4/landingmockups-11.png)
+Hecho por el equipo Chronisys
+
+### Figura 59
+
+Landing
+![landingmockups-11 ](assets/img/chapter-4/landingmockups-10.png)
+Hecho por el equipo Chronisys
+
+### Figura 60
+
+Landing
+![Landing](assets/img/chapter-4/LandingPage.1.2.png)
+Hecho por el equipo Chronisys
+
+### Figura 61
+
+Landing
+![Landing1.1](assets/img/chapter-4/LandingPage.1.png)
+Hecho por el equipo Chronisys
+
+### Figura 62
+
+Logo
+![Logo](assets/img/chapter-4/logo-png.png)
+Hecho por el equipo Chronisys
+
+### Figura 63
+
+Mock Ups Mobile
+![Mock Ups Mobile - 1](assets/img/chapter-4/mock ups mobile(1).png)
+Hecho por el equipo Chronisys
+
+### Figura 64
+
+Mock Ups Mobile
+![Mock Ups Mobile - 2](assets/img/chapter-4/mock ups mobile(2).png)
+Hecho por el equipo Chronisys
+
+### Figura 65
+
+Mock Ups Mobile
+![Mock Ups Mobile 1](assets/img/chapter-4/mock ups mobile(3).png)
+Hecho por el equipo Chronisys
+
+### Figura 66
+
+Mock Ups Mobile
+![Mock Ups Mobile 2](assets/img/chapter-4/mockups app(1).png)
+Hecho por el equipo Chronisys
+
+### Figura 67
+
+Mock Ups Mobile
+![Mock Ups Mobile 3](assets/img/chapter-4/mockups app(2).png)
+Hecho por el equipo Chronisys
+
+### Figura 68
+
+Mock Ups Mobile
+![Mock Ups Mobile 4](assets/img/chapter-4/mockups app(3).png)
+Hecho por el equipo Chronisys
+
+### Figura 69
+
+Mock Ups Mobile
+![Mock Ups Mobile 5](assets/img/chapter-4/mockups app(4).png)
+Hecho por el equipo Chronisys
+
+### Figura 70
+
+Mock Ups Mobile
+![Mock Ups Mobile 1](assets/img/chapter-4/mockups app(5).png)
+Hecho por el equipo Chronisys
+
+### Figura 71
+
+Mock Ups Mobile
+![Mock Ups Mobile 6](assets/img/chapter-4/mockups app(6).png)
+Hecho por el equipo Chronisys
+
+### Figura 72
+
+Mock Ups Mobile
+![Mock Ups Mobile 7](assets/img/chapter-4/mockups app(7).png)
+Hecho por el equipo Chronisys
+
+### Figura 73
+
+Mock Ups Mobile
+![Mock Ups Mobile 8](assets/img/chapter-4/mockups app(8).png)
+Hecho por el equipo Chronisys
+
+### Figura 74
+
+Mock Ups Mobile
+![Mock Ups Mobile 9](assets/img/chapter-4/mockups app(9).png)
+Hecho por el equipo Chronisys
+
+### Figura 75
+
+Mock Ups Mobile
+![Mock Ups Mobile 10](assets/img/chapter-4/mockups app(10).png)
+Hecho por el equipo Chronisys
+
+### Figura 76
+
+Mock Ups Mobile
+![Mock Ups Mobile 11](assets/img/chapter-4/mockups app(11).png)
+Hecho por el equipo Chronisys
+
+### Figura 77
+
+Spacing
+![Spacing](assets/img/chapter-4/Spacing.png)
+Hecho por el equipo Chronisys
+
+### Figura 78
+
+Tipografia
+![Tipografia](assets/img/chapter-4/Tipografia.png)
+Hecho por el equipo Chronisys
+
+### Figura 79
+
+UserFlow
+![UserFlow 1](assets/img/chapter-4/userflow(1).png)
+Hecho por el equipo Chronisys
+
+### Figura 80
+
+UserFlow
+![UserFlow 2](assets/img/chapter-4/userflow(2).png)
+Hecho por el equipo Chronisys
+
+### Figura 81
+
+UserFlow
+![UserFlow 3](assets/img/chapter-4/userflow(3).png)
+Hecho por el equipo Chronisys
+
+### Figura 82
+
+UserFlow
+![UserFlow 4](assets/img/chapter-4/userflow(4).png)
+Hecho por el equipo Chronisys
+
+### Figura 83
+
+UserFlow
+![UserFlow](assets/img/chapter-4/UserFlow(4).png)
+Hecho por el equipo Chronisys
+
+### Figura 84
+
+Wireflow
+![Wireflow 1](assets/img/chapter-4/Wireflow.png)
+Hecho por el equipo Chronisys
+
+### Figura 85
+
+Wireframe Desktop
+![Wireframe Desktop 1](assets/img/chapter-4/wireframes desktop1.png)
+Hecho por el equipo Chronisys
+
+### Figura 86
+
+Wireframe
+![Wireframe Desktop 2](assets/img/chapter-4/wireframes desktop3.png)
+Hecho por el equipo Chronisys
+
+### Figura 87
+
+Wireframe
+![Wireframe Desktop 3](assets/img/chapter-4/wireframes desktop3.png)
+Hecho por el equipo Chronisys
+
+### Figura 88
+
+Wireframe
+![commits 1](assets/img/chapter-4/wireframes mobile1.png)
+Hecho por el equipo Chronisys
+
+### Figura 89
+
+Commits
+![Wireframe Desktop 1](assets/img/chapter-4/wireframes mobile1.png)
+Hecho por el equipo Chronisys
+
+### Figura 90
+
+Commits
+![Wireframe Desktop 2](assets/img/chapter-4/wireframes mobile2.png)
+Hecho por el equipo Chronisys
+
+### Figura 91
+
+Netlify
+![commits 1.1](assets/img/chapter-5/commits1.png)
+Hecho por el equipo Chronisys
+
+### Figura 92
+
+Netlify
+![commits 2.1](assets/img/chapter-5/commits2.png)
+Hecho por el equipo Chronisys
+
+### Figura 93
+
+Netlify
+![Netlify 1](assets/img/chapter-5/netlify1.png)
+Hecho por el equipo Chronisys
+
+### Figura 94
+
+Netlify
+![Netlify 2](assets/img/chapter-5/netlify2.png)
+Hecho por el equipo Chronisys
+
+### Figura 95
+
+Netlify
+![Netlify 3](assets/img/chapter-5/netlify3.png)
+Hecho por el equipo Chronisys
+
+### Figura 96
+
+Netlify
+![Netlify 4](assets/img/chapter-5/netlify4.png)
+Hecho por el equipo Chronisys
+
+### Figura 97
+
+Netlify
+![Netlify 5](assets/img/chapter-5/netlify5.png)
+Hecho por el equipo Chronisys
+
+### Figura 98
+
+Network
+![Network 1](assets/img/chapter-5/Network.png)
+Hecho por el equipo Chronisys
+
+### Figura 99
+
+Sprint Bacloh
+![commits 1](assets/img/chapter-5/sprintbacklog-1.png)
+Hecho por el equipo Chronisys
+
 
 #### Videos de exposicion (anexo 1)
 

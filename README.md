@@ -201,8 +201,13 @@ Network graph para TB1
 [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
 [5.2.1. Sprint 1](#521-sprint-1)  
 [5.2.2. Sprint 2 ](#522-sprint-2)  
-[5.2.2. Sprint 3 ](#522-sprint-3)  
-[5.2.2. Sprint 4 ](#522-sprint-4)  
+[5.2.3. Sprint 3 ](#523-sprint-3)  
+[5.2.4. Sprint 4 ](#524-sprint-4)
+[5.3. Validation Interviews ](#53-validation-interviews)
+[5.3.1 Diseño de Entrevistas ](#531-validation-interviews)
+[5.3.2 Registro Entrevistas ](#532-validation-interviews)
+[5.3.3 Validacion segun heuristicas ](#523-validation-interviews)
+ 
   
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
@@ -3169,12 +3174,29 @@ Sprint Bacloh
 Hecho por el equipo Chronisys
 
 
+
+
 #### Videos de exposicion (anexo 1)
 
 | contenido |  |
 |--- | ---|
 |video de exposicion TB1 | link del video: http://bit.ly/3Wz2nfQ  |
 
+## 5.2.3. Sprint 3
+### 5.2.3.1. Sprint Planning 2.
+### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.3.3. Sprint Backlog 3.
+### 5.2.3.4. Development Evidence for Sprint Review.
+### 5.2.3.5. Execution Evidence for Sprint Review.
+### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+
+## 5.3. Validation Interviews
+### 5.3.1. Diseño de Entrevistas
+### 5.3.2. Registro de Entrevistas
+### 5.3.3. Evaluacion segun heuristicas
 
 
 ### Concluciones

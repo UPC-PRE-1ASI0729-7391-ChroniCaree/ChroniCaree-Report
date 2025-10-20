@@ -3196,7 +3196,7 @@ Hecho por el equipo Chronisys
 
 ## 5.3. Validation Interviews
 
-En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **pacientes con enfermedades crónicas (Segmento 1)** y** médicos y personal de salud encargado de su seguimiento (Segmento 2)**. El objetivo es comprender sus necesidades reales, frustraciones diarias, hábitos de manejo de la enfermedad y expectativas frente a una plataforma digital de monitoreo continuo, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de **ChroniCare** a lo que el mercado realmente demanda
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **pacientes con enfermedades crónicas (Segmento 1)** y **médicos y personal de salud encargado de su seguimiento (Segmento 2)**. El objetivo es comprender sus necesidades reales, frustraciones diarias, hábitos de manejo de la enfermedad y expectativas frente a una plataforma digital de monitoreo continuo, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de **ChroniCare** a lo que el mercado realmente demanda
 
 ### 5.3.1. Diseño de Entrevistas
 

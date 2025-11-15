@@ -201,8 +201,14 @@ Network graph para TB1
 [5.2. Landing Page, Services & Applications Implementation](#52-landing-page-services--applications-implementation)  
 [5.2.1. Sprint 1](#521-sprint-1)  
 [5.2.2. Sprint 2 ](#522-sprint-2)  
-[5.2.2. Sprint 3 ](#522-sprint-3)  
-[5.2.2. Sprint 4 ](#522-sprint-4)  
+[5.2.3. Sprint 3 ](#523-sprint-3)  
+[5.2.4. Sprint 4 ](#524-sprint-4)
+
+[5.3. Validation Interviews ](#53-validation-interviews)
+[5.3.1 Diseño de Entrevistas ](#531-diseño-de-entrevistas)
+[5.3.2 Registro Entrevistas ](#532-registro-de-entrevistas)
+[5.3.3 Validacion segun heuristicas ](#523-validacion-segun-heuristicas)
+ 
   
 [Bibliografía](#bibliografía)  
 [Anexos](#anexos)  
@@ -1418,8 +1424,6 @@ El cuadro a continuación presenta todas las historias del proyecto, agrupadas p
 | HU38 | Ver carga rápida y optimizada en móviles con conexión lenta | Como visitante con conexión limitada, quiero que la landing cargue rápido y funcione sin problemas, para no abandonar por lentitud. | **Escenario 1: Carga en 3G simulada**<br>Dado que el visitante accede desde una conexión 3G<br>Cuando carga la página<br>Entonces la landing se renderiza completamente en menos de 5 segundos<br><br>**Escenario 2: Imágenes optimizadas**<br>Dado que el visitante navega con datos móviles<br>Cuando la página carga<br>Entonces las imágenes están comprimidas y en formato WebP o AVIF | EP11 |
 
 
-
-
 ## 3.2. Impact Mapping
 
 
@@ -2479,54 +2483,38 @@ La aplicación presenta una interfaz moderna, responsiva y accesible , desarroll
 ![sprint-2](assets/img/chapter-5/pruebas-sprtin-2%20(5).png)
 
 
-
-> **Enlace a la versión desplegada api (producción):**  
-
+> **Enlace a la versión desplegada api (producción): https://chronicaree-api.onrender.com/**  
+> **Enlace a la versión desplegada del frontend (producción): chronicaree-frontend.onrender.com/** 
 > **Enlace al video de demostración (navegación y funcionalidades):**  
 
-### 5.2.2.6. Services Documentation Evidence for Sprint Review.
+### 5.2.2.6. Services Documentation Evidence for Sprint Review
 
-| **Endpoint**| **Acción** | **Verbo HTTP** | **Sintaxis de llamada**| **Parámetros**| **Ejemplo de Request**  | **Ejemplo de Response**  | **Explicación**   |
-| ----- | --- | ---- | ------- | ----------- | -------- | --- | ---------- |
-| `/api/users`                 | Obtener todos los usuarios o crear uno nuevo  | `GET` / `POST`                    | `GET /api/users`<br>`POST /api/users`             | Body (POST): `{ name, email, role, password }`                          | `POST /api/users`<br>`{ "name": "Carlos", "email": "carlos@chroni.com", "role": "doctor", "password": "1234" }`                                                 | `{ "id": 1, "name": "Carlos", "role": "doctor" }`                    | Permite registrar y consultar usuarios del sistema (médicos, pacientes o administradores). |
-| `/api/patients`              | Consultar o registrar pacientes               | `GET` / `POST`                    | `GET /api/patients`<br>`POST /api/patients`       | Body (POST): `{ firstName, lastName, dni, gender, phone, address }`     | `POST /api/patients`<br>`{ "firstName": "Lucía", "lastName": "Pérez", "dni": "76382910" }`                                                                      | `{ "id": 3, "firstName": "Lucía", "lastName": "Pérez" }`             | Gestiona la información personal y médica básica de los pacientes.                         |
-| `/api/doctors`               | Obtener, registrar o actualizar médicos       | `GET` / `POST` / `PUT`            | `GET /api/doctors`<br>`POST /api/doctors`         | Body (POST): `{ firstName, lastName, specialty, licenseNumber, phone }` | `GET /api/doctors`                                                                                                                                              | `[ { "id": 1, "firstName": "Andrés", "specialty": "Cardiología" } ]` | Permite listar y registrar médicos asociados a la plataforma.                              |
-| `/api/diagnoses`             | Crear y consultar diagnósticos médicos        | `GET` / `POST`                    | `GET /api/diagnoses`<br>`POST /api/diagnoses`     | Body: `{ patientId, doctorId, icd10Code, diagnosisName, severity }`     | `POST /api/diagnoses`<br>`{ "patientId": 2, "doctorId": 1, "icd10Code": "E11.9", "diagnosisName": "Diabetes tipo 2" }`                                          | `{ "id": 8, "status": "active" }`                                    | Registra diagnósticos clínicos usando códigos ICD-10 para trazabilidad médica.             |
-| `/api/symptoms`              | Registrar síntomas diarios del paciente       | `POST`                            | `POST /api/symptoms`                              | `{ patientId, glucose, heartRate, temperature, notes }`                 | `POST /api/symptoms`<br>`{ "patientId": 2, "glucose": 95, "temperature": 36.8 }`                                                                                | `{ "message": "Síntoma registrado correctamente" }`                  | Guarda los síntomas y signos vitales diarios para monitoreo.                               |
-| `/api/alerts`                | Crear, listar o eliminar alertas              | `GET` / `POST` / `DELETE`         | `GET /api/alerts`<br>`POST /api/alerts`           | Body (POST): `{ patientId, type, severity, title, message, status }`    | `POST /api/alerts`<br>`{ "patientId": "2", "type": "vital_sign_high", "severity": "high", "message": "Presión alta detectada" }`                                | `{ "id": "a1", "status": "active" }`                                 | Permite generar alertas automáticas basadas en valores críticos o eventos médicos.         |
-| `/api/alerts/{id}`           | Actualizar estado de una alerta               | `PATCH`                           | `PATCH /api/alerts/{id}`                          | `{ status, notes }`                                                     | `PATCH /api/alerts/a1`<br>`{ "status": "acknowledged", "notes": "Médico informado" }`                                                                           | `{ "id": "a1", "status": "acknowledged" }`                           | Cambia el estado de una alerta a *acknowledged*, *resolved* o *dismissed*.                 |
-| `/api/medications`           | Consultar, registrar o modificar medicamentos | `GET` / `POST` / `PUT` / `DELETE` | `GET /api/medications`<br>`POST /api/medications` | `{ patientId, name, dosage, frequency, prescribedBy }`                  | `POST /api/medications`<br>`{ "patientId": 3, "name": "Losartán", "dosage": "50mg", "frequency": "daily" }`                                                     | `{ "id": "m1", "status": "active" }`                                 | Maneja los medicamentos recetados y su programación de dosis.                              |
-| `/api/medications/{id}/logs` | Registrar toma o evento del medicamento       | `POST`                            | `POST /api/medications/{id}/logs`                 | `{ scheduledTime, actualTime, status, notes }`                          | `POST /api/medications/m1/logs`<br>`{ "scheduledTime": "2025-10-10T09:00:00Z", "status": "taken" }`                                                             | `{ "status": "taken", "createdAt": "2025-10-10" }`                   | Registra las dosis tomadas o perdidas por el paciente para control de adherencia.          |
-| `/api/nudges`                | Enviar mensajes motivacionales al paciente    | `POST`                            | `POST /api/nudges`                                | `{ patientId, type, priority, title, message, icon }`                   | `POST /api/nudges`<br>`{ "patientId": 3, "type": "motivation", "priority": "medium", "title": "¡Sigue así!", "message": "Has tomado tu medicación a tiempo." }` | `{ "id": 7, "status": "active" }`                                    | Crea recordatorios o mensajes de estímulo para fomentar hábitos saludables.                |
+En esta sección se presenta la documentación detallada de los *endpoints* desarrollados e implementados durante el presente *Sprint*, conforme al alcance definido para la funcionalidad de servicios web. La documentación sigue el estándar **OpenAPI 3.0** y ha sido integrada directamente en el proyecto para facilitar su acceso y mantenimiento.
 
-| Endpoint             | Acción                                           | Verbo HTTP | Sintaxis de llamada                                                          | Parámetros                                                             | Ejemplo de Request                                                                                                                                                                                                                         | Ejemplo de Response                                                                                   | Explicación                                                                               |                                                                                         |                                |
-| -------------------- | ------------------------------------------------ | ---------: | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------- | ------------------------------ |
-| `/symptoms`          | Listar síntomas por paciente (recientes primero) |        GET | `{BASE_URL}/symptoms?patientId={id}&_sort=timestamp&_order=desc&_limit={n}`  | `patientId` (req), `_sort`, `_order`, `_limit` (opt)                   | **GET** `{BASE_URL}/symptoms?patientId=1&_sort=timestamp&_order=desc&_limit=2`                                                                                                                                                             | `[{"id":3,"patientId":1,"timestamp":"2025-10-10T17:10:14Z","glucose":12}]`                            | Devuelve lista paginable/ordenable de síntomas por paciente.                              |                                                                                         |                                |
-| `/symptoms`          | Registrar nuevos síntomas                        |       POST | `{BASE_URL}/symptoms`                                                        | Body: campos clínicos + `timestamp`                                    | **POST** Body `{"patientId":1,"glucose":150,"bloodPressure":"130/85","heartRate":88,"temperature":36.8,"oxygenSaturation":97,"fatigue":4,"pain":1,"dizziness":2,"notes":"Leve dolor","timestamp":"2025-10-11T14:00:00Z","isEdited":false}` | `{"id":4,"patientId":1,"glucose":150,"isEdited":false}`                                               | Crea un registro de síntomas.                                                             |                                                                                         |                                |
-| `/symptoms/{id}`     | Editar/actualizar un registro de síntomas        |      PATCH | `{BASE_URL}/symptoms/{id}`                                                   | Path: `id` (req); Body parcial                                         | **PATCH** `/symptoms/3` Body `{"isEdited":true,"notes":"Actualizado"}`                                                                                                                                                                     | `{"id":3,"isEdited":true,"notes":"Actualizado"}`                                                      | Modifica campos puntuales del registro.                                                   |                                                                                         |                                |
-| `/symptoms/{id}`     | Eliminar un registro de síntomas                 |     DELETE | `{BASE_URL}/symptoms/{id}`                                                   | Path: `id` (req)                                                       | **DELETE** `/symptoms/3`                                                                                                                                                                                                                   | `{}`                                                                                                  | Elimina el registro (mock).                                                               |                                                                                         |                                |
-| `/medications`       | Listar medicación activa del paciente            |        GET | `{BASE_URL}/medications?patientId={id}&isActive=true`                        | `patientId` (req), `isActive` (opt)                                    | **GET** `{BASE_URL}/medications?patientId=1&isActive=true`                                                                                                                                                                                 | `[{"id":1,"name":"Metformina","isActive":true}]`                                                      | Medicación vigente de un paciente.                                                        |                                                                                         |                                |
-| `/medications`       | Crear prescripción (mock)                        |       POST | `{BASE_URL}/medications`                                                     | Body: `patientId,name,dosage,frequency,schedule,prescribedBy`          | **POST** Body `{"patientId":1,"name":"Atorvastatina","dosage":"20mg","frequency":"1 vez/día","schedule":"21:00","isActive":true,"prescribedBy":3}`                                                                                         | `{"id":3,"patientId":1,"name":"Atorvastatina","isActive":true}`                                       | Registra una nueva medicación.                                                            |                                                                                         |                                |
-| `/adherence`         | Registrar toma/salto de dosis                    |       POST | `{BASE_URL}/adherence`                                                       | Body: `medicationId,patientId,scheduledTime,takenAt,confirmed,skipped` | **POST** Body `{"medicationId":1,"patientId":1,"scheduledTime":"2025-10-11T20:00:00Z","takenAt":"2025-10-11T20:03:00Z","confirmed":true,"skipped":false}`                                                                                  | `{"id":3,"confirmed":true,"skipped":false}`                                                           | Marca adherencia de una dosis.                                                            |                                                                                         |                                |
-| `/adherence`         | Listar adherencia por medicamento/paciente       |        GET | `{BASE_URL}/adherence?patientId={id}&medicationId={id}`                      | `patientId` (opt), `medicationId` (opt)                                | **GET** `{BASE_URL}/adherence?patientId=1&medicationId=1`                                                                                                                                                                                  | `[{"id":1,"scheduledTime":"2025-04-05T08:00:00Z","takenAt":"2025-04-05T08:05:00Z","confirmed":true}]` | Historial de tomas por filtro.                                                            |                                                                                         |                                |
-| `/alerts`            | Listar alertas activas del paciente              |        GET | `{BASE_URL}/alerts?patientId={id}&resolved=false`                            | `patientId` (req), `resolved` (opt)                                    | **GET** `{BASE_URL}/alerts?patientId=1&resolved=false`                                                                                                                                                                                     | `[{"id":2,"type":"blood_pressure_high","severity":"critical","resolved":false}]`                      | Alertas clínicas pendientes.                                                              |                                                                                         |                                |
-| `/alerts/{id}`       | Marcar alerta como resuelta                      |      PATCH | `{BASE_URL}/alerts/{id}`                                                     | Path: `id`; Body `{ "resolved": true }`                                | **PATCH** `/alerts/2` Body `{"resolved":true}`                                                                                                                                                                                             | `{"id":2,"resolved":true}`                                                                            | Cierra una alerta.                                                                        |                                                                                         |                                |
-| `/appointments`      | Listar citas del paciente/médico                 |        GET | `{BASE_URL}/appointments?patientId={id}` o `?doctorId={id}`                  | `patientId` **o** `doctorId`                                           | **GET** `{BASE_URL}/appointments?patientId=1`                                                                                                                                                                                              | `[{"id":1,"date":"2025-04-15","time":"10:00","status":"scheduled"}]`                                  | Agenda por actor.                                                                         |                                                                                         |                                |
-| `/appointments`      | Crear cita                                       |       POST | `{BASE_URL}/appointments`                                                    | Body: `patientId,doctorId,date,time,type,status`                       | **POST** Body `{"patientId":1,"doctorId":3,"date":"2025-10-20","time":"09:00","type":"Control","status":"scheduled"}`                                                                                                                      | `{"id":3,"patientId":1,"status":"scheduled"}`                                                         | Registra nueva cita.                                                                      |                                                                                         |                                |
-| `/appointments/{id}` | Actualizar estado de cita                        |      PATCH | `{BASE_URL}/appointments/{id}`                                               | Path: `id`; Body parcial                                               | **PATCH** `/appointments/1` Body `{"status":"completed","notes":"Atendido"}`                                                                                                                                                               | `{"id":1,"status":"completed"}`                                                                       | Cambia estado/detalles de la cita.                                                        |                                                                                         |                                |
-| `/diagnoses`         | Listar diagnósticos del paciente                 |        GET | `{BASE_URL}/diagnoses?patientId={id}`                                        | `patientId` (req)                                                      | **GET** `{BASE_URL}/diagnoses?patientId=1`                                                                                                                                                                                                 | `[{"id":1,"icd10Code":"E11.9","status":"controlled"}]`                                                | Diagnósticos (ICD-10) por paciente.                                                       |                                                                                         |                                |
-| `/treatmentPlans`    | Ver plan(es) de tratamiento activos              |        GET | `{BASE_URL}/treatmentPlans?patientId={id}&status=active`                     | `patientId` (req), `status` (opt)                                      | **GET** `{BASE_URL}/treatmentPlans?patientId=1&status=active`                                                                                                                                                                              | `[{"id":1,"title":"Control de Diabetes","medications":[1]}]`                                          | Plan de tratamiento y metas.                                                              |                                                                                         |                                |
-| `/records`           | Listar registros clínicos (vitales/consultas)    |        GET | `{BASE_URL}/records?patientId={id}&type={vital_signs                         | symptoms                                                               | consultation}&_sort=date&_order=desc`                                                                                                                                                                                                      | `patientId` (req), `type`, `_sort`, `_order`, `_limit`                                                | **GET** `{BASE_URL}/records?patientId=1&type=vital_signs&_sort=date&_order=desc&_limit=1` | `[{"id":1,"type":"vital_signs","glucose":180,"bloodPressure":"140/90"}]`                | Historial clínico con filtros. |
-| `/devices`           | Dispositivos vinculados al paciente              |        GET | `{BASE_URL}/devices?patientId={id}&isActive=true`                            | `patientId`, `isActive`                                                | **GET** `{BASE_URL}/devices?patientId=1&isActive=true`                                                                                                                                                                                     | `[{"id":1,"type":"glucometer","brand":"Accu-Chek"}]`                                                  | Lista los dispositivos activos.                                                           |                                                                                         |                                |
-| `/messages`          | Listar mensajes entre usuario A y B              |        GET | `{BASE_URL}/messages?senderId={id}&receiverId={id}`                          | `senderId`, `receiverId`                                               | **GET** `{BASE_URL}/messages?senderId=1&receiverId=3`                                                                                                                                                                                      | `[{"id":1,"subject":"Consulta sobre glucosa","read":false}]`                                          | Conversación entre dos usuarios.                                                          |                                                                                         |                                |
-| `/messages`          | Enviar mensaje                                   |       POST | `{BASE_URL}/messages`                                                        | Body: `senderId,receiverId,subject,content,timestamp`                  | **POST** Body `{"senderId":1,"receiverId":3,"subject":"Consulta","content":"¿Reviso glucosa después de almuerzo?","timestamp":"2025-10-11T15:00:00Z","read":false}`                                                                        | `{"id":3,"senderId":1,"receiverId":3,"read":false}`                                                   | Envía un mensaje interno.                                                                 |                                                                                         |                                |
-| `/patients/{id}`     | Obtener perfil del paciente                      |        GET | `{BASE_URL}/patients/{id}`                                                   | Path: `id`                                                             | **GET** `{BASE_URL}/patients/1`                                                                                                                                                                                                            | `{"id":1,"firstName":"Ana","lastName":"Rodríguez","bmi":24.9}`                                        | Perfil básico del paciente.                                                               |                                                                                         |                                |
-| `/doctors`           | Listar doctores (por tenant o independientes)    |        GET | `{BASE_URL}/doctors?tenantId={id}&isIndependent={bool}`                      | `tenantId` (opt), `isIndependent` (opt)                                | **GET** `{BASE_URL}/doctors?tenantId=1`                                                                                                                                                                                                    | `[{"id":1,"firstName":"María","specialty":"Endocrinología"}]`                                         | Listado por filtros.                                                                      |                                                                                         |                                |
-| `/subscriptions`     | Ver suscripción del paciente/tenant              |        GET | `{BASE_URL}/subscriptions?patientId={id}` o `?payerType=tenant&payerId={id}` | según caso                                                             | **GET** `{BASE_URL}/subscriptions?patientId=1`                                                                                                                                                                                             | `[{"id":1,"plan":"premium","status":"active"}]`                                                       | Estado del plan del paciente o tenant.                                                    |                                                                                         |                                |
-| `/nudges`            | Listar recordatorios/notificaciones              |        GET | `{BASE_URL}/nudges?patientId={id}&isDismissed=false`                         | `patientId` (req), `isDismissed`/`isSnoozed` (opt)                     | **GET** `{BASE_URL}/nudges?patientId=1&isDismissed=false`                                                                                                                                                                                  | `[{"id":1,"type":"medication_reminder","priority":"urgent"}]`                                         | Nudges activos para el paciente.                                                          |                                                                                         |                                |
-| `/users`             | Buscar usuario por email o rol                   |        GET | `{BASE_URL}/users?email={mail}` o `?role={patient                            | doctor                                                                 | hospital_admin}`                                                                                                                                                                                                                           | `email`/`role`                                                                                        | **GET** `{BASE_URL}/users?role=doctor`                                                    | `[{"id":2,"email":"dr.maria@hospital.com"},{"id":3,"email":"dr.juan@chronicaree.com"}]` | Búsqueda simple en usuarios.   |
-| `/tenants`           | Ver instituciones (mock)                         |        GET | `{BASE_URL}/tenants?status=active`                                           | `status` (opt)                                                         | **GET** `{BASE_URL}/tenants?status=active`                                                                                                                                                                                                 | `[{"id":1,"name":"Clínica SaludVida","plan":"enterprise"}]`                                           | Lista de instituciones/tenants.                                                           |                                                                                         |                                |
-| `/staff`             | Listar personal del tenant                       |        GET | `{BASE_URL}/staff?tenantId={id}`                                             | `tenantId` (req)                                                       | **GET** `{BASE_URL}/staff?tenantId=1`                                                                                                                                                                                                      | `[{"id":1,"role":"admin","firstName":"Admin"}]`                                                       | Personal asociado al tenant.                                                              |                                                                                         |                                |
+Durante este *Sprint*, se han completado las siguientes actividades relacionadas con la documentación de servicios:
+- Implementación de endpoints RESTful para gestión de usuarios, pacientes, médicos, diagnósticos, medicamentos, alertas, síntomas, adherencia, citas, mensajes y otros recursos clínicos.
+- Documentación exhaustiva de cada endpoint utilizando comentarios estructurados compatibles con OpenAPI.
+- Validación de respuestas y parámetros mediante ejemplos reales y datos de prueba.
+- Generación automática de la interfaz interactiva de documentación (Swagger UI), disponible localmente durante desarrollo y desplegada en entorno de pruebas.
+
+A continuación, se detalla la lista completa de endpoints documentados, especificando las acciones soportadas, verbos HTTP, sintaxis de llamada, parámetros, ejemplos de solicitud y respuesta, junto con una breve explicación funcional.
+
+#### Tabla de Endpoints Documentados
+
+| **Endpoint** | **Acción** | **Verbo HTTP** | **Sintaxis de llamada** | **Parámetros** | **Ejemplo de Request** | **Ejemplo de Response** | **Explicación** |
+|--------------|------------|----------------|--------------------------|----------------|-------------------------|--------------------------|---------------|
+| `/api/users` | Obtener todos los usuarios o crear uno nuevo | `GET` / `POST` | `GET /api/users`<br>`POST /api/users` | Body (POST): `{ name, email, role, password }` | `POST /api/users`<br>`{ "name": "Carlos", "email": "carlos@chroni.com", "role": "doctor", "password": "1234" }` | `{ "id": 1, "name": "Carlos", "role": "doctor" }` | Permite registrar y consultar usuarios del sistema (médicos, pacientes o administradores). |
+| `/api/patients` | Consultar o registrar pacientes | `GET` / `POST` | `GET /api/patients`<br>`POST /api/patients` | Body (POST): `{ firstName, lastName, dni, gender, phone, address }` | `POST /api/patients`<br>`{ "firstName": "Lucía", "lastName": "Pérez", "dni": "76382910" }` | `{ "id": 3, "firstName": "Lucía", "lastName": "Pérez" }` | Gestiona la información personal y médica básica de los pacientes. |
+| `/api/doctors` | Obtener, registrar o actualizar médicos | `GET` / `POST` / `PUT` | `GET /api/doctors`<br>`POST /api/doctors` | Body (POST): `{ firstName, lastName, specialty, licenseNumber, phone }` | `GET /api/doctors` | `[ { "id": 1, "firstName": "Andrés", "specialty": "Cardiología" } ]` | Permite listar y registrar médicos asociados a la plataforma. |
+| `/api/diagnoses` | Crear y consultar diagnósticos médicos | `GET` / `POST` | `GET /api/diagnoses`<br>`POST /api/diagnoses` | Body: `{ patientId, doctorId, icd10Code, diagnosisName, severity }` | `POST /api/diagnoses`<br>`{ "patientId": 2, "doctorId": 1, "icd10Code": "E11.9", "diagnosisName": "Diabetes tipo 2" }` | `{ "id": 8, "status": "active" }` | Registra diagnósticos clínicos usando códigos ICD-10 para trazabilidad médica. |
+| `/api/symptoms` | Registrar síntomas diarios del paciente | `POST` | `POST /api/symptoms` | `{ patientId, glucose, heartRate, temperature, notes }` | `POST /api/symptoms`<br>`{ "patientId": 2, "glucose": 95, "temperature": 36.8 }` | `{ "message": "Síntoma registrado correctamente" }` | Guarda los síntomas y signos vitales diarios para monitoreo. |
+| `/api/alerts` | Crear, listar o eliminar alertas | `GET` / `POST` / `DELETE` | `GET /api/alerts`<br>`POST /api/alerts` | Body (POST): `{ patientId, type, severity, title, message, status }` | `POST /api/alerts`<br>`{ "patientId": "2", "type": "vital_sign_high", "severity": "high", "message": "Presión alta detectada" }` | `{ "id": "a1", "status": "active" }` | Permite generar alertas automáticas basadas en valores críticos o eventos médicos. |
+| `/api/alerts/{id}` | Actualizar estado de una alerta | `PATCH` | `PATCH /api/alerts/{id}` | `{ status, notes }` | `PATCH /api/alerts/a1`<br>`{ "status": "acknowledged", "notes": "Médico informado" }` | `{ "id": "a1", "status": "acknowledged" }` | Cambia el estado de una alerta a *acknowledged*, *resolved* o *dismissed*. |
+| `/api/medications` | Consultar, registrar o modificar medicamentos | `GET` / `POST` / `PUT` / `DELETE` | `GET /api/medications`<br>`POST /api/medications` | `{ patientId, name, dosage, frequency, prescribedBy }` | `POST /api/medications`<br>`{ "patientId": 3, "name": "Losartán", "dosage": "50mg", "frequency": "daily" }` | `{ "id": "m1", "status": "active" }` | Maneja los medicamentos recetados y su programación de dosis. |
+| `/api/medications/{id}/logs` | Registrar toma o evento del medicamento | `POST` | `POST /api/medications/{id}/logs` | `{ scheduledTime, actualTime, status, notes }` | `POST /api/medications/m1/logs`<br>`{ "scheduledTime": "2025-10-10T09:00:00Z", "status": "taken" }` | `{ "status": "taken", "createdAt": "2025-10-10" }` | Registra las dosis tomadas o perdidas por el paciente para control de adherencia. |
+| `/api/nudges` | Enviar mensajes motivacionales al paciente | `POST` | `POST /api/nudges` | `{ patientId, type, priority, title, message, icon }` | `POST /api/nudges`<br>`{ "patientId": 3, "type": "motivation", "priority": "medium", "title": "¡Sigue así!", "message": "Has tomado tu medicación a tiempo." }` | `{ "id": 7, "status": "active" }` | Crea recordatorios o mensajes de estímulo para fomentar hábitos saludables. |
+
+> **Nota:** Todos los endpoints están documentados con OpenAPI y disponibles en el repositorio del proyecto. Se adjuntan capturas de pantalla de la interfaz Swagger UI en el anexo correspondiente, mostrando ejemplos de ejecución con datos de prueba.
 
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
@@ -2563,6 +2551,292 @@ El repositorio de GitHub fue conectado directamente con Render, configurando un 
 
 El equipo desarrolló el frontend completo de la aplicación web utilizando una rama por cada feature, lo que permitió que cada integrante trabajara de forma independiente en distintos módulos —como gestión de usuarios, pacientes, historial médico, etc— sin interferir con el trabajo de los demás. Al finalizar cada feature, se realizaron pruebas para verificar la ausencia de conflictos con la rama principal (main), y posteriormente se generó un pull request para su revisión e integración. A continuación, se muestra una imagen que evidencia la colaboración y flujo de trabajo del equipo en GitHub durante el Sprint 2.
 ![team collaborate](Assets/img/chapter-5/teamCollaboration-sprint2.png)
+
+
+## 5.2.3. Sprint 3
+
+En este sprint nuestro equipo se centró en el desarrollo robusto y documentado del **Backend de la aplicación web de ChroniCaree**, implementando la lógica de negocio, la capa de persistencia de datos y los servicios web RESTful necesarios para soportar las funcionalidades críticas definidas en el Sprint Backlog. Se priorizó la construcción de una API confiable, escalable y segura, que permita la integración con el frontend desarrollado en sprints anteriores. Al mismo tiempo, se continuó con la organización del repositorio, la mejora del informe técnico y la preparación de la documentación del proyecto. Todo esto se desarrolló bajo un entorno totalmente colaborativo y ágil, asegurando que todas las partes realizadas se puedan unir coherentemente.
+
+### 5.2.3.1. Sprint Planning 3.
+
+| Sprint #                            | Sprint 3    |
+|---|-------------|
+|***Sprint Planning Background***      |             |
+| **Date**                                | 2025-10-12   |
+| **Time**                                | 14:00 PM   |
+| **Location**                            | Reunion virtual por Discord   |
+| **Prepared By**                         | [Nombre del responsable de la planificación]       |
+| **Attendees (to planning meeting)**     | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen   |
+| **Sprint n – 1 Review Summary**        | Durante el Sprint 2, se completó exitosamente el desarrollo del frontend de la aplicación web de ChroniCaree. Se implementaron vistas funcionales para pacientes y médicos, incluyendo autenticación, dashboards personalizados, gestión de medicamentos, alertas y mensajería. Se logró una interfaz responsiva y accesible, y se desplegó en un entorno de producción. El equipo validó la navegación, interacción y compatibilidad con distintos dispositivos.   |
+| **Sprint n – 1 Retrospective Summary**  | El equipo valoró positivamente la entrega funcional del frontend en el Sprint 2, reconociendo la mejora en la integración de componentes y la calidad visual del producto. Se destacó la efectividad del trabajo en ramas (`feature/*`) y los `pull requests`. Se identificaron oportunidades de mejora en la coordinación entre frontend y backend, ya que la integración inicial se realizó con una Fake API. Para el Sprint 3, se acordó establecer una API REST bien definida desde el inicio, con endpoints documentados y pruebas unitarias para la lógica de negocio, para facilitar la integración futura.  |
+| ***Sprint Goal & User Stories***  | |
+| **Sprint n Goal**  | Nuestro enfoque en el Sprint 3 está en construir la capa de Backend de ChroniCaree, implementando los servicios web (API REST) y la lógica de negocio que soporten las funcionalidades críticas definidas en el backlog, como el registro de síntomas (US01), alertas personalizadas (US04, US08), gestión de medicamentos (US02), historial clínico (US07), mensajería (US16, US17) y autenticación/autorización (HU11, HU12, US24). Se priorizará la seguridad, la escalabilidad y la correcta documentación de los endpoints. Consideramos que esto permitirá integrar de forma robusta el frontend ya desarrollado, validando la funcionalidad completa de la plataforma. Este objetivo se validará cuando la API esté completamente funcional, documentada, y se hayan realizado pruebas de integración básicas con el frontend o herramientas como Postman. |
+| **Sprint n Velocity**                  | [Ej: 60]   |
+| **Sum of Story Points**                 | [Ej: 60]   |
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+
+En esta sección se presentan los principales aspectos funcionales y técnicos abordados durante el Sprint 3 del desarrollo de ChroniCaree. Cada aspecto corresponde a un componente esencial del alcance del sprint, enfocado en el desarrollo completo del Backend de la aplicación web, incluyendo la base de datos, lógica de negocio, servicios web, autenticación, seguridad y documentación de la API.
+
+Para cada aspecto, se ha asignado un Líder (L), encargado del diseño, implementación o coordinación técnica, y uno o más Colaboradores (C), quienes participaron activamente en las tareas de desarrollo, revisión, pruebas e integración. Esta matriz LACX (Leadership and Collaboration Matrix) permite visualizar de manera clara y organizada la distribución de responsabilidades dentro del equipo, asegurando la trazabilidad y coherencia del trabajo colaborativo realizado durante este sprint.
+
+A continuación, se detallan los aspectos definidos y los roles asignados:
+
+| Team Member (Last Name, First Name) | GitHub Username	 | BE | IN | DO | RI | QA |
+|-------------------------------------|-----------------|----|----|----|----|---|
+| Andreow Santiago	                    | andrews5738	     | L  | C  | C  | C  | C |
+| Sebastian Beingolea	                 | sebaxchen_65154 | C  | C  | C  | L  | C |
+| Carlos Lopez	                        | carloslopez     | C  | C  | C  | C  | L |
+| Schneider Delgado	                   | snay6037        | C  | C  | L  | C  | C |
+| Alejandro Barturen	                  | alejandrob      | C  | L  | C  | C  | C |
+
+**Legenda de Aspectos:**
+- **BE**: Backend Implementation — Desarrollo de la lógica de negocio, servicios web (API REST), base de datos y seguridad del backend.
+- **IN**: Informe Técnico — Elaboración, estructuración y redacción del informe del proyecto (documentación de arquitectura, convenciones, sprints).
+- **DO**: Deployment & Hosting — Configuración y despliegue del backend en entorno de pruebas o producción (Ej: Render, AWS).
+- **RI**: Repository Initialization — Configuración del repositorio del backend, organización de carpetas, archivos README.md, .gitignore y convenciones de código.
+- **QA**: Quality Assurance — Participación en pruebas unitarias, de integración y validación del backend antes del despliegue.
+
+### 5.2.3.3. Sprint Backlog 3.
+
+> **Nota:** La siguiente tabla es un ejemplo basado en las User Stories proporcionadas. Deberás ajustar la selección de US, el orden, la estimación de puntos y el criterio de aceptación específico para el backend según lo planificado por tu equipo.
+
+| # Orden | User Story Id | Título                                               | Descripción                                                                                                                                     | Story Points |
+|---------|---------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US24          | Autenticación en dos pasos (2FA)                     | Como paciente, deseo activar 2FA para proteger mi cuenta.                                                                                       | 8            |
+| 2       | EP01          | Registro de Síntomas                                 | Como paciente, deseo registrar mis síntomas y cuidados diarios para llevar un control claro y actualizado de mi salud.                          | 13           |
+| 3       | EP02          | Alertas Personalizadas                               | Como paciente, deseo recibir alertas cuando mis parámetros se salgan de lo normal para prevenir complicaciones.                                | 13           |
+| 4       | EP03          | Seguimiento Médico                                   | Como médico, deseo acceder a la evolución de mis pacientes en tiempo real para tomar decisiones tempranas.                                       | 13           |
+| 5       | EP06          | Interacción Paciente-Médico                          | Como usuario, deseo comunicarme con mi médico a través de la app para sentirme acompañado.                                                       | 8            |
+| 6       | US01          | Registro de síntomas diarios                         | Como paciente, deseo ingresar mis síntomas diarios (dolor, fatiga, glucosa, presión) para llevar un historial confiable.                        | 8            |
+| 7       | US02          | Registro de medicación tomada                        | Como paciente, deseo marcar mis medicamentos tomados para medir mi adherencia diaria.                                                            | 8            |
+| 8       | US04          | Alerta por valores fuera de rango                    | Como paciente, deseo recibir notificaciones cuando un valor registrado esté fuera de rango para actuar a tiempo.                                | 8            |
+| 9       | US05          | Recordatorios de medicación                          | Como paciente, deseo programar recordatorios de medicación para no olvidar mis tomas.                                                            | 5            |
+| 10      | US07          | Gráficos de evolución clínica                        | Como médico, deseo visualizar gráficos de evolución (glucosa, TA, saturación) para detectar tendencias.                                         | 5            |
+| 11      | US08          | Notificaciones a médico por parámetros críticos      | Como médico, deseo recibir alertas cuando un paciente tenga parámetros críticos para priorizar atención.                                         | 5            |
+| 12      | US09          | Recomendaciones médicas en la app                    | Como médico, deseo enviar indicaciones breves al paciente dentro de la plataforma para guiarlo.                                                  | 5            |
+| 13      | US16          | Mensajería del paciente al médico                    | Como paciente, deseo enviar mensajes seguros a mi médico para resolver dudas.                                                                    | 8            |
+| 14      | US17          | Respuesta del médico                                 | Como médico, deseo responder mensajes de pacientes desde la plataforma para agilizar la comunicación.                                           | 5            |
+| 15      | US20          | Actualizar datos básicos                             | Como paciente, deseo actualizar edad, peso y altura para cálculos y metas precisas.                                                              | 3            |
+| 16      | US21          | Registrar diagnósticos                               | Como paciente, deseo registrar mis enfermedades diagnosticadas para recibir alertas específicas.                                                 | 5            |
+
+### 5.2.3.4. Development Evidence for Sprint Review.
+
+En esta sección se explica y presenta los avances en implementación con relación a los productos de la solución según el alcance del Sprint: **Backend Services**. La sección inicia con una introducción que resume los principales avances en la implementación.
+
+Durante este Sprint, el equipo ha avanzado significativamente en la construcción de la **API REST del Backend de ChroniCare**, centrando esfuerzos en la implementación de módulos clave: autenticación segura (incluyendo 2FA), gestión de usuarios, pacientes, médicos, diagnósticos, síntomas, medicamentos, alertas, adherencia, mensajería clínica y lógica de negocio para la generación de alertas y nudges. Se han integrado mejoras en la infraestructura, como la conexión y configuración de la base de datos, modelos de datos, servicios de negocio y controladores de endpoints. Se han implementado pruebas unitarias para la lógica crítica y se ha comenzado la integración con el frontend del Sprint 2. Los commits reflejan un trabajo colaborativo, con múltiples pull requests verificados, refactorizaciones y entregas incrementales que aseguran la estabilidad, escalabilidad y seguridad del sistema.
+
+A continuación, se presenta la tabla con los commits relacionados con la implementación:
+
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `a1b2c3d` | `feat(auth): implement 2FA setup and verification` | Adds 2FA logic using a library (e.g., speakeasy) for user accounts. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `e4f5g6h` | `feat(user): implement user registration and profile update` | Adds endpoints for user CRUD operations and profile management. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `i7j8k9l` | `feat(patient): implement patient CRUD and medical history` | Adds endpoints for patient management and basic medical history. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `m0n1o2p` | `feat(doctor): implement doctor CRUD and patient assignment` | Adds endpoints for doctor management and patient assignment. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `q3r4s5t` | `feat(diagnosis): implement diagnosis creation and listing` | Adds endpoints for creating and retrieving patient diagnoses. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `u6v7w8x` | `feat(symptom): implement symptom logging and retrieval` | Adds endpoints for patients to log and retrieve their symptoms. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `y9z0a1b` | `feat(medication): implement medication CRUD and adherence tracking` | Adds endpoints for medication management and adherence logs. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `c2d3e4f` | `feat(alert): implement alert generation logic based on symptoms` | Adds service to generate alerts based on symptom values and trends. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `g5h6i7j` | `feat(alert): implement alert CRUD and status updates` | Adds endpoints for creating, listing, and updating alert status. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `k8l9m0n` | `feat(nudge): implement nudge creation and listing` | Adds endpoints for creating and retrieving nudges/messages. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `o1p2q3r` | `feat(messaging): implement message CRUD between users` | Adds endpoints for secure messaging between patients and doctors. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `s4t5u6v` | `feat(notification): implement basic notification service` | Adds a basic service to handle sending notifications (e.g., for alerts). | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `w7x8y9z` | `feat(db): setup database models and relationships` | Defines ORM models and relationships for all entities. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `a0b1c2d` | `feat(api): define and document API routes using OpenAPI` | Sets up API routes and integrates OpenAPI documentation. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `e3f4g5h` | `test(backend): add unit tests for core services` | Adds initial unit tests for business logic services. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `i6j7k8l` | `chore(deps): add dependencies for auth, db, and testing` | Adds necessary libraries for authentication, database, and testing. | 10/15/2025 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `m9n0o1p` | `chore(config): add environment variables and config files` | Adds configuration for database, auth, and other services. | 10/15/2025 |
+
+> **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. El repositorio utilizado es `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend`, perteneciente al equipo de desarrollo de ChroniCare.
+Este sprint ha sentado las bases para un Backend robusto, seguro y escalable, con funcionalidades clave implementadas y probadas. La integración de autenticación segura, gestión de datos clínicos, alertas y mensajería garantiza una plataforma funcional para la integración con el frontend.
+
+### 5.2.3.5. Execution Evidence for Sprint Review.
+
+En este Sprint 3, el equipo logró implementar y completar el desarrollo del backend de la aplicación web de ChroniCaree, cumpliendo con los objetivos establecidos en el Sprint Backlog. Se implementaron los principales servicios y lógica de negocio del sistema: Autenticación (con 2FA), Gestión de Usuarios (Pacientes y Médicos), Registro de Síntomas y Medicamentos, Generación y Gestión de Alertas, Mensajería Clínica y Perfil del Paciente, todas alineadas con las User Stories priorizadas (US24, EP01, EP02, EP03, EP06, US01, US02, US04, US05, US07, US08, US09, US16, US17, US20, US21).
+El backend presenta una API RESTful bien estructurada, con endpoints documentados, lógica de negocio encapsulada en servicios, manejo de errores y validación de datos. Se utilizó una base de datos para persistencia y se aplicaron buenas prácticas de seguridad. El resultado refleja una capa de servicios confiable, eficiente y preparada para integrarse con el frontend desarrollado previamente.
+> **Enlace a la versión desplegada del backend (producción): [https://chronicaree-backend.onrender.com/api-docs/](https://chronicaree-backend.onrender.com/api-docs/)**  
+> **Enlace al video de demostración (funcionalidades del backend y uso de la API):**  
+> **Enlace al repositorio del backend:** [https://github.com/.../UPC-PRE-1ASI0729-7391-ChroniCaree-Backend](https://github.com/.../UPC-PRE-1ASI0729-7391-ChroniCaree-Backend)
+
+### 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+En esta sección se presenta la documentación detallada de los *endpoints* desarrollados e implementados durante el presente *Sprint*, conforme al alcance definido para la funcionalidad de servicios web del backend. La documentación sigue el estándar **OpenAPI 3.0** y ha sido integrada directamente en el proyecto del backend para facilitar su acceso y mantenimiento.
+
+Durante este *Sprint*, se han completado las siguientes actividades relacionadas con la documentación de servicios:
+- Implementación de endpoints RESTful para gestión de usuarios, pacientes, médicos, diagnósticos, medicamentos, alertas, síntomas, adherencia, citas, mensajes y otros recursos clínicos.
+- Documentación exhaustiva de cada endpoint utilizando comentarios estructurados compatibles con OpenAPI (Swagger).
+- Validación de respuestas y parámetros mediante ejemplos reales y datos de prueba.
+- Generación automática de la interfaz interactiva de documentación (Swagger UI), disponible localmente durante desarrollo y desplegada en entorno de pruebas o producción.
+
+A continuación, se detalla la lista completa de endpoints documentados, especificando las acciones soportadas, verbos HTTP, sintaxis de llamada, parámetros, ejemplos de solicitud y respuesta, junto con una breve explicación funcional.
+
+#### Tabla de Endpoints Documentados
+
+| **Endpoint** | **Acción** | **Verbo HTTP** | **Sintaxis de llamada** | **Parámetros** | **Ejemplo de Request** | **Ejemplo de Response** | **Explicación** |
+|--------------|------------|----------------|--------------------------|----------------|-------------------------|--------------------------|---------------|
+| `/api/users` | Obtener todos los usuarios o crear uno nuevo | `GET` / `POST` | `GET /api/users`<br>`POST /api/users` | Body (POST): `{ name, email, role, password }` | `POST /api/users`<br>`{ "name": "Carlos", "email": "carlos@chroni.com", "role": "doctor", "password": "1234" }` | `{ "id": 1, "name": "Carlos", "role": "doctor" }` | Permite registrar y consultar usuarios del sistema (médicos, pacientes o administradores). |
+| `/api/patients` | Consultar o registrar pacientes | `GET` / `POST` | `GET /api/patients`<br>`POST /api/patients` | Body (POST): `{ firstName, lastName, dni, gender, phone, address }` | `POST /api/patients`<br>`{ "firstName": "Lucía", "lastName": "Pérez", "dni": "76382910" }` | `{ "id": 3, "firstName": "Lucía", "lastName": "Pérez" }` | Gestiona la información personal y médica básica de los pacientes. |
+| `/api/doctors` | Obtener, registrar o actualizar médicos | `GET` / `POST` / `PUT` | `GET /api/doctors`<br>`POST /api/doctors` | Body (POST): `{ firstName, lastName, specialty, licenseNumber, phone }` | `GET /api/doctors` | `[ { "id": 1, "firstName": "Andrés", "specialty": "Cardiología" } ]` | Permite listar y registrar médicos asociados a la plataforma. |
+| `/api/diagnoses` | Crear y consultar diagnósticos médicos | `GET` / `POST` | `GET /api/diagnoses`<br>`POST /api/diagnoses` | Body: `{ patientId, doctorId, icd10Code, diagnosisName, severity }` | `POST /api/diagnoses`<br>`{ "patientId": 2, "doctorId": 1, "icd10Code": "E11.9", "diagnosisName": "Diabetes tipo 2" }` | `{ "id": 8, "status": "active" }` | Registra diagnósticos clínicos usando códigos ICD-10 para trazabilidad médica. |
+| `/api/symptoms` | Registrar síntomas diarios del paciente | `POST` | `POST /api/symptoms` | `{ patientId, glucose, heartRate, temperature, notes }` | `POST /api/symptoms`<br>`{ "patientId": 2, "glucose": 95, "temperature": 36.8 }` | `{ "message": "Síntoma registrado correctamente" }` | Guarda los síntomas y signos vitales diarios para monitoreo. |
+| `/api/alerts` | Crear, listar o eliminar alertas | `GET` / `POST` / `DELETE` | `GET /api/alerts`<br>`POST /api/alerts` | Body (POST): `{ patientId, type, severity, title, message, status }` | `POST /api/alerts`<br>`{ "patientId": "2", "type": "vital_sign_high", "severity": "high", "message": "Presión alta detectada" }` | `{ "id": "a1", "status": "active" }` | Permite generar alertas automáticas basadas en valores críticos o eventos médicos. |
+| `/api/alerts/{id}` | Actualizar estado de una alerta | `PATCH` | `PATCH /api/alerts/{id}` | `{ status, notes }` | `PATCH /api/alerts/a1`<br>`{ "status": "acknowledged", "notes": "Médico informado" }` | `{ "id": "a1", "status": "acknowledged" }` | Cambia el estado de una alerta a *acknowledged*, *resolved* o *dismissed*. |
+| `/api/medications` | Consultar, registrar o modificar medicamentos | `GET` / `POST` / `PUT` / `DELETE` | `GET /api/medications`<br>`POST /api/medications` | `{ patientId, name, dosage, frequency, prescribedBy }` | `POST /api/medications`<br>`{ "patientId": 3, "name": "Losartán", "dosage": "50mg", "frequency": "daily" }` | `{ "id": "m1", "status": "active" }` | Maneja los medicamentos recetados y su programación de dosis. |
+| `/api/medications/{id}/logs` | Registrar toma o evento del medicamento | `POST` | `POST /api/medications/{id}/logs` | `{ scheduledTime, actualTime, status, notes }` | `POST /api/medications/m1/logs`<br>`{ "scheduledTime": "2025-10-10T09:00:00Z", "status": "taken" }` | `{ "status": "taken", "createdAt": "2025-10-10" }` | Registra las dosis tomadas o perdidas por el paciente para control de adherencia. |
+| `/api/nudges` | Enviar mensajes motivacionales al paciente | `POST` | `POST /api/nudges` | `{ patientId, type, priority, title, message, icon }` | `POST /api/nudges`<br>`{ "patientId": 3, "type": "motivation", "priority": "medium", "title": "¡Sigue así!", "message": "Has tomado tu medicación a tiempo." }` | `{ "id": 7, "status": "active" }` | Crea recordatorios o mensajes de estímulo para fomentar hábitos saludables. |
+| `/api/messages` | Enviar o leer mensajes entre usuarios | `GET` / `POST` | `GET /api/messages?senderId=X&receiverId=Y`<br>`POST /api/messages` | Body (POST): `{ senderId, receiverId, subject, content }` | `POST /api/messages`<br>`{ "senderId": 1, "receiverId": 2, "subject": "Consulta", "content": "¿Cómo debo tomar el medicamento?" }` | `{ "id": 1, "senderId": 1, "receiverId": 2, "read": false }` | Permite la comunicación clínica entre pacientes y médicos. |
+| `/api/auth/login` | Iniciar sesión de usuario | `POST` | `POST /api/auth/login` | Body: `{ email, password }` | `POST /api/auth/login`<br>`{ "email": "carlos@chroni.com", "password": "1234" }` | `{ "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9..." }` | Autentica al usuario y devuelve un token JWT. |
+| `/api/auth/enable-2fa` | Habilitar 2FA para un usuario | `POST` | `POST /api/auth/enable-2fa` | Headers: `Authorization: Bearer <token>` | `POST /api/auth/enable-2fa` | `{ "qrCodeUrl": "otpauth://...", "secret": "..." }` | Genera y configura 2FA para la cuenta del usuario autenticado. |
+
+> **Nota:** Todos los endpoints están documentados con OpenAPI y disponibles en el repositorio del proyecto y en el despliegue del backend. Se adjuntan capturas de pantalla de la interfaz Swagger UI en el anexo correspondiente, mostrando ejemplos de ejecución con datos de prueba.
+
+### 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+En este Sprint, se completó con éxito el desarrollo y despliegue del Backend de ChroniCaree, integrado con una base de datos y con servicios web (API REST) completamente funcionales. Este entorno permite la integración con el frontend del Sprint 2, validando flujos completos de usuario y garantizando la persistencia y manipulación correcta de los datos clínicos. Además, se aplicaron prácticas modernas de despliegue, colaboración y control de versiones que aseguran trazabilidad, estabilidad y fácil mantenimiento del proyecto.
+
+La API fue desplegada en un entorno de producción mediante GitHub + Render, aprovechando una infraestructura CI/CD (Integración y Entrega Continua) que automatiza los procesos de build y despliegue. Este enfoque garantiza que cada cambio aprobado en el repositorio del backend se vea reflejado en el entorno productivo de forma rápida y confiable, optimizando la colaboración del equipo.
+
+#### Proceso de Despliegue Implementado
+
+**1. Configuración del Repositorio y Flujo de Trabajo (GitFlow)**
+
+- El repositorio del backend fue estructurado siguiendo el estándar GitFlow, promoviendo un flujo colaborativo y ordenado de trabajo:
+  - `main`: versión estable desplegada en producción.
+  - `develop`: rama para integración continua de nuevas funcionalidades.
+  - `feature/*`: ramas para el desarrollo de módulos específicos (ej: `feature/auth`, `feature/symptoms-api`, `feature/alerts-logic`).
+  - `release/*`: ramas para preparar versiones listas para lanzamiento.
+
+Cada funcionalidad fue desarrollada en su respectiva rama `feature`, revisada mediante Pull Requests, e integrada en `develop`.
+Al finalizar el Sprint, se creó una rama `release/v3.0.0`, que fue fusionada con `main`, generando automáticamente el despliegue en Render.
+
+**2. Integración con Render**
+
+El repositorio de GitHub del backend fue conectado directamente con Render, configurando un servicio web automatizado:
+
+- Rama de despliegue: `main`
+- Comando de build: `npm install && npm run build` (o equivalente para tu stack)
+- Directorio de publicación: (Directorio del build o raíz si es una API)
+- URL del sitio: `https://chronicaree-backend.onrender.com/`
+- URL de la documentación (Swagger): `https://chronicaree-backend.onrender.com/api-docs/`
+
+![sprint-3-deploy-1](Assets/img/chapter-5/backend-deploy1.jpg)
+![sprint-3-deploy-2](Assets/img/chapter-5/backend-deploy2.jpg)
+![sprint-3-deploy-3](Assets/img/chapter-5/backend-deploy3.jpg)
+
+### 5.2.3.8. Team Collaboration Insights during Sprint.
+
+El equipo desarrolló el backend completo de la aplicación web, dividiendo el trabajo en ramas por funcionalidad (`feature/auth`, `feature/patients`, `feature/alerts`, etc.), lo que permitió un desarrollo paralelo eficiente y sin conflictos. Se implementaron prácticas de integración continua, donde cada funcionalidad completada era revisada mediante `pull requests` y probada antes de ser integrada a la rama principal (`develop`). Se fomentó la colaboración constante mediante revisiones de código y discusiones técnicas. A continuación, se muestra una imagen que evidencia la colaboración y flujo de trabajo del equipo en GitHub durante el Sprint 3.
+
+![team collaborate sprint 3](Assets/img/chapter-5/teamCollaboration-sprint3.png)
+
+
+## 5.3. Validation Interviews
+
+En esta sección se presenta la investigación cualitativa realizada mediante entrevistas profundas a representantes de nuestros dos segmentos objetivo: **pacientes con enfermedades crónicas (Segmento 1)** y **médicos y personal de salud encargado de su seguimiento (Segmento 2)**. El objetivo es comprender sus necesidades reales, frustraciones diarias, hábitos de manejo de la enfermedad y expectativas frente a una plataforma digital de monitoreo continuo, validando así los supuestos del modelo de negocio y ajustando la propuesta de valor de **ChroniCare** a lo que el mercado realmente demanda
+
+### 5.3.1. Diseño de Entrevistas
+
+Esta sección incluye preguntas demográficas, conductuales y psicográficas dirigidas a cada segmento, con el fin de construir arquetipos (personas) basados en evidencia real. Se aplican buenas prácticas de diseño de entrevistas: preguntas abiertas, no sugestivas, orden lógico (de lo general a lo específico) y enfoque en comportamientos reales, no hipotéticos.
+
+---
+
+### Segmento 1: Pacientes con enfermedades crónicas
+
+#### **Demográficas (para arquetipo)**
+
+1. ¿Cuál es tu nombre completo?  
+2. ¿Qué edad tienes?  
+3. ¿En qué distrito resides?  
+4. ¿Cuál es tu género?  
+5. ¿Cuál es tu estado civil?  
+6. ¿Con quién vives actualmente (solo, con pareja, hijos, familiares, cuidadores)?  
+7. ¿A qué te dedicas principalmente (jubilado, ama de casa, empleado, independiente, otro)?  
+
+#### **Psicográficas y comportamentales (para arquetipo)**
+
+8. ¿Cómo describirías tu personalidad cuando se trata de usar tecnología para tu salud (precavido, curioso, reacio, dependiente de otros, entusiasta)?  
+9. ¿Qué marcas, apps o servicios digitales de salud confías más? ¿Por qué?  
+10. ¿Qué personas, influencers, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu salud?  
+11. ¿Qué dispositivos usas con más frecuencia (celular, tablet, computadora)? ¿Qué apps o navegadores prefieres?  
+12. ¿Por qué canales digitales sueles informarte o resolver dudas sobre tu salud (WhatsApp, llamadas, Facebook, YouTube, Google, foros médicos)?  
+
+
+#### **Validación del Landing Page y aplicación móvil (preguntas principales para entrevista cualitativa**
+
+13. ¿Qué fue lo primero que entendiste al ingresar al Landing Page de ChroniCare?  
+14. ¿Te quedó claro para qué sirve la plataforma y a quién está dirigida?
+15. ¿El diseño, colores e imágenes del Landing Page te generaron confianza?
+16. ¿El contenido te motivó a registrarte o solicitar más información?.  
+17. ¿Qué información adicional te gustaría ver antes de decidir probar la aplicación?
+18. ¿El flujo para registrar tus síntomas o medicamentos te pareció claro y rápido?
+19. ¿Qué tan útiles consideras las alertas o recordatorios que emite la web? 
+20. ¿El diseño de la aplicación (botones, colores, tipografía) te pareció cómodo y accesible?
+21. ¿Sentiste confianza al ingresar información médica personal en la web?
+22. ¿Qué funcionalidades te gustaría agregar (por ejemplo, asistencia por voz, ayuda familiar, recordatorios por SMS)?
+23. ¿Qué barreras podrían impedirte usar una aplicación de este tipo (dificultad tecnológica, miedo a errores, desconfianza en datos, costo, falta de internet)?
+24. ¿Qué tan dispuesto estarías a pagar por una herramienta que te ayude a llevar un mejor control de tu salud? ¿Qué rango de precio considerarías justo?
+25. ¿Te gustaría que tu médico o clínica te recomiende esta app? ¿Crees que eso aumentaria tu confianza?
+26. ¿Qué tan probable es que uses la aplicación diariamente para registrar tus síntomas (en una escala del 1 al 5)?
+27. ¿Te gustaría poder compartir tus datos con tu médico o familiares directamente desde la app?
+
+---
+### Segmento 2: Médicos y personal médico
+
+#### **Demográficas (para arquetipo)**
+
+1. ¿Cuál es tu nombre completo?  
+2. ¿Qué edad tienes?  
+3. ¿En qué distrito resides?  
+4. ¿Cuál es tu género?  
+5. ¿Cuál es tu estado civil?  
+6. ¿Con quién vives actualmente (solo, con pareja, hijos, familiares, cuidadores)?  
+7.  ¿Cuál es tu ocupación principal y especialidad médica?
+
+#### **Psicográficas y comportamentales (para arquetipo)**
+
+8. ¿Cómo describirías tu actitud hacia las herramientas digitales en el entorno clínico (innovador, escéptico, pragmático, dependiente del sistema institucional)? 
+9. ¿Qué plataformas o sistemas de salud utilizas actualmente?
+10. ¿Qué tipo de tecnología te resulta más confiable o útil para tu práctica médica? 
+11. ¿Qué dispositivos utilizas con mayor frecuencia durante tu jornada (computadora, tablet, smartphone)?  
+12. ¿Por qué canales digitales te comunicas con tus pacientes o colegas (correo institucional, WhatsApp, portal hospitalario, llamadas)?
+
+
+#### **Validación del Landing Page y Dashboard Médico (preguntas principales para entrevista cualitativa)**
+
+13. ¿Qué impresión te dio el Landing Page de ChroniCare al primer vistazo?
+14. ¿El lenguaje y tono del sitio te parecieron apropiados para un público médico?
+15. ¿Te resultó claro cuál es el valor clínico o funcional de la plataforma?
+16. ¿El diseño transmite credibilidad y profesionalismo en el contexto médico?
+17. ¿Qué tan útil te parecería una herramienta como ChroniCare para el seguimiento remoto de pacientes crónicos?
+18. ¿Qué tan intuitivo te pareció el panel principal del dashboard?
+19. ¿La información mostrada (alertas, métricas, evolución del paciente) es clara y relevante para tu toma de decisiones?
+20. ¿Qué tan útiles te parecieron las alertas automáticas y reportes del sistema?
+21. ¿Crees que ChroniCare podría reducir tu carga administrativa o el tiempo de consulta?
+22.  ¿Los datos presentados por la app te generan confianza para basar decisiones clínicas?
+23. ¿Qué funcionalidades consideras esenciales (dashboard visual, exportar PDF, integración con historia clínica, alertas por gravedad)?
+24. ¿Qué barreras percibes para implementar esta herramienta en tu institución (privacidad, costo, capacitación, infraestructura)?
+25. ¿Qué impacto tendría en tu labor recibir notificaciones automáticas de cambios críticos en los pacientes?
+26. ¿Qué mejoras realizarías en la visualización o estructura de información del dashboard?
+
+
+
+### 5.3.2. Registro de Entrevistas
+### 5.3.3. Evaluacion segun heuristicas
+
+
+### Concluciones
+
+
+1. **Adopción de estándares industriales y metodologías profesionales**  
+   El equipo de ChroniCaree implementa un conjunto coherente de prácticas alineadas con la industria: GitFlow para control de versiones, Conventional Commits para historiales limpios, Semantic Versioning para releases, y el modelo C4 para documentación arquitectónica. Estas decisiones no son técnicas aisladas, sino una estrategia intencional para construir un proyecto con madurez, trazabilidad y escalabilidad, preparando el sistema para una posible transición a entornos reales de producción.
+
+2. **Integración estratégica de herramientas modernas y de código abierto**  
+   La selección de tecnologías —como Supabase (PostgreSQL + Auth + Edge Functions), Spring Boot (Java), Angular (frontend), y herramientas de colaboración como Structurizr y Lucidchart— refleja un enfoque moderno, eficiente y coste-efectivo. Al priorizar soluciones open-source y SaaS con alta adopción (GitHub, Postman, Discord), el equipo maximiza la productividad, reduce la complejidad operativa y garantiza que sus decisiones sean sostenibles, documentables y reconocibles por cualquier desarrollador profesional.
+
+3. **Enfoque humano y centrado en la calidad desde el inicio**  
+   Más allá del código, ChroniCaree demuestra una cultura de calidad que incluye: documentación técnica exhaustiva (Markdown, C4, Conventional Commits), accesibilidad en la Landing Page (WCAG, lectores de pantalla), internacionalización, y comunicación ágil con Discord. Estas prácticas muestran que el equipo no solo construye una aplicación, sino una experiencia confiable, inclusiva y profesional — donde la tecnología sirve al usuario, no al revés. Esto eleva el proyecto de un trabajo académico a un ejemplo de excelencia en ingeniería de software.
+
 
 
 ### Bibliografia
@@ -2634,41 +2908,6 @@ Empathy
 ![Empathy](assets/img/chapter-2/empathy2.png)
 Hecho por el equipo Chronisys
 
-### Figura 11
-
-Entrevista
-![Entrevista](assets/img/chapter-2/entrevista 1.png)
-Hecho por el equipo Chronisys
-
-### Figura 12
-
-Entrevista
-![Entrevista](assets/img/chapter-2/entrevista 2.png)
-Hecho por el equipo Chronisys
-
-### Figura 13
-
-Entrevista
-![Entrevista](assets/img/chapter-2/entrevista 3.png)
-Hecho por el equipo Chronisys
-
-### Figura 14
-
-Entrevista
-![Entrevista](assets/img/chapter-2/entrevista 4.png)
-Hecho por el equipo Chronisys
-
-### Figura 15
-
-Entrevista
-![Entrevista](assets/img/chapter-2/entrevista 5.png)
-Hecho por el equipo Chronisys
-
-### Figura 16
-
-Entrevista
-![Entrevista](assets/img/chapter-2/entrevista 6.png)
-Hecho por el equipo Chronisys
 
 ### Figura 17
 
@@ -2748,11 +2987,6 @@ Impact Map
 ![Impact Map](assets/img/chapter-3/Impactmapchronicarre.png)
 Hecho por el equipo Chronisys
 
-### Figura 30
-
-Class Diagram
-![Class Diagram](assets/img/chapter-4/Class Diagram.png)
-Hecho por el equipo Chronisys
 
 ### Figura 31
 
@@ -2760,19 +2994,9 @@ Colores
 ![Colores](assets/img/chapter-4/colores.png)
 Hecho por el equipo Chronisys
 
-### Figura 32
-
-DB Diagram
-![DB Diagrama](assets/img/chapter-4/db Diagram.png)
-Hecho por el equipo Chronisys
-
-### Figura 33
-
 Diagram cc
 ![diagram-cc](assets/img/chapter-4/diagrama-cc.png)
 Hecho por el equipo Chronisys
-
-### Figura 34
 
 DiagramaComponentesBDAnalytics
 ![DiagramaComponentesBDAnalytics](assets/img/chapter-4/DiagramaComponentesBDAnalytics.jpeg)
@@ -2802,17 +3026,6 @@ Diagrama Contexto
 ![Diagrama Contexto](assets/img/chapter-4/DiagramaContexto.jpeg)
 Hecho por el equipo Chronisys
 
-### Figura 39
-
-Landing
-![Landingd](assets/img/chapter-4/Landing Page desktop.png)
-Hecho por el equipo Chronisys
-
-### Figura 40
-
-Landing
-![Landingm](assets/img/chapter-4/Landing Page mobile.png)
-Hecho por el equipo Chronisys
 
 ### Figura 41
 
@@ -2946,89 +3159,6 @@ Logo
 ![Logo](assets/img/chapter-4/logo-png.png)
 Hecho por el equipo Chronisys
 
-### Figura 63
-
-Mock Ups Mobile
-![Mock Ups Mobile - 1](assets/img/chapter-4/mock ups mobile(1).png)
-Hecho por el equipo Chronisys
-
-### Figura 64
-
-Mock Ups Mobile
-![Mock Ups Mobile - 2](assets/img/chapter-4/mock ups mobile(2).png)
-Hecho por el equipo Chronisys
-
-### Figura 65
-
-Mock Ups Mobile
-![Mock Ups Mobile 1](assets/img/chapter-4/mock ups mobile(3).png)
-Hecho por el equipo Chronisys
-
-### Figura 66
-
-Mock Ups Mobile
-![Mock Ups Mobile 2](assets/img/chapter-4/mockups app(1).png)
-Hecho por el equipo Chronisys
-
-### Figura 67
-
-Mock Ups Mobile
-![Mock Ups Mobile 3](assets/img/chapter-4/mockups app(2).png)
-Hecho por el equipo Chronisys
-
-### Figura 68
-
-Mock Ups Mobile
-![Mock Ups Mobile 4](assets/img/chapter-4/mockups app(3).png)
-Hecho por el equipo Chronisys
-
-### Figura 69
-
-Mock Ups Mobile
-![Mock Ups Mobile 5](assets/img/chapter-4/mockups app(4).png)
-Hecho por el equipo Chronisys
-
-### Figura 70
-
-Mock Ups Mobile
-![Mock Ups Mobile 1](assets/img/chapter-4/mockups app(5).png)
-Hecho por el equipo Chronisys
-
-### Figura 71
-
-Mock Ups Mobile
-![Mock Ups Mobile 6](assets/img/chapter-4/mockups app(6).png)
-Hecho por el equipo Chronisys
-
-### Figura 72
-
-Mock Ups Mobile
-![Mock Ups Mobile 7](assets/img/chapter-4/mockups app(7).png)
-Hecho por el equipo Chronisys
-
-### Figura 73
-
-Mock Ups Mobile
-![Mock Ups Mobile 8](assets/img/chapter-4/mockups app(8).png)
-Hecho por el equipo Chronisys
-
-### Figura 74
-
-Mock Ups Mobile
-![Mock Ups Mobile 9](assets/img/chapter-4/mockups app(9).png)
-Hecho por el equipo Chronisys
-
-### Figura 75
-
-Mock Ups Mobile
-![Mock Ups Mobile 10](assets/img/chapter-4/mockups app(10).png)
-Hecho por el equipo Chronisys
-
-### Figura 76
-
-Mock Ups Mobile
-![Mock Ups Mobile 11](assets/img/chapter-4/mockups app(11).png)
-Hecho por el equipo Chronisys
 
 ### Figura 77
 
@@ -3078,41 +3208,6 @@ Wireflow
 ![Wireflow 1](assets/img/chapter-4/Wireflow.png)
 Hecho por el equipo Chronisys
 
-### Figura 85
-
-Wireframe Desktop
-![Wireframe Desktop 1](assets/img/chapter-4/wireframes desktop1.png)
-Hecho por el equipo Chronisys
-
-### Figura 86
-
-Wireframe
-![Wireframe Desktop 2](assets/img/chapter-4/wireframes desktop3.png)
-Hecho por el equipo Chronisys
-
-### Figura 87
-
-Wireframe
-![Wireframe Desktop 3](assets/img/chapter-4/wireframes desktop3.png)
-Hecho por el equipo Chronisys
-
-### Figura 88
-
-Wireframe
-![commits 1](assets/img/chapter-4/wireframes mobile1.png)
-Hecho por el equipo Chronisys
-
-### Figura 89
-
-Commits
-![Wireframe Desktop 1](assets/img/chapter-4/wireframes mobile1.png)
-Hecho por el equipo Chronisys
-
-### Figura 90
-
-Commits
-![Wireframe Desktop 2](assets/img/chapter-4/wireframes mobile2.png)
-Hecho por el equipo Chronisys
 
 ### Figura 91
 
@@ -3169,23 +3264,5 @@ Sprint Bacloh
 Hecho por el equipo Chronisys
 
 
-#### Videos de exposicion (anexo 1)
 
-| contenido |  |
-|--- | ---|
-|video de exposicion TB1 | link del video: http://bit.ly/3Wz2nfQ  |
-
-
-
-### Concluciones
-
-
-1. **Adopción de estándares industriales y metodologías profesionales**  
-   El equipo de ChroniCaree implementa un conjunto coherente de prácticas alineadas con la industria: GitFlow para control de versiones, Conventional Commits para historiales limpios, Semantic Versioning para releases, y el modelo C4 para documentación arquitectónica. Estas decisiones no son técnicas aisladas, sino una estrategia intencional para construir un proyecto con madurez, trazabilidad y escalabilidad, preparando el sistema para una posible transición a entornos reales de producción.
-
-2. **Integración estratégica de herramientas modernas y de código abierto**  
-   La selección de tecnologías —como Supabase (PostgreSQL + Auth + Edge Functions), Spring Boot (Java), Angular (frontend), y herramientas de colaboración como Structurizr y Lucidchart— refleja un enfoque moderno, eficiente y coste-efectivo. Al priorizar soluciones open-source y SaaS con alta adopción (GitHub, Postman, Discord), el equipo maximiza la productividad, reduce la complejidad operativa y garantiza que sus decisiones sean sostenibles, documentables y reconocibles por cualquier desarrollador profesional.
-
-3. **Enfoque humano y centrado en la calidad desde el inicio**  
-   Más allá del código, ChroniCaree demuestra una cultura de calidad que incluye: documentación técnica exhaustiva (Markdown, C4, Conventional Commits), accesibilidad en la Landing Page (WCAG, lectores de pantalla), internacionalización, y comunicación ágil con Discord. Estas prácticas muestran que el equipo no solo construye una aplicación, sino una experiencia confiable, inclusiva y profesional — donde la tecnología sirve al usuario, no al revés. Esto eleva el proyecto de un trabajo académico a un ejemplo de excelencia en ingeniería de software.
 

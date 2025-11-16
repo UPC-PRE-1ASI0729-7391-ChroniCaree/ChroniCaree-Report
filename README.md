@@ -2748,43 +2748,67 @@ Esta sección incluye preguntas demográficas, conductuales y psicográficas dir
 
 ---
 
-### Segmento 1: Pacientes con enfermedades crónicas
+### Segmento 1: Pacientes con Enfermedades Crónicas
 
 #### **Demográficas (para arquetipo)**
 
-1. ¿Cuál es tu nombre completo?  
-2. ¿Qué edad tienes?  
-3. ¿En qué distrito resides?  
-4. ¿Cuál es tu género?  
-5. ¿Cuál es tu estado civil?  
-6. ¿Con quién vives actualmente (solo, con pareja, hijos, familiares, cuidadores)?  
+1. ¿Cuál es tu nombre completo?
+
+2. ¿Qué edad tienes?
+
+3. ¿En qué distrito resides?
+
+4. ¿Cuál es tu género?
+
+5. ¿Cuál es tu estado civil?
+
+6. ¿Con quién vives actualmente (solo, con pareja, hijos, familiares, cuidadores)?
+
 7. ¿A qué te dedicas principalmente (jubilado, ama de casa, empleado, independiente, otro)?  
 
 #### **Psicográficas y comportamentales (para arquetipo)**
 
 8. ¿Cómo describirías tu personalidad cuando se trata de usar tecnología para tu salud (precavido, curioso, reacio, dependiente de otros, entusiasta)?  
+
 9. ¿Qué marcas, apps o servicios digitales de salud confías más? ¿Por qué?  
+
 10. ¿Qué personas, influencers, canales o redes sociales te influyen a la hora de tomar decisiones sobre tu salud?  
+
 11. ¿Qué dispositivos usas con más frecuencia (celular, tablet, computadora)? ¿Qué apps o navegadores prefieres?  
+
 12. ¿Por qué canales digitales sueles informarte o resolver dudas sobre tu salud (WhatsApp, llamadas, Facebook, YouTube, Google, foros médicos)?  
 
 
-#### **Validación del Landing Page y aplicación móvil (preguntas principales para entrevista cualitativa**
+#### **Validación del Landing Page y aplicación móvil (preguntas principales para entrevista cualitativa)**
 
 13. ¿Qué fue lo primero que entendiste al ingresar al Landing Page de ChroniCare?  
+
 14. ¿Te quedó claro para qué sirve la plataforma y a quién está dirigida?
+
 15. ¿El diseño, colores e imágenes del Landing Page te generaron confianza?
-16. ¿El contenido te motivó a registrarte o solicitar más información?.  
+
+16. ¿El contenido te motivó a registrarte o solicitar más información?
+
 17. ¿Qué información adicional te gustaría ver antes de decidir probar la aplicación?
+
 18. ¿El flujo para registrar tus síntomas o medicamentos te pareció claro y rápido?
+
 19. ¿Qué tan útiles consideras las alertas o recordatorios que emite la web? 
+
 20. ¿El diseño de la aplicación (botones, colores, tipografía) te pareció cómodo y accesible?
+
 21. ¿Sentiste confianza al ingresar información médica personal en la web?
+
 22. ¿Qué funcionalidades te gustaría agregar (por ejemplo, asistencia por voz, ayuda familiar, recordatorios por SMS)?
+
 23. ¿Qué barreras podrían impedirte usar una aplicación de este tipo (dificultad tecnológica, miedo a errores, desconfianza en datos, costo, falta de internet)?
+
 24. ¿Qué tan dispuesto estarías a pagar por una herramienta que te ayude a llevar un mejor control de tu salud? ¿Qué rango de precio considerarías justo?
+
 25. ¿Te gustaría que tu médico o clínica te recomiende esta app? ¿Crees que eso aumentaria tu confianza?
+
 26. ¿Qué tan probable es que uses la aplicación diariamente para registrar tus síntomas (en una escala del 1 al 5)?
+
 27. ¿Te gustaría poder compartir tus datos con tu médico o familiares directamente desde la app?
 
 ---
@@ -2793,43 +2817,66 @@ Esta sección incluye preguntas demográficas, conductuales y psicográficas dir
 #### **Demográficas (para arquetipo)**
 
 1. ¿Cuál es tu nombre completo?  
+
 2. ¿Qué edad tienes?  
-3. ¿En qué distrito resides?  
-4. ¿Cuál es tu género?  
+
+3. ¿En qué distrito resides? 
+
+4. ¿Cuál es tu género?
+
 5. ¿Cuál es tu estado civil?  
+
 6. ¿Con quién vives actualmente (solo, con pareja, hijos, familiares, cuidadores)?  
+
 7.  ¿Cuál es tu ocupación principal y especialidad médica?
 
 #### **Psicográficas y comportamentales (para arquetipo)**
 
 8. ¿Cómo describirías tu actitud hacia las herramientas digitales en el entorno clínico (innovador, escéptico, pragmático, dependiente del sistema institucional)? 
+
 9. ¿Qué plataformas o sistemas de salud utilizas actualmente?
+
 10. ¿Qué tipo de tecnología te resulta más confiable o útil para tu práctica médica? 
+
 11. ¿Qué dispositivos utilizas con mayor frecuencia durante tu jornada (computadora, tablet, smartphone)?  
+
 12. ¿Por qué canales digitales te comunicas con tus pacientes o colegas (correo institucional, WhatsApp, portal hospitalario, llamadas)?
 
 
 #### **Validación del Landing Page y Dashboard Médico (preguntas principales para entrevista cualitativa)**
 
 13. ¿Qué impresión te dio el Landing Page de ChroniCare al primer vistazo?
+
 14. ¿El lenguaje y tono del sitio te parecieron apropiados para un público médico?
+
 15. ¿Te resultó claro cuál es el valor clínico o funcional de la plataforma?
+
 16. ¿El diseño transmite credibilidad y profesionalismo en el contexto médico?
+
 17. ¿Qué tan útil te parecería una herramienta como ChroniCare para el seguimiento remoto de pacientes crónicos?
+
 18. ¿Qué tan intuitivo te pareció el panel principal del dashboard?
+
 19. ¿La información mostrada (alertas, métricas, evolución del paciente) es clara y relevante para tu toma de decisiones?
+
 20. ¿Qué tan útiles te parecieron las alertas automáticas y reportes del sistema?
+
 21. ¿Crees que ChroniCare podría reducir tu carga administrativa o el tiempo de consulta?
+
 22.  ¿Los datos presentados por la app te generan confianza para basar decisiones clínicas?
+
 23. ¿Qué funcionalidades consideras esenciales (dashboard visual, exportar PDF, integración con historia clínica, alertas por gravedad)?
+
 24. ¿Qué barreras percibes para implementar esta herramienta en tu institución (privacidad, costo, capacitación, infraestructura)?
+
 25. ¿Qué impacto tendría en tu labor recibir notificaciones automáticas de cambios críticos en los pacientes?
+
 26. ¿Qué mejoras realizarías en la visualización o estructura de información del dashboard?
 
 
 
 ### 5.3.2. Registro de Entrevistas
-### 5.3.3. Evaluacion segun heuristicas
+### 5.3.3. Evaluacion segun Heuristicas
 
 
 ### Concluciones

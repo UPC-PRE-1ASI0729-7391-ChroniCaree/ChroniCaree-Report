@@ -2607,33 +2607,68 @@ A continuación, se detalla la lista completa de endpoints documentados, especif
 
 ### 5.2.2.7. Software Deployment Evidence for Sprint Review.
 
-En este Sprint, se completó con éxito el desarrollo y despliegue de la Web Application de ChroniCare, conectada a una Fake API para la simulación del backend. Este entorno permitió validar la integración del frontend con servicios REST, probar flujos completos de usuario y garantizar la coherencia de los datos mostrados en la interfaz. Además, se aplicaron prácticas modernas de despliegue, colaboración y control de versiones que aseguran trazabilidad, estabilidad y fácil mantenimiento del proyecto.
+En este Sprint, se completó con éxito el desarrollo y despliegue del Backend de ChroniCaree, implementando una API REST completamente funcional basada en Java y el framework Spring Boot. Este entorno permite la integración con el frontend, validando flujos completos de usuario y garantizando la persistencia y manipulación correcta de los datos clínicos.
 
-La aplicación fue desplegada en un entorno de producción mediante GitHub + Render, aprovechando una infraestructura CI/CD (Integración y Entrega Continua) que automatiza los procesos de build y despliegue. Este enfoque garantiza que cada cambio aprobado en el repositorio se vea reflejado en el entorno productivo de forma rápida y confiable, optimizando la colaboración del equipo.
-Proceso de Despliegue Implementado
+La infraestructura se desplegó en Amazon Web Services (AWS), utilizando Amazon EC2 para la ejecución de la aplicación (empaquetada en un archivo .jar) y MariaDB como sistema gestor de base de datos. Adicionalmente, se integró Amazon S3 para el almacenamiento de archivos (assets estáticos y respaldos) según los requerimientos del sistema.
 
-**1. Configuración del Repositorio y Flujo de Trabajo (GitFlow)**
+A continuación, se detalla el flujo de trabajo, la configuración del servidor y el proceso de despliegue.
 
-- El repositorio fue estructurado siguiendo el estándar GitFlow, promoviendo un flujo colaborativo y ordenado de trabajo:
-- main: versión estable desplegada en producción.
-- develop: rama para integración continua de nuevas funcionalidades.
-- feature/*: ramas para el desarrollo de módulos específicos (ej: feature/api-integration, feature/user-module, feature/fakeapi-setup).
-- release/*: ramas para preparar versiones listas para lanzamiento.
+**Flujo de Trabajo y Control de Versiones (GitFlow)**
 
-Cada funcionalidad fue desarrollada en su respectiva rama feature, revisada mediante Pull Requests, e integrada en develop.
-Al finalizar el Sprint, se creó una rama release/v2.0.0, que fue fusionada con main, generando automáticamente el despliegue en Render.
+El repositorio del backend fue estructurado siguiendo el estándar GitFlow, promoviendo un trabajo colaborativo y ordenado:
 
-**2. Integración con Render**
+- **main**: Versión estable desplegada en producción.
+- **develop**: Rama para integración continua de nuevas funcionalidades.
+- **feature/***: Ramas para el desarrollo de módulos específicos (ej: feature/auth, feature/symptoms-api).
+- **release/***: Ramas para preparar versiones listas para lanzamiento.
 
-El repositorio de GitHub fue conectado directamente con Render, configurando un servicio web automatizado para el despliegue del frontend desarrollado en Angular:
+Cada funcionalidad fue desarrollada en su respectiva rama, revisada mediante Pull Requests e integrada en develop. Al finalizar el Sprint, se creó la rama release/v3.0.0, que fue fusionada con main para el despliegue final.
 
-- Rama de despliegue: main
-- Comando de build: ng build --configuration production
-- Directorio de publicación: dist/
-- URL del sitio:
-![sprint-2](Assets/img/chapter-5/deploy1.jpg)
-![sprint-2](Assets/img/chapter-5/deploy2.jpg)
-![sprint-2](Assets/img/chapter-5/deploy3.jpg)
+**Preparación y Configuración de la Infraestructura**
+
+Para lograr el despliegue, se siguieron una serie de pasos técnicos rigurosos para preparar tanto el entorno local como el servidor en la nube.
+
+**A. Preparación Local y Empaquetado**
+
+- **Desarrollo**: Se implementó la arquitectura por capas (controladores, servicios, repositorios) gestionando dependencias con Maven.
+- **Pruebas**: Se validó el funcionamiento local (`mvn spring-boot:run`) verificando los endpoints y la conexión a datos.
+- **Build**: Se generó el ejecutable mediante `mvn clean package`
+
+**Configuración de Instancia AWS EC2**
+
+- **Lanzamiento**: Se configuró una instancia EC2 con Ubuntu Server (adecuada para aplicaciones Java) y un tipo de instancia acorde al entorno (ej. t2.micro).
+- **Seguridad (Security Groups)**: Se habilitaron puertos esenciales:
+- 22 (SSH para administración).
+- 8080 (Acceso a la API Spring Boot).
+- 3306 (MariaDB, solo si se requiere acceso externo).
+
+
+**Configuración del Entorno Linux, Java y MariaDB**
+
+Una vez dentro de la instancia, se aprovisionó el servidor con el siguiente stack tecnológico:
+
+- **Sistema**: Actualización mediante `sudo apt update && sudo apt upgrade -y`.
+- **Java Runtime**: Instalación del JDK para ejecutar Spring Boot: `sudo apt install default-jdk -y`.
+- **Base de Datos (MariaDB)**:
+- Instalación y arranque: `sudo apt install mariadb-server -y` y `sudo systemctl start mariadb`.
+- Configuración de seguridad: `sudo mysql_secure_installation`.
+- Sentencias SQL de configuración:
+
+**Despliegue y Ejecución**
+
+El despliegue aprovecha una infraestructura que permite actualizaciones rápidas y confiables.
+
+![sprint-3-deploy-1](Assets/img/chapter-5/deploy-backend-1.jpg)
+![sprint-3-deploy-2](Assets/img/chapter-5/deploy-backend-2.jpg)
+![sprint-3-deploy-3](Assets/img/chapter-5/deploy-backend-3.jpg)
+
+
+
+**Integración con AWS (EC2 y S3)**
+
+- **Transferencia y Ejecución**: El archivo .jar se transfiere a la instancia y se ejecuta en segundo plano para asegurar disponibilidad continua:
+- Comando de ejecución: `nohup java -jar target/app.jar > app.log 2>&1 &`
+- **Almacenamiento S3**: Se configuró un bucket en Amazon S3, integrado mediante el SDK de AWS para Java, gestionando credenciales seguras para la persistencia de archivos.
 
 ### 5.2.2.8. Team Collaboration Insights during Sprint.
 

@@ -3217,6 +3217,73 @@ El video tiene una duración total de **3 minutos y 52 segundos** y ha sido publ
 ![Screenshot del video About the Product - Minuto 3:08](assets/img/chapter-5/entrevistados'validacion%20(4).png)  
 *Captura del video en el minuto 3:08, mostrando el testimonio auténtico de Alisa Goicochea, paciente con esclerosis múltiple, validando la experiencia humana de ChroniCaree.*
 
+## 5.2.4. Sprint 4
+
+En este Sprint 4, el equipo se enfocó en corregir y optimizar el backend, finalizar el frontend y lograr la integración completa entre ambas capas. Se resolvieron incidencias, se mejoró la lógica de negocio y se ajustaron los servicios REST para asegurar su consumo correcto desde la interfaz. Paralelamente, se completaron pantallas pendientes, se corrigieron detalles visuales y funcionales, y se validaron los flujos end-to-end. El sprint consolidó la plataforma como un sistema estable, unificado y listo para su presentación final.
+
+### 5.2.4.1. Sprint Planning 4.
+
+| Sprint #                            | Sprint 4    |
+|---|-------------|
+|***Sprint Planning Background***      |             |
+| **Date**                                | 2025-11-27   |
+| **Time**                                | 19:00 PM   |
+| **Location**                            | Reunion virtual por Discord   |
+| **Prepared By**                         | Alejandro Nicolas Barturen Guzman      |
+| **Attendees (to planning meeting)**     | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen   |
+| **Sprint n – 3 Review Summary**        | Durante el Sprint 3, el equipo completó de manera exitosa la construcción central del backend de ChroniCaree, implementando la lógica de negocio, la persistencia y los servicios REST que habilitan funcionalidades clave tanto para pacientes como para médicos. Se desarrollaron módulos de autenticación, gestión de síntomas, medicamentos, alertas, mensajería y dashboards personalizados, asegurando una arquitectura sólida y escalable. La API fue desplegada en un entorno productivo y se validó su correcto comportamiento mediante pruebas de integración con la base de datos y herramientas como Postman, dejando preparado el sistema para la fase de integración con el frontend en el sprint siguiente. |
+| **Sprint n – 3 Retrospective Summary**  | El equipo reconoció como principal logro del Sprint 3 la entrega completa y estable del backend, resaltando la organización clara de módulos, la calidad del código y la efectividad del flujo de trabajo mediante ramas feature y pull requests. La colaboración permitió resolver incidencias rápidamente y mantener un avance constante. Sin embargo, se identificó como mejora la necesidad de una coordinación más temprana con el equipo del frontend, ya que este aún dependía parcialmente de una Fake API para sus primeras integraciones. Se acordó reforzar la comunicación y mantener endpoints claramente documentados para facilitar el trabajo conjunto en el siguiente sprint. |
+| ***Sprint Goal & User Stories***  | |
+| **Sprint n Goal**  | Durante el Sprint 4, nuestro enfoque está en finalizar la integración completa entre el backend ya desarrollado y el frontend, concluyendo las pantallas y flujos pendientes, corrigiendo errores y ajustando funcionalidades tanto a nivel de lógica como de interfaz. El objetivo principal es lograr una plataforma plenamente funcional, validando los flujos end-to-end, sincronizando correctamente los servicios REST con el frontend e implementando mejoras detectadas durante la fase de pruebas. Consideraremos este objetivo logrado cuando ambas capas operen de manera estable, con todas las funcionalidades conectadas, probadas y listas para su presentación final.|
+| **Sprint n Velocity**                  | [Ej: 60]   |
+| **Sum of Story Points**                 | [Ej: 60]   |
+
+### 5.2.4.2. Aspect Leaders and Collaborators.
+
+Durante este sprint, el equipo se centró en resolver incidencias detectadas en pruebas anteriores, asegurar la correcta comunicación entre la interfaz y los servicios REST, ajustar flujos de usuario, corregir validaciones, mejorar la experiencia visual y funcional del frontend, y consolidar la estabilidad del sistema mediante pruebas end-to-end.
+
+Para cada aspecto, se asignó un Líder (L), responsable de coordinar o ejecutar las tareas principales, y uno o más Colaboradores (C), quienes participaron en las actividades de desarrollo, revisión, pruebas y documentación. Esta matriz LACX (Leadership and Collaboration Matrix) organiza claramente la distribución de responsabilidades y la trazabilidad del trabajo colaborativo realizado durante este sprint.
+
+A continuación, se detallan los aspectos definidos y los roles asignados:
+
+| Team Member (Last Name, First Name) | GitHub Username	 | BE | FE | IN | QA | INE |
+|-------------------------------------|-----------------|----|----|----|----|---|
+| Andreow Santiago	                    | andrews5738	     | L  | C  | C  | C  | C |
+| Sebastian Beingolea	                 | sebaxchen_65154 | C  | L  | C  | C  | C |
+| Carlos Lopez	                        | carloslopez     | C  | C  | C  | L  | C |
+| Schneider Delgado	                   | snay6037        | C  | C  | L  | C  | C |
+| Alejandro Barturen	                  | alejandrob      | C  | C  | C  | C  | L|
+
+**Legenda de Aspectos:**
+- **BE**: Backend Fixes — Corrección de errores, optimización de servicios REST, mejoras en lógica de negocio y ajustes de seguridad.
+- **FE**: Frontend Completion — Finalización de pantallas, flujos, estilos y validaciones del frontend, asegurando usabilidad y consistencia visual.
+- **IN**: Informe Técnico — Actualización y conclusión del informe del proyecto, documentación funcional y técnica del Sprint 4.
+- **QA**: Quality Assurance — Pruebas unitarias, integración y end-to-end, validación del funcionamiento entre backend y frontend.
+- **INE**: Integration & Endpoints — Consumo de API desde el frontend, pruebas de conectividad, ajuste de rutas y validación de flujos completos.
+
+### 5.2.4.3. Sprint Backlog 4.
+
+> **Nota:** La siguiente tabla es un ejemplo basado en las User Stories proporcionadas. Deberás ajustar la selección de US, el orden, la estimación de puntos y el criterio de aceptación específico para el backend según lo planificado por tu equipo.
+
+| # Orden | User Story Id | Título                                               | Descripción                                                                                                                                     | Story Points |
+|---------|---------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
+| 1       | US24          | Autenticación en dos pasos (2FA)                     | Como paciente, deseo activar 2FA para proteger mi cuenta.                                                                                       | 8            |
+| 2       | US25          | Cifrado y controles de exportación                                 | Como administrador, deseo garantizar cifrado y restringir exportaciones para cumplir normativas.                          | 8          |
+| 3       | US26          | Bitácora de accesos (auditoría)                               | Como médico, deseo consultar el historial de accesos a la ficha de un paciente para garantizar transparencia.                                | 5           |
+| 4       | US23          | Preferencias de idioma y tamaño de letra                                   | Como paciente, deseo configurar idioma y tamaño de letra para usar la app con comodidad.                                       | 5           |
+| 5       | US34          | Registro de adherencia a medicación                          | Como paciente, deseo registrar cada toma de mi medicación para llevar control de mi adherencia diaria.                                                       | 5            |
+| 6       | US35          | Visualizar historial de adherencia                         | Como paciente, deseo ver un historial de mis registros de medicación para entender mis patrones de cumplimiento.                        | 5            |
+| 7       | US37          | Ver versión accesible para discapacidad visual                        | Como visitante con discapacidad visual, quiero que la landing sea compatible con lectores de pantalla y tenga contraste adecuado.                                                            | 3            |
+| 8       | US38          | Ver carga rápida y optimizada en móviles lentos                  | Como visitante con conexión limitada, quiero que la landing cargue rápido y funcione sin problemas.                                | 5            |
+
+                                             
+
+#### tablero trello completado:
+
+Todos los Work Items planificados para este sprint han sido completados y verificados. La aplicación web de ChroniCaree cuenta ahora con un frontend completamente funcional, integrando las secciones de gestión de usuarios, pacientes,historial médico y gestión de recetas.
+
+
+
 ### Concluciones
 
 

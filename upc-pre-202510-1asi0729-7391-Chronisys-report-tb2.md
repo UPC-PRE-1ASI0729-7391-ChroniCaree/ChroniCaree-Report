@@ -3282,7 +3282,7 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 
 Todos los Work Items planificados para este sprint han sido completados y verificados. La aplicación web de ChroniCaree cuenta ahora con un frontend completamente funcional, integrando las secciones de gestión de usuarios, pacientes,historial médico y gestión de recetas.
 
-
+![Trello Spring 4](Assets/img/chapter-5/trellospring4.png)  
 
 ### Concluciones
 

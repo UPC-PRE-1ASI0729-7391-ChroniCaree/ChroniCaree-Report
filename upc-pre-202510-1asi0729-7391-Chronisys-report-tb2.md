@@ -8,6 +8,8 @@
     <strong>NRC: 7391 </strong><br>
     <strong>Profesor: Hugo Allan Mori Paiva </strong><br>
     <strong>Informe de Trabajo Final  </strong><br>
+    <strong>CICLO 2025-20 </strong><br>
+    
 </p>
 
 <center>
@@ -3251,13 +3253,11 @@ Este testimonio refuerza el eje central del producto: la tecnología como aliado
 
 El video tiene una duración total de **3 minutos y 52 segundos** y ha sido publicado en dos plataformas para garantizar accesibilidad y integración:
 
-- **Microsoft Stream (versión corporativa):**  
-  [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=qFQQeP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=qFQQeP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Microsoft Stream:**  
+  [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=qFQQeP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
- el link funciona aun con el emoji
-
-- **YouTube (versión incrustada en el Landing Page):**  
-  [https://youtu.be/FUm2x54GcCw](https://youtu.be/FUm2x54GcCw)
+- **YouTube:**  
+  [Ver video](https://youtu.be/FUm2x54GcCw)
 
 ![Screenshot del video About the Product - Minuto 3:08](assets/img/chapter-5/entrevistados'validacion%20(4).png)  
 *Captura del video en el minuto 3:08, mostrando el testimonio auténtico de Alisa Goicochea, paciente con esclerosis múltiple, validando la experiencia humana de ChroniCaree.*

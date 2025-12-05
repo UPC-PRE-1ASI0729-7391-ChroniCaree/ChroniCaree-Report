@@ -2997,6 +2997,16 @@ Todos los Work Items planificados para este sprint han sido completados y verifi
 
 ![Trello Spring 4](Assets/img/chapter-5/trellospring4.png)  
 
+## 5.2.3.4. Development Evidence for Sprint Review.
+
+## 5.2.3.5. Execution Evidence for Sprint Review.
+
+## 5.2.3.6. Services Documentation Evidence for Sprint Review.
+
+## 5.2.3.7. Software Deployment Evidence for Sprint Review.
+
+## 5.2.3.8. Team Collaboration Insights during Sprint.
+
 
 ## 5.3. Validation Interviews
 

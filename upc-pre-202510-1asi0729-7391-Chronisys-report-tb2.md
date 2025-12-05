@@ -3381,20 +3381,17 @@ Solucionex. (s. f.). *Buenas prácticas para el desarrollo de grandes proyectos 
 Tapia, S. (2021, 21 de junio). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 ### Anexos
+
 **Anexo A**
 **Repositorios de Código y Control de Versiones**
 
 A continuación se listan los enlaces a los repositorios alojados en GitHub que contienen el código fuente del proyecto ChroniCaree, organizados según la arquitectura del sistema:
 
-- **Organización del Equipo:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree)
-
-- **Informe del Proyecto:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report)
-
-- **Landing Page:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing)
-
-- **Frontend:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend)
-
-- **Backend:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend)
+- **Organización del Equipo:** https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree
+- **Informe del Proyecto:** https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report
+- **Landing Page:** https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing
+- **Frontend:** https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend
+- **Backend:** https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend
 
 ---
 
@@ -3403,21 +3400,23 @@ A continuación se listan los enlaces a los repositorios alojados en GitHub que 
 
 Enlaces de acceso público a los entornos de producción donde se encuentra desplegada la solución funcional:
 
-- **Landing Page:** [https://chronicaree.netlify.app/](https://chronicaree.netlify.app/)
-- **Frontend Web Application:** [https://chronicaree-frontend.onrender.com/](https://chronicaree-frontend.onrender.com/) 
-- **Backend API (Swagger Documentation):** [https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata](https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata)
+- **Landing Page:** https://chronicaree.netlify.app/
+- **Frontend Web Application:** https://chronicaree-frontend.onrender.com/
+- **Backend API (Swagger Documentation):** https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata
+
 ---
+
 **Anexo C**
 **Artefactos de Diseño, Gestión e Investigación**
 
 Herramientas digitales empleadas para la gestión ágil, diseño UX/UI e instrumentos de investigación:
 
-* **Product Backlog (Trello):** [https://trello.com/b/O57EUYog/chroni-caree-open](https://trello.com/b/O57EUYog/chroni-caree-open)
-* **Prototipo Interactivo (Figma):** [https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1](https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1)
-* **Event Storming (Miro):** [https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011](https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011)
-* **User Personas (UXPressia):** [https://drive.google.com/drive/folders/1KG2DSGdiTeFjTgvdY05G6hNHiAsZw_15?usp=sharing](https://drive.google.com/drive/folders/1KG2DSGdiTeFjTgvdY05G6hNHiAsZw_15?usp=sharing)
-* **Formulario de Entrevistas (Pacientes):** [https://forms.gle/bMhsNAhPUvH1bYGr5](https://forms.gle/bMhsNAhPUvH1bYGr5)
-* **Formulario de Entrevistas (Médicos):** [https://forms.gle/N61b8sb6XsN7CRoY7](https://forms.gle/N61b8sb6XsN7CRoY7)
+* **Product Backlog (Trello):** https://trello.com/b/O57EUYog/chroni-caree-open
+* **Prototipo Interactivo (Figma):** https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1
+* **Event Storming (Miro):** https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011
+* **User Personas (UXPressia):** https://drive.google.com/drive/folders/1KG2DSGdiTeFjTgvdY05G6hNHiAsZw_15?usp=sharing
+* **Formulario de Entrevistas (Pacientes):** https://forms.gle/bMhsNAhPUvH1bYGr5
+* **Formulario de Entrevistas (Médicos):** https://forms.gle/N61b8sb6XsN7CRoY7
 
 ---
 
@@ -3427,18 +3426,17 @@ Herramientas digitales empleadas para la gestión ágil, diseño UX/UI e instrum
 Compendio de los videos correspondientes a las entregas, demostraciones técnicas y evidencia de validación:
 
 **Sustentaciones Oficiales**
-* **Entrega TB-1:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD6emK1qs84Tr7HtG1RgK50Afhp5SeiJh5JDJwdgDXmSxw?e=0xytEf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* **Entrega TP:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAWUo6rYnqJR4WQuNGn3joNATW4ygxo-W6zbn595zPO57w?e=V0cetr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* **Entrega TB-2:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQA7CHKecLjZSrhkqIPOoaPJAV2-Hz85uIlMfgWipwWvEtE?e=l8bgdO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Entrega TB-1:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD6emK1qs84Tr7HtG1RgK50Afhp5SeiJh5JDJwdgDXmSxw?e=0xytEf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* **Entrega TP:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAWUo6rYnqJR4WQuNGn3joNATW4ygxo-W6zbn595zPO57w?e=V0cetr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* **Entrega TB-2:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQA7CHKecLjZSrhkqIPOoaPJAV2-Hz85uIlMfgWipwWvEtE?e=l8bgdO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+* **Entrega TF:** https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD1vtaK-K-OS5cQeYd6CNPSAdqkbS5Imbus5_6Hx6Mu-mk?e=gcylma&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
 
 **Demos Técnicos y Promocionales**
-* **Video Promocional "About the Product":** [Ver video en YouTube](https://youtu.be/FUm2x54GcCw)
-* **Demo Funcionalidad Frontend:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=21w6Xz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-* **Demo Backend API:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQDzNWqFbjV8RYzXO2AaPXPMAY-Fbvh0rUtMJ0HFJj5eIUU?e=XN4oxt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
-
+* **Video Promocional "About the Product":** https://youtu.be/FUm2x54GcCw
+* **Demo Funcionalidad Frontend:** https://bit.ly/3KuMC7q
+* **Demo Backend API:** https://bit.ly/48BKwdJ
 **Evidencia de Investigación**
-* **Carpeta de Videos de Entrevistas:** [Ver carpeta](http://bit.ly/4360hI2)
-* **Video Completo de Validación:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQCz_ExJelZiTpUSkhwLWuEaAbh_8YrXkeWwQm0cAV2PZgs?e=DRVpZJ)
+* **Video Completo de Validación:** https://bit.ly/44dzkTs
 ___
 **Anexo E**
 **Índice de Recursos Gráficos**

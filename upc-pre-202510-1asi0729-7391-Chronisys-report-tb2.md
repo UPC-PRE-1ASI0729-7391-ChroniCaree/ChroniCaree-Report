@@ -2615,8 +2615,10 @@ La aplicación presenta una interfaz moderna, responsiva y accesible , desarroll
 
 
 > **Enlace a la versión desplegada api (producción): https://chronicaree-api.onrender.com/**  
-> **Enlace a la versión desplegada del frontend (producción): chronicaree-frontend.onrender.com/** 
-> **Enlace al video de demostración (navegación y funcionalidades):**[https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=21w6Xz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=21w6Xz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+> **Enlace a la versión desplegada del frontend (producción): https://chronicaree-frontend.onrender.com/** 
+
+> **Enlace al video de demostración (navegación y funcionalidades):**[Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=21w6Xz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
 ### 5.2.2.6. Services Documentation Evidence for Sprint Review
 

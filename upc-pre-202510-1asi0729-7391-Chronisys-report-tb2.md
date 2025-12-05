@@ -26,7 +26,7 @@
 | Sebastian Martin Beingolea Montalvo | U202217853 |
 | Schneider Carlos Delgado Carrasco   | U202321843 |
 | Andreow Jomark Santiago Peña        | U202317362 |
-| Calors Alberto Lopez Goitia         | U202312700 |
+| Carlos Alberto Lopez Goitia         | U202312700 |
 
 </div>
 
@@ -87,6 +87,14 @@ Link del Landing page del equipo:
 
 https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing
 
+Link al frontend del equipo:
+
+https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend
+
+Link del backend del equipo:
+
+https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend
+
 #### TB1
 
 
@@ -138,6 +146,10 @@ El Trabajo Parcial marcó una fase crítica de ejecución técnica dentro del pr
 
 El desarrollo siguió una metodología ágil e iterativa basada en sprints semanales. La comunicación interna se mantuvo principalmente a través de Discord, con reuniones diarias (stand-ups) y sesiones de planificación semanal, lo que permitió una coordinación fluida, resolución rápida de bloqueos y toma de decisiones consensuadas.
 
+Link al frontend de la solucion:
+
+https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend
+
 **Avances Clave del TP:**
 - **Frontend (Sprint 2):** El objetivo principal fue completar todas las vistas funcionales de la plataforma. Se implementaron con éxito módulos clave como autenticación, dashboards personalizados para pacientes y médicos, gestión de medicamentos, alertas inteligentes, mensajería clínica, registro de síntomas, seguimiento de adherencia y generación de reportes PDF. Todo el frontend fue desarrollado con Angular y TypeScript, siguiendo estrictamente los mockups y wireframes previamente diseñados.
 - **Fake API:** Para simular la capa de servicios y permitir pruebas end-to-end sin depender del backend real, se desarrolló una Fake API robusta. Esta API simulaba todos los endpoints críticos (autenticación, usuarios, pacientes, síntomas, alertas, mensajes), devolviendo datos predefinidos y permitiendo validar la lógica del frontend, las rutas y la experiencia de usuario completa.
@@ -171,6 +183,10 @@ El foco principal fue el **desarrollo, despliegue y documentación completa del 
 Un hito crucial fue el **despliegue exitoso del backend en Render**, cumpliendo así con el objetivo de tener una infraestructura estable. Este despliegue fue automatizado mediante CI/CD, vinculando directamente el repositorio de GitHub con Render, lo que permite futuras actualizaciones automáticas.
 
 Además, se realizó una **validación exhaustiva de todo el sistema**, llevando a cabo pruebas de extremo a extremo (E2E) para verificar la integración perfecta entre el frontend desarrollado en el TP y el nuevo backend. Esto incluyó la verificación de flujos críticos como el registro de usuarios, el inicio de sesión, el almacenamiento de datos clínicos y la generación de alertas.
+
+Link al backend de la solucion:
+
+https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend
 
 **Actividad en GitHub - TB2 (Noviembre 2025)**
 
@@ -207,6 +223,10 @@ La entrega final (TF) representa la culminación integral del ciclo de desarroll
 
 - **Validación del Sistema:** Ejecución exhaustiva de pruebas de extremo a extremo (E2E) que verificaron la integración perfecta entre el frontend (desarrollado en Angular) y el backend, asegurando la estabilidad de la plataforma.
 
+- **Despliegue en producción:**
+  - Frontend:
+  - Backend:
+
 **Commits para TF Backend**
 
 ![Commits TF Backend]()
@@ -241,7 +261,7 @@ La entrega final (TF) representa la culminación integral del ciclo de desarroll
 
 [1.3. Segmentos objetivo.](#13-segmentos-objetivo)  
 
-[Capítulo II: Requirements Elicitation & Analysi](#capítulo-ii-requirements-elicitation--analysis)  
+[Capítulo II: Requirements Elicitation & Analysis](#capítulo-ii-requirements-elicitation--analysis)  
 
 [2.1. Competidores](#21-competidores)  
 [2.1.1. Análisis competitivo](#211-análisis-competitivo)  
@@ -261,14 +281,14 @@ La entrega final (TF) representa la culminación integral del ciclo de desarroll
 
 [2.4. Ubiquitous Language](#24-ubiquitous-language)  
 
-[Capítulo III: Requirements Specificatio](#capítulo-iii-requirements-specification)  
+[Capítulo III: Requirements Specification](#capítulo-iii-requirements-Specification)  
 
 [3.1. To-Be Scenario Mapping](#31-to-be-scenario-mapping)    
 [3.2. User Stories](#32-user-stories)  
 [3.3. Impact Mapping](#33-impact-mapping)  
 [3.4. Product Backlog](#34-product-backlog)  
 
-[Capítulo IV: Product Desig](#capítulo-iv-product-design)  
+[Capítulo IV: Product Design](#capítulo-iv-product-design)  
 
 [4.1. Style Guidelines](#41-style-guidelines)  
 [4.1.1. General Style Guidelines](#411-general-style-guidelines)  
@@ -305,7 +325,7 @@ La entrega final (TF) representa la culminación integral del ciclo de desarroll
 [4.8. Database Design](#48-database-design)  
 [4.8.1. Database Diagram](#481-database-diagram)  
 
-[Capítulo V: Product Implementation, Validation & Deploymen](#capítulo-v-product-implementation-validation--deployment)  
+[Capítulo V: Product Implementation, Validation & Deployment](#capítulo-v-product-implementation-validation--deployment)  
 
 [5.1. Software Configuration Management](#51-software-configuration-management)  
 [5.1.1. Software Development Environment Configuration](#511-software-development-environment-configuration)  
@@ -2153,7 +2173,7 @@ Ejemplos:
 
 - feature/chapter-1-introduction
 - feature/chapter-2-requirements-elicitation-and-analysis
-- feature/chapter-3-requirements-specification
+- feature/chapter-3-requirements-Specification
 - feature/chapter-4-product-design
 - feature/chapter-5-product-implementation-validation-and-deployment
 
@@ -3254,7 +3274,7 @@ En este Sprint 4, el equipo se enfocó en corregir y optimizar el backend, final
 | **Location**                            | Reunion virtual por Discord   |
 | **Prepared By**                         | Alejandro Nicolas Barturen Guzman      |
 | **Attendees (to planning meeting)**     | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen   |
-| **Sprint n – 3 Review Summary**        | Durante el Sprint 3, el equipo completó de manera exitosa la construcción central del backend de ChroniCaree, implementando la lógica de negocio, la persistencia y los servicios REST que habilitan funcionalidades clave tanto para pacientes como para médicos. Se desarrollaron módulos de autenticación, gestión de síntomas, medicamentos, alertas, mensajería y dashboards personalizados, asegurando una arquitectura sólida y escalable. La API fue desplegada en un entorno productivo y se validó su correcto comportamiento mediante pruebas de integración con la base de datos y herramientas como Postman, dejando preparado el sistema para la fase de integración con el frontend en el sprint siguiente. |
+| **Sprint n – 4 Review Summary**        | Durante el Sprint 3, el equipo completó de manera exitosa la construcción central del backend de ChroniCaree, implementando la lógica de negocio, la persistencia y los servicios REST que habilitan funcionalidades clave tanto para pacientes como para médicos. Se desarrollaron módulos de autenticación, gestión de síntomas, medicamentos, alertas, mensajería y dashboards personalizados, asegurando una arquitectura sólida y escalable. La API fue desplegada en un entorno productivo y se validó su correcto comportamiento mediante pruebas de integración con la base de datos y herramientas como Postman, dejando preparado el sistema para la fase de integración con el frontend en el sprint siguiente. |
 | **Sprint n – 3 Retrospective Summary**  | El equipo reconoció como principal logro del Sprint 3 la entrega completa y estable del backend, resaltando la organización clara de módulos, la calidad del código y la efectividad del flujo de trabajo mediante ramas feature y pull requests. La colaboración permitió resolver incidencias rápidamente y mantener un avance constante. Sin embargo, se identificó como mejora la necesidad de una coordinación más temprana con el equipo del frontend, ya que este aún dependía parcialmente de una Fake API para sus primeras integraciones. Se acordó reforzar la comunicación y mantener endpoints claramente documentados para facilitar el trabajo conjunto en el siguiente sprint. |
 | ***Sprint Goal & User Stories***  | |
 | **Sprint n Goal**  | Durante el Sprint 4, nuestro enfoque está en finalizar la integración completa entre el backend ya desarrollado y el frontend, concluyendo las pantallas y flujos pendientes, corrigiendo errores y ajustando funcionalidades tanto a nivel de lógica como de interfaz. El objetivo principal es lograr una plataforma plenamente funcional, validando los flujos end-to-end, sincronizando correctamente los servicios REST con el frontend e implementando mejoras detectadas durante la fase de pruebas. Consideraremos este objetivo logrado cuando ambas capas operen de manera estable, con todas las funcionalidades conectadas, probadas y listas para su presentación final.|
@@ -3286,7 +3306,6 @@ A continuación, se detallan los aspectos definidos y los roles asignados:
 
 ### 5.2.4.3. Sprint Backlog 4.
 
-> **Nota:** La siguiente tabla es un ejemplo basado en las User Stories proporcionadas. Deberás ajustar la selección de US, el orden, la estimación de puntos y el criterio de aceptación específico para el backend según lo planificado por tu equipo.
 
 | # Orden | User Story Id | Título                                               | Descripción                                                                                                                                     | Story Points |
 |---------|---------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
@@ -3307,7 +3326,7 @@ Todos los Work Items planificados para este sprint han sido completados y verifi
 
 ![Trello Spring 4](Assets/img/chapter-5/trellospring4.png)  
 
-### Concluciones
+### Conclusiones
 
 
 #### Conclusión TB1: Fundamentos del Proyecto y Puesta en Marcha Colaborativa
@@ -3360,78 +3379,212 @@ Solucionex. (s. f.). *Buenas prácticas para el desarrollo de grandes proyectos 
 Tapia, S. (2021, 21 de junio). *Arquitectura DDD (Domain Driven Design)*. https://sergiotapia.net/arquitectura-ddddomain-driven-design/
 
 ### Anexos
+**Anexo A**
+**Repositorios de Código y Control de Versiones**
 
- ### video tb-1
+A continuación se listan los enlaces a los repositorios alojados en GitHub que contienen el código fuente del proyecto ChroniCaree, organizados según la arquitectura del sistema:
 
-link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD6emK1qs84Tr7HtG1RgK50Afhp5SeiJh5JDJwdgDXmSxw?e=0xytEf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD6emK1qs84Tr7HtG1RgK50Afhp5SeiJh5JDJwdgDXmSxw?e=0xytEf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
- 
- ### video TP
+- **Organización del Equipo:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree)
 
-link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAWUo6rYnqJR4WQuNGn3joNATW4ygxo-W6zbn595zPO57w?e=V0cetr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAWUo6rYnqJR4WQuNGn3joNATW4ygxo-W6zbn595zPO57w?e=V0cetr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Informe del Proyecto:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Report)
 
- ### video tb-2
+- **Landing Page:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Landing)
 
-link: [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQA7CHKecLjZSrhkqIPOoaPJAV2-Hz85uIlMfgWipwWvEtE?e=l8bgdO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQA7CHKecLjZSrhkqIPOoaPJAV2-Hz85uIlMfgWipwWvEtE?e=l8bgdO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+- **Frontend:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Frontend)
 
+- **Backend:** [https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend](https://github.com/UPC-PRE-1ASI0729-7391-ChroniCaree/ChroniCaree-Backend)
 
-#### Tablero de Trello del proyecto
-![Tablero de Trello](assets/img/chapter-5/trelo%20sprint-3.png)  
-[Accede al tablero de Trello para ver el backlog y avance del proyecto](https://trello.com/b/O57EUYog/chroni-caree-open)
+---
 
-#### Captura del video "About the Product" - Testimonio clave
-![Testimonio Alisa Goicochea](assets/img/chapter-5/entrevistados'validacion%20(4).png)  
-*Captura del video en el minuto 3:08, mostrando el testimonio auténtico de Alisa Goicochea, paciente con esclerosis múltiple, validando la experiencia humana de ChroniCare.*
+**Anexo B**
+**Despliegues en Producción (Deployments)**
 
-#### Diagramas de arquitectura del software
-![Diagrama de Contexto](assets/img/chapter-4/DiagramaContexto.jpeg)  
-*Figura: Software Architecture Context Diagram*
+Enlaces de acceso público a los entornos de producción donde se encuentra desplegada la solución funcional:
 
-![Diagrama de Contenedores](assets/img/chapter-4/DiagramaContainer.jpeg)  
-*Figura: Software Architecture Container Diagrams*
+- **Landing Page:** [https://chronicaree.netlify.app/](https://chronicaree.netlify.app/)
+- **Frontend Web Application:** [https://chronicaree-frontend.onrender.com/](https://chronicaree-frontend.onrender.com/) 
+- **Backend API (Swagger Documentation):** [https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata](https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata)
+---
+**Anexo C**
+**Artefactos de Diseño, Gestión e Investigación**
 
-![Diagrama de Componentes Analytics](assets/img/chapter-4/DiagramaComponentesBDAnalytics.jpeg)  
-*Figura: Software Architecture Components Diagram - Módulo Analytics*
+Herramientas digitales empleadas para la gestión ágil, diseño UX/UI e instrumentos de investigación:
 
-![Diagrama de Componentes Care](assets/img/chapter-4/DiagramaComponentesBDCare.jpeg.jpeg)  
-*Figura: Software Architecture Components Diagram - Módulo Care*
+* **Product Backlog (Trello):** [https://trello.com/b/O57EUYog/chroni-caree-open](https://trello.com/b/O57EUYog/chroni-caree-open)
+* **Prototipo Interactivo (Figma):** [https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1](https://www.figma.com/design/TQT3UEzzMXhelZfd0bPylJ/ChroniCare?node-id=0-1&t=eNHIEflEvJ79drV8-1)
+* **Event Storming (Miro):** [https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011](https://miro.com/app/board/uXjVJGSEtZc=/?share_link_id=674818204011)
+* **User Personas (UXPressia):** [https://drive.google.com/drive/folders/1KG2DSGdiTeFjTgvdY05G6hNHiAsZw_15?usp=sharing](https://drive.google.com/drive/folders/1KG2DSGdiTeFjTgvdY05G6hNHiAsZw_15?usp=sharing)
+* **Formulario de Entrevistas (Pacientes):** [https://forms.gle/bMhsNAhPUvH1bYGr5](https://forms.gle/bMhsNAhPUvH1bYGr5)
+* **Formulario de Entrevistas (Médicos):** [https://forms.gle/N61b8sb6XsN7CRoY7](https://forms.gle/N61b8sb6XsN7CRoY7)
 
-![Diagrama de Componentes Handling](assets/img/chapter-4/DiagramaComponentesBDHandling.jpeg.jpeg)  
-*Figura: Software Architecture Components Diagram - Módulo Handling*
+---
 
-#### Diagrama de Clases
-![Class Diagram](assets/img/chapter-4/Class%20Diagram.png)  
-*Figura: Diagrama de clases principal del sistema*
+**Anexo D**
+**Registro Audiovisual de Sustentaciones y Demos**
 
-#### Diagrama de Base de Datos
-![Database Diagram](assets/img/chapter-4/db%20Diagram.png)  
-*Figura: Esquema relacional de la base de datos*
+Compendio de los videos correspondientes a las entregas, demostraciones técnicas y evidencia de validación:
 
-#### Prototipo interactivo en Figma
-![Prototipo Web App](assets/img/chapter-4/landingmockups-1.png)  
-*Figura: Vista principal del prototipo de la aplicación web*
+**Sustentaciones Oficiales**
+* **Entrega TB-1:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD6emK1qs84Tr7HtG1RgK50Afhp5SeiJh5JDJwdgDXmSxw?e=0xytEf&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Entrega TP:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQAWUo6rYnqJR4WQuNGn3joNATW4ygxo-W6zbn595zPO57w?e=V0cetr&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Entrega TB-2:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQA7CHKecLjZSrhkqIPOoaPJAV2-Hz85uIlMfgWipwWvEtE?e=l8bgdO&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-#### Evidencia de despliegue en producción
-![Despliegue Backend en AWS - Paso 1](Assets/img/chapter-5/deploy-backend-1.jpg)  
-*Configuración del repositorio y conexión con EC2*
+**Demos Técnicos y Promocionales**
+* **Video Promocional "About the Product":** [Ver video en YouTube](https://youtu.be/FUm2x54GcCw)
+* **Demo Funcionalidad Frontend:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=21w6Xz&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+* **Demo Backend API:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQDzNWqFbjV8RYzXO2AaPXPMAY-Fbvh0rUtMJ0HFJj5eIUU?e=XN4oxt&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-![Despliegue Backend en AWS - Paso 2](Assets/img/chapter-5/deploy-backend-2.jpg)  
-*Variables de entorno y configuración del servicio*
+**Evidencia de Investigación**
+* **Carpeta de Videos de Entrevistas:** [Ver carpeta](http://bit.ly/4360hI2)
+* **Video Completo de Validación:** [Ver video en SharePoint](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQCz_ExJelZiTpUSkhwLWuEaAbh_8YrXkeWwQm0cAV2PZgs?e=DRVpZJ)
+___
+**Anexo E**
+**Índice de Recursos Gráficos**
 
-![Despliegue Backend en AWS - Paso 3](Assets/img/chapter-5/deploy-backend-3.jpg)  
-*Estado final del despliegue y acceso a la API*
-
-#### Evidencia de colaboración en GitHub
-![Network Graph - Sprint 3 (Backend)](assets/img/chapter-5/tb2-network.png)  
-*Gráfico de red del repositorio backend durante el TB2*
-
-![Commits - Sprint 3 (Backend)](assets/img/chapter-5/tb2-commits.png)  
-*Actividad de commits en el repositorio del backend*
-
-![Commits - Sprint 3 (Frontend)](assets/img/chapter-5/tb2-commits-front.png)  
-*Actividad de commits en el repositorio del frontend*
-
-![Network Graph - Sprint 3 (Frontend)](assets/img/chapter-5/tb2-netwokr-front.png)  
-*Gráfico de red del repositorio frontend durante el TB2*
-
-
+| Imagen | Nombre | Ubicación |
+|--------|--------|-----------|
+| <img src="Assets/img/chapter-1/AlejandroBarturen.jpg" width="120"/> | AlejandroBarturen | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/AndreowSantiago.jpg" width="120"/> | AndreowSantiago | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/Carlos Lopez.png" width="120"/> | Carlos Lopez | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/commits (1).png" width="120"/> | commits (1) | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/commits (2).png" width="120"/> | commits (2) | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/LeanUXCanvas.png" width="120"/> | LeanUXCanvas | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/network.png" width="120"/> | network | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/Schneider Delgado.png" width="120"/> | Schneider Delgado | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-1/SebastianMartin.jpeg" width="120"/> | SebastianMartin | Assets/img/chapter-1/ |
+| <img src="Assets/img/chapter-2/Alisa Goicochea.png" width="120"/> | Alisa Goicochea | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/big_event_storming.png" width="120"/> | big_event_storming | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/chronisys.png" width="120"/> | chronisys | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/empathy1.png" width="120"/> | empathy1 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/empathy2.png" width="120"/> | empathy2 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista 1.png" width="120"/> | entrevista 1 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista 2.png" width="120"/> | entrevista 2 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista 3.png" width="120"/> | entrevista 3 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista 4.png" width="120"/> | entrevista 4 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/Entrevista 5.png" width="120"/> | Entrevista 5 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/entrevista 6.png" width="120"/> | entrevista 6 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1a.png" width="120"/> | estadistica-1a | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1b.png" width="120"/> | estadistica-1b | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1c.png" width="120"/> | estadistica-1c | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1d.png" width="120"/> | estadistica-1d | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estadistica-1e.png" width="120"/> | estadistica-1e | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estdistica-2a.png" width="120"/> | estdistica-2a | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estdistica-2b.png" width="120"/> | estdistica-2b | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estdistica-2c.png" width="120"/> | estdistica-2c | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estdistica-2d.png" width="120"/> | estdistica-2d | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/estdistica-2e.png" width="120"/> | estdistica-2e | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/journeymapping1.png" width="120"/> | journeymapping1 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/journeymapping2.png" width="120"/> | journeymapping2 | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/lark.png" width="120"/> | lark | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/livongo.png" width="120"/> | livongo | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/MatíasPeña.png" width="120"/> | MatíasPeña | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-2/welldoc.png" width="120"/> | welldoc | Assets/img/chapter-2/ |
+| <img src="Assets/img/chapter-3/Impactmapchronicarre.png" width="120"/> | Impactmapchronicarre | Assets/img/chapter-3/ |
+| <img src="Assets/img/chapter-4/Class Diagram.png" width="120"/> | Class Diagram | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/colores.png" width="120"/> | colores | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/db Diagram.png" width="120"/> | db Diagram | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/diagrama-cc.png" width="120"/> | diagrama-cc | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/DiagramaComponentesBDAnalytics.jpeg" width="120"/> | DiagramaComponentesBDAnalytics | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/DiagramaComponentesBDCare.jpeg" width="120"/> | DiagramaComponentesBDCare | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/DiagramaComponentesBDHandling.jpeg" width="120"/> | DiagramaComponentesBDHandling | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/DiagramaContainer.jpeg" width="120"/> | DiagramaContainer | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/DiagramaContexto.jpeg" width="120"/> | DiagramaContexto | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/Landing Page desktop.png" width="120"/> | Landing Page desktop | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/Landing Page mobile.png" width="120"/> | Landing Page mobile | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-1.png" width="120"/> | landing-1 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-2.png" width="120"/> | landing-2 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-3.png" width="120"/> | landing-3 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-4.png" width="120"/> | landing-4 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-5.png" width="120"/> | landing-5 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-6.png" width="120"/> | landing-6 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-7.png" width="120"/> | landing-7 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landing-8.png" width="120"/> | landing-8 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-1.png" width="120"/> | landingmockups-1 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-2.png" width="120"/> | landingmockups-2 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-3.png" width="120"/> | landingmockups-3 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-4.png" width="120"/> | landingmockups-4 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-5.png" width="120"/> | landingmockups-5 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-6.png" width="120"/> | landingmockups-6 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-7.png" width="120"/> | landingmockups-7 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-8.png" width="120"/> | landingmockups-8 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-9.png" width="120"/> | landingmockups-9 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-10.png" width="120"/> | landingmockups-10 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/landingmockups-11.png" width="120"/> | landingmockups-11 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/LandingPage.1.2.png" width="120"/> | LandingPage.1.2 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/LandingPage.1.png" width="120"/> | LandingPage.1 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/logo-png.png" width="120"/> | logo-png | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mock ups mobile(1).png" width="120"/> | mock ups mobile(1) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mock ups mobile(2).png" width="120"/> | mock ups mobile(2) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mock ups mobile(3).png" width="120"/> | mock ups mobile(3) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(1).png" width="120"/> | mockups app(1) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(2).png" width="120"/> | mockups app(2) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(3).png" width="120"/> | mockups app(3) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(4).png" width="120"/> | mockups app(4) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(5).png" width="120"/> | mockups app(5) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(6).png" width="120"/> | mockups app(6) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(7).png" width="120"/> | mockups app(7) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(8).png" width="120"/> | mockups app(8) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(9).png" width="120"/> | mockups app(9) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(10).png" width="120"/> | mockups app(10) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/mockups app(11).png" width="120"/> | mockups app(11) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/Spacing.png" width="120"/> | Spacing | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/tipografia.png" width="120"/> | tipografia | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/userflow(1).png" width="120"/> | userflow(1) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/userflow(2).png" width="120"/> | userflow(2) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/userflow(3).png" width="120"/> | userflow(3) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/userflow(4).png" width="120"/> | userflow(4) | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/Wireflow.png" width="120"/> | Wireflow | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/wireframes desktop1.png" width="120"/> | wireframes desktop1 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/wireframes desktop2.png" width="120"/> | wireframes desktop2 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/wireframes desktop3.png" width="120"/> | wireframes desktop3 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/wireframes mobile1.png" width="120"/> | wireframes mobile1 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-4/wireframes mobile2.png" width="120"/> | wireframes mobile2 | Assets/img/chapter-4/ |
+| <img src="Assets/img/chapter-5/backend-1 (1).png" width="120"/> | backend-1 (1) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/backend-1 (2).png" width="120"/> | backend-1 (2) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/boton_oculto.jpg" width="120"/> | boton_oculto | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/boton_registro_clinica.png" width="120"/> | boton_registro_clinica | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/boton_sintomas_recientes.jpg" width="120"/> | boton_sintomas_recientes | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/commits1.png" width="120"/> | commits1 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/commits2.png" width="120"/> | commits2 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/deploy-backend-1.jpg" width="120"/> | deploy-backend-1 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/deploy-backend-2.jpg" width="120"/> | deploy-backend-2 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/deploy-backend-3.jpg" width="120"/> | deploy-backend-3 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/deploy1.jpg" width="120"/> | deploy1 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/deploy2.jpg" width="120"/> | deploy2 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/deploy3.jpg" width="120"/> | deploy3 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistados'validacion (1).png" width="120"/> | entrevistados'validacion (1) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistados'validacion (2).png" width="120"/> | entrevistados'validacion (2) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistados'validacion (3).png" width="120"/> | entrevistados'validacion (3) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistados'validacion (4).png" width="120"/> | entrevistados'validacion (4) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistados'validacion (5).png" width="120"/> | entrevistados'validacion (5) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistados'validacion (6).png" width="120"/> | entrevistados'validacion (6) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/error_tomar_medicamento.jpg" width="120"/> | error_tomar_medicamento | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/netlify1.png" width="120"/> | netlify1 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/netlify2.png" width="120"/> | netlify2 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/netlify3.png" width="120"/> | netlify3 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/netlify4.png" width="120"/> | netlify4 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/netlify5.png" width="120"/> | netlify5 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/Network.png" width="120"/> | Network | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pantalla_mis_medicamentos.jpg" width="120"/> | pantalla_mis_medicamentos | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pantalla_registro_paciente.jpg" width="120"/> | pantalla_registro_paciente | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pb-sprint2.png" width="120"/> | pb-sprint2 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (1).png" width="120"/> | pruebas-sprtin-2 (1) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (2).png" width="120"/> | pruebas-sprtin-2 (2) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (3).png" width="120"/> | pruebas-sprtin-2 (3) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (4).png" width="120"/> | pruebas-sprtin-2 (4) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (5).png" width="120"/> | pruebas-sprtin-2 (5) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (6).png" width="120"/> | pruebas-sprtin-2 (6) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/pruebas-sprtin-2 (7).png" width="120"/> | pruebas-sprtin-2 (7) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/sprintbacklog-1.png" width="120"/> | sprintbacklog-1 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tb2-commits-front.png" width="120"/> | tb2-commits-front | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tb2-commits.png" width="120"/> | tb2-commits | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tb2-netwokr-front.png" width="120"/> | tb2-netwokr-front | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tb2-network.png" width="120"/> | tb2-network | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/teamCollaboration-sprint2.png" width="120"/> | teamCollaboration-sprint2 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tp1- commiits.png" width="120"/> | tp1- commiits | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tp1-commits.png" width="120"/> | tp1-commits | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/tp1-network.png" width="120"/> | tp1-network | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/trellospring4.png" width="120"/> | trellospring4 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/trelo sprint-3.png" width="120"/> | trelo sprint-3 | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/ver_mi_historial.jpg" width="120"/> | ver_mi_historial | Assets/img/chapter-5/ |
 

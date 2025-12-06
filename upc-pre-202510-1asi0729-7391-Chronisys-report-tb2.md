@@ -3,12 +3,15 @@
 <p align="center">
     <strong>Universidad Peruana de Ciencias Aplicadas</strong><br>
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/fc/UPC_logo_transparente.png"></img><br>
-    <strong>Facultad de Ingenieria - Ingeniería de Software - 202520</strong><br>
+    <strong>Curso: Ingeniería de Software</strong><br>
     <strong>1ASI0729 - Desarrollo de Aplicaciones Open Source </strong><br>
     <strong>NRC: 7391 </strong><br>
     <strong>Profesor: Hugo Allan Mori Paiva </strong><br>
     <strong>Informe de Trabajo Final  </strong><br>
+    <strong>  </strong><br>
     <strong>CICLO 2025-20 </strong><br>
+    <strong>Facultad de Ingenieria </strong><br>
+
     
 </p>
 
@@ -226,16 +229,17 @@ La entrega final (TF) representa la culminación integral del ciclo de desarroll
 - **Validación del Sistema:** Ejecución exhaustiva de pruebas de extremo a extremo (E2E) que verificaron la integración perfecta entre el frontend (desarrollado en Angular) y el backend, asegurando la estabilidad de la plataforma.
 
 - **Despliegue en producción:**
-  - Frontend:
-  - Backend:
+> **Enlace a la versión desplegada del frontend (producción): https://chronicaree-frontend.onrender.com/** 
+> 
+> **Enlace a la versión desplegada del backend (producción): https://chornicare-backend-production.up.railway.app/swagger-ui/index.html**
 
 **Commits para TF Backend**
 
-![Commits TF Backend]()
+![GitHub Network Sprint 4](Assets/img/chapter-5/sprint4-github%20(2).png) 
 
 **Network graph para TF Backend**
 
-![Network TF Backend]()
+![GitHub Network Sprint 4](Assets/img/chapter-5/sprint4-github%20(1).png)  
 
 **Cierre del proyecto:** El equipo consolidó la arquitectura del software logrando una validación exhaustiva de todo el sistema. La solución final responde a los requisitos planteados, ofreciendo una plataforma robusta donde la gestión de datos clínicos y la interacción del usuario operan de manera sincronizada y segura.
 
@@ -2841,7 +2845,7 @@ El backend presenta una API RESTful bien estructurada, con endpoints documentado
 
 > **Enlace a la versión desplegada api (producción): https://chronicaree-api.onrender.com/**  
 > **Enlace a la versión desplegada del frontend (producción): https://chronicaree-frontend.onrender.com/** 
-> **Enlace a la versión desplegada del backend (producción): https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata**  
+> **Enlace a la versión desplegada del backend (producción): https://chornicare-backend-production.up.railway.app/swagger-ui/index.html**  
 
 > **Enlace al video de demostración (funcionalidades del backend y uso de la API): https://bit.ly/48BKwdJ**
 
@@ -2909,7 +2913,7 @@ El repositorio de GitHub del backend fue conectado a una instancia de EC2 para a
 - Comando de build: `mvn clean install && java -jar target/app.jar` (o equivalente para el stack de Spring Boot)
 - Servidor de aplicación: EC2 (Ubuntu 22.04 LTS)
 - URL del sitio (API): `http://chronicaree-backend.duckdns.org/`
-- URL de la documentación (Swagger): `https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata`
+- URL de la documentación (Swagger): `https://chornicare-backend-production.up.railway.app/swagger-ui/index.html`
 
 ![sprint-3-deploy-1](Assets/img/chapter-5/deploy-backend-1.jpg)
 ![sprint-3-deploy-2](Assets/img/chapter-5/deploy-backend-2.jpg)
@@ -2931,81 +2935,222 @@ Frontend:
 
 ![Network TB2 front](assets/img/chapter-5/tb2-netwokr-front.png)
 
-## 5.2.4. Sprint 4
 
+## 5.2.4. Sprint 4  
 En este Sprint 4, el equipo se enfocó en corregir y optimizar el backend, finalizar el frontend y lograr la integración completa entre ambas capas. Se resolvieron incidencias, se mejoró la lógica de negocio y se ajustaron los servicios REST para asegurar su consumo correcto desde la interfaz. Paralelamente, se completaron pantallas pendientes, se corrigieron detalles visuales y funcionales, y se validaron los flujos end-to-end. El sprint consolidó la plataforma como un sistema estable, unificado y listo para su presentación final.
 
-### 5.2.4.1. Sprint Planning 4.
-
+### 5.2.4.1. Sprint Planning 4  
 | Sprint #                            | Sprint 4    |
-|---|-------------|
-|***Sprint Planning Background***      |             |
-| **Date**                                | 2025-11-27   |
-| **Time**                                | 19:00 PM   |
-| **Location**                            | Reunion virtual por Discord   |
-| **Prepared By**                         | Alejandro Nicolas Barturen Guzman      |
-| **Attendees (to planning meeting)**     | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen   |
-| **Sprint n – 4 Review Summary**        | Durante el Sprint 3, el equipo completó de manera exitosa la construcción central del backend de ChroniCaree, implementando la lógica de negocio, la persistencia y los servicios REST que habilitan funcionalidades clave tanto para pacientes como para médicos. Se desarrollaron módulos de autenticación, gestión de síntomas, medicamentos, alertas, mensajería y dashboards personalizados, asegurando una arquitectura sólida y escalable. La API fue desplegada en un entorno productivo y se validó su correcto comportamiento mediante pruebas de integración con la base de datos y herramientas como Postman, dejando preparado el sistema para la fase de integración con el frontend en el sprint siguiente. |
-| **Sprint n – 3 Retrospective Summary**  | El equipo reconoció como principal logro del Sprint 3 la entrega completa y estable del backend, resaltando la organización clara de módulos, la calidad del código y la efectividad del flujo de trabajo mediante ramas feature y pull requests. La colaboración permitió resolver incidencias rápidamente y mantener un avance constante. Sin embargo, se identificó como mejora la necesidad de una coordinación más temprana con el equipo del frontend, ya que este aún dependía parcialmente de una Fake API para sus primeras integraciones. Se acordó reforzar la comunicación y mantener endpoints claramente documentados para facilitar el trabajo conjunto en el siguiente sprint. |
-| ***Sprint Goal & User Stories***  | |
-| **Sprint n Goal**  | Durante el Sprint 4, nuestro enfoque está en finalizar la integración completa entre el backend ya desarrollado y el frontend, concluyendo las pantallas y flujos pendientes, corrigiendo errores y ajustando funcionalidades tanto a nivel de lógica como de interfaz. El objetivo principal es lograr una plataforma plenamente funcional, validando los flujos end-to-end, sincronizando correctamente los servicios REST con el frontend e implementando mejoras detectadas durante la fase de pruebas. Consideraremos este objetivo logrado cuando ambas capas operen de manera estable, con todas las funcionalidades conectadas, probadas y listas para su presentación final.|
-| **Sprint n Velocity**                  | [Ej: 60]   |
-| **Sum of Story Points**                 | [Ej: 60]   |
+|-------------------------------------|-------------|
+| ***Sprint Planning Background***    |             |
+| **Date**                            | 2025-11-27  |
+| **Time**                            | 19:00 PM    |
+| **Location**                        | Reunión virtual por Discord |
+| **Prepared By**                     | Alejandro Nicolas Barturen Guzman |
+| **Attendees (to planning meeting)** | Andreow Santiago, Sebastian Beingolea, Carlos Lopez, Schneider Delgado, Alejandro Barturen |
+| **Sprint n – 3 Review Summary**     | Durante el Sprint 3, el equipo completó de manera exitosa la construcción central del backend de ChroniCaree, implementando la lógica de negocio, la persistencia y los servicios REST que habilitan funcionalidades clave tanto para pacientes como para médicos. Se desarrollaron módulos de autenticación, gestión de síntomas, medicamentos, alertas, mensajería y dashboards personalizados, asegurando una arquitectura sólida y escalable. La API fue desplegada en un entorno productivo y se validó su correcto comportamiento mediante pruebas de integración con la base de datos y herramientas como Postman, dejando preparado el sistema para la fase de integración con el frontend en el sprint siguiente. |
+| **Sprint n – 3 Retrospective Summary** | El equipo reconoció como principal logro del Sprint 3 la entrega completa y estable del backend, resaltando la organización clara de módulos, la calidad del código y la efectividad del flujo de trabajo mediante ramas *feature* y *pull requests*. La colaboración permitió resolver incidencias rápidamente y mantener un avance constante. Sin embargo, se identificó como mejora la necesidad de una coordinación más temprana con el equipo del frontend, ya que este aún dependía parcialmente de una *Fake API* para sus primeras integraciones. Se acordó reforzar la comunicación y mantener endpoints claramente documentados para facilitar el trabajo conjunto en el siguiente sprint. |
+| ***Sprint Goal & User Stories***    | |
+| **Sprint n Goal**                   | Durante el Sprint 4, nuestro enfoque está en finalizar la integración completa entre el backend ya desarrollado y el frontend, concluyendo las pantallas y flujos pendientes, corrigiendo errores y ajustando funcionalidades tanto a nivel de lógica como de interfaz. El objetivo principal es lograr una plataforma plenamente funcional, validando los flujos end-to-end, sincronizando correctamente los servicios REST con el frontend e implementando mejoras detectadas durante la fase de pruebas. Consideraremos este objetivo logrado cuando ambas capas operen de manera estable, con todas las funcionalidades conectadas, probadas y listas para su presentación final. |
+| **Sprint n Velocity**               | 43 |
+| **Sum of Story Points**             | 43 |
 
-### 5.2.4.2. Aspect Leaders and Collaborators.
-
+### 5.2.4.2. Aspect Leaders and Collaborators  
 Durante este sprint, el equipo se centró en resolver incidencias detectadas en pruebas anteriores, asegurar la correcta comunicación entre la interfaz y los servicios REST, ajustar flujos de usuario, corregir validaciones, mejorar la experiencia visual y funcional del frontend, y consolidar la estabilidad del sistema mediante pruebas end-to-end.
 
-Para cada aspecto, se asignó un Líder (L), responsable de coordinar o ejecutar las tareas principales, y uno o más Colaboradores (C), quienes participaron en las actividades de desarrollo, revisión, pruebas y documentación. Esta matriz LACX (Leadership and Collaboration Matrix) organiza claramente la distribución de responsabilidades y la trazabilidad del trabajo colaborativo realizado durante este sprint.
+Para cada aspecto, se asignó un **Líder (L)**, responsable de coordinar o ejecutar las tareas principales, y uno o más **Colaboradores (C)**, quienes participaron en las actividades de desarrollo, revisión, pruebas y documentación. Esta matriz LACX (*Leadership and Collaboration Matrix*) organiza claramente la distribución de responsabilidades y la trazabilidad del trabajo colaborativo realizado durante este sprint.
 
 A continuación, se detallan los aspectos definidos y los roles asignados:
 
-| Team Member (Last Name, First Name) | GitHub Username	 | BE | FE | IN | QA | INE |
-|-------------------------------------|-----------------|----|----|----|----|---|
-| Andreow Santiago	                    | andrews5738	     | L  | C  | C  | C  | C |
-| Sebastian Beingolea	                 | sebaxchen_65154 | C  | L  | C  | C  | C |
-| Carlos Lopez	                        | carloslopez     | C  | C  | C  | L  | C |
-| Schneider Delgado	                   | snay6037        | C  | C  | L  | C  | C |
-| Alejandro Barturen	                  | alejandrob      | C  | C  | C  | C  | L|
+| Team Member (Last Name, First Name) | GitHub Username | BE | FE | IN | QA | INE |
+|-------------------------------------|------------------|----|----|----|----|-----|
+| Andreow Santiago                    | andrews5738      | L  | C  | C  | C  | C   |
+| Sebastian Beingolea                 | sebaxchen_65154  | C  | L  | C  | C  | C   |
+| Carlos Lopez                        | carloslopez      | C  | C  | C  | L  | C   |
+| Schneider Delgado                   | snay6037         | C  | C  | L  | C  | C   |
+| Alejandro Barturen                  | alejandrob       | C  | C  | C  | C  | L   |
 
-**Legenda de Aspectos:**
-- **BE**: Backend Fixes — Corrección de errores, optimización de servicios REST, mejoras en lógica de negocio y ajustes de seguridad.
-- **FE**: Frontend Completion — Finalización de pantallas, flujos, estilos y validaciones del frontend, asegurando usabilidad y consistencia visual.
-- **IN**: Informe Técnico — Actualización y conclusión del informe del proyecto, documentación funcional y técnica del Sprint 4.
-- **QA**: Quality Assurance — Pruebas unitarias, integración y end-to-end, validación del funcionamiento entre backend y frontend.
+**Leyenda de Aspectos:**  
+- **BE**: Backend Fixes — Corrección de errores, optimización de servicios REST, mejoras en lógica de negocio y ajustes de seguridad.  
+- **FE**: Frontend Completion — Finalización de pantallas, flujos, estilos y validaciones del frontend, asegurando usabilidad y consistencia visual.  
+- **IN**: Informe Técnico — Actualización y conclusión del informe del proyecto, documentación funcional y técnica del Sprint 4.  
+- **QA**: Quality Assurance — Pruebas unitarias, integración y end-to-end, validación del funcionamiento entre backend y frontend.  
 - **INE**: Integration & Endpoints — Consumo de API desde el frontend, pruebas de conectividad, ajuste de rutas y validación de flujos completos.
 
-### 5.2.4.3. Sprint Backlog 4.
-
-
+### 5.2.4.3. Sprint Backlog 4  
 | # Orden | User Story Id | Título                                               | Descripción                                                                                                                                     | Story Points |
 |---------|---------------|------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|--------------|
 | 1       | US24          | Autenticación en dos pasos (2FA)                     | Como paciente, deseo activar 2FA para proteger mi cuenta.                                                                                       | 8            |
-| 2       | US25          | Cifrado y controles de exportación                                 | Como administrador, deseo garantizar cifrado y restringir exportaciones para cumplir normativas.                          | 8          |
-| 3       | US26          | Bitácora de accesos (auditoría)                               | Como médico, deseo consultar el historial de accesos a la ficha de un paciente para garantizar transparencia.                                | 5           |
-| 4       | US23          | Preferencias de idioma y tamaño de letra                                   | Como paciente, deseo configurar idioma y tamaño de letra para usar la app con comodidad.                                       | 5           |
-| 5       | US34          | Registro de adherencia a medicación                          | Como paciente, deseo registrar cada toma de mi medicación para llevar control de mi adherencia diaria.                                                       | 5            |
-| 6       | US35          | Visualizar historial de adherencia                         | Como paciente, deseo ver un historial de mis registros de medicación para entender mis patrones de cumplimiento.                        | 5            |
-| 7       | US37          | Ver versión accesible para discapacidad visual                        | Como visitante con discapacidad visual, quiero que la landing sea compatible con lectores de pantalla y tenga contraste adecuado.                                                            | 3            |
-| 8       | US38          | Ver carga rápida y optimizada en móviles lentos                  | Como visitante con conexión limitada, quiero que la landing cargue rápido y funcione sin problemas.                                | 5            |
+| 2       | US25          | Cifrado y controles de exportación                   | Como administrador, deseo garantizar cifrado y restringir exportaciones para cumplir normativas.                                                | 8            |
+| 3       | US26          | Bitácora de accesos (auditoría)                      | Como médico, deseo consultar el historial de accesos a la ficha de un paciente para garantizar transparencia.                                    | 5            |
+| 4       | US23          | Preferencias de idioma y tamaño de letra             | Como paciente, deseo configurar idioma y tamaño de letra para usar la app con comodidad.                                                        | 5            |
+| 5       | US34          | Registro de adherencia a medicación                  | Como paciente, deseo registrar cada toma de mi medicación para llevar control de mi adherencia diaria.                                          | 5            |
+| 6       | US35          | Visualizar historial de adherencia                   | Como paciente, deseo ver un historial de mis registros de medicación para entender mis patrones de cumplimiento.                                | 5            |
+| 7       | US37          | Ver versión accesible para discapacidad visual       | Como visitante con discapacidad visual, quiero que la landing sea compatible con lectores de pantalla y tenga contraste adecuado.               | 3            |
+| 8       | US38          | Ver carga rápida y optimizada en móviles lentos      | Como visitante con conexión limitada, quiero que la landing cargue rápido y funcione sin problemas.                                             | 4            |
 
-                                             
+> **Tablero Trello completado:**  
+> Todos los Work Items planificados para este sprint han sido completados y verificados. La aplicación web de ChroniCaree cuenta ahora con un frontend completamente funcional, integrando las secciones de gestión de usuarios, pacientes, historial médico y gestión de recetas.  
+> 
+> ![Trello Sprint 4](Assets/img/chapter-5/trellospring4.png)
+> Link del trello: https://trello.com/b/O57EUYog/chroni-caree-open
 
-#### tablero trello completado:
 
-Todos los Work Items planificados para este sprint han sido completados y verificados. La aplicación web de ChroniCaree cuenta ahora con un frontend completamente funcional, integrando las secciones de gestión de usuarios, pacientes,historial médico y gestión de recetas.
+### 5.2.4.4. Development Evidence for Sprint Review  
+Durante este Sprint, el equipo se enfocó en la **integración full-stack** de ChroniCaree, resolviendo errores críticos, mejorando la conectividad entre frontend y backend, y ajustando detalles de experiencia de usuario. Se corrigieron inconsistencias en los endpoints, se optimizó el consumo de la API y se implementaron las funcionalidades pendientes relacionadas con accesibilidad, seguridad y usabilidad.
 
-![Trello Spring 4](Assets/img/chapter-5/trellospring4.png)  
+A continuación, se presenta la tabla con los commits más representativos del sprint, extraídos directamente de las capturas de pantalla:
 
-## 5.2.3.4. Development Evidence for Sprint Review.
+| Repository | Branch | Commit Id | Commit Message | Commit Message Body | Committed on (Date) |
+|------------|--------|-----------|----------------|---------------------|---------------------|
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `e7bec6b` | `feat(security): implement security configuration` | Implementar configuración de seguridad para proteger endpoints y datos sensibles. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `5540af9` | `fix(config): correct datasource URL with MYSQLHOST, MYSQLPORT, and allowPublicKeyRetrieval` | Corregir la URL de conexión a la base de datos para permitir la recuperación de claves públicas. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `24f734c` | `fix(config): correct Java 25 configuration` | Ajustar la configuración para compatibilidad con JDK 25. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `cce84d5` | `fix(config): correct variable configurations` | Corregir las variables de entorno y configuraciones globales del proyecto. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `cc7ed3b` | `fix(config): correct application properties` | Ajustar las propiedades de la aplicación para garantizar su correcto funcionamiento. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `7aaa0b7` | `feat(deploy): implement Docker bundle configuration` | Implementar la configuración para empaquetar la aplicación en un contenedor Docker. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `9a135f8` | `Merge pull request #5 from UPC-PRE-1ASI0729-7391-ChroniCaree/feature/frontend-backend-integration` | Integrar la rama de integración frontend-backend en develop. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `e8cd14d` | `chore(data): remove unnecessary data` | Eliminar datos innecesarios o redundantes de la base de datos. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `6f70e89` | `fix(calendar): correct errors in appointment calendar` | Corregir errores en la lógica y visualización del calendario de citas. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `6adea0a` | `feat(medication): implement correct medication functionality` | Implementar la funcionalidad completa y correcta de gestión de medicamentos. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `7856037` | `feature/attachment-bounded-context-creation` | Crear el contexto acotado para la gestión de archivos adjuntos. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `f973d2c` | `feature/doctor-bounded-context-implementation` | Implementar el contexto acotado para la gestión de médicos. | 2025-12-05 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `a4dd5d1` | `feat(auth): implement authentication for admin hospital login` | Implementar autenticación específica para el inicio de sesión de administradores hospitalarios. | 2025-11-29 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `c315493` | `feature/subscription-bounded-context-and-appointment-fix` | Crear el contexto acotado para suscripciones y corregir errores en citas. | 2025-11-27 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `71e5a09` | `feature/payments-bounded-context-creation` | Crear el contexto acotado para la gestión de pagos. | 2025-11-27 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `a78cec2` | `fix(tenant): correct tenant services with frontend IAM integration` | Corregir servicios de tenant para integrarse correctamente con IAM del frontend. | 2025-11-27 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `1878dca` | `feat(backened): implement endpoint for IAM functionality` | Implementar el endpoint necesario para la funcionalidad de IAM. | 2025-11-27 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `4a4f4d9` | `fix(pom): correct pom.xml configuration for JDK 25` | Corregir la configuración del archivo pom.xml para JDK 25. | 2025-11-27 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `0cda991` | `Merge pull request #4 from UPC-PRE-1ASI0729-7391-ChroniCaree/refactor/medical-records-ddd` | Fusionar la refactorización del contexto de registros médicos siguiendo DDD. | 2025-11-27 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `f916b55` | `refactor(medical-records): reorganize bounded context following DDD pattern` | Reorganizar el contexto acotado de registros médicos según el patrón DDD. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `1273e94` | `Merge pull request #3 from UPC-PRE-1ASI0729-7391-ChroniCaree/fix/patient-doctor-users-bounded-context` | Fusionar la corrección del contexto acotado de usuarios paciente/médico. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `7b81c01` | `feat(comments): implement comments for users and patients` | Implementar la funcionalidad de comentarios para usuarios y pacientes. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `c6a60b6` | `feat(auth): implement correct authentication for patient and user` | Implementar la autenticación correcta para pacientes y usuarios generales. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `6eaf661` | `fix(pom): correct pom.xml to create database` | Corregir el pom.xml para asegurar la creación de la base de datos. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `901f139` | `Merge pull request #2 from UPC-PRE-1ASI0729-7391-ChroniCaree/fix/ddd-clean-architecture-errors` | Fusionar la corrección de errores en la arquitectura limpia y DDD. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `6ffd077` | `feat(auth): implement correct dependency and IAM authentication` | Implementar dependencias y autenticación IAM correctas. | 2025-11-25 |
+| `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` | `develop` | `03d2ce7` | `chore(project): correct folder structure by creating com.chornicare.platform` | Corregir la estructura de carpetas del proyecto creando el paquete base. | 2025-11-25 |
 
-## 5.2.3.5. Execution Evidence for Sprint Review.
+> **Nota:** Todos los commits están verificados y provienen de la plataforma GitHub. Los repositorios utilizados son `UPC-PRE-1ASI0729-7391-ChroniCaree` (frontend) y `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend` (backend).
 
-## 5.2.3.6. Services Documentation Evidence for Sprint Review.
+### 5.2.4.5. Execution Evidence for Sprint Review  
+En este Sprint 4, el equipo logró integrar completamente el frontend y el backend de ChroniCaree, validando todos los flujos end-to-end planificados. Se implementaron y probaron las funcionalidades de **autenticación en dos pasos**, **registro y visualización de adherencia a medicación**, **preferencias de accesibilidad**, **auditoría de accesos** y **optimización de rendimiento**.
 
-## 5.2.3.7. Software Deployment Evidence for Sprint Review.
+La plataforma ahora opera de forma unificada: los usuarios pueden registrarse, habilitar Token, personalizar su interfaz, registrar síntomas y medicamentos en tiempo real, y los médicos pueden revisar historiales clínicos completos con trazabilidad de accesos. Tanto la landing page como la aplicación interna cumplen con estándares de accesibilidad (WCAG 2.1) y están optimizadas para dispositivos móviles con conexiones limitadas.
 
-## 5.2.3.8. Team Collaboration Insights during Sprint.
+![Adherencia Medicación](Assets/img/chapter-5/backend-1%20(1).png)  
+*Flujo de activación y validación de autenticación en dos pasos.*
+
+![2FA Integration](Assets/img/chapter-5/backend-1%20(2).png)  
+
+![Backend demostration 2](Assets/img/chapter-5/backend%20chronicare%20(2).png)
+*Endpoints de doctors, users, thread*
+![Backend demostration 3](Assets/img/chapter-5/backend%20chronicare%20(3).png)
+*Endpoints de doctors, users, thread*  
+
+![Backend demostration 4](Assets/img/chapter-5/backend%20chronicare%20(4).png)  
+![Backend demostration 1](Assets/img/chapter-5/backend%20chronicare%20(1).png)  
+*Estructura de los endpoints*
+
+
+> **Enlaces de despliegue actualizados:**  
+> - Frontend: https://chronicaree-frontend.onrender.com/  
+> - Backend API: https://chronicaree-api.onrender.com/  
+> - Documentación Swagger: https://chornicare-backend-production.up.railway.app/swagger-ui/index.html  
+> - Video demostración Sprint 4: https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQC5XyywOH-jQIfFyYqkuwcyAVhgwMlRkDnoyKI4-eUTME8?e=JOX8me&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+>
+> link acortado: https://acortar.link/uRfHvu
+
+### 5.2.4.6. Services Documentation Evidence for Sprint Review  
+Durante el Sprint 4, se completó la documentación exhaustiva de la API REST del backend de ChroniCaree, ahora expuesta bajo la versión `/api/v1`. La documentación sigue el estándar **OpenAPI 3.0** y está accesible de forma interactiva mediante **Swagger UI** en el entorno de producción.  
+
+Se priorizó la alineación entre los nuevos requerimientos del sprint (2FA, auditoría, preferencias de UI, adherencia, cifrado de exportaciones) y los endpoints ya existentes, consolidando una **API coherente, segura y bien estructurada en 25+ módulos** y más de **190 endpoints**.  
+
+Todos los endpoints requieren autenticación JWT (excepto rutas de autenticación y healthcheck), devuelven respuestas en JSON, aplican paginación en listados extensos, y respetan roles (`PATIENT`, `DOCTOR`, `HOSPITAL_ADMIN`).  
+
+A continuación, se presentan los **principales endpoints utilizados o ampliados en el Sprint 4**, organizados por funcionalidad:
+
+#### Tabla de Endpoints Clave del Sprint 4
+| **Endpoint** | **Acción** | **Verbo HTTP** | **Explicación** |
+|--------------|------------|----------------|-----------------|
+| `/api/v1/authentication/sign-in` | Iniciar sesión con soporte 2FA | `POST` | Autentica al usuario. Si 2FA está activado, requiere campo `twoFactorCode` en el cuerpo. |
+| `/api/v1/authentication/sign-up` | Registrar nuevo usuario (paciente/médico) | `POST` | Crea una cuenta verificable con DNI y selfie. |
+| `/api/v1/authentication/sign-up/hospital-admin` | Registrar administrador de hospital | `POST` | Endpoint exclusivo para la creación de tenants hospitalarios. |
+| `/api/v1/authentication/me` | Obtener o actualizar perfil del usuario | `GET` / `PUT` | Devuelve datos del usuario autenticado. El `PUT` permite actualizar preferencias (idioma, tamaño de fuente) y datos personales. |
+| `/api/v1/users/{userId}` | Gestionar datos de usuario | `PUT` / `DELETE` | Actualiza o desactiva una cuenta de usuario (con roles y validaciones). |
+| `/api/v1/patients/{id}` | Gestionar perfil del paciente | `PUT` | Permite al paciente actualizar su información médica (peso, altura, diagnósticos). |
+| `/api/v1/medications` | Gestionar medicamentos del paciente | `POST` / `GET` / `PUT` | CRUD de medicamentos recetados. |
+| `/api/v1/medications/patient/{patientId}` | Obtener medicamentos por paciente | `GET` | Devuelve lista completa de medicamentos para visualización de adherencia (US35). |
+| `/api/v1/records/{id}` | Consultar o exportar registro médico | `GET` | Al agregar el parámetro `?export=encrypted`, genera un PDF cifrado con AES-256 (US25). |
+| `/api/v1/alerts/tenant/{tenantId}/stats` | Obtener estadísticas de alertas por tenant | `GET` | Proporciona métricas para auditoría y cumplimiento (US26). |
+| `/api/v1/tenants/{id}/dashboard-stats` | Obtener métricas del hospital | `GET` | Dashboard para administradores con estadísticas de pacientes, médicos, alertas y cumplimiento. |
+| `/api/v1/doctors/{doctorId}/dashboard` | Dashboard del médico | `GET` | Devuelve evolución clínica de pacientes asignados, alertas pendientes y mensajes no leídos. |
+| `/api/v1/patients/{patientId}/dashboard` | Dashboard del paciente | `GET` | Muestra síntomas recientes, medicamentos pendientes, alertas y nudges personalizados. |
+| `/api/v1/appointments` | Gestionar citas médicas | `POST` / `GET` / `PUT` | Permite agendar, confirmar, completar o cancelar citas (HU10, US05). |
+| `/api/v1/messages` | Enviar mensajes seguros | `POST` / `GET` | Comunicación cifrada entre paciente y médico. |
+| `/api/v1/threads` | Gestionar hilos de conversación | `POST` / `GET` | Agrupa mensajes por conversación clínica. |
+| `/api/v1/nudges/patient/{patientId}` | Obtener nudges personalizados | `GET` | Devuelve recordatorios y mensajes motivacionales (US05, US09). |
+| `/api/v1/symptoms` | Registrar síntomas diarios | `POST` | Captura datos como glucosa, presión, temperatura y notas subjetivas (HU15, US01). |
+| `/` y `/actuator/health` | Healthcheck del sistema | `GET` | Endpoints públicos para monitoreo de disponibilidad y estado del backend. |
+
+> **Documentación completa en Swagger UI:**  https://chornicare-backend-production.up.railway.app/swagger-ui/index.html 
+> 
+>  
+> **Nota:** La documentación incluye ejemplos de request/response, códigos de error, esquemas de datos y autorización por roles. Todos los endpoints están protegidos mediante JWT y validan entradas de forma estricta.
+
+Este nivel de documentación asegura que tanto el equipo de desarrollo como terceros (en futuras integraciones) puedan comprender, probar y consumir la API de forma autónoma, segura y eficiente.
+
+![endo point nuevos](assets/img/chapter-5/backend%20chronicare%20(3).png)
+
+### 5.2.4.7. Software Deployment Evidence for Sprint Review  
+El despliegue final integrado se realizó en **Render** (frontend) y **Railway** (backend), manteniendo un pipeline CI/CD automatizado desde GitHub. Se ejecutaron pruebas de humo automatizadas tras cada merge a `develop`, verificando disponibilidad de endpoints y funcionalidad básica.
+
+- **Frontend:** Render, con dominio personalizado y HTTPS forzado.
+- **Backend:** Railway + MySQL
+
+![Deploy Sprint 4](Assets/img/chapter-5/deploy%20railway%20(1).png)
+
+#### Proceso de Despliegue en Railway con MySQL
+
+Para desplegar el backend de ChroniCaree en Railway, seguimos un proceso estructurado que garantiza la conexión correcta con la base de datos MySQL:
+
+1.  **Configuración del Proyecto en Railway:**
+    *   Creamos un nuevo proyecto en Railway y lo vinculamos directamente al repositorio GitHub `UPC-PRE-1ASI0729-7391-ChroniCaree-Backend`.
+    *   Configuramos la rama de despliegue como `develop` para que cualquier cambio aprobado en esta rama se despliegue automáticamente.
+    *   Definimos las variables de entorno necesarias para la aplicación, especialmente las relacionadas con la base de datos:
+        *   `MYSQLHOST`: La dirección del servicio MySQL en Railway (por ejemplo, `mysql-80-64-69-177-1454489827.railway.internal`).
+        *   `MYSQLPORT`: El puerto de conexión (generalmente `3306`).
+        *   `MYSQLDATABASE`: El nombre de la base de datos creada (por ejemplo, `chronicaree_db`).
+        *   `MYSQLUSER` y `MYSQLPASSWORD`: Las credenciales generadas automáticamente por Railway para acceder a la base de datos.
+
+![Deploy Sprint 4](Assets/img/chapter-5/deploy%20railway%20(2).png)
+
+
+2.  **Conexión a la Base de Datos MySQL:**
+    *   En Railway, añadimos un nuevo servicio de tipo "MySQL" al proyecto.
+    *   Este servicio se crea automáticamente y se conecta a la aplicación principal.
+    *   La URL de conexión y las credenciales se generan dinámicamente y están disponibles en las variables de entorno del servicio de la aplicación.
+    *   La configuración de la aplicación Spring Boot (`application.properties` o `application.yml`) fue actualizada para leer estas variables de entorno, asegurando que la aplicación se conecte a la base de datos MySQL de Railway en tiempo de ejecución.
+
+3.  **Despliegue y Ejecución:**
+    *   Al realizar un push a la rama `develop`, Railway detecta el cambio y inicia automáticamente el proceso de build.
+    *   Utilizando el archivo `pom.xml`, Railway compila el proyecto Java y genera el archivo ejecutable `.jar`.
+    *   Luego, inicia la aplicación Spring Boot, pasándole las variables de entorno necesarias.
+    *   La consola de logs de Railway muestra el estado del contenedor, confirmando que la aplicación se ha iniciado correctamente y que se ha establecido la conexión con la base de datos MySQL.
+
+![Deploy Sprint 4](Assets/img/chapter-5/deploy%20railway%20(3).png)
+
+
+Este proceso permite un despliegue rápido, confiable y sin interrupciones, ideal para un entorno de desarrollo y producción ágil.
+
+> **Link del backend deployado:** https://chornicare-backend-production.up.railway.app/swagger-ui/index.html
+
+### 5.2.4.8. Team Collaboration Insights during Sprint  
+El equipo utilizó un flujo de trabajo altamente colaborativo, con ramas `feature/*` para cada funcionalidad y revisiones cruzadas obligatorias antes de cada *merge*. Se realizaron reuniones diarias de alineación para resolver bloqueos de integración. La comunicación sincrónica (Discord) y asincrónica (GitHub Discussions) permitió una coordinación fluida entre frontend y backend.
+
+![GitHub Network Sprint 4](Assets/img/chapter-5/sprint4-github%20(1).png)  
+*Grafo de contribuciones y merges durante el Sprint 4.*
+![GitHub Network Sprint 4](Assets/img/chapter-5/sprint4-github%20(2).png)  
 
 
 ## 5.3. Validation Interviews
@@ -3056,7 +3201,9 @@ Estos flujos fueron probados en una versión funcional del frontend desplegado e
 Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 doctores), cumpliendo con el rango recomendado de 3 a 5 por segmento. Cada sesión fue grabada en video, almacenada en Microsoft Stream, y referenciada con tiempo exacto de inicio y duración. Todas las pruebas se realizaron en entorno web, partiendo siempre desde el **Landing Page**.
 
 > 🔗 **Video completo de todas las entrevistas:**  
-> [https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQCz_ExJelZiTpUSkhwLWuEaAbh_8YrXkeWwQm0cAV2PZgs?e=DRVpZJ](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQCz_ExJelZiTpUSkhwLWuEaAbh_8YrXkeWwQm0cAV2PZgs?e=DRVpZJ)
+> https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQCz_ExJelZiTpUSkhwLWuEaAbh_8YrXkeWwQm0cAV2PZgs?e=DRVpZJ
+>
+> link acortado: https://acortar.link/lBtHVb
 
 #### Segmento 1: Pacientes
 
@@ -3067,7 +3214,7 @@ Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 docto
 - **Dispositivos utilizados:** Laptop
 - **Navegador habitual:** Chrome
 - **Imagen de entrevista:**  
-  ![Joan Talizo](Assets/img/chapter-5/entrevistados'validacion%20(2).png)  
+  ![joan Sprint 4](Assets/img/chapter-5/entrevistas-validacion%20(3).png)
 - **Instante en el que inicia:** [4:28]  
 - **Duración de la entrevista:** [4:20 min]  
 
@@ -3083,7 +3230,7 @@ Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 docto
 - **Dispositivos utilizados:** iphone
 - **Navegador habitual:** Safari  
 - **Imagen de entrevista:**  
-  ![Alisa Goicochea](Assets/img/chapter-5/entrevistados'validacion%20(3).png)  
+  ![alisa Sprint 4](Assets/img/chapter-5/entrevistas-validacion%20(4).png)
 - **Instante en el que inicia:** [00:00]  
 - **Duración de la entrevista:** [4:28 min]  
 
@@ -3099,7 +3246,7 @@ Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 docto
 - **Dispositivos utilizados:**  laptop
 - **Navegador habitual:** firefox  
 - **Imagen de entrevista:**  
-  ![Claudia Sifuente](Assets/img/chapter-5/entrevistados'validacion%20(4).png)  
+  ![alisa Sprint 4](Assets/img/chapter-5/entrevistas-validacion%20(5).png)
 - **Instante en el que inicia:** [8:14]  
 - **Duración de la entrevista:** [5:12 min]  
 
@@ -3115,9 +3262,9 @@ Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 docto
 - **Ocupación:** doctor residente 
 - **Distrito:** Comas  
 - **Dispositivos utilizados:** computadora hp
+  ![alisa Sprint 4](Assets/img/chapter-5/entrevistas-validacion%20(6).png)
 - **Navegador habitual:** Google
 - **Imagen de entrevista:**  
-  ![Mathias Peña](Assets/img/chapter-2/mathias-pena.png)  
 - **Instante en el que inicia:** [13:00]  
 - **Duración de la entrevista:** [5:32 min]  
 
@@ -3133,7 +3280,7 @@ Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 docto
 - **Dispositivos utilizados:** laptop y telefono  
 - **Navegador habitual:** opera
 - **Imagen de entrevista:**  
-  ![Andrea Morales](Assets/img/chapter-2/andrea-morales.png)  
+  ![alisa Sprint 4](Assets/img/chapter-5/entrevistas-validacion%20(1).png)
 - **Instante en el que inicia:** [17:04]  
 - **Duración de la entrevista:** [7:12 min]  
 
@@ -3147,9 +3294,9 @@ Se realizaron un total de **6 entrevistas de validación** (3 pacientes, 3 docto
 - **Ocupación:** Medico general  
 - **Distrito:** San miguel  
 - **Dispositivos utilizados:**telefono celular y laptop lenovo  
+  ![alisa Sprint 4](Assets/img/chapter-5/entrevistas-validacion%20(2).png)
 - **Navegador habitual:** google
 - **Imagen de entrevista:**  
-  ![Daniela Arana](Assets/img/chapter-2/daniela-arana.png)  
 - **Instante en el que inicia:** [22:48]  
 - **Duración de la entrevista:** [10:02 min]  
 
@@ -3331,10 +3478,12 @@ Este testimonio refuerza el eje central del producto: la tecnología como aliado
 El video tiene una duración total de **3 minutos y 52 segundos** y ha sido publicado en dos plataformas para garantizar accesibilidad y integración:
 
 - **Microsoft Stream:**  
-  [Ver video](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=qFQQeP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQD20No74uuRTK1v5lIAXnErAfcprBZDhDoAwghPIh8CHWo?e=qFQQeP&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+  link acortado: https://acortar.link/MVPSKu
 
 - **YouTube:**  
-  [Ver video](https://youtu.be/FUm2x54GcCw)
+  https://youtu.be/FUm2x54GcCw
 
 ![Screenshot del video About the Product - Minuto 3:08](assets/img/chapter-5/entrevistados'validacion%20(4).png)  
 *Captura del video en el minuto 3:08, mostrando el testimonio auténtico de Alisa Goicochea, paciente con esclerosis múltiple, validando la experiencia humana de ChroniCaree.*
@@ -3394,6 +3543,41 @@ Este hito final valida que la solución no es solo un conjunto de código funcio
 
 En retrospectiva, el proyecto ha evolucionado desde una idea abstracta en el TB1 hasta una plataforma SaaS desplegada y validada en el TF. ChroniCaree queda establecido como una solución tecnológica viable para la gestión de enfermedades crónicas, y el equipo de Chronisys ha demostrado poseer las competencias necesarias para gestionar proyectos de software complejos, desde la concepción estratégica hasta el despliegue y mantenimiento en producción.
 
+
+### Video About-the-Team
+
+En esta sección, el equipo presenta el video **“About-the-Team”**, una pieza audiovisual que resume el recorrido colaborativo, técnico y humano del equipo de Chronisys durante el desarrollo de ChroniCaree. El video combina grabaciones reales de sesiones de trabajo (reuniones de planning, coding en pareja, pruebas de integración, revisiones de pull requests), con testimonios en cámara de cada integrante del equipo, destacando sus roles, aportes individuales, aprendizajes clave y el logro colectivo de los Student Outcomes establecidos.
+
+El tono del video es profesional, cercano y auténtico, reflejando tanto la rigurosidad técnica del proyecto como la empatía y compromiso con la causa de la salud digital. Cada miembro relata, en primera persona, su evolución personal y profesional a lo largo del curso, mencionando competencias desarrolladas: comunicación efectiva (oral y escrita), trabajo en equipo ágil, liderazgo técnico, resolución de problemas y dominio de tecnologías open source.
+
+
+## (Timing)
+
+| hh:mm:ss | Sección |
+|----------|--------|
+| 00:00    | Andreow Santiago: Liderazgo en el backend, autenticación 2FA y seguridad |
+| 01:10    | Sebastian Beingolea: Desarrollo del frontend, diseño de dashboards y UI/UX |
+| 02:12    | Carlos Lopez: Gestión de calidad, pruebas end-to-end y validación funcional |
+| 03:22    | Schneider Delgado: Arquitectura, repositorios, documentación técnica e integración CI/CD |
+| 04:12    | Alejandro Barturen: Coordinación de sprints, redacción del informe y gestión de entregas |
+
+
+#### Captura representativa del video
+![Captura del video About-the-Team - Equipo reunido en Discord](assets/img/chapter-5/about-the-team%20imagen.png)
+
+
+#### Enlaces de acceso
+- **Microsoft Stream (versión institucional):**  
+  https://upcedupe-my.sharepoint.com/:v:/g/personal/u202317362_upc_edu_pe/IQCU2DKLhOa2Sr6MsnDzWPGvAVL_jnNZjMpd2OWwGgfZnsA?e=GDYye4&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D
+
+  link acortado: https://acortar.link/PZQz1j
+
+- **YouTube (versión pública para incrustar en Landing Page):**  
+  https://youtu.be/x1aRJm48R8Q
+
+Este video no solo sirve como evidencia de colaboración y cumplimiento del Student Outcome, sino también como herramienta de storytelling para comunicar la identidad y valores del equipo Chronisys a potenciales aliados, instituciones de salud o usuarios finales.
+
+
 ### Bibliografia
 
 Javier, V. M. C. (s. f.). *DDD y arquitectura Onion, todo lo que necesitas saber*. Paradigma Digital. https://www.paradigmadigital.com/techbiz/domain-driven-design-y-arquitectura-onion/
@@ -3428,7 +3612,7 @@ Enlaces de acceso público a los entornos de producción donde se encuentra desp
 
 - **Landing Page:** https://chronicaree.netlify.app/
 - **Frontend Web Application:** https://chronicaree-frontend.onrender.com/
-- **Backend API (Swagger Documentation):** https://chronicaree-backend.duckdns.org/swagger-ui/index.html#/Alert%20Metadata/updateAlertMetadata
+- **Backend API (Swagger Documentation):** https://chornicare-backend-production.up.railway.app/swagger-ui/index.html
 
 ---
 
@@ -3459,11 +3643,12 @@ Compendio de los videos correspondientes a las entregas, demostraciones técnica
 
 **Demos Técnicos y Promocionales**
 * **Video Promocional "About the Product":** https://youtu.be/FUm2x54GcCw
+* **Video "About the Team": ** https://youtu.be/x1aRJm48R8Q
 * **Demo Funcionalidad Frontend:** https://bit.ly/3KuMC7q
 * **Demo Backend API:** https://bit.ly/48BKwdJ
 
 **Evidencia de Investigación**
-* **Video Completo de Validación:** https://bit.ly/44dzkTs
+* **Video Completo de Entrevistas de Validación:** https://bit.ly/44dzkTs
 ___
 **Anexo E**
 **Índice de Recursos Gráficos**
@@ -3512,8 +3697,6 @@ ___
 | <img src="Assets/img/chapter-4/db Diagram.png" width="120"/> | db Diagram | Assets/img/chapter-4/ |
 | <img src="Assets/img/chapter-4/diagrama-cc.png" width="120"/> | diagrama-cc | Assets/img/chapter-4/ |
 | <img src="Assets/img/chapter-4/DiagramaComponentesBDAnalytics.jpeg" width="120"/> | DiagramaComponentesBDAnalytics | Assets/img/chapter-4/ |
-| <img src="Assets/img/chapter-4/DiagramaComponentesBDCare.jpeg" width="120"/> | DiagramaComponentesBDCare | Assets/img/chapter-4/ |
-| <img src="Assets/img/chapter-4/DiagramaComponentesBDHandling.jpeg" width="120"/> | DiagramaComponentesBDHandling | Assets/img/chapter-4/ |
 | <img src="Assets/img/chapter-4/DiagramaContainer.jpeg" width="120"/> | DiagramaContainer | Assets/img/chapter-4/ |
 | <img src="Assets/img/chapter-4/DiagramaContexto.jpeg" width="120"/> | DiagramaContexto | Assets/img/chapter-4/ |
 | <img src="Assets/img/chapter-4/Landing Page desktop.png" width="120"/> | Landing Page desktop | Assets/img/chapter-4/ |
@@ -3579,12 +3762,12 @@ ___
 | <img src="Assets/img/chapter-5/deploy1.jpg" width="120"/> | deploy1 | Assets/img/chapter-5/ |
 | <img src="Assets/img/chapter-5/deploy2.jpg" width="120"/> | deploy2 | Assets/img/chapter-5/ |
 | <img src="Assets/img/chapter-5/deploy3.jpg" width="120"/> | deploy3 | Assets/img/chapter-5/ |
-| <img src="Assets/img/chapter-5/entrevistados'validacion (1).png" width="120"/> | entrevistados'validacion (1) | Assets/img/chapter-5/ |
-| <img src="Assets/img/chapter-5/entrevistados'validacion (2).png" width="120"/> | entrevistados'validacion (2) | Assets/img/chapter-5/ |
-| <img src="Assets/img/chapter-5/entrevistados'validacion (3).png" width="120"/> | entrevistados'validacion (3) | Assets/img/chapter-5/ |
-| <img src="Assets/img/chapter-5/entrevistados'validacion (4).png" width="120"/> | entrevistados'validacion (4) | Assets/img/chapter-5/ |
-| <img src="Assets/img/chapter-5/entrevistados'validacion (5).png" width="120"/> | entrevistados'validacion (5) | Assets/img/chapter-5/ |
-| <img src="Assets/img/chapter-5/entrevistados'validacion (6).png" width="120"/> | entrevistados'validacion (6) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistas-validacion (1).png" width="120"/> | entrevistados'validacion (1) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistas-validacion (2).png" width="120"/> | entrevistados'validacion (2) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistas-validacion (3).png" width="120"/> | entrevistados'validacion (3) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistas-validacion (4).png" width="120"/> | entrevistados'validacion (4) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistas-validacion (5).png" width="120"/> | entrevistados'validacion (5) | Assets/img/chapter-5/ |
+| <img src="Assets/img/chapter-5/entrevistas-validacion (6).png" width="120"/> | entrevistados'validacion (6) | Assets/img/chapter-5/ |
 | <img src="Assets/img/chapter-5/error_tomar_medicamento.jpg" width="120"/> | error_tomar_medicamento | Assets/img/chapter-5/ |
 | <img src="Assets/img/chapter-5/netlify1.png" width="120"/> | netlify1 | Assets/img/chapter-5/ |
 | <img src="Assets/img/chapter-5/netlify2.png" width="120"/> | netlify2 | Assets/img/chapter-5/ |
